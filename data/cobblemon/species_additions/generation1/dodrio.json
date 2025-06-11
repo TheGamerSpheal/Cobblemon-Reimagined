@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:dodrio",
+  "abilities": [
+    "tangledfeet",
+    "unburden",
+    "h:moxie"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 120,
+    "defence": 70,
+    "special_attack": 60,
+    "special_defence": 60,
+    "speed": 110
+  }
+}

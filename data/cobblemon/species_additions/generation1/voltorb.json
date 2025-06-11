@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:voltorb",
+  "abilities": [
+    "soundproof",
+    "aftermath",
+    "h:electricsurge"
+  ],
+  "forms": [
+    {
+      "name": "Hisui",
+      "abilities": [
+        "soundproof",
+        "electricsurge",
+        "h:grassysurge"
+      ]
+    }
+  ]
+}

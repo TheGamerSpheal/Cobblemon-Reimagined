@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:psyduck",
+  "abilities": [
+    "damp",
+    "cloudnine",
+    "h:swiftswim"
+  ]
+}

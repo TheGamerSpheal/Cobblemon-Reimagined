@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:krabby",
+  "abilities": [
+    "hypercutter",
+    "toughclaws",
+    "h:sheerforce"
+  ]
+}

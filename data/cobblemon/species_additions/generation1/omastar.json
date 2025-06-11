@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:omastar",
+  "abilities": [
+    "swiftswim",
+    "shellarmor",
+    "h:solidrock"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 60,
+    "defence": 125,
+    "special_attack": 120,
+    "special_defence": 70,
+    "speed": 55
+  }
+}

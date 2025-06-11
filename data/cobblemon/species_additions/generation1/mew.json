@@ -1,0 +1,7 @@
+{
+  "target": "cobblemon:mew",
+  "abilities": [
+    "synchronize",
+    "h:trace"
+  ]
+}

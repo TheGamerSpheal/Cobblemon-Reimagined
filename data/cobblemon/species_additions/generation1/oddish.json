@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:oddish",
+  "abilities": [
+    "chlorophyll",
+    "effectspore",
+    "h:aromaveil"
+  ]
+}

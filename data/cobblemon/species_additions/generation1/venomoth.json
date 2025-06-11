@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:venomoth",
+  "abilities": [
+    "compoundeyes",
+    "tintedlens",
+    "h:wonderskin"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 55,
+    "defence": 60,
+    "special_attack": 100,
+    "special_defence": 75,
+    "speed": 90
+  }
+}

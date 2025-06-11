@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:golem",
+  "abilities": [
+    "rockhead",
+    "sturdy",
+    "h:solidrock"
+  ]
+}

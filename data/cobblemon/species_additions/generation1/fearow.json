@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:fearow",
+  "abilities": [
+    "keeneye",
+    "sniper",
+    "h:intimidate"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 65,
+    "special_attack": 60,
+    "special_defence": 60,
+    "speed": 110
+  }
+}

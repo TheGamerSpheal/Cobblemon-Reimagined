@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:wartortle",
+  "abilities": [
+    "raindish",
+    "torrent",
+    "h:drizzle"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:marowak",
+  "abilities": [
+    "rockhead",
+    "battlearmor",
+    "h:technician"
+  ]
+}

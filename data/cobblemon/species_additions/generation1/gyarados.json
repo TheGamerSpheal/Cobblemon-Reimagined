@@ -1,0 +1,12 @@
+{
+  "target": "cobblemon:gyarados",
+  "primaryType": "water",
+  "secondaryType": "dragon",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "water",
+      "secondaryType": "dragon"
+    }
+  ]
+}

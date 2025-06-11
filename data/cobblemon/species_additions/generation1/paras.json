@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:paras",
+  "abilities": [
+    "effectspore",
+    "damp",
+    "h:toughclaws"
+  ]
+}

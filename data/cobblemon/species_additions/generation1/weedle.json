@@ -1,0 +1,9 @@
+{
+  "implemented": true,
+  "target": "cobblemon:weedle",
+  "abilities": [
+    "shielddust",
+    "runaway",
+    "h:poisonpoint"
+  ]
+}

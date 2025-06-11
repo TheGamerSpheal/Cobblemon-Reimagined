@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:moltres",
+  "abilities": [
+    "solarpower",
+    "flamebody",
+    "h:drought"
+  ]
+}

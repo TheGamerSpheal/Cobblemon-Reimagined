@@ -1,0 +1,66 @@
+{
+  "target": "cobblemon:tauros",
+  "abilities": [
+    "intimidate",
+    "angerpoint",
+    "h:sheerforce"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 120,
+    "defence": 95,
+    "special_attack": 40,
+    "special_defence": 80,
+    "speed": 110
+  },
+  "forms": [
+    {
+      "name": "Paldea-Combat",
+      "abilities": [
+        "intimidate",
+        "angerpoint",
+        "h:sheerforce"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 125,
+        "defence": 110,
+        "special_attack": 30,
+        "special_defence": 80,
+        "speed": 100
+      }
+    },
+    {
+      "name": "Paldea-Blaze",
+      "abilities": [
+        "intimidate",
+        "angerpoint",
+        "h:gluttony"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 125,
+        "defence": 110,
+        "special_attack": 30,
+        "special_defence": 80,
+        "speed": 100
+      }
+    },
+    {
+      "name": "Paldea-Aqua",
+      "abilities": [
+        "intimidate",
+        "angerpoint",
+        "h:gluttony"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 125,
+        "defence": 110,
+        "special_attack": 30,
+        "special_defence": 80,
+        "speed": 100
+      }
+    }
+  ]
+}

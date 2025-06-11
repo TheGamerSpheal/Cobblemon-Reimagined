@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:sandshrew",
+  "abilities": [
+    "sandveil",
+    "sandforce",
+    "h:sandrush"
+  ]
+}

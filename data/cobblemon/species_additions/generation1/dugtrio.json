@@ -1,0 +1,15 @@
+{
+    "target": "cobblemon:dugtrio",
+    "forms": [
+    {
+      "name": "Alola",
+      "primaryType": "ground",
+      "secondaryType": "steel",
+      "abilities": [
+        "tanglinghair",
+        "technician",
+        "h:sandforce"
+      ]
+    }
+  ]
+}

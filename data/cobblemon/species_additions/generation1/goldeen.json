@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:goldeen",
+  "abilities": [
+    "swiftswim",
+    "waterabsorb",
+    "h:lightningrod"
+  ]
+}

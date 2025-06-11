@@ -1,0 +1,22 @@
+{
+  "target": "cobblemon:blastoise",
+  "primaryType": "water",
+  "secondaryType": "steel",
+  "abilities": [
+    "megalauncher",
+    "torrent",
+    "h:drizzle"
+  ],
+"forms": [
+    {
+      "name": "Mega",
+      "primaryType": "water",
+      "secondaryType": "steel"
+    },
+    {
+      "name": "Gmax",
+      "primaryType": "water",
+      "secondaryType": "steel"
+    }   
+  ]
+}

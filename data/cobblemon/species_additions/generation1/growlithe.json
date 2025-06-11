@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:growlithe",
+  "abilities": [
+    "intimidate",
+    "flashfire",
+    "h:defiant"
+  ],
+  "forms": [
+    {
+      "name": "Hisui",
+      "abilities": [
+        "intimidate",
+        "rockhead",
+        "h:defiant"
+      ]
+    }
+  ]
+ }

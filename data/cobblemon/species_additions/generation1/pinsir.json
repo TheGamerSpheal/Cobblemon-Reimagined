@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:pinsir",
+  "abilities": [
+    "guts",
+    "moldbreaker",
+    "h:moxie"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:jynx",
+  "abilities": [
+    "dryskin",
+    "forewarn",
+    "h:dazzling"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 40,
+    "defence": 35,
+    "special_attack": 125,
+    "special_defence": 95,
+    "speed": 95
+  }
+}

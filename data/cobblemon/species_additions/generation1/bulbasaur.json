@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:bulbasaur",
+  "abilities": [
+    "chlorophyll",
+    "overgrow",
+    "h:grassysurge"
+  ]
+}

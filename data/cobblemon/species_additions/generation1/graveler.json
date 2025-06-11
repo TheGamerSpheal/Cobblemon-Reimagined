@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:graveler",
+  "abilities": [
+    "rockhead",
+    "sturdy",
+    "h:solidrock"
+  ]
+}

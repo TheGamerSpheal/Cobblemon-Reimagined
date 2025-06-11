@@ -1,0 +1,26 @@
+{
+  "target": "cobblemon:rapidash",
+  "abilities": [
+    "flamebody",
+    "flashfire",
+    "h:reckless"
+  ],
+  "forms": [
+    {
+      "name": "Galar",
+      "abilities": [
+        "runaway",
+        "pastelveil",
+        "h:magicguard"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 90,
+        "defence": 70,
+        "special_attack": 90,
+        "special_defence": 80,
+        "speed": 105
+      }
+    }
+  ]
+}

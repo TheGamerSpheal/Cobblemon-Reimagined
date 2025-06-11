@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:arbok",
+  "primaryType": "poison",
+  "abilities": [
+    "intimidate",
+    "shedskin",
+    "h:merciless"
+  ]
+}

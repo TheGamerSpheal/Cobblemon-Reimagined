@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:kingler",
+  "abilities": [
+    "hypercutter",
+    "toughclaws",
+    "h:sheerforce"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:wyrdeer",
+    "abilities": [
+    "intimidate",
+    "reckless",
+    "h:furcoat"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 105,
+    "defence": 70,
+    "special_attack": 75,
+    "special_defence": 75,
+    "speed": 100
+  }
+}

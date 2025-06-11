@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:articuno",
+  "abilities": [
+    "snowcloak",
+    "icebody",
+    "h:snowwarning"
+  ]
+}

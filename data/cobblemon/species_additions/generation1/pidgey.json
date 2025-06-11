@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:pidgey",
+  "abilities": [
+    "noguard",
+    "tangledfeet",
+    "h:bigpecks"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 40,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 55
+  }
+}

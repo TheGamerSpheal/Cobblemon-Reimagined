@@ -1,0 +1,22 @@
+{
+  "target": "cobblemon:mewtwo",
+  "abilities": [
+    "synchronize",
+    "trace",
+    "h:unnerve"
+  ],
+  "forms": [
+    {
+      "name": "Mega-X",
+      "abilities": [
+        "synchronize"
+      ]
+    },
+    {
+      "name": "Mega-Y",
+      "abilities": [
+        "synchronize"
+      ]
+    }
+  ]
+}

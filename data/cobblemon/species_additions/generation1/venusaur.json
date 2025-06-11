@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:venusaur",
+  "abilities": [
+    "chlorophyll",
+    "thickfat",
+    "h:grassysurge"
+  ],
+  "forms": [
+    {
+      "name": "Gmax",
+      "abilities": [
+        "chlorophyll",
+        "thickfat",
+        "h:grassysurge"
+      ]
+    }
+  ]
+}

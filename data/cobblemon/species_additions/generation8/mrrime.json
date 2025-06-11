@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:mrrime",
+    "abilities": [
+    "icebody",
+    "screencleaner",
+    "h:psychicsurge"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 65,
+    "defence": 75,
+    "special_attack": 110,
+    "special_defence": 100,
+    "speed": 100
+  }
+}

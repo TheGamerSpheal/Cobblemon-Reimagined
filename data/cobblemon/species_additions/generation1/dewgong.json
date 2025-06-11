@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:dewgong",
+  "abilities": [
+    "thickfat",
+    "swiftswim",
+    "h:snowwarning"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 80,
+    "defence": 80,
+    "special_attack": 80,
+    "special_defence": 95,
+    "speed": 70
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "target": "cobblemon:meowth",
+  "abilities": [
+    "pickup",
+    "technician",
+    "h:superluck"
+  ],
+  "forms": [
+    {
+      "name": "Alola",
+      "abilities": [
+        "pickup",
+        "technician",
+        "h:prankster"
+      ]
+    },
+    {
+      "name": "Galar",
+      "abilities": [
+        "pickup",
+        "toughclaws",
+        "h:steelyspirit"
+      ]
+    }
+  ]
+}

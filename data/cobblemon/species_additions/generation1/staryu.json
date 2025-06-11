@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:staryu",
+  "abilities": [
+    "analytic",
+    "naturalcure",
+    "h:regenerator"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:golduck",
+  "primaryType": "water",
+  "secondaryType": "psychic",
+  "abilities": [
+    "hydration",
+    "cloudnine",
+    "h:swiftswim"
+  ]
+}

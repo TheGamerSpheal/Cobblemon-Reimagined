@@ -1,0 +1,15 @@
+{
+    "target": "cobblemon:diglett",
+    "forms": [
+    {
+      "name": "Alola",
+      "primaryType": "ground",
+      "secondaryType": "steel",
+      "abilities": [
+        "tanglinghair",
+        "technician",
+        "h:sandforce"
+      ]
+    }
+  ]
+}

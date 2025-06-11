@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:nidorino",
+  "abilities": [
+    "poisonpoint",
+    "moldbreaker",
+    "h:hustle"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:pidgeot",
+  "abilities": [
+    "noguard",
+    "tangledfeet",
+    "h:bigpecks"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 80,
+    "defence": 75,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 110
+  }
+}

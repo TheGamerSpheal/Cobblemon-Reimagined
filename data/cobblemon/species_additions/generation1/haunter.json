@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:haunter",
+  "abilities": [
+    "levitate",
+    "cursedbody",
+    "h:merciless"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:jolteon",
+  "abilities": [
+    "voltabsorb",
+    "battery",
+    "h:competitive"
+  ]
+}

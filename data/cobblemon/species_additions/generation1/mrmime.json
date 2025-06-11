@@ -1,0 +1,26 @@
+{
+  "target": "cobblemon:mrmime",
+  "abilities": [
+    "technician",
+    "filter",
+    "h:mistysurge"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 35,
+    "defence": 65,
+    "special_attack": 110,
+    "special_defence": 120,
+    "speed": 95
+  },
+  "forms": [
+    {
+      "name": "Galar",
+      "abilities": [
+        "icebody",
+        "screencleaner",
+        "h:psychicsurge"
+      ]
+    }
+  ]
+}

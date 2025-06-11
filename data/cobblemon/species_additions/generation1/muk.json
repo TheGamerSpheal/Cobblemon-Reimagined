@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:muk",
+  "abilities": [
+    "stench",
+    "gooey",
+    "h:poisontouch"
+  ]
+}

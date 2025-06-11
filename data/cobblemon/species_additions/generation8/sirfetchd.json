@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:sirfetchd",
+    "abilities": [
+    "sharpness",
+    "superluck",
+    "h:scrappy"
+  ],
+  "baseStats": {
+    "hp": 62,
+    "attack": 135,
+    "defence": 95,
+    "special_attack": 60,
+    "special_defence": 90,
+    "speed": 65
+  }
+}

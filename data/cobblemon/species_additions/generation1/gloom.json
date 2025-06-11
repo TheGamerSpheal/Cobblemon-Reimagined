@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:gloom",
+  "abilities": [
+    "chlorophyll",
+    "effectspore",
+    "h:stench"
+  ]
+}

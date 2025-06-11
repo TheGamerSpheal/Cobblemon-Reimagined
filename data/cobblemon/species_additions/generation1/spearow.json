@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:spearow",
+  "abilities": [
+    "keeneye",
+    "sniper",
+    "h:intimidate"
+  ]
+}

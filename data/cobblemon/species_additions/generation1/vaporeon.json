@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:vaporeon",
+  "abilities": [
+    "waterabsorb",
+    "hydration",
+    "h:raindish"
+  ]
+}

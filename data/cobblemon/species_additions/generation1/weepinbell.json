@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:weepinbell",
+  "abilities": [
+    "chlorophyll",
+    "gluttony",
+    "h:corrosion"
+  ]
+}

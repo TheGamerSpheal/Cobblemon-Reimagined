@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:grimer",
+  "abilities": [
+    "stench",
+    "gooey",
+    "h:poisontouch"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "target": "cobblemon:cursola",
+    "baseStats": {
+    "hp": 65,
+    "attack": 45,
+    "defence": 115,
+    "special_attack": 90,
+    "special_defence": 115,
+    "speed": 35
+  }
+}

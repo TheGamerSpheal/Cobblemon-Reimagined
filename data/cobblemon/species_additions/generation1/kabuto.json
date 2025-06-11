@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:kabuto",
+  "abilities": [
+    "swiftswim",
+    "battlearmor",
+    "h:solidrock"
+  ]
+}

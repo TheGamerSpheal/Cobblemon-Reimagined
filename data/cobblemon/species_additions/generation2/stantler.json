@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:stantler",
+    "abilities": [
+    "intimidate",
+    "reckless",
+    "h:sapsipper"
+  ]
+}

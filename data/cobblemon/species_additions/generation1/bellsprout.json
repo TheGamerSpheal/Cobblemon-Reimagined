@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:bellsprout",
+  "abilities": [
+    "chlorophyll",
+    "gluttony",
+    "h:corrosion"
+  ]
+}

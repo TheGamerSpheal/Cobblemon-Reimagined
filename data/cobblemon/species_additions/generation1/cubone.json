@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:cubone",
+  "abilities": [
+    "rockhead",
+    "battlearmor",
+    "h:technician"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "target": "cobblemon:persian",
+  "abilities": [
+    "limber",
+    "technician",
+    "h:superluck"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 80,
+    "defence": 60,
+    "special_attack": 80,
+    "special_defence": 65,
+    "speed": 115
+  },
+  "forms": [
+    {
+      "name": "Alola",
+      "primaryType": "dark",
+      "abilities": [
+        "furcoat",
+        "technician",
+        "h:prankster"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 70,
+        "defence": 60,
+        "special_attack": 90,
+        "special_defence": 65,
+        "speed": 115
+      }
+    }
+  ]
+}

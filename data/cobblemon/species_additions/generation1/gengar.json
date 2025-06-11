@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:gengar",
+  "abilities": [
+    "levitate",
+    "cursedbody",
+    "h:merciless"
+  ],
+  "forms": [
+    {
+      "name": "Gmax",
+      "primaryType": "ghost",
+      "secondaryType": "poison",
+      "abilities": [
+        "levitate",
+        "cursedbody",
+        "h:merciless"
+      ]
+    }
+  ]
+}

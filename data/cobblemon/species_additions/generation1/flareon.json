@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:flareon",
+  "abilities": [
+    "flashfire",
+    "quickfeet",
+    "h:guts"
+  ]
+}

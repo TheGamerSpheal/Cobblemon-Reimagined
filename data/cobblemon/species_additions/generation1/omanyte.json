@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:omanyte",
+  "abilities": [
+    "swiftswim",
+    "shellarmor",
+    "h:solidrock"
+  ]
+}

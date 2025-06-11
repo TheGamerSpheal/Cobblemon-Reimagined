@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:ratini",
+  "abilities": [
+    "marvelscale",
+    "shedskin",
+    "h:multiscale"
+  ]
+}

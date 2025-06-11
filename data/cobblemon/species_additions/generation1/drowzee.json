@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:drowzee",
+  "abilities": [
+    "insomnia",
+    "noguard",
+    "h:psychicsurge"
+  ]
+}

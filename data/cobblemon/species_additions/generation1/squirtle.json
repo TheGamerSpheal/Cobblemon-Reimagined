@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:squirtle",
+  "abilities": [
+    "raindish",
+    "torrent",
+    "h:drizzle"
+  ]
+}

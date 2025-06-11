@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:electivire",
+  "primaryType": "electric",
+  "secondaryType": "fighting",
+  "abilities": [
+    "motordrive",
+    "vitalspirit",
+    "h:ironfist"
+  ]
+}

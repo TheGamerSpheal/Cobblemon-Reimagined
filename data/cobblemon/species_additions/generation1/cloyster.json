@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:cloyster",
+  "abilities": [
+    "shellarmor",
+    "skilllink",
+    "h:icebody"
+  ]
+}

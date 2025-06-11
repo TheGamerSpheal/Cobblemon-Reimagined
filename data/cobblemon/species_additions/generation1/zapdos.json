@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:zapdos",
+  "abilities": [
+    "lightningrod",
+    "static",
+    "h:electricsurge"
+  ]
+}

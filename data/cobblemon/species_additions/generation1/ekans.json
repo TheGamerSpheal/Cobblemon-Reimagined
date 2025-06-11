@@ -1,0 +1,15 @@
+{
+  "target": "cobblemon:ekans",
+  "abilities": [
+    "intimidate",
+    "shedskin",
+    "h:merciless"
+  ],
+  "evolutions": [
+    {
+      "learnableMoves": [
+        "crunch"
+      ]
+    }
+  ]
+}

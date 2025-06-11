@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:kangaskhan",
+  "abilities": [
+    "innerfocus",
+    "scrappy",
+    "h:parentalbond"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:geodude",
+  "abilities": [
+    "rockhead",
+    "sturdy",
+    "h:solidrock"
+  ]
+}

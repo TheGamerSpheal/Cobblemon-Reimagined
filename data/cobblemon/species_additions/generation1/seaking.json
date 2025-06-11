@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:seaking",
+  "abilities": [
+    "swiftswim",
+    "waterabsorb",
+    "h:lightningrod"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 75,
+    "defence": 75,
+    "special_attack": 102,
+    "special_defence": 75,
+    "speed": 78
+  }
+}

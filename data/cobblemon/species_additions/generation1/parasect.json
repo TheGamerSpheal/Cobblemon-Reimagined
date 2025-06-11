@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:parasect",
+  "abilities": [
+    "effectspore",
+    "damp",
+    "h:toughclaws"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 115,
+    "defence": 100,
+    "special_attack": 55,
+    "special_defence": 90,
+    "speed": 30
+  }
+}
