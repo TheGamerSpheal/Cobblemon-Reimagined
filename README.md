@@ -6,6 +6,7 @@ Mod made by the Luminescent Team and the Radical Red ROM Hack made by Eric "Soup
 Any suggestions are welcome
 
 NEXT OBJECTIVES
+- Do the rest of the generations
 - Full list of changes made to every Pokémon
 - Advancements for catching every Pokémon (one for each Pokémon, not guaranteed to actually be made)
 - Put it on Modrinth and the Cobblemon Discord
