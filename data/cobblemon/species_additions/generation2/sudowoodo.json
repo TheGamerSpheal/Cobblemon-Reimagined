@@ -1,0 +1,11 @@
+{
+    "target": "cobblemon:sudowoodo",
+    "baseStats": {
+        "hp": 90,
+        "attack": 115,
+        "defence": 125,
+        "special_attack": 30,
+        "special_defence": 75,
+        "speed": 30
+    }
+}

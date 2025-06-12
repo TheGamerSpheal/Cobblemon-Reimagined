@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:mareep",
+  "abilities": [
+    "static",
+    "moldbreaker",
+    "h:battery"
+  ]
+}

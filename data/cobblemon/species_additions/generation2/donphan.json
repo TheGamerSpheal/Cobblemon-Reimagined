@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:donphan",
+  "abilities": [
+    "sturdy",
+    "sandveil",
+    "h:technician"
+  ]
+}

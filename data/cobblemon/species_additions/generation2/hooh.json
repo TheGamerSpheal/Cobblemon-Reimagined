@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:hooh",
+    "abilities": [
+        "pressure",
+        "naturalcure",
+        "h:regenerator"
+    ]
+}

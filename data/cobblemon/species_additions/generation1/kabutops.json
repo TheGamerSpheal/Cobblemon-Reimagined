@@ -13,7 +13,7 @@
     "special_defence": 70,
     "speed": 80
   },
-"moves": [
+  "moves": [
     "1:absorb",
     "1:feint",
     "1:furycutter",

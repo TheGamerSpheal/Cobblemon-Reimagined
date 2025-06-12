@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:ariados",
+    "abilities": [
+        "insomnia",
+        "sniper",
+        "h:merciless"
+    ],
+    "baseStats": {
+        "hp": 70,
+        "attack": 110,
+        "defence": 70,
+        "special_attack": 50,
+        "special_defence": 70,
+        "speed": 80
+    }
+}

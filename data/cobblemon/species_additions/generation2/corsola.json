@@ -1,6 +1,6 @@
 {
-    "target": "cobblemon:corsola",
-    "baseStats": {
+  "target": "cobblemon:corsola",
+  "baseStats": {
     "hp": 65,
     "attack": 45,
     "defence": 115,

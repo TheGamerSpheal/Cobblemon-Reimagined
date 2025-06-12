@@ -1,6 +1,6 @@
 {
-    "target": "cobblemon:girafarig",
-    "abilities": [
+  "target": "cobblemon:girafarig",
+  "abilities": [
     "innerfocus",
     "contrary",
     "h:sapsipper"

@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:overqwil",
+    "abilities": [
+        "poisontouch",
+        "swiftswim",
+        "h:intimidate"
+    ]
+}

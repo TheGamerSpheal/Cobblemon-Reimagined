@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:wooper",
+    "abilities": [
+        "unaware",
+        "waterabsorb",
+        "h:simple"
+    ]
+}

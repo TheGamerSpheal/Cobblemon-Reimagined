@@ -1,0 +1,20 @@
+{
+    "target": "cobblemon:typhlosion",
+    "abilities": [
+        "adaptability",
+        "blaze",
+        "h:flashfire"
+    ],
+    "forms": [
+        {
+            "name": "Hisui",
+            "primaryType": "fire",
+            "secondaryType": "ghost",
+            "abilities": [
+                "cursedbody",
+                "blaze",
+                "h:flashfire"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:crobat",
+    "abilities": [
+        "sniper",
+        "infiltrator",
+        "h:corrosion"
+    ]
+}

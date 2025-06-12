@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:granbull",
+    "abilities": [
+        "intimidate",
+        "quickfeet",
+        "h:strongjaw"
+    ],
+    "baseStats": {
+        "hp": 90,
+        "attack": 120,
+        "defence": 75,
+        "special_attack": 60,
+        "special_defence": 75,
+        "speed": 45
+    }
+}

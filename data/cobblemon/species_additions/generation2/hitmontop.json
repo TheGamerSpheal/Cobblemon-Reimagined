@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:hitmontop",
+    "abilities": [
+        "intimidate",
+        "technician",
+        "h:contrary"
+    ]
+}

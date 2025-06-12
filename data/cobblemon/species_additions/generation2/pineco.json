@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:pineco",
+    "abilities": [
+        "sturdy",
+        "sandspit",
+        "h:overcoat"
+    ]
+}

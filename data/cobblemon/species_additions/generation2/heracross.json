@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:heracross",
+    "abilities": [
+        "skilllink",
+        "guts",
+        "h:moxie"
+    ]
+}

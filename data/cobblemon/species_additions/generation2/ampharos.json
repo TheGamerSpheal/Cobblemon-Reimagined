@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:ampharos",
+  "abilities": [
+    "static",
+    "moldbreaker",
+    "h:battery"
+  ]
+}

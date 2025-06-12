@@ -1,0 +1,18 @@
+{
+    "target": "cobblemon:feraligatr",
+    "primaryType": "water",
+    "secondaryType": "dark",
+    "abilities": [
+        "torrent",
+        "strongjaw",
+        "h:sheerforce"
+    ],
+    "baseStats": {
+        "hp": 85,
+        "attack": 105,
+        "defence": 100,
+        "special_attack": 79,
+        "special_defence": 83,
+        "speed": 78
+    }
+}

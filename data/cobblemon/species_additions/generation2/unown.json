@@ -1,0 +1,28 @@
+{
+    "target": "cobblemon:unown",
+    "baseStats": {
+        "hp": 54,
+        "attack": 108,
+        "defence": 54,
+        "special_attack": 108,
+        "special_defence": 54,
+        "speed": 54
+    },
+    "moves": [
+        "1:hiddenpower",
+        "1:naturepower",
+        "1:cosmicpower",
+        "1:earthpower",
+        "1:ancientpower",
+        "tm:hiddenpower",
+        "tm:naturepower",
+        "tm:cosmicpower",
+        "tm:earthpower",
+        "tm:ancientpower",
+        "tutor:hiddenpower",
+        "tutor:naturepower",
+        "tutor:cosmicpower",
+        "tutor:earthpower",
+        "tutor:ancientpower"
+    ]
+}

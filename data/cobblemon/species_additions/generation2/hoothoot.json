@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:hoothoot",
+    "abilities": [
+        "insomnia",
+        "tintedlens",
+        "h:intimidate"
+    ]
+}

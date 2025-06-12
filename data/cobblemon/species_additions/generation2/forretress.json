@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:forretress",
+    "abilities": [
+        "sturdy",
+        "sandspit",
+        "h:overcoat"
+    ]
+}

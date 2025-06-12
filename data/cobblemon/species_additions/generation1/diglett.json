@@ -1,6 +1,6 @@
 {
-    "target": "cobblemon:diglett",
-    "forms": [
+  "target": "cobblemon:diglett",
+  "forms": [
     {
       "name": "Alola",
       "primaryType": "ground",

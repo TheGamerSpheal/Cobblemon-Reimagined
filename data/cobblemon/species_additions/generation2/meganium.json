@@ -1,0 +1,18 @@
+{
+    "target": "cobblemon:meganium",
+    "primaryType": "grass",
+    "secondaryType": "fairy",
+    "abilities": [
+        "overgrow",
+        "serenegrace",
+        "h:triage"
+    ],
+    "baseStats": {
+        "hp": 80,
+        "attack": 80,
+        "defence": 100,
+        "special_attack": 95,
+        "special_defence": 100,
+        "speed": 80
+    }
+}

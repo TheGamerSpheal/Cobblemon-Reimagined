@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:bayleef",
+    "abilities": [
+        "overgrow",
+        "serenegrace",
+        "h:triage"
+    ]
+}

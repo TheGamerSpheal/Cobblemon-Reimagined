@@ -7,7 +7,7 @@
     "torrent",
     "h:drizzle"
   ],
-"forms": [
+  "forms": [
     {
       "name": "Mega",
       "primaryType": "water",
@@ -17,6 +17,6 @@
       "name": "Gmax",
       "primaryType": "water",
       "secondaryType": "steel"
-    }   
+    }
   ]
 }

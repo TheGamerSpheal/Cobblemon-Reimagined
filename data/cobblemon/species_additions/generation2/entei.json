@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:entei",
+    "abilities": [
+        "flashfire",
+        "intimidate",
+        "h:guts"
+    ]
+}

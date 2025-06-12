@@ -183,11 +183,11 @@
     "tutor:wideguard",
     "tutor:wingattack"
   ],
-"forms": [
+  "forms": [
     {
       "name": "Mega",
       "primaryType": "rock",
       "secondaryType": "dragon"
     }
-   ]
- }
+  ]
+}

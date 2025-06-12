@@ -1,0 +1,26 @@
+{
+    "target": "cobblemon:qwilfish",
+    "abilities": [
+        "toxicdebris",
+        "swiftswim",
+        "h:intimidate"
+    ],
+    "baseStats": {
+        "hp": 65,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 45,
+        "special_defence": 65,
+        "speed": 95
+    },
+    "forms": [
+        {
+            "name": "Hisui",
+            "abilities": [
+                "poisontouch",
+                "swiftswim",
+                "h:intimidate"
+            ]
+        }
+    ]
+}

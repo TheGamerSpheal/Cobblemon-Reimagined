@@ -1,6 +1,6 @@
 {
-    "target": "cobblemon:dugtrio",
-    "forms": [
+  "target": "cobblemon:dugtrio",
+  "forms": [
     {
       "name": "Alola",
       "primaryType": "ground",

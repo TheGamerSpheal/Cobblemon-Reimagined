@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:raikou",
+    "abilities": [
+        "voltabsorb",
+        "intimidate",
+        "h:competitive"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:espeon",
+  "abilities": [
+    "synchronize",
+    "telepathy",
+    "h:magicbounce"
+  ]
+}

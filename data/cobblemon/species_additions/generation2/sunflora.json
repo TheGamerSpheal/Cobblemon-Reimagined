@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:sunflora",
+    "abilities": [
+        "chlorophyll",
+        "solarpower",
+        "h:grassysurge"
+    ],
+    "baseStats": {
+        "hp": 85,
+        "attack": 55,
+        "defence": 85,
+        "special_attack": 135,
+        "special_defence": 95,
+        "speed": 45
+    }
+}

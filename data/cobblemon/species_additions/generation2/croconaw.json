@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:croconaw",
+    "abilities": [
+        "torrent",
+        "strongjaw",
+        "h:sheerforce"
+    ]
+}

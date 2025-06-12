@@ -6,13 +6,13 @@
     "h:electricsurge"
   ],
   "baseStats": {
-        "hp": 60,
-        "attack": 50,
-        "defence": 70,
-        "special_attack": 90,
-        "special_defence": 80,
-        "speed": 150
-      },
+    "hp": 60,
+    "attack": 50,
+    "defence": 70,
+    "special_attack": 90,
+    "special_defence": 80,
+    "speed": 150
+  },
   "forms": [
     {
       "name": "Hisui",
@@ -29,6 +29,6 @@
         "special_defence": 80,
         "speed": 150
       }
-    }  
+    }
   ]
 }

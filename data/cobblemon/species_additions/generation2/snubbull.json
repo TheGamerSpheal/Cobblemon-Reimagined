@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:snubbull",
+    "abilities": [
+        "intimidate",
+        "runaway",
+        "h:strongjaw"
+    ]
+}

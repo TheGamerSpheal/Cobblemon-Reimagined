@@ -1,0 +1,29 @@
+{
+    "target": "cobblemon:houndoom",
+    "abilities": [
+        "intimidate",
+        "flashfire",
+        "h:adaptability"
+    ],
+    "baseStats": {
+        "hp": 75,
+        "attack": 100,
+        "defence": 50,
+        "special_attack": 110,
+        "special_defence": 80,
+        "speed": 95
+    },
+    "forms": [
+        {
+            "name": "Mega",
+            "baseStats": {
+                "hp": 75,
+                "attack": 100,
+                "defence": 90,
+                "special_attack": 140,
+                "special_defence": 90,
+                "speed": 115
+            }
+        }
+    ]
+}

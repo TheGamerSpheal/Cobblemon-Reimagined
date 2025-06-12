@@ -1,0 +1,11 @@
+{
+    "target": "cobblemon:xatu",
+    "baseStats": {
+        "hp": 80,
+        "attack": 75,
+        "defence": 70,
+        "special_attack": 95,
+        "special_defence": 70,
+        "speed": 95
+    }
+}

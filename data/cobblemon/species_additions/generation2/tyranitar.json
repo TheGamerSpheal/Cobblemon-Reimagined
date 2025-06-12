@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:tyranitar",
+    "abilities": [
+        "sandstream",
+        "unnerve",
+        "h:intimidate"
+    ]
+}

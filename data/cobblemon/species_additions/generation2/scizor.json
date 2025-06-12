@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:scizor",
+    "abilities": [
+        "swarm",
+        "technician",
+        "h:hypercutter"
+    ]
+}

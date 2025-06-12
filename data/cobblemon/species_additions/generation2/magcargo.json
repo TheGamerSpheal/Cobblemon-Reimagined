@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:magcargo",
+    "abilities": [
+        "solidrock",
+        "flamebody",
+        "h:weakarmor"
+    ],
+    "baseStats": {
+        "hp": 60,
+        "attack": 50,
+        "defence": 150,
+        "special_attack": 110,
+        "special_defence": 100,
+        "speed": 30
+    }
+}

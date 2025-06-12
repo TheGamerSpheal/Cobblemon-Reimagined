@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:umbreon",
+    "abilities": [
+        "synchronize",
+        "innerfocus",
+        "h:immunity"
+    ]
+}

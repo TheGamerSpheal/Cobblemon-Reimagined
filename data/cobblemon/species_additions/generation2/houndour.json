@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:houndour",
+    "abilities": [
+        "intimidate",
+        "flashfire",
+        "h:adaptability"
+    ]
+}

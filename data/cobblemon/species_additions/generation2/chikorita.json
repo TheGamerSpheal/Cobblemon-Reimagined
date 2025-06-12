@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:chikorita",
+    "abilities": [
+        "overgrow",
+        "serenegrace",
+        "h:triage"
+    ]
+}

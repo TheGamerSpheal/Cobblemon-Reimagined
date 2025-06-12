@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:lugia",
+    "abilities": [
+        "aerilate",
+        "waterabsorb",
+        "h:multiscale"
+    ]
+}

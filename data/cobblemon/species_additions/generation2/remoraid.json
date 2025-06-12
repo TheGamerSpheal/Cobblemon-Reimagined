@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:remoraid",
+    "abilities": [
+        "quickdraw",
+        "sniper",
+        "h:skilllink"
+    ]
+}

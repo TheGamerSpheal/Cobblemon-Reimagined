@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:chinchou",
+    "abilities": [
+        "voltabsorb",
+        "waterabsorb",
+        "h:hydration"
+    ]
+}

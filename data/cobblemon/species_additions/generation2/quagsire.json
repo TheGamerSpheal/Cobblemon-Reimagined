@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:quagsire",
+    "abilities": [
+        "unaware",
+        "waterabsorb",
+        "h:simple"
+    ],
+    "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 65,
+        "special_defence": 65,
+        "speed": 35
+    }
+}

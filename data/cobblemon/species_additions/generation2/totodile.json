@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:totodile",
+    "abilities": [
+        "torrent",
+        "strongjaw",
+        "h:sheerforce"
+    ]
+}

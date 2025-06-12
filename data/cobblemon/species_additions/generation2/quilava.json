@@ -1,0 +1,18 @@
+{
+    "target": "cobblemon:quilava",
+    "abilities": [
+        "adaptability",
+        "blaze",
+        "h:flashfire"
+    ],
+    "forms": [
+        {
+            "name": "Hisui Bias",
+            "abilities": [
+                "adaptability",
+                "blaze",
+                "h:flashfire"
+            ]
+        }
+    ]
+}

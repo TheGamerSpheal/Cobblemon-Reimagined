@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:lanturn",
+    "abilities": [
+        "voltabsorb",
+        "waterabsorb",
+        "h:hydration"
+    ],
+    "baseStats": {
+        "hp": 125,
+        "attack": 58,
+        "defence": 70,
+        "special_attack": 76,
+        "special_defence": 76,
+        "speed": 67
+    }
+}

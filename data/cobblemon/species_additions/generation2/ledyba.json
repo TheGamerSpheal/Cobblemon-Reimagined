@@ -1,0 +1,10 @@
+{
+    "target": "cobblemon:ledyba",
+    "primaryType": "bug",
+    "secondaryType": "fighting",
+    "abilities": [
+        "technician",
+        "ironfist",
+        "h:defiant"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:pupitar",
+    "abilities": [
+        "shedskin",
+        "sandveil",
+        "h:intimidate"
+    ]
+}

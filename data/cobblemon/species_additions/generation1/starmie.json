@@ -5,7 +5,7 @@
     "naturalcure",
     "h:regenerator"
   ],
-"moves": [
+  "moves": [
     "1:harden",
     "1:tackle",
     "4:watergun",
@@ -156,6 +156,6 @@
     "tutor:watergun",
     "tutor:waterpulse",
     "tutor:whirlpool",
-    "tutor:wonderroom",
-   ]
+    "tutor:wonderroom"
+  ]
 }

@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:phanpy",
+    "abilities": [
+        "pickup",
+        "sandveil",
+        "h:technician"
+    ]
+}

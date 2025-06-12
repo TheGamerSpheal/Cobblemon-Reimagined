@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:flaaffy",
+  "abilities": [
+    "static",
+    "moldbreaker",
+    "h:battery"
+  ]
+}

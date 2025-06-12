@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:larvitar",
+    "abilities": [
+        "guts",
+        "sandveil",
+        "h:intimidate"
+    ]
+}

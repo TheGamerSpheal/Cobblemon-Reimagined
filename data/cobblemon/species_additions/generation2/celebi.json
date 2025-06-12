@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:celebi",
+  "abilities": [
+    "naturalcure",
+    "levitate",
+    "h:trace"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:octillery",
+    "abilities": [
+        "megalauncher",
+        "sniper",
+        "h:skilllink"
+    ],
+    "baseStats": {
+        "hp": 75,
+        "attack": 105,
+        "defence": 75,
+        "special_attack": 105,
+        "special_defence": 75,
+        "speed": 75
+    }
+}
