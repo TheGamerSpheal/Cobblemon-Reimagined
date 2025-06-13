@@ -36,8 +36,10 @@ Hidden: Chlorophyll   Chlorophyll
 </details>
 <details>
 <summary>G-Max Venusaur</summary>
+<pre>
 Regular Abilities --> New Abilities <br>
 Overgrow              Thick Fat <br>
 Hidden: Chlorophyll   Chlorophyll <br>
                       Hidden: Grassy Surge <br>
+</pre>
 </details>
