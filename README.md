@@ -27,16 +27,17 @@ Overgrow              Overgrow
 Hidden: Chlorophyll   Chlorophyll
                       Hidden: Grassy Surge
 </details>
+<details>
 <summary>Venusaur</summary>
 Regular Abilities --> New Abilities
 Overgrow              Thick Fat
 Hidden: Chlorophyll   Chlorophyll
                       Hidden: Grassy Surge
 </details>
+<details>
 <summary>G-Max Venusaur</summary>
-Regular Abilities --> New Abilities
-Overgrow              Thick Fat
-Hidden: Chlorophyll   Chlorophyll
-                      Hidden: Grassy Surge
-</details>
+Regular Abilities --> New Abilities <br>
+Overgrow              Thick Fat <br>
+Hidden: Chlorophyll   Chlorophyll <br>
+                      Hidden: Grassy Surge <br>
 </details>
