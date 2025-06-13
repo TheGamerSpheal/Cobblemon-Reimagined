@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:charmander",
+    "abilities": [
+        "blaze",
+        "solarpower",
+        "h:drought"
+    ]
+}

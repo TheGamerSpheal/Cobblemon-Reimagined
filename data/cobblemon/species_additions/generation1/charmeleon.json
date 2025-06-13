@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:charmeleon",
+    "abilities": [
+        "blaze",
+        "solarpower",
+        "h:drought"
+    ]
+}

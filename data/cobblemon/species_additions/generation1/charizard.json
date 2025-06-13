@@ -1,0 +1,24 @@
+{
+    "target": "cobblemon:charmander",
+    "abilities": [
+        "blaze",
+        "solarpower",
+        "h:drought"
+    ],
+    "features": [
+        "gmax"
+    ],
+    "forms": [
+        {
+            "name": "Gmax",
+            "aspects": [
+                "gmax"
+            ],
+            "abilities": [
+                "blaze",
+                "solarpower",
+                "h:drought"
+            ]
+        }
+    ]
+}

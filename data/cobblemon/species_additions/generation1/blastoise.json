@@ -3,8 +3,8 @@
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
-    "megalauncher",
     "torrent",
+    "megalauncher",
     "h:drizzle"
   ],
   "features": [
@@ -28,8 +28,8 @@
       "primaryType": "water",
       "secondaryType": "steel",
       "abilities": [
-        "megalauncher",
         "torrent",
+        "megalauncher",
         "h:drizzle"
       ]
     }
