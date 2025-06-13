@@ -117,10 +117,11 @@ Hidden: Rain Dish     Rain Dish <br>
 <details>
 <summary>Blastoise</summary>
 <pre>
-Regular Typing --> New Typing
+Regular Typing --> New Typing <br>
 Water              Water <br>
                    Steel <br>
-
+</pre>
+<pre>
 Regular Abilities --> New Abilities <br>
 Torrent               Torrent <br>
 Hidden: Rain Dish     Mega Launcher <br>
@@ -131,7 +132,7 @@ Hidden: Rain Dish     Mega Launcher <br>
 <details>
 <summary>Mega Blastoise</summary>
 <pre>
-Regular Typing --> New Typing
+Regular Typing --> New Typing <br>
 Water              Water <br>
                    Steel <br>
 </pre>
@@ -140,10 +141,11 @@ Water              Water <br>
 <details>
 <summary>G-Max Blastoise</summary>
 <pre>
-Regular Typing --> New Typing
+Regular Typing --> New Typing <br>
 Water              Water <br>
                    Steel <br>
-
+</pre>
+<pre>
 Regular Abilities --> New Abilities <br>
 Torrent               Torrent <br>
 Hidden: Rain Dish     Mega Launcher <br>
