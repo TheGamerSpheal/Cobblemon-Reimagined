@@ -153,4 +153,34 @@ Hidden: Rain Dish     Mega Launcher <br>
 </pre>
 </details>
 
+<details>
+<summary>Caterpie</summary>
+<pre>
+Regular Abilities --> New Abilities <br>
+Shield Dust           Shield Dust <br>
+Hidden: Run Away      Run Away <br>
+                      Hidden: Stench <br>
+</pre>
+</details>
+
+<details>
+<summary>Butterfree</summary>
+<pre>
+Regular Abilities --> New Abilities <br>
+Compound Eyes         Compound Eyes <br>
+Hidden: Tinted Lens   Tinted Lens <br>
+                      Hidden: Effect Spore <br>
+</pre>
+<pre>
+                 Regular Stats --> New Stats
+HP:                    60             60
+Attack:                45             45
+Defense:               50             45   -5
+Special Attack:        90             110  +20
+Special Defense:       80             100  +20
+Speed:                 70             90   +20
+Total:                 395            450  +55
+</pre>
+</details>
+
 </details>

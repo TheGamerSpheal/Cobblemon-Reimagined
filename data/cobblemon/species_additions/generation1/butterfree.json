@@ -1,8 +1,8 @@
 {
   "target": "cobblemon:butterfree",
   "abilities": [
-    "tintedlens",
     "compoundeyes",
+    "tintedlens",
     "h:effectspore"
   ],
   "baseStats": {
