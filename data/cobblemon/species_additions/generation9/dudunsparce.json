@@ -109,9 +109,15 @@
         "tm:wildcharge",
         "tm:zenheadbutt"
     ],
+    "features": [
+        "three_segment"
+    ],
     "forms": [
         {
             "name": "Three-Segment",
+            "aspects": [
+                "three-segment"
+            ],
             "primaryType": "normal",
             "secondaryType": "dragon",
             "abilities": [
