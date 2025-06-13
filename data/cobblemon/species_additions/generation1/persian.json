@@ -13,10 +13,15 @@
     "special_defence": 65,
     "speed": 115
   },
+  "features": [
+    "alolan"
+  ],
   "forms": [
     {
       "name": "Alola",
-      "primaryType": "dark",
+      "aspects": [
+        "alolan"
+      ],
       "abilities": [
         "furcoat",
         "technician",

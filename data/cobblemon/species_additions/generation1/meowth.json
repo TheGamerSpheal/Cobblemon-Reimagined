@@ -5,9 +5,17 @@
     "technician",
     "h:superluck"
   ],
+  "features": [
+    "alolan",
+    "galarian",
+    "gmax"
+  ],
   "forms": [
     {
       "name": "Alola",
+      "aspects": [
+        "alolan"
+      ],
       "abilities": [
         "pickup",
         "technician",
@@ -16,10 +24,24 @@
     },
     {
       "name": "Galar",
+      "aspects": [
+        "galarian"
+      ],
       "abilities": [
         "pickup",
         "toughclaws",
         "h:steelyspirit"
+      ]
+    },
+    {
+      "name": "Gmax",
+      "aspects": [
+        "gmax"
+      ],
+      "abilities": [
+        "pickup",
+        "technician",
+        "h:superluck"
       ]
     }
   ]

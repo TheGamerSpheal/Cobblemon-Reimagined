@@ -12,5 +12,24 @@
     "special_attack": 70,
     "special_defence": 70,
     "speed": 110
-  }
+  },
+   "features": [
+    "mega"
+  ],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 80,
+        "defence": 80,
+        "special_attack": 135,
+        "special_defence": 80,
+        "speed": 130
+      }
+    }
+  ]
 }

@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:mimejr",
+    "abilities": [
+        "technician",
+        "filter",
+        "h:mistysurge"
+    ]
+}

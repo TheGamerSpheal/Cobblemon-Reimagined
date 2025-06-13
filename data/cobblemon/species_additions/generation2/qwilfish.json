@@ -13,9 +13,15 @@
         "special_defence": 65,
         "speed": 95
     },
+    "features": [
+        "hisuian"
+    ],
     "forms": [
         {
             "name": "Hisui",
+            "aspects": [
+                "hisuian"
+            ],
             "abilities": [
                 "poisontouch",
                 "swiftswim",

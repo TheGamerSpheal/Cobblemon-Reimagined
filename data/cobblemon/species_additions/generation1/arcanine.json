@@ -160,9 +160,15 @@
     "tutor:thunderfang",
     "tutor:toxic"
   ],
+  "features": [
+    "hisuian"
+  ],
   "forms": [
     {
-      "name": "Hisui",
+      "name": "Hisuian",
+      "aspects": [
+        "hisuian"
+      ],
       "abilities": [
         "intimidate",
         "rockhead",

@@ -191,9 +191,15 @@
     "tutor:wish",
     "tutor:yawn"
   ],
+  "features": [
+    "galarian"
+  ],
   "forms": [
     {
       "name": "Galar",
+      "aspects": [
+        "galarian"
+      ],
       "abilities": [
         "steadfast",
         "superluck",

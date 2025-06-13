@@ -5,9 +5,15 @@
     "sandforce",
     "h:sandrush"
   ],
+  "features": [
+    "alolan"
+  ],
   "forms": [
     {
       "name": "Alola",
+      "aspects": [
+        "alolan"
+      ],
       "abilities": [
         "snowcloak",
         "toughclaws",

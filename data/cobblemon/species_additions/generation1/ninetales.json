@@ -159,9 +159,15 @@
     "tutor:willowisp",
     "tutor:zenheadbutt"
   ],
+  "features": [
+    "alolan"
+  ],
   "forms": [
     {
       "name": "Alola",
+      "aspects": [
+        "alolan"
+      ],
       "abilities": [
         "snowcloak",
         "serenegrace",

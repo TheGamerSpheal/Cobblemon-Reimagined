@@ -5,9 +5,15 @@
     "thickfat",
     "h:grassysurge"
   ],
+  "features": [
+    "gmax"
+  ],
   "forms": [
     {
       "name": "Gmax",
+      "aspects": [
+        "gmax"
+      ],
       "abilities": [
         "chlorophyll",
         "thickfat",

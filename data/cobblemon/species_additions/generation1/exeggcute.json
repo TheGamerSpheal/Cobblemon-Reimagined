@@ -4,5 +4,21 @@
     "chlorophyll",
     "harvest",
     "h:ripen"
+  ],
+  "features": [
+    "region_bias"
+  ],
+  "forms": [
+    {
+      "name": "Alola-Bias",
+      "aspects": [
+        "region-bias-alola"
+      ],
+      "abilities": [
+        "chlorophyll",
+        "harvest",
+        "h:ripen"
+      ]
+    }
   ]
 }

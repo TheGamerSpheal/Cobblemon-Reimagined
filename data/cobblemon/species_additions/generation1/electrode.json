@@ -13,9 +13,15 @@
     "special_defence": 80,
     "speed": 150
   },
+  "features": [
+    "hisuian"
+  ],
   "forms": [
     {
-      "name": "Hisui",
+      "name": "Hisuian",
+      "aspects": [
+        "hisuian"
+      ],
       "abilities": [
         "soundproof",
         "electricsurge",

@@ -5,9 +5,15 @@
     "aftermath",
     "h:electricsurge"
   ],
+  "features": [
+    "hisuian"
+  ],
   "forms": [
     {
-      "name": "Hisui",
+      "name": "Hisuian",
+      "aspects": [
+        "hisuian"
+      ],
       "abilities": [
         "soundproof",
         "electricsurge",

@@ -1,13 +1,19 @@
 {
   "target": "cobblemon:rattata",
   "abilities": [
-    "hustle",
     "guts",
+    "hustle",
     "h:technician"
+  ],
+  "features": [
+    "alolan"
   ],
   "forms": [
     {
       "name": "Alola",
+      "aspects": [
+        "alolan"
+      ],
       "abilities": [
         "guts",
         "hustle",

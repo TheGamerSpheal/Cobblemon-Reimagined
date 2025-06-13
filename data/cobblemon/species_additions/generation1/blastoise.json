@@ -7,16 +7,31 @@
     "torrent",
     "h:drizzle"
   ],
+  "features": [
+    "mega",
+    "gmax"
+  ],
   "forms": [
     {
       "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
       "primaryType": "water",
       "secondaryType": "steel"
     },
     {
       "name": "Gmax",
+      "aspects": [
+        "gmax"
+      ],
       "primaryType": "water",
-      "secondaryType": "steel"
+      "secondaryType": "steel",
+      "abilities": [
+        "megalauncher",
+        "torrent",
+        "h:drizzle"
+      ]
     }
   ]
 }

@@ -13,9 +13,16 @@
     "special_defence": 80,
     "speed": 110
   },
+  "features": [
+    "paldean",
+    "bull_breed"
+  ],
   "forms": [
     {
       "name": "Paldea-Combat",
+      "aspects": [
+        "paldean"
+      ],
       "abilities": [
         "intimidate",
         "angerpoint",
@@ -32,6 +39,10 @@
     },
     {
       "name": "Paldea-Blaze",
+      "aspects": [
+        "blaze-breed",
+        "paldean"
+      ],
       "abilities": [
         "intimidate",
         "angerpoint",
@@ -48,6 +59,10 @@
     },
     {
       "name": "Paldea-Aqua",
+      "aspects": [
+        "aqua-breed",
+        "paldean"
+      ],
       "abilities": [
         "intimidate",
         "angerpoint",

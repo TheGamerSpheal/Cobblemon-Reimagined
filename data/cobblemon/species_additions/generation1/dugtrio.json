@@ -1,10 +1,14 @@
 {
   "target": "cobblemon:dugtrio",
+  "features": [
+    "alolan"
+  ],
   "forms": [
     {
       "name": "Alola",
-      "primaryType": "ground",
-      "secondaryType": "steel",
+      "aspects": [
+        "alolan"
+      ],
       "abilities": [
         "tanglinghair",
         "technician",

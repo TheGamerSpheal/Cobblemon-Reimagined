@@ -154,9 +154,15 @@
     "tutor:uturn",
     "tutor:whirlwind"
   ],
+   "features": [
+    "gmax"
+  ],
   "forms": [
     {
       "name": "Gmax",
+      "aspects": [
+        "gmax"
+      ],
       "abilities": [
         "tintedlens",
         "compoundeyes",

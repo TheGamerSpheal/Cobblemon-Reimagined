@@ -1,8 +1,8 @@
 {
   "target": "cobblemon:raticate",
   "abilities": [
-    "hustle",
     "guts",
+    "hustle",
     "h:technician"
   ],
   "baseStats": {
@@ -13,9 +13,15 @@
     "special_defence": 70,
     "speed": 113
   },
+  "features": [
+    "alolan"
+  ],
   "forms": [
     {
       "name": "Alola",
+      "aspects": [
+        "alolan"
+      ],
       "abilities": [
         "guts",
         "hustle",

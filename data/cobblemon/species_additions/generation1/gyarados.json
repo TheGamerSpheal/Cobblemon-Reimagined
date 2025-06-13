@@ -2,9 +2,15 @@
   "target": "cobblemon:gyarados",
   "primaryType": "water",
   "secondaryType": "dragon",
+  "features": [
+    "mega"
+  ],
   "forms": [
     {
       "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
       "primaryType": "water",
       "secondaryType": "dragon"
     }

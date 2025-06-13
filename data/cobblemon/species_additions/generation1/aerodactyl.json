@@ -183,9 +183,15 @@
     "tutor:wideguard",
     "tutor:wingattack"
   ],
+  "features": [
+    "mega"
+  ],
   "forms": [
     {
       "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
       "primaryType": "rock",
       "secondaryType": "dragon"
     }

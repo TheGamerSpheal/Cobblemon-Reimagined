@@ -5,11 +5,15 @@
     "cursedbody",
     "h:merciless"
   ],
+  "features": [
+    "gmax"
+  ],
   "forms": [
     {
       "name": "Gmax",
-      "primaryType": "ghost",
-      "secondaryType": "poison",
+      "aspects": [
+        "gmax"
+      ],
       "abilities": [
         "levitate",
         "cursedbody",

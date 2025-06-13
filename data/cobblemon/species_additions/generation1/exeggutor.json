@@ -177,9 +177,15 @@
     "tutor:worryseed",
     "tutor:zenheadbutt"
   ],
+  "features": [
+    "alolan"
+  ],
   "forms": [
     {
       "name": "Alola",
+      "aspects": [
+        "alolan"
+      ],
       "abilities": [
         "frisk",
         "harvest",

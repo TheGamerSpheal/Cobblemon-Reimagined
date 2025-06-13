@@ -13,9 +13,15 @@
     "special_defence": 120,
     "speed": 95
   },
+  "features": [
+    "galarian"
+  ],
   "forms": [
     {
       "name": "Galar",
+      "aspects": [
+        "galarian"
+      ],
       "abilities": [
         "icebody",
         "screencleaner",

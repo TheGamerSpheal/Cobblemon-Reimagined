@@ -5,9 +5,15 @@
         "blaze",
         "h:flashfire"
     ],
+    "features": [
+        "region_bias"
+    ],
     "forms": [
         {
             "name": "Hisui Bias",
+            "aspects": [
+                "region-bias-hisui"
+            ],
             "abilities": [
                 "adaptability",
                 "blaze",
