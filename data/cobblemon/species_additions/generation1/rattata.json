@@ -1,8 +1,8 @@
 {
   "target": "cobblemon:rattata",
   "abilities": [
-    "guts",
     "hustle",
+    "guts",
     "h:technician"
   ],
   "features": [

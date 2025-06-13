@@ -2,8 +2,8 @@
   "target": "cobblemon:ekans",
   "abilities": [
     "intimidate",
-    "shedskin",
-    "h:merciless"
+    "merciless",
+    "h:strongjaw"
   ],
   "evolutions": [
     {

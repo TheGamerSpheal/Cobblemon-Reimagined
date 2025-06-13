@@ -1,9 +1,18 @@
 {
   "target": "cobblemon:arbok",
   "primaryType": "poison",
+  "secondaryType": "dark",
   "abilities": [
     "intimidate",
-    "shedskin",
-    "h:merciless"
-  ]
+    "merciless",
+    "h:strongjaw"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 110,
+    "defence": 70,
+    "special_attack": 55,
+    "special_defence": 80,
+    "speed": 80
+  }
 }

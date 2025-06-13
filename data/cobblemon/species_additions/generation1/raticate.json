@@ -1,8 +1,8 @@
 {
   "target": "cobblemon:raticate",
   "abilities": [
-    "guts",
     "hustle",
+    "guts",
     "h:technician"
   ],
   "baseStats": {
