@@ -136,6 +136,7 @@ Water              Water <br>
 </pre>
 </details>
 
+<details>
 <summary>G-Max Blastoise</summary>
 <pre>
 Regular Typing --> New Typing
