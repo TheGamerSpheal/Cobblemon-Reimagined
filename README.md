@@ -128,6 +128,7 @@ Hidden: Rain Dish     Mega Launcher <br>
 </pre>
 </details>
 
+<details>
 <summary>Mega Blastoise</summary>
 <pre>
 Regular Typing --> New Typing
