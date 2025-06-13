@@ -15,24 +15,30 @@ NEXT OBJECTIVES
 <summary>GEN 1 CHANGES</summary>
 <details>
 <summary>Bulbasaur</summary>
-Regular Abilities --> New Abilities
-Overgrow              Overgrow
-Hidden: Chlorophyll   Chlorophyll
-                      Hidden: Grassy Surge
+<pre>
+Regular Abilities --> New Abilities <br>
+Overgrow              Overgrow <br>
+Hidden: Chlorophyll   Chlorophyll <br>
+                      Hidden: Grassy Surge <br>
+</pre>
 </details>
 <details>
 <summary>Ivysaur</summary>
-Regular Abilities --> New Abilities
-Overgrow              Overgrow
-Hidden: Chlorophyll   Chlorophyll
-                      Hidden: Grassy Surge
+<pre>
+Regular Abilities --> New Abilities <br>
+Overgrow              Overgrow <br>
+Hidden: Chlorophyll   Chlorophyll <br>
+                      Hidden: Grassy Surge <br>
+</pre>
 </details>
 <details>
 <summary>Venusaur</summary>
-Regular Abilities --> New Abilities
-Overgrow              Thick Fat
-Hidden: Chlorophyll   Chlorophyll
-                      Hidden: Grassy Surge
+<pre>
+Regular Abilities --> New Abilities <br>
+Overgrow              Thick Fat <br>
+Hidden: Chlorophyll   Chlorophyll <br>
+                      Hidden: Grassy Surge <br>
+</pre>
 </details>
 <details>
 <summary>G-Max Venusaur</summary>
