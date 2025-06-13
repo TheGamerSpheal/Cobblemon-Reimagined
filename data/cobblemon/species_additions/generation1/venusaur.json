@@ -1,8 +1,8 @@
 {
   "target": "cobblemon:venusaur",
   "abilities": [
-    "chlorophyll",
     "thickfat",
+    "chlorophyll",
     "h:grassysurge"
   ],
   "features": [
@@ -15,8 +15,8 @@
         "gmax"
       ],
       "abilities": [
-        "chlorophyll",
         "thickfat",
+        "chlorophyll",
         "h:grassysurge"
       ]
     }

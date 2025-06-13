@@ -1,8 +1,8 @@
 {
   "target": "cobblemon:ivysaur",
   "abilities": [
-    "chlorophyll",
     "overgrow",
+    "chlorophyll",
     "h:grassysurge"
   ]
 }

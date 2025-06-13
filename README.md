@@ -10,3 +10,33 @@ NEXT OBJECTIVES
 - Full list of changes made to every Pokémon
 - Advancements for catching every Pokémon (one for each Pokémon, not guaranteed to actually be made)
 - Put it on Modrinth and the Cobblemon Discord
+
+<details>
+<summary>GEN 1 CHANGES</summary>
+<details>
+<summary>Bulbasaur</summary>
+Regular Abilities --> New Abilities
+Overgrow              Overgrow
+Hidden: Chlorophyll   Chlorophyll
+                      Hidden: Grassy Surge
+</details>
+<details>
+<summary>Ivysaur</summary>
+Regular Abilities --> New Abilities
+Overgrow              Overgrow
+Hidden: Chlorophyll   Chlorophyll
+                      Hidden: Grassy Surge
+</details>
+<summary>Venusaur</summary>
+Regular Abilities --> New Abilities
+Overgrow              Thick Fat
+Hidden: Chlorophyll   Chlorophyll
+                      Hidden: Grassy Surge
+</details>
+<summary>G-Max Venusaur</summary>
+Regular Abilities --> New Abilities
+Overgrow              Thick Fat
+Hidden: Chlorophyll   Chlorophyll
+                      Hidden: Grassy Surge
+</details>
+</details>
