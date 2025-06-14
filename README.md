@@ -461,6 +461,11 @@ Learns Crunch
 <details>
 <summary>Arbok</summary>
 <pre>
+Regular Typing --> New Typing
+Poison             Poison
+                   Dark
+</pre>
+<pre>
 Regular Abilities --> New Abilities
 Intimidate            Intimidate
 Shed Skin             Merciless
