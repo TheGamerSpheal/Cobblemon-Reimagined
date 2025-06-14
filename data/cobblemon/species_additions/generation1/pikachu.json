@@ -1,0 +1,8 @@
+{
+    "target": "cobblemon:pikachu",
+    "abilities": [
+        "static",
+        "lightningrod",
+        "h:galvanize"
+    ]
+}

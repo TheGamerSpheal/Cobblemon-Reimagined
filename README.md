@@ -330,7 +330,7 @@ Defense:               55             55
 Special Attack:        50             50
 Special Defense:       50             50
 Speed:                 71             75  +4
-Total:                 349            355
+Total:                 349            355 +6
 </pre>
 </details>
 
@@ -350,7 +350,7 @@ Defense:               75             70  -5
 Special Attack:        70             115 +45
 Special Defense:       70             70
 Speed:                 101            110 +9
-Total:                 479            510
+Total:                 479            510 +31
 </pre>
 </details>
 
@@ -390,7 +390,7 @@ Defense:               60             70  +10
 Special Attack:        50             45  -5
 Special Defense:       70             70
 Speed:                 97             113 +16
-Total:                 413            450
+Total:                 413            450 +37
 </pre>
 </details>
 
@@ -410,7 +410,7 @@ Defense:               70             80  +10
 Special Attack:        40             40
 Special Defense:       80             90  +10
 Speed:                 77             82  +5
-Total:                 413            450
+Total:                 413            450 +32
 </pre>
 </details>
 
@@ -440,7 +440,7 @@ Defense:               65             65
 Special Attack:        61             60  -1
 Special Defense:       61             60  -1
 Speed:                 100            110 +10
-Total:                 442            470
+Total:                 442            470 +28
 </pre>
 </details>
 
@@ -474,7 +474,218 @@ Defense:               69             70  +1
 Special Attack:        65             55  -10
 Special Defense:       79             80  +1
 Speed:                 80             80 
-Total:                 448            455
+Total:                 448            455 +7
+</pre>
+</details>
+
+<details>
+<summary>Pikachu</summary>
+<pre>
+Regular Abilities --> New Abilities
+Static                Static
+Hidden: Lightning Rod Lightning Rod
+                      Hidden: Galvanize
+</pre>
+</details>
+
+<details>
+<summary>Raichu</summary>
+<pre>
+Regular Abilities --> New Abilities
+Static                Static
+Hidden: Lightning Rod Lightning Rod
+                      Hidden: Galvanize
+</pre>
+<pre>
+                 Regular Stats --> New Stats
+HP:                    60             70  +10
+Attack:                90             100 +10
+Defense:               55             55  
+Special Attack:        90             100 +10
+Special Defense:       80             80
+Speed:                 110            110
+Total:                 485            515 +30
+</pre>
+<pre>
+Regular Moves --> New Moves
+1: Thunder Shock  1: Thunder Punch
+1: Tail Whip      1: Growl
+1: Quick Attack   1: Tail Whip
+1: Thunder Punch  1: Thunder Shock
+1: Thunder Wave   1: Charm
+1: Thunder        1: Nuzzle
+1: Light Screen   1: Sweet Kiss
+1: Iron Tail      1: Play Nice
+1: Play Nice      5: Quick Attack
+1: Sweet Kiss     10: Thunder Wave
+1: Nuzzle         15: Double Kick
+1: Nasty Plot     20: Electro Ball
+1: Charm          25: Shock Wave
+1: Double Team    25: Fake Tears
+1: Electro Ball   30: Feint
+1: Feint          35: Spark
+1: Spark          40: Double Team
+1: Agility        45: Slame
+1: Slam           50: Thunderbolt
+1: Discharge      55: Teeter Dance
+1: Growl          55: Agility
+5: Thunderbolt    60: Discharge
+                  65: Wild Charge
+                  70: Light Screen
+                  75: Thunder
+</pre>
+</details>
+
+<details>
+<summary>Alolan Raichu</summary>
+<pre>
+                 Regular Stats --> New Stats
+HP:                    60             70  +10
+Attack:                85             80  -5
+Defense:               50             50  
+Special Attack:        95             120 +25
+Special Defense:       85             85
+Speed:                 110            110
+Total:                 485            500 +15
+</pre>
+<pre>
+Regular Moves --> New Moves
+1: Psychic        1: Thunder Shock
+1: Thunder Shock  1: Charm
+1: Tail Whip      1: Nuzzle
+1: Quick Attack   1: Sweet Kiss
+1: Thunder Wave   1: Play Nice
+1: Thunder        1: Double Kick
+1: Light Screen   1: Psychic
+1: Iron Tail      6: Quick Attack
+1: Play Nice      11: Thunder Wave
+1: Sweet Kiss     16: Electro Ball
+1: Nuzzle         21: Shock Wave
+1: Nasty Plot     26: Light Screen
+1: Charm          31: Spark
+1: Double Team    36: Double Team
+1: Electro Ball   41: Slam
+1: Feint          43: Psyshock
+1: Spark          46: Thunderbolt
+1: Agility        51: Agility
+1: Slam           56: Discharge
+1: Discharge      61: Wild Charge
+1: Growl          66: Signal Beam
+5: Thunderbolt    71: Thunder
+                  76: Volt Tackle
+</pre>
+</details>
+
+<details>
+<summary>Sandshrew</summary>
+<pre>
+Regular Abilities --> New Abilities
+Sand Veil             Sand Veil
+Hidden: Sand Rush     Sand Force
+                      Hidden: Sand Rush
+</pre>
+</details>
+
+<details>
+<summary>Sandslash</summary>
+<pre>
+Regular Abilities --> New Abilities
+Sand Veil             Sand Veil
+Hidden: Sand Rush     Sand Force
+                      Hidden: Sand Rush
+</pre>
+</details>
+
+<details>
+<summary>Alolan Sandslash</summary>
+<pre>
+Regular Abilities --> New Abilities
+Snow Cloak            Snow Cloak
+Hidden: Slush Rush    Tough Claws
+                      Hidden: Slush Rush
+</pre>
+<pre>
+Regular Moves --> New Moves
+1: Icicle Spear   1: Defense Curl
+1: Metal Burst    1: Scratch
+1: Icicle Crash   1: Powder Snow
+1: Slash          1: Ice Shard
+1: Defense Curl   1: Swift
+1: Ice Ball       1: Ice Ball
+1: Metal Claw     1: Metal Claw
+1: Swords Dance   1: Fury Cutter
+1: Blizzard       1: Hone Claws
+1: Hail           1: Icicle Spear
+1: Iron Defense   6: Rapid Spin
+1: Gyro Ball      11: Fury Swipes
+1: Iron Head      16: Iron Defense
+1: Rollout        21: Crush Claw
+1: Fury Cutter    26: Shadow Claw
+1: Rapid Spin     31: Iron Head
+1: Swift          36: Agility
+1: Fury Swipes    41: Gyro Ball
+1: Scratch        46: Icicle Crash
+1: Mist           51: Poison Jab
+1: Powder Snow    56: Snowscape
+1: Snowscape      61: Swords Dance
+1: Bide           66: Blizzard
+                  71: Metal Burst
+                  76: Triple Axel
+</pre>
+</details>
+
+<details>
+<summary>Nidoran Female</summary>
+<pre>
+Regular Abilities --> New Abilities
+Poison Point          Poison Point
+Rivalry               Mold Breaker
+Hidden: Hustle        Hidden: Hustle
+</pre>
+</details>
+
+<details>
+<summary>Nidorina</summary>
+<pre>
+Regular Abilities --> New Abilities
+Poison Point          Poison Point
+Rivalry               Mold Breaker
+Hidden: Hustle        Hidden: Hustle
+</pre>
+</details>
+
+<details>
+<summary>Nidoqueen</summary>
+<pre>
+Regular Abilities --> New Abilities
+Poison Point          Poison Point
+Rivalry               Mold Breaker
+Hidden: Sheer Force   Hidden: Sheer Force
+</pre>
+<pre>
+Regular Moves --> New Moves
+1: Scratch        1: Tail Whip
+1: Tail Whip      1: Scratch
+1: Double Kick    1: Poison Sting
+1: Poison Sting   1: Growl
+1: Earth Power    6: Fury Swipes
+1: Superpower     11: Double Kick
+1: Helping Hand   16: Poison Fang
+1: Chip Away      21: Bite
+1: Fury Swipes    26: Helping Hand
+1: Toxic Spikes   29: Spikes
+1: Bite           31: Toxic Spikes
+1: Toxic          36: Poison Jab
+1: Flatter        39: Body Slam
+1: Crunch         41: Flatter
+1: Growl          46: Crunch
+1: Poison Fang    51: Drill Run
+1: Captivate      56: Poison Tail
+                  59: Earthquake
+                  61: Sludge Wave
+                  66: Super Fang
+                  71: Toxic
+                  76: Earth Power
 </pre>
 </details>
 
