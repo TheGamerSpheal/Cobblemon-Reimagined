@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:igglybuff",
+  "abilities": [
+    "magicguard",
+    "competitive",
+    "h:mistysurge"
+  ]
+}

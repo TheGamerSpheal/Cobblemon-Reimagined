@@ -822,4 +822,89 @@ Regular Moves --> New Moves
 </pre>
 </details>
 
+<details>
+<summary>Alolan Ninetales</summary>
+<pre>
+Regular Abilities --> New Abilities
+Snow Cloak            Snow Cloak
+Hidden: Snow Warning  Serene Grace
+                      Hidden: Snow Warning
+</pre>
+<pre>
+Regular Moves --> New Moves
+1: Imprison       1: Tail Whip
+1: Nasty Plot     1: Powder Snow
+1: Ice Beam       1: Fairy Wind
+1: Ice Shard      1: Dazzling Gleam
+1: Confuse Ray    3: Disable
+1: Safeguard      3: Roar
+1: Blizzard       8: Quick Attack
+1: Spite          13: Icy Wind
+1: Icy Wind       18: Hex
+1: Aurora Veil    18: Payback
+1: Aurora Beam    18: Fairy Wind
+1: Extrasensory   23: Aurora Veil
+1: Mist           28: Confuse Ray
+1: Sheer Cold     28: Nasty Plot
+1: Grudge         33: Aurora Beam
+1: Powder Snow    38: Extrasensory
+1: Tail Whip      43: Ice Beam
+1: Disable        48: Dark Pulse
+1: Freeze-Dry     48: Imprison
+                  53: Freeze-Dry
+                  58: Safeguard
+                  63: Moonblast
+                  68: Blizzard
+                  73: Encore
+</pre>
+</details>
+
+<details>
+<summary>Jigglypuff</summary>
+<pre>
+Regular Abilities --> New Abilities
+Cute Charm            Magic Guard
+Competitive           Competitive
+Hidden: Friend Guard  Hidden: Misty Surge
+</pre>
+</details>
+
+<details>
+<summary>Wigglytuff</summary>
+<pre>
+Regular Abilities --> New Abilities
+Cute Charm            Magic Guard
+Competitive           Competitive
+Hidden: Frisk         Hidden: Misty Surge
+</pre>
+<pre>
+Regular Moves ---> New Moves
+1: Sing            1: Copycat
+1: Disable         1: Sing
+1: Defense Curl    1: Charm
+1: Double Slap     1: Sweet Kiss
+1: Rest            4: Echoed Voice
+1: Gyro Ball       9: Fake Tears
+1: Hyper Voice     14: Disarming Voice
+1: Covet           19: Disable
+1: Echoed Voice    24: Draining Kiss
+1: Double Edge     29: Round
+1: Sweet Kiss      34: Rollout
+1: Disarming Voice 39: Double Slap
+1: Charm           44: Body Slam
+1: Stockpile       49: Stockpile
+1: Swallow         49: Swallow
+1: Spit Up         49: Spit Up
+1: Round           54: Hyper Voice
+1: Body Slam       59: Play Rough
+1: Mimic           59: Rest
+1: Pound           64: Moonblast
+1: Copycat         69: Gyro Ball
+1: Wake-Up Slap    69: Mimic
+1: Play Nice       69: Double Edge
+5: Play Rough      74: Last Resort
+                   74: Boomburst
+</pre>
+</details>
+
 </details>
