@@ -18,6 +18,19 @@
         "intimidate",
         "rockhead",
         "h:defiant"
+      ],
+      "evolutions": [
+        {
+          "id": "growlithe_arcaninehisui",
+          "variant": "item_interact",
+          "result": "arcanine hisuian",
+          "consumeHeldItem": true,
+          "learnableMoves": [
+            "extremespeed"
+          ],
+          "requirements": [],
+          "requiredContext": "cobblemon:fire_stone"
+        }
       ]
     }
   ]

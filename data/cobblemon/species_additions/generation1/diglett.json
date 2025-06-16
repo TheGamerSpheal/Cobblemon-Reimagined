@@ -13,6 +13,23 @@
         "tanglinghair",
         "technician",
         "h:sandforce"
+      ],
+      "evolutions": [
+        {
+          "id": "diglett_dugtrioalola",
+          "variant": "level_up",
+          "result": "dugtrio alolan",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "sandtomb"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 26
+            }
+          ]
+        }
       ]
     }
   ]

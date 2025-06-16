@@ -18,6 +18,27 @@
         "guts",
         "hustle",
         "h:thickfat"
+      ],
+      "evolutions": [
+        {
+          "id": "rattata_raticatealola",
+          "variant": "level_up",
+          "result": "raticate alolan",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "scaryface"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 20
+            },
+            {
+              "variant": "time_range",
+              "range": "night"
+            }
+          ]
+        }
       ]
     }
   ]

@@ -20,6 +20,24 @@
         "pickup",
         "technician",
         "h:prankster"
+      ],
+      "evolutions": [
+        {
+          "id": "meowth_persianalola",
+          "variant": "level_up",
+          "result": "persian alolan",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "swift",
+            "powergem"
+          ],
+          "requirements": [
+            {
+              "variant": "friendship",
+              "amount": 160
+            }
+          ]
+        }
       ]
     },
     {
@@ -31,6 +49,23 @@
         "pickup",
         "toughclaws",
         "h:steelyspirit"
+      ],
+      "evolutions": [
+        {
+          "id": "meowth_perrserker",
+          "variant": "level_up",
+          "result": "perrserker",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "ironhead"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 28
+            }
+          ]
+        }
       ]
     },
     {

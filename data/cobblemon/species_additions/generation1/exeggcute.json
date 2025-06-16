@@ -8,6 +8,44 @@
   "features": [
     "region_bias"
   ],
+  "evolutions": [
+    {
+      "id": "exeggcute_exeggutor",
+      "variant": "item_interact",
+      "result": "exeggutor",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "stomp"
+      ],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/regional/exeggcute_alolabiome"
+        }
+      ],
+      "requiredContext": "cobblemon:leaf_stone"
+    },
+    {
+      "id": "exeggcute_exeggutoralola",
+      "variant": "item_interact",
+      "result": "exeggutor alolan",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "dragonhammer"
+      ],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/regional/exeggcute_alolabiome"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/regional/exeggcute_kantobiome"
+        }
+      ],
+      "requiredContext": "cobblemon:leaf_stone"
+    }
+  ],
   "forms": [
     {
       "name": "Alola-Bias",
@@ -18,6 +56,44 @@
         "chlorophyll",
         "harvest",
         "h:ripen"
+      ],
+      "evolutions": [
+        {
+          "id": "exeggcute_exeggutor",
+          "variant": "item_interact",
+          "result": "exeggutor",
+          "consumeHeldItem": true,
+          "learnableMoves": [
+            "stomp"
+          ],
+          "requirements": [
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:evolution/regional/exeggcute_alolabiome"
+            },
+            {
+              "variant": "biome",
+              "biomeCondition": "#cobblemon:evolution/regional/exeggcute_kantobiome"
+            }
+          ],
+          "requiredContext": "cobblemon:leaf_stone"
+        },
+        {
+          "id": "exeggcute_exeggutoralola",
+          "variant": "item_interact",
+          "result": "exeggutor alolan",
+          "consumeHeldItem": true,
+          "learnableMoves": [
+            "dragonhammer"
+          ],
+          "requirements": [
+            {
+              "variant": "biome",
+              "biomeAnticondition": "#cobblemon:evolution/regional/exeggcute_kantobiome"
+            }
+          ],
+          "requiredContext": "cobblemon:leaf_stone"
+        }
       ]
     }
   ]

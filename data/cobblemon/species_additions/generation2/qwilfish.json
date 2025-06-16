@@ -26,6 +26,21 @@
                 "poisontouch",
                 "swiftswim",
                 "h:intimidate"
+            ],
+            "evolutions": [
+                {
+                    "id": "qwilfish_overqwil",
+                    "variant": "level_up",
+                    "result": "overqwil",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "has_move",
+                            "move": "barbbarrage"
+                        }
+                    ]
+                }
             ]
         }
     ]

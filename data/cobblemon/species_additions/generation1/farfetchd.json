@@ -204,6 +204,23 @@
         "steadfast",
         "superluck",
         "h:scrappy"
+      ],
+      "evolutions": [
+        {
+          "id": "farfetchd_sirfetchd",
+          "variant": "level_up",
+          "result": "sirfetchd",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "irondefense"
+          ],
+          "requirements": [
+            {
+              "variant": "battle_critical_hits",
+              "amount": 3
+            }
+          ]
+        }
       ]
     }
   ]

@@ -8,6 +8,48 @@
     "features": [
         "region_bias"
     ],
+    "evolutions": [
+        {
+            "id": "quilava_typhlosion",
+            "variant": "level_up",
+            "result": "typhlosion",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 36
+                },
+                {
+                    "variant": "biome",
+                    "biomeAnticondition": "#cobblemon:evolution/regional/quilava_hisuibiome"
+                }
+            ]
+        },
+        {
+            "id": "quilava_typhlosionhisui",
+            "variant": "level_up",
+            "result": "typhlosion hisuian",
+            "consumeHeldItem": false,
+            "learnableMoves": [
+                "infernalparade"
+            ],
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 36
+                },
+                {
+                    "variant": "biome",
+                    "biomeCondition": "#cobblemon:evolution/regional/quilava_hisuibiome"
+                },
+                {
+                    "variant": "biome",
+                    "biomeAnticondition": "#cobblemon:evolution/regional/quilava_johtobiome"
+                }
+            ]
+        }
+    ],
     "forms": [
         {
             "name": "Hisui Bias",
@@ -18,6 +60,48 @@
                 "adaptability",
                 "blaze",
                 "h:flashfire"
+            ],
+            "evolutions": [
+                {
+                    "id": "quilava_typhlosion",
+                    "variant": "level_up",
+                    "result": "typhlosion",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 36
+                        },
+                        {
+                            "variant": "biome",
+                            "biomeAnticondition": "#cobblemon:evolution/regional/quilava_hisuibiome"
+                        },
+                        {
+                            "variant": "biome",
+                            "biomeCondition": "#cobblemon:evolution/regional/quilava_johtobiome"
+                        }
+                    ]
+                },
+                {
+                    "id": "quilava_typhlosionhisui",
+                    "variant": "level_up",
+                    "result": "typhlosion hisuian",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [
+                        "infernalparade"
+                    ],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 36
+                        },
+                        {
+                            "variant": "biome",
+                            "biomeAnticondition": "#cobblemon:evolution/regional/quilava_johtobiome"
+                        }
+                    ]
+                }
             ]
         }
     ]

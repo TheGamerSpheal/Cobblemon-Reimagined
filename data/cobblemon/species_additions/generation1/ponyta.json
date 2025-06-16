@@ -18,6 +18,23 @@
         "runaway",
         "pastelveil",
         "h:magicguard"
+      ],
+      "evolutions": [
+        {
+          "id": "ponyta_rapidashgalar",
+          "variant": "level_up",
+          "result": "rapidash galarian",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "psychocut"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            }
+          ]
+        }
       ]
     }
   ]
