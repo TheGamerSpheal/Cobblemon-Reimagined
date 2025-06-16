@@ -694,4 +694,132 @@ Regular Moves --> New Moves
 </pre>
 </details>
 
+<details>
+<summary>Nidoran Male</summary>
+<pre>
+Regular Abilities --> New Abilities
+Poison Point          Poison Point
+Rivalry               Mold Breaker
+Hidden: Hustle        Hidden: Hustle
+</pre>
+</details>
+
+<details>
+<summary>Nidorino</summary>
+<pre>
+Regular Abilities --> New Abilities
+Poison Point          Poison Point
+Rivalry               Mold Breaker
+Hidden: Hustle        Hidden: Hustle
+</pre>
+</details>
+
+<details>
+<summary>Nidoking</summary>
+<pre>
+Regular Abilities --> New Abilities
+Poison Point          Poison Point
+Rivalry               Mold Breaker
+Hidden: Sheer Force   Hidden: Sheer Force
+</pre>
+<pre>
+Regular Moves --> New Moves
+1: Peck           1: Focus Energy
+1: Focus Energy   1: Peck
+1: Double Kick    1: Poison Sting
+1: Poison Sting   1: Growl
+1: Thrash         6: Leer
+1: Earth Power    11: Fury Attack
+1: Megahorn       16: Double Kick
+1: Helping Hand   21: Poison Fang
+1: Poison Jab     26: Horn Attack
+1: Chip Away      29: Helping Hand
+1: Fury Attack    31: Thrash
+1: Toxic Spikes   36: Toxic Spikes
+1: Horn Attack    39: Poison Jab
+1: Toxic          41: Flatter
+1: Flatter        46: Sucker Punch
+1: Leer           51: Drill Run
+1: Horn Drill     56: Poison Tail
+1: Captivate      59: Earthquake
+                  61: Sludge Wave
+                  66: Head Smash
+                  71: Toxic
+                  76: Earth Power
+</pre>
+</details>
+
+<details>
+<summary>Clefable</summary>
+<pre>
+Regular Moves ---> New Moves
+1: Sing            1: Charm
+1: Double Slap     1: Copycat
+1: Minimize        1: Disarming Voice
+1: Metronome       1: Growl
+1: Gravity         1: Pound
+1: After You       1: Splash
+1: Disarming Voice 1: Spotlight
+1: Spotlight       1: Sweet Kiss
+1: Sweet Kiss      4: Stored Power
+1: Encore          4: Encore
+1: Charm           9: Sing
+1: Stored Power    14: Double Slap
+1: Life Dew        14: Defense Curl
+1: Moonlight       19: After You
+1: Meteor Mash     24: Follow Me
+1: Follow Me       24: Draining Kiss
+1: Cosmic Power    29: Life Dew
+1: Moonblast       34: Body Slam
+1: Healing Wish    34: Minimize
+1: Splash          39: Metronome
+1: Pound           44: Cosmic Power
+1: Copycat         44: Moonblast
+1: Growl           49: Moonlight
+1: Defense Curl    54: Wish
+1: Wake-Up Slap    54: Soft-Boiled
+1: Lucky Chant     59: Gravity
+1: Bestow          64: Meteor Mash
+                   74: Healing Wish
+</pre>
+</details>
+
+<details>
+<summary>Ninetales</summary>
+<pre>
+Regular Typing --> New Typing
+Fire               Fire
+                   Psychic
+</pre>
+<pre>
+Regular Abilities --> New Abilities
+Flash Fire            Flash Fire
+Hidden: Drought       Drought
+                      Hidden: Cursed Body
+</pre>
+<pre>
+Regular Moves --> New Moves
+1: Nasty Plot     1: Tail Whip
+1: Ember          1: Ember
+1: Quick Attack   3: Disable
+1: Confuse Ray    3: Roar
+1: Safeguard      8: Quick Attack
+1: Flamethrower   13: Spite
+1: Fire Blast     18: Hex
+1: Spite          23: Incinerate
+1: Will-o-Wisp    28: Confuse Ray
+1: Incinerate     28: Nasty Plot
+1: Imrpison       33: Will-o-Wisp
+1: Extrasensory   38: Extrasensory
+1: Fire Spin      43: Flamethrower
+1: Inferno        48: Dark Pulse
+1: Grudge         48: Imprison
+1: Tail Whip      53: Fire Spin
+1: Disable        58: Safeguard
+1: Flame Burst    63: Inferno
+                  68: Psychic
+                  73: Fire Blast
+</pre>
+</details>
+
 </details>
