@@ -907,4 +907,81 @@ Regular Moves ---> New Moves
 </pre>
 </details>
 
+<details>
+<summary>Zubat</summary>
+<pre>
+Regular Abilities --> New Abilities
+Inner Focus           Sniper
+Hidden: Infiltrator   Infiltrator
+                      Hidden: Corrosion
+</pre>
+</details>
+
+<details>
+<summary>Golbat</summary>
+<pre>
+Regular Abilities --> New Abilities
+Inner Focus           Sniper
+Hidden: Infiltrator   Infiltrator
+                      Hidden: Corrosion
+</pre>
+</details>
+
+<details>
+<summary>Oddish</summary>
+<pre>
+Regular Abilities --> New Abilities
+Chlorophyll           Chlorophyll
+Hidden: Run Away      Effect Spore
+                      Hidden: Aroma Veil
+</pre>
+</details>
+
+<details>
+<summary>Gloom</summary>
+<pre>
+Regular Abilities --> New Abilities
+Chlorophyll           Chlorophyll
+Hidden: Stench        Effect Spore
+                      Hidden: Stench
+</pre>
+</details>
+
+<details>
+<summary>Vileplume</summary>
+<pre>
+Regular Abilities --> New Abilities
+Chlorophyll           Chlorophyll
+Hidden: Effect Spore  Effect Spore
+                      Hidden: Aroma Veil
+</pre>
+<pre>
+Regular Moves --> New Moves
+1: Mega Drain     1: Acid
+1: Aromatherapy   1: Absorb
+1: Stun Spore     1: Aromatheraby
+1: Poison Powder  1: Growth
+1: Petal Dance    1: Magical Leaf
+1: Giga Drain     1: Petal Blizzard
+1: Petal Blizzard 1: Sleep Powder
+1: Sleep Powder   1: Stun Spore
+1: Toxic          1: Weather Ball
+1: Moonblast      7: Sweet Scent
+1: Grassy Terrain 12: Sleep Powder
+1: Moonlight      17: Leaf Blade
+1: Absorb         22: Mega Drain
+1: Growth         27: Giga Drain
+1: Acid           32: Earth Power
+1: Sweet Scent    37: Moonlight
+1: Lucky Chant    42: Grassy Terrain
+1: Natural Gift   47: Quiver Dance
+                  52: Teeter Dance
+                  57: Moonblast
+                  62: Petal Dance
+                  67: Solar Beam
+                  72: Leaf Storm
+                  72: Strength Sap
+</pre>
+</details>
+
 </details>
