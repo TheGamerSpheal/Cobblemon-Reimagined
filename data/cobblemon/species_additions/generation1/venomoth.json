@@ -1,5 +1,7 @@
 {
   "target": "cobblemon:venomoth",
+  "primaryType": "bug",
+  "secondaryType": "psychic",
   "abilities": [
     "compoundeyes",
     "tintedlens",
@@ -8,8 +10,8 @@
   "baseStats": {
     "hp": 70,
     "attack": 55,
-    "defence": 60,
-    "special_attack": 100,
+    "defence": 65,
+    "special_attack": 105,
     "special_defence": 75,
     "speed": 90
   }

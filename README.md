@@ -984,4 +984,89 @@ Regular Moves --> New Moves
 </pre>
 </details>
 
+<details>
+<summary>Paras</summary>
+<pre>
+Regular Abilities --> New Abilities
+Effect Spore          Effect Spore
+Dry Skin              Damp
+Hidden: Damp          Hidden: Tough Claws
+</pre>
+</details>
+
+<details>
+<summary>Parasect</summary>
+<pre>
+Regular Abilities --> New Abilities
+Effect Spore          Effect Spore
+Dry Skin              Damp
+Hidden: Damp          Hidden: Tough Claws
+</pre>
+<pre>
+                 Regular Stats --> New Stats
+HP:                    60             60
+Attack:                95             115 +20
+Defense:               80             100 +20 
+Special Attack:        60             55  -5
+Special Defense:       80             90  +10
+Speed:                 30             30
+Total:                 405            450 +45
+</pre>
+</details>
+
+<details>
+<summary>Venonat</summary>
+<pre>
+Regular Abilities --> New Abilities
+Compound Lens         Compound Eyes
+Tinted Lens           Tinted Lens
+Hidden: Run Away      Hidden: Wonder Skin
+</pre>
+</details>
+
+<details>
+<summary>Venomoth</summary>
+<pre>
+Regular Typing --> New Typing
+Bug                Bug
+Poison             Psychic
+</pre>
+<pre>
+Regular Abilities --> New Abilities
+Shield Dust           Compound Eyes
+Tinted Lens           Tinted Lens
+Hidden: Wonder Skin   Hidden: Wonder Skin
+</pre>
+<pre>
+                 Regular Stats --> New Stats
+HP:                    70             70
+Attack:                65             55  -10
+Defense:               60             65  +5
+Special Attack:        90             105 +15
+Special Defense:       75             75
+Speed:                 90             90
+Total:                 450            460 +10
+</pre>
+</details>
+
+<details>
+<summary>Alolan Diglett</summary>
+<pre>
+Regular Abilities --> New Abilities
+Sand Veil             Technician
+Tangling Hair         Tangling Hair
+Hidden: Sand Force    Hidden: Sand Force
+</pre>
+</details>
+
+<details>
+<summary>Alolan Dugtrio</summary>
+<pre>
+Regular Abilities --> New Abilities
+Sand Veil             Technician
+Tangling Hair         Tangling Hair
+Hidden: Sand Force    Hidden: Sand Force
+</pre>
+</details>
+
 </details>
