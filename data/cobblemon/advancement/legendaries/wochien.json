@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:wochien",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Leech Seed For The Win!"
+        },
+        "description": {
+            "translate": "Have Wo-Chien in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/yveltal",
+    "criteria": {
+        "wochien": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:wochien"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "wochien"
+        ]
+    ]
+}

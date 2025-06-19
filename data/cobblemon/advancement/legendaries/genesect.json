@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:genesect",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "I Have a Theory, a Pokémon Theory!"
+        },
+        "description": {
+            "translate": "Have Gensect in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/mew",
+    "criteria": {
+        "genesect": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:genesect"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "genesect"
+        ]
+    ]
+}

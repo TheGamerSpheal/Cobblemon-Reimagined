@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:jirachi",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Sleeping Genie"
+        },
+        "description": {
+            "translate": "Have Jirachi in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/mesprit",
+    "criteria": {
+        "jirachi": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:jirachi"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "jirachi"
+        ]
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:zeraora",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Thundercats"
+        },
+        "description": {
+            "translate": "Have Zeraora in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/necrozma",
+    "criteria": {
+        "zeraora": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zeraora"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "zeraora"
+        ]
+    ]
+}

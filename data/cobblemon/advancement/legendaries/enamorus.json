@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:enamorus",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Ugajin"
+        },
+        "description": {
+            "translate": "Have Enamorus in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/landorus",
+    "criteria": {
+        "enamorus": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:enamorus"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enamorus"
+        ]
+    ]
+}

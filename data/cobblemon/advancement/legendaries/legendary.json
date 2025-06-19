@@ -1,0 +1,736 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:master_ball"
+        },
+        "title": {
+            "translate": "LEEEEEEGEEEEEENDAAAAAARYYYYY"
+        },
+        "description": {
+            "translate": "Have any Legendary or Mythical Pokémon in your party"
+        },
+        "background": "cobblemon:textures/gui/advancements/backgrounds/cobblemon.png",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "articuno": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:articuno"
+                ]
+            }
+        },
+        "zapdos": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zapdos"
+                ]
+            }
+        },
+        "moltres": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:moltres"
+                ]
+            }
+        },
+        "mewtwo": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:mewtwo"
+                ]
+            }
+        },
+        "raikou": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:raikou"
+                ]
+            }
+        },
+        "entei": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:entei"
+                ]
+            }
+        },
+        "suicune": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:suicune"
+                ]
+            }
+        },
+        "lugia": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:lugia"
+                ]
+            }
+        },
+        "ho_oh": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ho_oh"
+                ]
+            }
+        },
+        "regirock": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:regirock"
+                ]
+            }
+        },
+        "regice": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:regice"
+                ]
+            }
+        },
+        "registeel": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:registeel"
+                ]
+            }
+        },
+        "latias": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:latias"
+                ]
+            }
+        },
+        "latios": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:latios"
+                ]
+            }
+        },
+        "kyogre": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kyogre"
+                ]
+            }
+        },
+        "groudon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:groudon"
+                ]
+            }
+        },
+        "rayquaza": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:rayquaza"
+                ]
+            }
+        },
+        "uxie": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:uxie"
+                ]
+            }
+        },
+        "mesprit": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:mesprit"
+                ]
+            }
+        },
+        "azelf": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:azelf"
+                ]
+            }
+        },
+        "dialga": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dialga"
+                ]
+            }
+        },
+        "palkia": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:palkia"
+                ]
+            }
+        },
+        "giratina": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:giratina"
+                ]
+            }
+        },
+        "heatran": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:heatran"
+                ]
+            }
+        },
+        "regigigas": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:regigigas"
+                ]
+            }
+        },
+        "cresselia": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:cresselia"
+                ]
+            }
+        },
+        "cobalion": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:cobalion"
+                ]
+            }
+        },
+        "terrakion": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:terrakion"
+                ]
+            }
+        },
+        "virizion": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:virizion"
+                ]
+            }
+        },
+        "tornadus": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tornadus"
+                ]
+            }
+        },
+        "thundurus": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:thundurus"
+                ]
+            }
+        },
+        "landorus": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:landorus"
+                ]
+            }
+        },
+        "reshiram": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:reshiram"
+                ]
+            }
+        },
+        "zekrom": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zekrom"
+                ]
+            }
+        },
+        "kyurem": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kyurem"
+                ]
+            }
+        },
+        "xerneas": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:xerneas"
+                ]
+            }
+        },
+        "yveltal": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:yveltal"
+                ]
+            }
+        },
+        "zygarde": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zygarde"
+                ]
+            }
+        },
+        "cosmog": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:cosmog"
+                ]
+            }
+        },
+        "cosmoem": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:cosmoem"
+                ]
+            }
+        },
+        "solgaleo": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:solgaleo"
+                ]
+            }
+        },
+        "lunala": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:lunala"
+                ]
+            }
+        },
+        "necrozma": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:necrozma"
+                ]
+            }
+        },
+        "zamazenta": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zamazenta"
+                ]
+            }
+        },
+        "zacian": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zacian"
+                ]
+            }
+        },
+        "eternatus": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:eternatus"
+                ]
+            }
+        },
+        "chienpao": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:chienpao"
+                ]
+            }
+        },
+        "chiyu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:chiyu"
+                ]
+            }
+        },
+        "wochien": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:wochien"
+                ]
+            }
+        },
+        "tinglu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tinglu"
+                ]
+            }
+        },
+        "koraidon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:koraidon"
+                ]
+            }
+        },
+        "miraidon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:miraidon"
+                ]
+            }
+        },
+        "okidogi": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:okidogi"
+                ]
+            }
+        },
+        "munkidori": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:munkidori"
+                ]
+            }
+        },
+        "fezandipiti": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:fezandipiti"
+                ]
+            }
+        },
+        "terapagos": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:terapagos"
+                ]
+            }
+        },
+        "mew": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:mew"
+                ]
+            }
+        },
+        "celebi": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:celebi"
+                ]
+            }
+        },
+        "jirachi": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:jirachi"
+                ]
+            }
+        },
+        "deoxys": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:deoxys"
+                ]
+            }
+        },
+        "phione": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:phione"
+                ]
+            }
+        },
+        "manaphy": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:manaphy"
+                ]
+            }
+        },
+        "darkrai": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:darkrai"
+                ]
+            }
+        },
+        "shaymin": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:shaymin"
+                ]
+            }
+        },
+        "arceus": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:arceus"
+                ]
+            }
+        },
+        "victini": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:victini"
+                ]
+            }
+        },
+        "keldeo": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:keldeo"
+                ]
+            }
+        },
+        "meloetta": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:meloetta"
+                ]
+            }
+        },
+        "genesect": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:genesect"
+                ]
+            }
+        },
+        "diancie": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:diancie"
+                ]
+            }
+        },
+        "hoopa": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:hoopa"
+                ]
+            }
+        },
+        "volcanion": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:volcanion"
+                ]
+            }
+        },
+        "magearna": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:magearna"
+                ]
+            }
+        },
+        "marshadow": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:marshadow"
+                ]
+            }
+        },
+        "zeraora": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zeraora"
+                ]
+            }
+        },
+        "meltan": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:meltan"
+                ]
+            }
+        },
+        "melmetal": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:melmetal"
+                ]
+            }
+        },
+        "zarude": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zarude"
+                ]
+            }
+        },
+        "pecharunt": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pecharunt"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "articuno",
+            "zapdos",
+            "moltres",
+            "mewtwo",
+            "raikou",
+            "entei",
+            "suicune",
+            "lugia",
+            "ho_oh",
+            "regirock",
+            "regice",
+            "registeel",
+            "latias",
+            "latios",
+            "kyogre",
+            "groudon",
+            "rayquaza",
+            "uxie",
+            "mesprit",
+            "azelf",
+            "dialga",
+            "palkia",
+            "giratina",
+            "heatran",
+            "regigigas",
+            "cresselia",
+            "cobalion",
+            "terrakion",
+            "virizion",
+            "tornadus",
+            "thundurus",
+            "landorus",
+            "reshiram",
+            "zekrom",
+            "kyurem",
+            "xerneas",
+            "yveltal",
+            "zygarde",
+            "cosmog",
+            "cosmoem",
+            "solgaleo",
+            "lunala",
+            "necrozma",
+            "zamazenta",
+            "zacian",
+            "eternatus",
+            "chienpao",
+            "chiyu",
+            "wochien",
+            "tinglu",
+            "koraidon",
+            "miraidon",
+            "okidogi",
+            "munkidori",
+            "fezandipiti",
+            "terapagos",
+            "mew",
+            "celebi",
+            "jirachi",
+            "deoxys",
+            "phione",
+            "manaphy",
+            "darkrai",
+            "shaymin",
+            "arceus",
+            "victini",
+            "keldeo",
+            "meloetta",
+            "genesect",
+            "diancie",
+            "hoopa",
+            "volcanion",
+            "magearna",
+            "marshadow",
+            "zeraora",
+            "meltan",
+            "melmetal",
+            "zarude",
+            "pecharunt"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

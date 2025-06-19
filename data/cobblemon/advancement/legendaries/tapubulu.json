@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:tapubulu",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Ula'ula's Protector"
+        },
+        "description": {
+            "translate": "Have Tapu Bulu in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/zygarde",
+    "criteria": {
+        "tapubulu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tapubulu"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tapubulu"
+        ]
+    ]
+}

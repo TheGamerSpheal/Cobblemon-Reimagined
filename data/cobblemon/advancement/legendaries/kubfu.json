@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:kubfu",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "A Bare Bear"
+        },
+        "description": {
+            "translate": "Have Kubfu in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/mesprit",
+    "criteria": {
+        "kubfu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kubfu"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kubfu"
+        ]
+    ]
+}

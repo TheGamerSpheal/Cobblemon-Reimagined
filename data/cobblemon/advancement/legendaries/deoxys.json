@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:deoxys",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Point-Blank Hyper Beam Survivor"
+        },
+        "description": {
+            "translate": "Have Deoxys in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/palkia",
+    "criteria": {
+        "deoxys": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:deoxys"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "deoxys"
+        ]
+    ]
+}

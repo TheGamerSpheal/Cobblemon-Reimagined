@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:volcanion",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Walking Steam Engine"
+        },
+        "description": {
+            "translate": "Have Volcanion in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/groudon",
+    "criteria": {
+        "volcanion": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:volcanion"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "volcanion"
+        ]
+    ]
+}

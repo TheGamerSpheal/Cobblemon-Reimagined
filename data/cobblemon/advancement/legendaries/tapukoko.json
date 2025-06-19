@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:tapukoko",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Melemele's Protector"
+        },
+        "description": {
+            "translate": "Have Tapu Koko in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/zygarde",
+    "criteria": {
+        "tapukoko": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tapukoko"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tapukoko"
+        ]
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:groudon",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Don't Bring an Island to an Ocean Fight"
+        },
+        "description": {
+            "translate": "Have Groudon in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/rayquaza",
+    "criteria": {
+        "groudon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:groudon"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "groudon"
+        ]
+    ]
+}

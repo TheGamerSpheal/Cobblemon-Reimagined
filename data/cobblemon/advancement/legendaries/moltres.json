@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:moltres",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Air is Getting Warmer Around You..."
+        },
+        "description": {
+            "translate": "Have Moltres in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/lugia",
+    "criteria": {
+        "moltres": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:moltres"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "moltres"
+        ]
+    ]
+}

@@ -5,10 +5,14 @@ Mod made by the Luminescent Team and the Radical Red ROM Hack made by Eric "Soup
 
 Any suggestions are welcome
 
+OBSERVATIONS:
+- You have to put the pokémon in your party for the advancements to trigger!
+- The Advancements not being shown are not intentional, i couldn't find a solution for that
+
 NEXT OBJECTIVES
 - Do the rest of the generations
 - Full list of changes made to every Pokémon
-- Advancements for catching every Pokémon (one for each Pokémon, not guaranteed to actually be made)
+- Advancements for catching every Pokémon (one for each Pokémon)
 - Put it on Modrinth and the Cobblemon Discord
 
 <details>
@@ -1066,6 +1070,86 @@ Regular Abilities --> New Abilities
 Sand Veil             Technician
 Tangling Hair         Tangling Hair
 Hidden: Sand Force    Hidden: Sand Force
+</pre>
+</details>
+
+<details>
+<summary>Meowth</summary>
+<pre>
+Regular Abilities --> New Abilities
+Pickup                Pickup
+Technician            Technician
+Hidden: Unnerve       Hidden: Super Luck
+</pre>
+</details>
+
+<details>
+<summary>Alolan Meowth</summary>
+<pre>
+Regular Abilities --> New Abilities
+Pickup                Pickup
+Technician            Technician
+Hidden: Rattled       Hidden: Prankster
+</pre>
+</details>
+
+<details>
+<summary>Galarian Meowth</summary>
+<pre>
+Regular Abilities --> New Abilities
+Pickup                Pickup
+Tough Claws           Tough Claws
+Hidden: Unnerve       Hidden: Steely Spirit
+</pre>
+</details>
+
+<details>
+<summary>G-Max Meowth</summary>
+<pre>
+Regular Abilities --> New Abilities
+Pickup                Pickup
+Technician            Technician
+Hidden: Unnerve       Hidden: Super Luck
+</pre>
+</details>
+
+<details>
+<summary>Persian</summary>
+<pre>
+Regular Abilities --> New Abilities
+Limber                Limber
+Technician            Technician
+Hidden: Unnerve       Hidden: Super Luck
+</pre>
+<pre>
+                 Regular Stats --> New Stats
+HP:                    65             65
+Attack:                70             80  +10
+Defense:               60             60
+Special Attack:        65             80  +15
+Special Defense:       65             65
+Speed:                 115            115
+Total:                 440            465 +25
+</pre>
+</details>
+
+<details>
+<summary>Alolan Persian</summary>
+<pre>
+Regular Abilities --> New Abilities
+Fur Coat              Fur Coat
+Technician            Technician
+Hidden: Rattled       Hidden: Prankster
+</pre>
+<pre>
+                 Regular Stats --> New Stats
+HP:                    65             65
+Attack:                60             70  +10
+Defense:               60             60
+Special Attack:        75             90  +15
+Special Defense:       65             65
+Speed:                 115            115
+Total:                 440            465 +25
 </pre>
 </details>
 

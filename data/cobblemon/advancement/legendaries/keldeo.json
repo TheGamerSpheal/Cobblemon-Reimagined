@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:keldeo",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "d'Artagnan"
+        },
+        "description": {
+            "translate": "Have Keldeo in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/cobalion",
+    "criteria": {
+        "keldeo": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:keldeo"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "keldeo"
+        ]
+    ]
+}

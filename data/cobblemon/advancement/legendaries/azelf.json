@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:azelf",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "You're Filled with DETERMINATION"
+        },
+        "description": {
+            "translate": "Have Azelf in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/arceus",
+    "criteria": {
+        "azelf": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:azelf"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "azelf"
+        ]
+    ]
+}

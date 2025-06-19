@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:suicune",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The North Wind is Watching"
+        },
+        "description": {
+            "translate": "Have Suicune in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/hooh",
+    "criteria": {
+        "suicune": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:suicune"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "suicune"
+        ]
+    ]
+}

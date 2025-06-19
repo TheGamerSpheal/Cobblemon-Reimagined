@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:mewtwo",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Mewtwo Strikes for the First Time!"
+        },
+        "description": {
+            "translate": "Have Mewtwo in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/mew",
+    "criteria": {
+        "mewtwo": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:mewtwo"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "mewtwo"
+        ]
+    ]
+}

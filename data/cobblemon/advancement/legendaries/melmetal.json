@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:melmetal",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "He's a Big Boy Now"
+        },
+        "description": {
+            "translate": "Have Melmetal in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/meltan",
+    "criteria": {
+        "melmetal": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:melmetal"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "melmetal"
+        ]
+    ]
+}

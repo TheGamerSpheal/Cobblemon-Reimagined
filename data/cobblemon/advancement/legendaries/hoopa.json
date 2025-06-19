@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:hoopa",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Doctor Strange is Looking... a Little Different"
+        },
+        "description": {
+            "translate": "Have Hoopa in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/palkia",
+    "criteria": {
+        "hoopa": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:hoopa"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hoopa"
+        ]
+    ]
+}

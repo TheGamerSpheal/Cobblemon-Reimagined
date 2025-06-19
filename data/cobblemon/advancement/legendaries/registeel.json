@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:registeel",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Metal Titan Awakens..."
+        },
+        "description": {
+            "translate": "Have Registeel in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/regigigas",
+    "criteria": {
+        "registeel": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:registeel"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "registeel"
+        ]
+    ]
+}

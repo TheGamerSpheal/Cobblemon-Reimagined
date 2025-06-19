@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:reshiram",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "White Flare"
+        },
+        "description": {
+            "translate": "Have Reshiram in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/kyurem",
+    "criteria": {
+        "reshiram": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:reshiram"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "reshiram"
+        ]
+    ]
+}

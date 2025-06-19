@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:yveltal",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Harbinger of Death"
+        },
+        "description": {
+            "translate": "Have Yveltal in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/zygarde",
+    "criteria": {
+        "yveltal": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:yveltal"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "yveltal"
+        ]
+    ]
+}

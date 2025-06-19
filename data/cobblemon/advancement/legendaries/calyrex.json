@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:calyrex",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Mind Control at its Finest"
+        },
+        "description": {
+            "translate": "Have Calyrex in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/xerneas",
+    "criteria": {
+        "calyrex": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:calyrex"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "calyrex"
+        ]
+    ]
+}

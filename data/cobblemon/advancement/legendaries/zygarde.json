@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:zygarde",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "This Isn't Even my Final Form!"
+        },
+        "description": {
+            "translate": "Have Zygarde in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/dialga",
+    "criteria": {
+        "zygarde": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zygarde"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "zygarde"
+        ]
+    ]
+}

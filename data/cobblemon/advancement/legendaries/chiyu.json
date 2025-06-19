@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:chiyu",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "My Magikarp is on Fire!"
+        },
+        "description": {
+            "translate": "Have Chi-Yu in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/yveltal",
+    "criteria": {
+        "chiyu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:chiyu"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "chiyu"
+        ]
+    ]
+}

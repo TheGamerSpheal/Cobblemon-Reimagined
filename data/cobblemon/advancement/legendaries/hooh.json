@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:hooh",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Moltres 2.0"
+        },
+        "description": {
+            "translate": "Have Ho-Oh in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/groudon",
+    "criteria": {
+        "hooh": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:hooh"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hooh"
+        ]
+    ]
+}

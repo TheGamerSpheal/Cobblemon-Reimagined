@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:regice",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Frost Titan Freezes Solid..."
+        },
+        "description": {
+            "translate": "Have Regice in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/regigigas",
+    "criteria": {
+        "regice": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:regice"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "regice"
+        ]
+    ]
+}

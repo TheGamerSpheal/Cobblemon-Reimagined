@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:okidogi",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Indentured Servitude"
+        },
+        "description": {
+            "translate": "Have Okidogi in your party"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/pecharunt",
+    "criteria": {
+        "okidogi": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:okidogi"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "okidogi"
+        ]
+    ]
+}
