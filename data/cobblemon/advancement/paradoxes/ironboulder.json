@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:giratina",
+                    "species": "cobblemon:ironboulder",
                     "aspects": [
                         ""
                     ]
@@ -12,30 +12,30 @@
             }
         },
         "title": {
-            "translate": "Congratulations! You Made it to Hell!"
+            "translate": "Have You Tried Turning it Off and On Again?"
         },
         "description": {
-            "translate": "Have Giratina in your party"
+            "translate": "Have Iron Boulder in your party"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:legendaries/arceus",
+    "parent": "cobblemon:paradoxes/ironleaves",
     "criteria": {
-        "giratina": {
+        "ironboulder": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:giratina"
+                    "cobblemon:ironboulder"
                 ]
             }
         }
     },
     "requirements": [
         [
-            "giratina"
+            "ironboulder"
         ]
     ]
 }

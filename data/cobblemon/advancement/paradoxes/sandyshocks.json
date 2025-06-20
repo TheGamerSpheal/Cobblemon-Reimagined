@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:giratina",
+                    "species": "cobblemon:sandyshocks",
                     "aspects": [
                         ""
                     ]
@@ -12,30 +12,30 @@
             }
         },
         "title": {
-            "translate": "Congratulations! You Made it to Hell!"
+            "translate": "Sandy Cheeks"
         },
         "description": {
-            "translate": "Have Giratina in your party"
+            "translate": "Have Sandy Shocks in your party"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:legendaries/arceus",
+    "parent": "cobblemon:paradoxes/slitherwing",
     "criteria": {
-        "giratina": {
+        "sandyshocks": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:giratina"
+                    "cobblemon:sandyshocks"
                 ]
             }
         }
     },
     "requirements": [
         [
-            "giratina"
+            "sandyshocks"
         ]
     ]
 }

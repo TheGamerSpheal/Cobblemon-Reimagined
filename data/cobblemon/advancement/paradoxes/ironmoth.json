@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:giratina",
+                    "species": "cobblemon:ironmoth",
                     "aspects": [
                         ""
                     ]
@@ -12,30 +12,30 @@
             }
         },
         "title": {
-            "translate": "Congratulations! You Made it to Hell!"
+            "translate": "Solar Panel, But *Future*"
         },
         "description": {
-            "translate": "Have Giratina in your party"
+            "translate": "Have Iron Moth in your party"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:legendaries/arceus",
+    "parent": "cobblemon:paradoxes/ironjugulis",
     "criteria": {
-        "giratina": {
+        "ironmoth": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:giratina"
+                    "cobblemon:ironmoth"
                 ]
             }
         }
     },
     "requirements": [
         [
-            "giratina"
+            "ironmoth"
         ]
     ]
 }

@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:giratina",
+                    "species": "cobblemon:stakataka",
                     "aspects": [
                         ""
                     ]
@@ -12,30 +12,30 @@
             }
         },
         "title": {
-            "translate": "Congratulations! You Made it to Hell!"
+            "translate": "Blocks, Together, Strong"
         },
         "description": {
-            "translate": "Have Giratina in your party"
+            "translate": "Have Stakataka in your party"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:legendaries/arceus",
+    "parent": "cobblemon:ultrabeasts/ultrabeasts",
     "criteria": {
-        "giratina": {
+        "stakataka": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:giratina"
+                    "cobblemon:stakataka"
                 ]
             }
         }
     },
     "requirements": [
         [
-            "giratina"
+            "stakataka"
         ]
     ]
 }

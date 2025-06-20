@@ -1,0 +1,204 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:timer_ball"
+        },
+        "title": {
+            "translate": "Paradoxes"
+        },
+        "description": {
+            "translate": "Have any Paradox Pokémon in your party"
+        },
+        "background": "cobblemon:textures/gui/advancements/backgrounds/cobblemon.png",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "greattusk": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:greattusk"
+                ]
+            }
+        },
+        "screamtail": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:screamtail"
+                ]
+            }
+        },
+        "brutebonnet": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:brutebonnet"
+                ]
+            }
+        },
+        "fluttermane": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:fluttermane"
+                ]
+            }
+        },
+        "slitherwing": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:slitherwing"
+                ]
+            }
+        },
+        "sandyshocks": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:sandyshocks"
+                ]
+            }
+        },
+        "roaringmoon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:roaringmoon"
+                ]
+            }
+        },
+        "walkingwake": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:walkingwake"
+                ]
+            }
+        },
+        "ragingbolt": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ragingbolt"
+                ]
+            }
+        },
+        "gougingfire": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:gougingfire"
+                ]
+            }
+        },
+        "irontreads": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:irontreads"
+                ]
+            }
+        },
+        "ironbundle": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ironbundle"
+                ]
+            }
+        },
+        "ironhands": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ironhands"
+                ]
+            }
+        },
+        "ironjugulis": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ironjugulis"
+                ]
+            }
+        },
+        "ironmoth": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ironmoth"
+                ]
+            }
+        },
+        "ironthorns": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ironthorns"
+                ]
+            }
+        },
+        "ironvaliant": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ironvaliant"
+                ]
+            }
+        },
+        "ironleaves": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ironleaves"
+                ]
+            }
+        },
+        "ironboulder": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ironboulder"
+                ]
+            }
+        },
+        "ironcrown": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ironcrown"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "greattusk",
+            "screamtail",
+            "brutebonnet",
+            "fluttermane",
+            "slitherwing",
+            "sandyshocks",
+            "roaringmoon",
+            "walkingwake",
+            "ragingbolt",
+            "gougingfire",
+            "irontreads",
+            "ironbundle",
+            "ironhands",
+            "ironjugulis",
+            "ironmoth",
+            "ironthorns",
+            "ironvaliant",
+            "ironleaves",
+            "ironboulder",
+            "ironcrown"
+        ]
+    ]
+}

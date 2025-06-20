@@ -1,0 +1,123 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:beast_ball"
+        },
+        "title": {
+            "translate": "Ultra Beasts"
+        },
+        "description": {
+            "translate": "Have any Ultra Beast in your party"
+        },
+        "background": "cobblemon:textures/gui/advancements/backgrounds/cobblemon.png",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "nihilego": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nihilego"
+                ]
+            }
+        },
+        "buzzwole": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:buzzwole"
+                ]
+            }
+        },
+        "pheromosa": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pheromosa"
+                ]
+            }
+        },
+        "xurkitree": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:xurkitree"
+                ]
+            }
+        },
+        "celesteela": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:celesteela"
+                ]
+            }
+        },
+        "kartana": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kartana"
+                ]
+            }
+        },
+        "guzzlord": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:guzzlord"
+                ]
+            }
+        },
+        "poipole": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:poipole"
+                ]
+            }
+        },
+        "naganadel": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:naganadel"
+                ]
+            }
+        },
+        "stakataka": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:stakataka"
+                ]
+            }
+        },
+        "blacephalon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:blacephalon"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "nihilego",
+            "buzzwole",
+            "pheromosa",
+            "xurkitree",
+            "celesteela",
+            "kartana",
+            "guzzlord",
+            "poipole",
+            "naganadel",
+            "stakataka",
+            "blacephalon"
+        ]
+    ]
+}
