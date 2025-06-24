@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:drowzee",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "I Won't Make an Mandjtv Joke Here"
+        },
+        "description": {
+            "translate": "Have Drowzee in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "drowzee": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:drowzee"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "drowzee"
+        ]
+    ]
+}

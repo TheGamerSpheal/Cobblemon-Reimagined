@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:raticate",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Raticate"
+        },
+        "description": {
+            "translate": "Have Raticate in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/rattata",
+    "criteria": {
+        "raticate": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:raticate"
+                ]
+            }
+        },
+        "evolve_raticate": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:rattata",
+				"evolution": "cobblemon:raticate"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "raticate",
+            "evolve_raticate"
+        ]
+    ]
+}

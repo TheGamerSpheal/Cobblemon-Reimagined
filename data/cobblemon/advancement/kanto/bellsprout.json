@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:bellsprout",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Bellsprout"
+        },
+        "description": {
+            "translate": "Have Bellsprout in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "bellsprout": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:bellsprout"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bellsprout"
+        ]
+    ]
+}

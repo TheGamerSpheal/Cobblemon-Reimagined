@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:sandslash",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "You Can't Catch Me! I'm the Fastest Thing Alive!"
+        },
+        "description": {
+            "translate": "Have Sandslash in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/sandshrew",
+    "criteria": {
+        "sandslash": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:sandslash"
+                ]
+            }
+        },
+        "evolve_sandslash": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:sandshrew",
+				"evolution": "cobblemon:sandslash"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "sandslash",
+            "evolve_sandslash"
+        ]
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:arcanine",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "This is Fine"
+        },
+        "description": {
+            "translate": "Have Arcanine in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/growlithe",
+    "criteria": {
+        "arcanine": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:arcanine"
+                ]
+            }
+        },
+        "evolve_arcanine": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:growlithe",
+				"evolution": "cobblemon:arcanine"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "arcanine",
+            "evolve_arcanine"
+        ]
+    ]
+}

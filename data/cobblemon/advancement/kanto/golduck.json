@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:golduck",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Their Names Should've Been Switched"
+        },
+        "description": {
+            "translate": "Have Golduck in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/psyduck",
+    "criteria": {
+        "golduck": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:golduck"
+                ]
+            }
+        },
+        "evolve_golduck": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:psyduck",
+				"evolution": "cobblemon:golduck"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "golduck",
+            "evolve_golduck"
+        ]
+    ]
+}

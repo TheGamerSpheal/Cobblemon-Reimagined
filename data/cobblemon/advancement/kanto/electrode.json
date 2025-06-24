@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:electrode",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "I Am Become Death, Destroyer of Worlds"
+        },
+        "description": {
+            "translate": "Have Electrode in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/voltorb",
+    "criteria": {
+        "electrode": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:electrode"
+                ]
+            }
+        },
+        "evolve_electrode": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:voltorb",
+				"evolution": "cobblemon:electrode"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "electrode",
+            "evolve_electrode"
+        ]
+    ]
+}

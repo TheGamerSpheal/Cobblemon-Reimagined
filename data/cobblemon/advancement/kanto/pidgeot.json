@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:pidgeot",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Do a Barrell Roll"
+        },
+        "description": {
+            "translate": "Have Pidgeot in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/pidgeotto",
+    "criteria": {
+        "pidgeot": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pidgeot"
+                ]
+            }
+        },
+        "evolve_pidgeot": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:pidgeotto",
+				"evolution": "cobblemon:pidgeot"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "pidgeot",
+            "evolve_pidgeot"
+        ]
+    ]
+}

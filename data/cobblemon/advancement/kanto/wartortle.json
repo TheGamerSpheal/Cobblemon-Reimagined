@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:wartortle",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Wartortle"
+        },
+        "description": {
+            "translate": "Have Wartortle in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/squirtle",
+    "criteria": {
+        "wartortle": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:wartortle"
+                ]
+            }
+        },
+        "evolve_wartortle": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:squirtle",
+				"evolution": "cobblemon:wartortle"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "wartortle",
+            "evolve_wartortle"
+        ]
+    ]
+}

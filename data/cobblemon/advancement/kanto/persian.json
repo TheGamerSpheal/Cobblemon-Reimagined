@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:persian",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "That's One Rich Cat"
+        },
+        "description": {
+            "translate": "Have Persian in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/meowth",
+    "criteria": {
+        "persian": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:persian"
+                ]
+            }
+        },
+        "evolve_persian": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:meowth",
+				"evolution": "cobblemon:persian"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "persian",
+            "evolve_persian"
+        ]
+    ]
+}

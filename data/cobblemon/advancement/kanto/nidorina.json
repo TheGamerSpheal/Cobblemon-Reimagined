@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:nidorina",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Nidorina"
+        },
+        "description": {
+            "translate": "Have Nidorina in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/nidoranf",
+    "criteria": {
+        "nidorina": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nidorina"
+                ]
+            }
+        },
+        "evolve_nidorina": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:nidoranf",
+				"evolution": "cobblemon:nidorina"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "nidorina",
+            "evolve_nidorina"
+        ]
+    ]
+}

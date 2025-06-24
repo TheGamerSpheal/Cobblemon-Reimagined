@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:dugtrio",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Trio! Trio! Trio!"
+        },
+        "description": {
+            "translate": "Have Dugtrio in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/diglett",
+    "criteria": {
+        "dugtrio": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dugtrio"
+                ]
+            }
+        },
+        "evolve_dugtrio": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:diglett",
+				"evolution": "cobblemon:dugtrio"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "dugtrio",
+            "evolve_dugtrio"
+        ]
+    ]
+}

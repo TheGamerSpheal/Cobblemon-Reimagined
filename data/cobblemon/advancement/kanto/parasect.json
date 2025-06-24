@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:parasect",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Last of Us"
+        },
+        "description": {
+            "translate": "Have Parasect in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/paras",
+    "criteria": {
+        "parasect": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:parasect"
+                ]
+            }
+        },
+        "evolve_parasect": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:paras",
+				"evolution": "cobblemon:parasect"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "parasect",
+            "evolve_parasect"
+        ]
+    ]
+}

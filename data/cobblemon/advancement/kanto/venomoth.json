@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:venomoth",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Venomoth"
+        },
+        "description": {
+            "translate": "Have Venomoth in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/venonat",
+    "criteria": {
+        "venomoth": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:venomoth"
+                ]
+            }
+        },
+        "evolve_venomoth": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:venonat",
+				"evolution": "cobblemon:venomoth"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "venomoth",
+            "evolve_venomoth"
+        ]
+    ]
+}

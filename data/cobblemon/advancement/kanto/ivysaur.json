@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:ivysaur",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Ivysaur"
+        },
+        "description": {
+            "translate": "Have Ivysaur in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/bulbasaur",
+    "criteria": {
+        "ivysaur": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ivysaur"
+                ]
+            }
+        },
+        "evolve_ivysaur": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:bulbasaur",
+				"evolution": "cobblemon:ivysaur"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "ivysaur",
+            "evolve_ivysaur"
+        ]
+    ]
+}

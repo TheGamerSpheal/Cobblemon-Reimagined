@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:tentacruel",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Cruel Squid"
+        },
+        "description": {
+            "translate": "Have Tentacruel in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/tentacool",
+    "criteria": {
+        "tentacruel": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tentacruel"
+                ]
+            }
+        },
+        "evolve_tentacruel": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:tentacool",
+				"evolution": "cobblemon:tentacruel"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "tentacruel",
+            "evolve_tentacruel"
+        ]
+    ]
+}

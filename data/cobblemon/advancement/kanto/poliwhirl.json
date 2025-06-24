@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:poliwhirl",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Poliwhirl"
+        },
+        "description": {
+            "translate": "Have Poliwhirl in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/poliwag",
+    "criteria": {
+        "poliwhirl": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:poliwhirl"
+                ]
+            }
+        },
+        "evolve_poliwhirl": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:poliwag",
+				"evolution": "cobblemon:poliwhirl"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "poliwhirl",
+            "evolve_poliwhirl"
+        ]
+    ]
+}

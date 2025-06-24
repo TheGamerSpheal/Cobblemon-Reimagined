@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:dodrio",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "It's Not Flying, It's Falling... With Style"
+        },
+        "description": {
+            "translate": "Have Dodrio in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/doduo",
+    "criteria": {
+        "dodrio": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dodrio"
+                ]
+            }
+        },
+        "evolve_dodrio": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:doduo",
+				"evolution": "cobblemon:dodrio"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "dodrio",
+            "evolve_dodrio"
+        ]
+    ]
+}

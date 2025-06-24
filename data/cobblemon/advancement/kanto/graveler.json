@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:graveler",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "My Middle Name is DANGER!"
+        },
+        "description": {
+            "translate": "Have Graveler in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/geodude",
+    "criteria": {
+        "graveler": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:graveler"
+                ]
+            }
+        },
+        "evolve_graveler": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:geodude",
+				"evolution": "cobblemon:graveler"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "graveler",
+            "evolve_graveler"
+        ]
+    ]
+}

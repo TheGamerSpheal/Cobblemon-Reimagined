@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:ninetales",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Tails? The Name's... NINE!"
+        },
+        "description": {
+            "translate": "Have Ninetales in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/vulpix",
+    "criteria": {
+        "ninetales": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ninetales"
+                ]
+            }
+        },
+        "evolve_ninetales": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:vulpix",
+				"evolution": "cobblemon:ninetales"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "ninetales",
+            "evolve_ninetales"
+        ]
+    ]
+}

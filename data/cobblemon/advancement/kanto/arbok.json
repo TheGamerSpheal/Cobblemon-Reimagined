@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:arbok",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "To Protect the World from Devastation!"
+        },
+        "description": {
+            "translate": "Have Arbok in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/ekans",
+    "criteria": {
+        "arbok": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:arbok"
+                ]
+            }
+        },
+        "evolve_arbok": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:ekans",
+				"evolution": "cobblemon:arbok"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "arbok",
+            "evolve_arbok"
+        ]
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:charmeleon",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "It's Not Just a Phase, Mom!"
+        },
+        "description": {
+            "translate": "Have Charmeleon in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/charmander",
+    "criteria": {
+        "charmeleon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:charmeleon"
+                ]
+            }
+        },
+        "evolve_charmeleon": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:charmander",
+				"evolution": "cobblemon:charmeleon"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "charmeleon",
+            "evolve_charmeleon"
+        ]
+    ]
+}

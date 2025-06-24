@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:primeape",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Left in Training, Never to be Seen Again"
+        },
+        "description": {
+            "translate": "Have Primeape in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/mankey",
+    "criteria": {
+        "primeape": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:primeape"
+                ]
+            }
+        },
+        "evolve_primeape": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:mankey",
+				"evolution": "cobblemon:primeape"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "primeape",
+            "evolve_primeape"
+        ]
+    ]
+}

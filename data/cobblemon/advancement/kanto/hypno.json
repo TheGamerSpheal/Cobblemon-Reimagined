@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:hypno",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Really, Really Creepy"
+        },
+        "description": {
+            "translate": "Have Hypno in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/drowzee",
+    "criteria": {
+        "hypno": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:hypno"
+                ]
+            }
+        },
+        "evolve_hypno": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:drowzee",
+				"evolution": "cobblemon:hypno"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "hypno",
+            "evolve_hypno"
+        ]
+    ]
+}

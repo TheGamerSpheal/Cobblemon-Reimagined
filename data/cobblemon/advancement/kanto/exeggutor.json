@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:exeggutor",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Exeggutor"
+        },
+        "description": {
+            "translate": "Have Exeggutor in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/exeggcute",
+    "criteria": {
+        "exeggutor": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:exeggutor"
+                ]
+            }
+        },
+        "evolve_exeggutor": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:exeggcute",
+				"evolution": "cobblemon:exeggutor"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "exeggutor",
+            "evolve_exeggutor"
+        ]
+    ]
+}

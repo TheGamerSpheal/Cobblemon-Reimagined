@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:rapidash",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Rapidash"
+        },
+        "description": {
+            "translate": "Have Rapidash in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/ponyta",
+    "criteria": {
+        "rapidash": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:rapidash"
+                ]
+            }
+        },
+        "evolve_rapidash": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:ponyta",
+				"evolution": "cobblemon:rapidash"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "rapidash",
+            "evolve_rapidash"
+        ]
+    ]
+}

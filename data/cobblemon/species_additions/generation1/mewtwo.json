@@ -4,28 +4,5 @@
     "synchronize",
     "trace",
     "h:unnerve"
-  ],
-  "features": [
-    "mega"
-  ],
-  "forms": [
-    {
-      "name": "Mega-X",
-      "aspects": [
-        "mega_x"
-      ],
-      "abilities": [
-        "synchronize"
-      ]
-    },
-    {
-      "name": "Mega-Y",
-      "aspects": [
-        "mega_y"
-      ],
-      "abilities": [
-        "synchronize"
-      ]
-    }
   ]
 }

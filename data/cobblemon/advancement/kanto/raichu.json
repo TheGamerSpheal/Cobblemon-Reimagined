@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:raichu",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Shock to the System"
+        },
+        "description": {
+            "translate": "Have Raichu in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/pikachu",
+    "criteria": {
+        "raichu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:raichu"
+                ]
+            }
+        },
+        "evolve_raichu": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:pikachu",
+				"evolution": "cobblemon:raichu"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "raichu",
+            "evolve_raichu"
+        ]
+    ]
+}

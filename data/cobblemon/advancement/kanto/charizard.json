@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:charizard",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Can't Beat the Heat!"
+        },
+        "description": {
+            "translate": "Have Charizard in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/charmeleon",
+    "criteria": {
+        "charizard": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:charizard"
+                ]
+            }
+        },
+        "evolve_charizard": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:charmeleon",
+				"evolution": "cobblemon:charizard"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "charizard",
+            "evolve_charizard"
+        ]
+    ]
+}

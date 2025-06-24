@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:butterfree",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "We All Cried in That Episode"
+        },
+        "description": {
+            "translate": "Have Butterfree in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/metapod",
+    "criteria": {
+        "butterfree": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:butterfree"
+                ]
+            }
+        },
+        "evolve_butterfree": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:metapod",
+				"evolution": "cobblemon:butterfree"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "butterfree",
+            "evolve_butterfree"
+        ]
+    ]
+}

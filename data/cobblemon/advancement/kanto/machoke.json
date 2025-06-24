@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:machoke",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Machoke"
+        },
+        "description": {
+            "translate": "Have Machoke in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/machop",
+    "criteria": {
+        "machoke": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:machoke"
+                ]
+            }
+        },
+        "evolve_machoke": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:machop",
+				"evolution": "cobblemon:machoke"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "machoke",
+            "evolve_machoke"
+        ]
+    ]
+}

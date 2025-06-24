@@ -1153,4 +1153,75 @@ Total:                 440            465 +25
 </pre>
 </details>
 
+<details>
+<summary>Golduck</summary>
+<pre>
+Regular Typing --> New Typing
+Water              Water
+                   Psychic
+</pre>
+<pre>
+Regular Abilities --> New Abilities
+Damp                  Hydration
+Cloud Nine            Cloud Nine
+Hidden: Swift Swim    Hidden: Swift Swim
+</pre>
+</details>
+
+<details>
+<summary>Growlithe</summary>
+<pre>
+Regular Abilities --> New Abilities
+Intimidate            Initmidate
+Flash Fire            Flash Fire
+Hidden: Justified     Hidden: Defiant
+</pre>
+</details>
+
+<details>
+<summary>Hisuian Growlithe</summary>
+<pre>
+Regular Abilities --> New Abilities
+Intimidate            Initmidate
+Flash Fire            Rock Head
+Hidden: Rock Head     Hidden: Defiant
+</pre>
+</details>
+
+<details>
+<summary>Arcanine</summary>
+<pre>
+Regular Abilities --> New Abilities
+Intimidate            Initmidate
+Flash Fire            Flash Fire
+Hidden: Justified     Hidden: Defiant
+</pre>
+<pre>
+Regular Moves --> New Moves
+1: Bite           1: Howl
+1: Roar           1: Bite
+1: Fire Fang      1: Flame Wheel
+1: Odor Sleuth    1: Leer
+1: Extreme Speed  1: Retaliate
+1: Helping Hand   1: Roar
+1: Retaliate      1: Thunder Fang
+1: Burn Up        1: Take Down
+1: Flame Wheel    5: Ember
+1: Agility        15: Flame Wheel
+1: Crunch         20: Helping Hand
+1: Take Down      25: Agility
+1: Play Rough     30: Fire Fang
+1: Reversal       35: Reversal
+1: Flare Blitz    40: Burn Up
+1: Ember          45: Crunch
+1: Leer           50: Take Down
+1: Howl           55: Flamethrower
+1: Flame Burst    60: Outrage
+5: Flamethrower   60: Close Combat
+                  65: Play Rough
+                  70: Heat Wave
+                  75: Flare Blitz
+</pre>
+</details>
+
 </details>

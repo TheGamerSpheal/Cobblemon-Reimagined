@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:golbat",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "I'm Vengeance!"
+        },
+        "description": {
+            "translate": "Have Golbat in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/zubat",
+    "criteria": {
+        "golbat": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:golbat"
+                ]
+            }
+        },
+        "evolve_golbat": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:zubat",
+				"evolution": "cobblemon:golbat"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "golbat",
+            "evolve_golbat"
+        ]
+    ]
+}

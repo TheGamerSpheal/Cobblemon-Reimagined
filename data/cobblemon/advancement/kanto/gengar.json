@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:gengar",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Another One Bites the Dust"
+        },
+        "description": {
+            "translate": "Have Gengar in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/haunter",
+    "criteria": {
+        "gengar": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:gengar"
+                ]
+            }
+        },
+        "evolve_gengar": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:haunter",
+				"evolution": "cobblemon:gengar"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "gengar",
+            "evolve_gengar"
+        ]
+    ]
+}

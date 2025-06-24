@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:gloom",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Gloom"
+        },
+        "description": {
+            "translate": "Have Gloom in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/oddish",
+    "criteria": {
+        "gloom": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:gloom"
+                ]
+            }
+        },
+        "evolve_gloom": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:oddish",
+				"evolution": "cobblemon:gloom"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "gloom",
+            "evolve_gloom"
+        ]
+    ]
+}

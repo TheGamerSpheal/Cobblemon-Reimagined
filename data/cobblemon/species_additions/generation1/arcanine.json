@@ -5,14 +5,6 @@
     "flashfire",
     "h:defiant"
   ],
-  "baseStats": {
-    "hp": 90,
-    "attack": 110,
-    "defence": 80,
-    "special_attack": 100,
-    "special_defence": 80,
-    "speed": 95
-  },
   "moves": [
     "1:howl",
     "1:bite",
@@ -174,14 +166,6 @@
         "rockhead",
         "h:defiant"
       ],
-      "baseStats": {
-        "hp": 95,
-        "attack": 115,
-        "defence": 80,
-        "special_attack": 95,
-        "special_defence": 80,
-        "speed": 90
-      },
       "moves": [
         "1:howl",
         "1:agility",

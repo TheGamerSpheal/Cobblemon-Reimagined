@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:kingler",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Kingler"
+        },
+        "description": {
+            "translate": "Have Kingler in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/krabby",
+    "criteria": {
+        "kingler": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kingler"
+                ]
+            }
+        },
+        "evolve_kingler": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:krabby",
+				"evolution": "cobblemon:kingler"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "kingler",
+            "evolve_kingler"
+        ]
+    ]
+}

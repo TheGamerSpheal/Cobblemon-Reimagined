@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:kadabra",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Kadabra"
+        },
+        "description": {
+            "translate": "Have Kadabra in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/abra",
+    "criteria": {
+        "kadabra": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kadabra"
+                ]
+            }
+        },
+        "evolve_kadabra": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:abra",
+				"evolution": "cobblemon:kadabra"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "kadabra",
+            "evolve_kadabra"
+        ]
+    ]
+}

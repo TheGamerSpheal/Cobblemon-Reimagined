@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:slowbro",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Inner Machinations of My Mind Are an Enigma"
+        },
+        "description": {
+            "translate": "Have Slowbro in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/slowpoke",
+    "criteria": {
+        "slowbro": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:slowbro"
+                ]
+            }
+        },
+        "evolve_slowbro": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:slowpoke",
+				"evolution": "cobblemon:slowbro"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "slowbro",
+            "evolve_slowbro"
+        ]
+    ]
+}

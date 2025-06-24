@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:muk",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Muk"
+        },
+        "description": {
+            "translate": "Have Muk in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/grimer",
+    "criteria": {
+        "muk": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:muk"
+                ]
+            }
+        },
+        "evolve_muk": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:grimer",
+				"evolution": "cobblemon:muk"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "muk",
+            "evolve_muk"
+        ]
+    ]
+}

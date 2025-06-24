@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:victreebel",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "To Extend Our Reach to the Stars Above!"
+        },
+        "description": {
+            "translate": "Have Victreebel in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/weepinbell",
+    "criteria": {
+        "victreebel": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:victreebel"
+                ]
+            }
+        },
+        "evolve_victreebel": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:weepinbell",
+				"evolution": "cobblemon:victreebel"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "victreebel",
+            "evolve_victreebel"
+        ]
+    ]
+}

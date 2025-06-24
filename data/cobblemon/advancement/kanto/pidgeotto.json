@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:pidgeotto",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Pidgeotto"
+        },
+        "description": {
+            "translate": "Have Pidgeotto in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/pidgey",
+    "criteria": {
+        "pidgeotto": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pidgeotto"
+                ]
+            }
+        },
+        "evolve_pidgeotto": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:pidgey",
+				"evolution": "cobblemon:pidgeotto"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "pidgeotto",
+            "evolve_pidgeotto"
+        ]
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:dewgong",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Dewgong"
+        },
+        "description": {
+            "translate": "Have Dewgong in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/seel",
+    "criteria": {
+        "dewgong": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dewgong"
+                ]
+            }
+        },
+        "evolve_dewgong": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:seel",
+				"evolution": "cobblemon:dewgong"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "seel",
+            "evolve_dewgong"
+        ]
+    ]
+}

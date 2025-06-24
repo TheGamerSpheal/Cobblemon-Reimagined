@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:golem",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Yes Rico, Kaboom"
+        },
+        "description": {
+            "translate": "Have Golem in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/graveler",
+    "criteria": {
+        "golem": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:golem"
+                ]
+            }
+        },
+        "evolve_golem": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:graveler",
+				"evolution": "cobblemon:golem"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "golem",
+            "evolve_golem"
+        ]
+    ]
+}

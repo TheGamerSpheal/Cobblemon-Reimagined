@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:beedrill",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Not the Bees!"
+        },
+        "description": {
+            "translate": "Have Beedrill in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kakuna",
+    "criteria": {
+        "beedrill": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:beedrill"
+                ]
+            }
+        },
+        "evolve_beedrill": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:kakuna",
+				"evolution": "cobblemon:beedrill"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "beedrill",
+            "evolve_beedrill"
+        ]
+    ]
+}

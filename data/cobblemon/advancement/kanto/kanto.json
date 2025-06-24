@@ -1,0 +1,1382 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:poke_ball"
+        },
+        "title": {
+            "translate": "Kanto"
+        },
+        "description": {
+            "translate": "Have any Kanto Pokémon in your party"
+        },
+        "background": "cobblemon:textures/gui/advancements/backgrounds/cobblemon.png",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bulbasaur": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:bulbasaur"
+                ]
+            }
+        },
+        "ivysaur": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ivysaur"
+                ]
+            }
+        },
+        "venusaur": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:venusaur"
+                ]
+            }
+        },
+        "charmander": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:charmander"
+                ]
+            }
+        },
+        "charmeleon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:charmeleon"
+                ]
+            }
+        },
+        "charizard": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:charizard"
+                ]
+            }
+        },
+        "squirtle": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:squirtle"
+                ]
+            }
+        },
+        "wartortle": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:wartortle"
+                ]
+            }
+        },
+        "blastoise": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:blastoise"
+                ]
+            }
+        },
+        "caterpie": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:caterpie"
+                ]
+            }
+        },
+        "metapod": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:metapod"
+                ]
+            }
+        },
+        "butterfree": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:butterfree"
+                ]
+            }
+        },
+        "weedle": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:weedle"
+                ]
+            }
+        },
+        "kakuna": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kakuna"
+                ]
+            }
+        },
+        "beedrill": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:beedrill"
+                ]
+            }
+        },
+        "pidgey": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pidgey"
+                ]
+            }
+        },
+        "pidgeotto": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pidgeotto"
+                ]
+            }
+        },
+        "pidgeot": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pidgeot"
+                ]
+            }
+        },
+        "rattata": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:rattata"
+                ]
+            }
+        },
+        "raticate": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:raticate"
+                ]
+            }
+        },
+        "spearow": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:spearow"
+                ]
+            }
+        },
+        "fearow": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:fearow"
+                ]
+            }
+        },
+        "ekans": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ekans"
+                ]
+            }
+        },
+        "arbok": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:arbok"
+                ]
+            }
+        },
+        "pikachu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pikachu"
+                ]
+            }
+        },
+        "raichu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:raichu"
+                ]
+            }
+        },
+        "sandshrew": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:sandshrew"
+                ]
+            }
+        },
+        "sandslash": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:sandslash"
+                ]
+            }
+        },
+        "nidoran_f": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nidoran_f"
+                ]
+            }
+        },
+        "nidorina": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nidorina"
+                ]
+            }
+        },
+        "nidoqueen": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nidoqueen"
+                ]
+            }
+        },
+        "nidoran_m": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nidoran_m"
+                ]
+            }
+        },
+        "nidorino": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nidorino"
+                ]
+            }
+        },
+        "nidoking": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nidoking"
+                ]
+            }
+        },
+        "clefairy": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:clefairy"
+                ]
+            }
+        },
+        "clefable": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:clefable"
+                ]
+            }
+        },
+        "vulpix": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:vulpix"
+                ]
+            }
+        },
+        "ninetales": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ninetales"
+                ]
+            }
+        },
+        "jigglypuff": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:jigglypuff"
+                ]
+            }
+        },
+        "wigglytuff": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:wigglytuff"
+                ]
+            }
+        },
+        "zubat": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zubat"
+                ]
+            }
+        },
+        "golbat": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:golbat"
+                ]
+            }
+        },
+        "oddish": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:oddish"
+                ]
+            }
+        },
+        "gloom": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:gloom"
+                ]
+            }
+        },
+        "vileplume": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:vileplume"
+                ]
+            }
+        },
+        "paras": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:paras"
+                ]
+            }
+        },
+        "parasect": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:parasect"
+                ]
+            }
+        },
+        "venonat": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:venonat"
+                ]
+            }
+        },
+        "venomoth": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:venomoth"
+                ]
+            }
+        },
+        "diglett": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:diglett"
+                ]
+            }
+        },
+        "dugtrio": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dugtrio"
+                ]
+            }
+        },
+        "meowth": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:meowth"
+                ]
+            }
+        },
+        "persian": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:persian"
+                ]
+            }
+        },
+        "psyduck": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:psyduck"
+                ]
+            }
+        },
+        "golduck": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:golduck"
+                ]
+            }
+        },
+        "mankey": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:mankey"
+                ]
+            }
+        },
+        "primeape": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:primeape"
+                ]
+            }
+        },
+        "growlithe": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:growlithe"
+                ]
+            }
+        },
+        "arcanine": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:arcanine"
+                ]
+            }
+        },
+        "poliwag": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:poliwag"
+                ]
+            }
+        },
+        "poliwhirl": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:poliwhirl"
+                ]
+            }
+        },
+        "poliwrath": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:poliwrath"
+                ]
+            }
+        },
+        "abra": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:abra"
+                ]
+            }
+        },
+        "kadabra": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kadabra"
+                ]
+            }
+        },
+        "alakazam": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:alakazam"
+                ]
+            }
+        },
+        "machop": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:machop"
+                ]
+            }
+        },
+        "machoke": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:machoke"
+                ]
+            }
+        },
+        "machamp": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:machamp"
+                ]
+            }
+        },
+        "bellsprout": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:bellsprout"
+                ]
+            }
+        },
+        "weepinbell": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:weepinbell"
+                ]
+            }
+        },
+        "victreebel": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:victreebel"
+                ]
+            }
+        },
+        "tentacool": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tentacool"
+                ]
+            }
+        },
+        "tentacruel": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tentacruel"
+                ]
+            }
+        },
+        "geodude": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:geodude"
+                ]
+            }
+        },
+        "graveler": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:graveler"
+                ]
+            }
+        },
+        "golem": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:golem"
+                ]
+            }
+        },
+        "ponyta": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ponyta"
+                ]
+            }
+        },
+        "rapidash": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:rapidash"
+                ]
+            }
+        },
+        "slowpoke": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:slowpoke"
+                ]
+            }
+        },
+        "slowbro": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:slowbro"
+                ]
+            }
+        },
+        "magnemite": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:magnemite"
+                ]
+            }
+        },
+        "magneton": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:magneton"
+                ]
+            }
+        },
+        "farfetchd": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:farfetchd"
+                ]
+            }
+        },
+        "doduo": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:doduo"
+                ]
+            }
+        },
+        "dodrio": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dodrio"
+                ]
+            }
+        },
+        "seel": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:seel"
+                ]
+            }
+        },
+        "dewgong": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dewgong"
+                ]
+            }
+        },
+        "grimer": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:grimer"
+                ]
+            }
+        },
+        "muk": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:muk"
+                ]
+            }
+        },
+        "shellder": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:shellder"
+                ]
+            }
+        },
+        "cloyster": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:cloyster"
+                ]
+            }
+        },
+        "gastly": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:gastly"
+                ]
+            }
+        },
+        "haunter": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:haunter"
+                ]
+            }
+        },
+        "gengar": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:gengar"
+                ]
+            }
+        },
+        "onix": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:onix"
+                ]
+            }
+        },
+        "drowzee": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:drowzee"
+                ]
+            }
+        },
+        "hypno": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:hypno"
+                ]
+            }
+        },
+        "krabby": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:krabby"
+                ]
+            }
+        },
+        "kingler": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kingler"
+                ]
+            }
+        },
+        "voltorb": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:voltorb"
+                ]
+            }
+        },
+        "electrode": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:electrode"
+                ]
+            }
+        },
+        "exeggcute": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:exeggcute"
+                ]
+            }
+        },
+        "exeggutor": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:exeggutor"
+                ]
+            }
+        },
+        "cubone": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:cubone"
+                ]
+            }
+        },
+        "marowak": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:marowak"
+                ]
+            }
+        },
+        "hitmonlee": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:hitmonlee"
+                ]
+            }
+        },
+        "hitmonchan": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:hitmonchan"
+                ]
+            }
+        },
+        "lickitung": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:lickitung"
+                ]
+            }
+        },
+        "koffing": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:koffing"
+                ]
+            }
+        },
+        "weezing": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:weezing"
+                ]
+            }
+        },
+        "rhyhorn": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:rhyhorn"
+                ]
+            }
+        },
+        "rhydon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:rhydon"
+                ]
+            }
+        },
+        "chansey": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:chansey"
+                ]
+            }
+        },
+        "tangela": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tangela"
+                ]
+            }
+        },
+        "kangaskhan": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kangaskhan"
+                ]
+            }
+        },
+        "horsea": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:horsea"
+                ]
+            }
+        },
+        "seadra": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:seadra"
+                ]
+            }
+        },
+        "goldeen": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:goldeen"
+                ]
+            }
+        },
+        "seaking": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:seaking"
+                ]
+            }
+        },
+        "staryu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:staryu"
+                ]
+            }
+        },
+        "starmie": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:starmie"
+                ]
+            }
+        },
+        "mr_mime": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:mr_mime"
+                ]
+            }
+        },
+        "scyther": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:scyther"
+                ]
+            }
+        },
+        "jynx": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:jynx"
+                ]
+            }
+        },
+        "electabuzz": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:electabuzz"
+                ]
+            }
+        },
+        "magmar": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:magmar"
+                ]
+            }
+        },
+        "pinsir": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pinsir"
+                ]
+            }
+        },
+        "tauros": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tauros"
+                ]
+            }
+        },
+        "magikarp": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:magikarp"
+                ]
+            }
+        },
+        "gyarados": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:gyarados"
+                ]
+            }
+        },
+        "lapras": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:lapras"
+                ]
+            }
+        },
+        "ditto": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ditto"
+                ]
+            }
+        },
+        "eevee": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:eevee"
+                ]
+            }
+        },
+        "vaporeon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:vaporeon"
+                ]
+            }
+        },
+        "jolteon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:jolteon"
+                ]
+            }
+        },
+        "flareon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:flareon"
+                ]
+            }
+        },
+        "porygon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:porygon"
+                ]
+            }
+        },
+        "omanyte": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:omanyte"
+                ]
+            }
+        },
+        "omastar": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:omastar"
+                ]
+            }
+        },
+        "kabuto": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kabuto"
+                ]
+            }
+        },
+        "kabutops": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kabutops"
+                ]
+            }
+        },
+        "aerodactyl": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:aerodactyl"
+                ]
+            }
+        },
+        "snorlax": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:snorlax"
+                ]
+            }
+        },
+        "articuno": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:articuno"
+                ]
+            }
+        },
+        "zapdos": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zapdos"
+                ]
+            }
+        },
+        "moltres": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:moltres"
+                ]
+            }
+        },
+        "dratini": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dratini"
+                ]
+            }
+        },
+        "dragonair": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dragonair"
+                ]
+            }
+        },
+        "dragonite": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dragonite"
+                ]
+            }
+        },
+        "mewtwo": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:mewtwo"
+                ]
+            }
+        },
+        "mew": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:mew"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bulbasaur",
+            "ivysaur",
+            "venusaur",
+            "charmander",
+            "charmeleon",
+            "charizard",
+            "squirtle",
+            "wartortle",
+            "blastoise",
+            "caterpie",
+            "metapod",
+            "butterfree",
+            "weedle",
+            "kakuna",
+            "beedrill",
+            "pidgey",
+            "pidgeotto",
+            "pidgeot",
+            "rattata",
+            "raticate",
+            "spearow",
+            "fearow",
+            "ekans",
+            "arbok",
+            "pikachu",
+            "raichu",
+            "sandshrew",
+            "sandslash",
+            "nidoran_f",
+            "nidorina",
+            "nidoqueen",
+            "nidoran_m",
+            "nidorino",
+            "nidoking",
+            "clefairy",
+            "clefable",
+            "vulpix",
+            "ninetales",
+            "jigglypuff",
+            "wigglytuff",
+            "zubat",
+            "golbat",
+            "oddish",
+            "gloom",
+            "vileplume",
+            "paras",
+            "parasect",
+            "venonat",
+            "venomoth",
+            "diglett",
+            "dugtrio",
+            "meowth",
+            "persian",
+            "psyduck",
+            "golduck",
+            "mankey",
+            "primeape",
+            "growlithe",
+            "arcanine",
+            "poliwag",
+            "poliwhirl",
+            "poliwrath",
+            "abra",
+            "kadabra",
+            "alakazam",
+            "machop",
+            "machoke",
+            "machamp",
+            "bellsprout",
+            "weepinbell",
+            "victreebel",
+            "tentacool",
+            "tentacruel",
+            "geodude",
+            "graveler",
+            "golem",
+            "ponyta",
+            "rapidash",
+            "slowpoke",
+            "slowbro",
+            "magnemite",
+            "magneton",
+            "farfetchd",
+            "doduo",
+            "dodrio",
+            "seel",
+            "dewgong",
+            "grimer",
+            "muk",
+            "shellder",
+            "cloyster",
+            "gastly",
+            "haunter",
+            "gengar",
+            "onix",
+            "drowzee",
+            "hypno",
+            "krabby",
+            "kingler",
+            "voltorb",
+            "electrode",
+            "exeggcute",
+            "exeggutor",
+            "cubone",
+            "marowak",
+            "hitmonlee",
+            "hitmonchan",
+            "lickitung",
+            "koffing",
+            "weezing",
+            "rhyhorn",
+            "rhydon",
+            "chansey",
+            "tangela",
+            "kangaskhan",
+            "horsea",
+            "seadra",
+            "goldeen",
+            "seaking",
+            "staryu",
+            "starmie",
+            "mr_mime",
+            "scyther",
+            "jynx",
+            "electabuzz",
+            "magmar",
+            "pinsir",
+            "tauros",
+            "magikarp",
+            "gyarados",
+            "lapras",
+            "ditto",
+            "eevee",
+            "vaporeon",
+            "jolteon",
+            "flareon",
+            "porygon",
+            "omanyte",
+            "omastar",
+            "kabuto",
+            "kabutops",
+            "aerodactyl",
+            "snorlax",
+            "articuno",
+            "zapdos",
+            "moltres",
+            "dratini",
+            "dragonair",
+            "dragonite",
+            "mewtwo",
+            "mew"
+        ]
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:fearow",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Fearow"
+        },
+        "description": {
+            "translate": "Have Fearow in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/spearow",
+    "criteria": {
+        "fearow": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:fearow"
+                ]
+            }
+        },
+        "evolve_fearow": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:spearow",
+				"evolution": "cobblemon:fearow"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "fearow",
+            "evolve_fearow"
+        ]
+    ]
+}
