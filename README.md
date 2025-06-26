@@ -1,7 +1,6 @@
 <h1>Cobblemon Reimagined (WIP)</h1>
 
-This is Minecraft Cobblemon datapack that aims to breathe some new life into old pokémon, by giving them new typings, abilities, stat spreads and moves. Most inspiration is taken from the Luminescent Platinum
-Mod made by the Luminescent Team and the Radical Red ROM Hack made by Eric "Soupacell" Huang.
+This is Minecraft Cobblemon datapack that aims to breathe some new life into old pokémon, by giving them new typings, abilities, stat spreads and moves. Also gives every single Pokémon their own unique advancement, with all sorts of references to all sorts of media. Most inspiration is taken from the Luminescent Platinum Mod made by the Luminescent Team and the Radical Red ROM Hack made by Eric "Soupacell" Huang.
 
 Any suggestions are welcome
 
@@ -12,7 +11,7 @@ OBSERVATIONS:
 NEXT OBJECTIVES
 - Do the rest of the generations
 - Full list of changes made to every Pokémon
-- Advancements for catching every Pokémon (one for each Pokémon)
+- Do the rest of the advancements for catching every Pokémon
 - Put it on Modrinth and the Cobblemon Discord
 
 <details>
