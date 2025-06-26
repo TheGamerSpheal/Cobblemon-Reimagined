@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:snorlax",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "YOU! SHALL NOT! PASS!"
+        },
+        "description": {
+            "translate": "Have Snorlax in your party"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "snorlax": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:snorlax"
+                ]
+            }
+        },
+        "evolve_snorlax": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:munchlax",
+				"evolution": "cobblemon:snorlax"
+			}
+		}
+    },
+    "requirements": [
+        [
+            "snorlax",
+            "evolve_snorlax"
+        ]
+    ]
+}
