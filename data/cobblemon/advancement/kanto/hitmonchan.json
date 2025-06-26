@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:dewgong",
+                    "species": "cobblemon:hitmonchan",
                     "aspects": [
                         ""
                     ]
@@ -12,37 +12,37 @@
             }
         },
         "title": {
-            "translate": "Dewgong"
+            "translate": "Jackie Chan Adventures"
         },
         "description": {
-            "translate": "Have Dewgong in your party"
+            "translate": "Have Hitmonchan in your party"
         },
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/seel",
+    "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "dewgong": {
+        "hitmonchan": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:dewgong"
+                    "cobblemon:hitmonchan"
                 ]
             }
         },
-        "evolve_dewgong": {
+        "evolve_hitmonchan": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
-				"species": "cobblemon:seel",
-				"evolution": "cobblemon:dewgong"
+				"species": "cobblemon:tyrogue",
+				"evolution": "cobblemon:hitmonchan"
 			}
 		}
     },
     "requirements": [
         [
-            "dewgong",
-            "evolve_dewgong"
+            "hitmonchan",
+            "evolve_hitmonchan"
         ]
     ]
 }

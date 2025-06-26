@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:dewgong",
+                    "species": "cobblemon:magikarp",
                     "aspects": [
                         ""
                     ]
@@ -12,37 +12,29 @@
             }
         },
         "title": {
-            "translate": "Dewgong"
+            "translate": "But Nothing Happened!"
         },
         "description": {
-            "translate": "Have Dewgong in your party"
+            "translate": "Have Magikarp in your party"
         },
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/seel",
+    "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "dewgong": {
+        "magikarp": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:dewgong"
+                    "cobblemon:magikarp"
                 ]
             }
-        },
-        "evolve_dewgong": {
-			"trigger": "cobblemon:pokemon_evolved",
-			"conditions": {
-				"species": "cobblemon:seel",
-				"evolution": "cobblemon:dewgong"
-			}
-		}
+        }
     },
     "requirements": [
         [
-            "dewgong",
-            "evolve_dewgong"
+            "magikarp"
         ]
     ]
 }

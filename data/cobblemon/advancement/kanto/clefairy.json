@@ -30,11 +30,19 @@
                     "cobblemon:clefairy"
                 ]
             }
-        }
+        },
+        "evolve_clefairy": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:cleffa",
+				"evolution": "cobblemon:clefairy"
+			}
+		}
     },
     "requirements": [
         [
-            "clefairy"
+            "clefairy",
+            "evolve_clefairy"
         ]
     ]
 }

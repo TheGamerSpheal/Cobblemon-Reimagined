@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:dewgong",
+                    "species": "cobblemon:horsea",
                     "aspects": [
                         ""
                     ]
@@ -12,37 +12,29 @@
             }
         },
         "title": {
-            "translate": "Dewgong"
+            "translate": "Horsea"
         },
         "description": {
-            "translate": "Have Dewgong in your party"
+            "translate": "Have Horsea in your party"
         },
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/seel",
+    "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "dewgong": {
+        "horsea": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:dewgong"
+                    "cobblemon:horsea"
                 ]
             }
-        },
-        "evolve_dewgong": {
-			"trigger": "cobblemon:pokemon_evolved",
-			"conditions": {
-				"species": "cobblemon:seel",
-				"evolution": "cobblemon:dewgong"
-			}
-		}
+        }
     },
     "requirements": [
         [
-            "dewgong",
-            "evolve_dewgong"
+            "horsea"
         ]
     ]
 }

@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:dewgong",
+                    "species": "cobblemon:scyther",
                     "aspects": [
                         ""
                     ]
@@ -12,37 +12,29 @@
             }
         },
         "title": {
-            "translate": "Dewgong"
+            "translate": "Cutting Edge"
         },
         "description": {
-            "translate": "Have Dewgong in your party"
+            "translate": "Have Scyther in your party"
         },
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/seel",
+    "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "dewgong": {
+        "scyther": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:dewgong"
+                    "cobblemon:scyther"
                 ]
             }
-        },
-        "evolve_dewgong": {
-			"trigger": "cobblemon:pokemon_evolved",
-			"conditions": {
-				"species": "cobblemon:seel",
-				"evolution": "cobblemon:dewgong"
-			}
-		}
+        }
     },
     "requirements": [
         [
-            "dewgong",
-            "evolve_dewgong"
+            "scyther"
         ]
     ]
 }

@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:dewgong",
+                    "species": "cobblemon:marowak",
                     "aspects": [
                         ""
                     ]
@@ -12,37 +12,37 @@
             }
         },
         "title": {
-            "translate": "Dewgong"
+            "translate": "How Was the Fall?"
         },
         "description": {
-            "translate": "Have Dewgong in your party"
+            "translate": "Have Marowak in your party"
         },
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/seel",
+    "parent": "cobblemon:kanto/cubone",
     "criteria": {
-        "dewgong": {
+        "marowak": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:dewgong"
+                    "cobblemon:marowak"
                 ]
             }
         },
-        "evolve_dewgong": {
+        "evolve_marowak": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
-				"species": "cobblemon:seel",
-				"evolution": "cobblemon:dewgong"
+				"species": "cobblemon:cubone",
+				"evolution": "cobblemon:marowak"
 			}
 		}
     },
     "requirements": [
         [
-            "dewgong",
-            "evolve_dewgong"
+            "marowak",
+            "evolve_marowak"
         ]
     ]
 }

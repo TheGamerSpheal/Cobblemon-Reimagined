@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:dewgong",
+                    "species": "cobblemon:gyarados",
                     "aspects": [
                         ""
                     ]
@@ -12,37 +12,37 @@
             }
         },
         "title": {
-            "translate": "Dewgong"
+            "translate": "Who Let Magikarp Cook?"
         },
         "description": {
-            "translate": "Have Dewgong in your party"
+            "translate": "Have Gyrados in your party"
         },
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/seel",
+    "parent": "cobblemon:kanto/magikarp",
     "criteria": {
-        "dewgong": {
+        "gyarados": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:dewgong"
+                    "cobblemon:gyarados"
                 ]
             }
         },
-        "evolve_dewgong": {
+        "evolve_gyarados": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
-				"species": "cobblemon:seel",
-				"evolution": "cobblemon:dewgong"
+				"species": "cobblemon:magikarp",
+				"evolution": "cobblemon:gyarados"
 			}
 		}
     },
     "requirements": [
         [
-            "dewgong",
-            "evolve_dewgong"
+            "gyarados",
+            "evolve_gyarados"
         ]
     ]
 }

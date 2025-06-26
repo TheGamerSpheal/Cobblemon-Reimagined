@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:dewgong",
+                    "species": "cobblemon:rhyhorn",
                     "aspects": [
                         ""
                     ]
@@ -12,37 +12,29 @@
             }
         },
         "title": {
-            "translate": "Dewgong"
+            "translate": "Turned On a Laptop ON HIS OWN to Watch Serena"
         },
         "description": {
-            "translate": "Have Dewgong in your party"
+            "translate": "Have Rhyhorn in your party"
         },
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/seel",
+    "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "dewgong": {
+        "rhyhorn": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:dewgong"
+                    "cobblemon:rhyhorn"
                 ]
             }
-        },
-        "evolve_dewgong": {
-			"trigger": "cobblemon:pokemon_evolved",
-			"conditions": {
-				"species": "cobblemon:seel",
-				"evolution": "cobblemon:dewgong"
-			}
-		}
+        }
     },
     "requirements": [
         [
-            "dewgong",
-            "evolve_dewgong"
+            "rhyhorn"
         ]
     ]
 }

@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:dewgong",
+                    "species": "cobblemon:dragonite",
                     "aspects": [
                         ""
                     ]
@@ -12,37 +12,37 @@
             }
         },
         "title": {
-            "translate": "Dewgong"
+            "translate": "AND THIS, IS TO GO... EVEN FURTHER BEYOND!"
         },
         "description": {
-            "translate": "Have Dewgong in your party"
+            "translate": "Have Dragonite in your party"
         },
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/seel",
+    "parent": "cobblemon:kanto/dragonair",
     "criteria": {
-        "dewgong": {
+        "dragonite": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:dewgong"
+                    "cobblemon:dragonite"
                 ]
             }
         },
-        "evolve_dewgong": {
+        "evolve_dragonite": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
-				"species": "cobblemon:seel",
-				"evolution": "cobblemon:dewgong"
+				"species": "cobblemon:dragonair",
+				"evolution": "cobblemon:dragonite"
 			}
 		}
     },
     "requirements": [
         [
-            "dewgong",
-            "evolve_dewgong"
+            "dragonite",
+            "evolve_dragonite"
         ]
     ]
 }

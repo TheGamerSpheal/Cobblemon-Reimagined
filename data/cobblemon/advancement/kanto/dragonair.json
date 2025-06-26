@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:dewgong",
+                    "species": "cobblemon:dragonair",
                     "aspects": [
                         ""
                     ]
@@ -12,37 +12,37 @@
             }
         },
         "title": {
-            "translate": "Dewgong"
+            "translate": "This Is a Super Saiyan That Has Ascended Past the Super Saiyan"
         },
         "description": {
-            "translate": "Have Dewgong in your party"
+            "translate": "Have Dragonair in your party"
         },
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/seel",
+    "parent": "cobblemon:kanto/dratini",
     "criteria": {
-        "dewgong": {
+        "dragonair": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:dewgong"
+                    "cobblemon:dragonair"
                 ]
             }
         },
-        "evolve_dewgong": {
-			"trigger": "cobblemon:pokemon_evolved",
-			"conditions": {
-				"species": "cobblemon:seel",
-				"evolution": "cobblemon:dewgong"
-			}
-		}
+        "evolve_dragonair": {
+            "trigger": "cobblemon:pokemon_evolved",
+            "conditions": {
+                "species": "cobblemon:dratini",
+                "evolution": "cobblemon:dragonair"
+            }
+        }
     },
     "requirements": [
         [
-            "dewgong",
-            "evolve_dewgong"
+            "dragonair",
+            "evolve_dragonair"
         ]
     ]
 }

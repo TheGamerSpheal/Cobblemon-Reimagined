@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:dewgong",
+                    "species": "cobblemon:omastar",
                     "aspects": [
                         ""
                     ]
@@ -12,37 +12,37 @@
             }
         },
         "title": {
-            "translate": "Dewgong"
+            "translate": "Bigger Lord Helix"
         },
         "description": {
-            "translate": "Have Dewgong in your party"
+            "translate": "Have Omastar in your party"
         },
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/seel",
+    "parent": "cobblemon:kanto/omastar",
     "criteria": {
-        "dewgong": {
+        "omastar": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:dewgong"
+                    "cobblemon:omastar"
                 ]
             }
         },
-        "evolve_dewgong": {
+        "evolve_omastar": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
-				"species": "cobblemon:seel",
-				"evolution": "cobblemon:dewgong"
+				"species": "cobblemon:omanyte",
+				"evolution": "cobblemon:omastar"
 			}
 		}
     },
     "requirements": [
         [
-            "dewgong",
-            "evolve_dewgong"
+            "omastar",
+            "evolve_omastar"
         ]
     ]
 }

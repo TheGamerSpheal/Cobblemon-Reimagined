@@ -30,11 +30,19 @@
                     "cobblemon:pikachu"
                 ]
             }
-        }
+        },
+        "evolve_pikachu": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:pichu",
+				"evolution": "cobblemon:pikachu"
+			}
+		}
     },
     "requirements": [
         [
-            "pikachu"
+            "pikachu",
+            "evolve_pikachu"
         ]
     ]
 }

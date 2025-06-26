@@ -4,7 +4,7 @@
             "id": "cobblemon:pokemon_model",
             "components": {
                 "cobblemon:pokemon_item": {
-                    "species": "cobblemon:dewgong",
+                    "species": "cobblemon:kabutops",
                     "aspects": [
                         ""
                     ]
@@ -12,37 +12,37 @@
             }
         },
         "title": {
-            "translate": "Dewgong"
+            "translate": "I Have a Theroy! Wait, Didn't I Do This Already?"
         },
         "description": {
-            "translate": "Have Dewgong in your party"
+            "translate": "Have Kabutops in your party"
         },
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/seel",
+    "parent": "cobblemon:kanto/kabuto",
     "criteria": {
-        "dewgong": {
+        "kabutops": {
             "trigger": "cobblemon:party",
             "conditions": {
                 "party": [
-                    "cobblemon:dewgong"
+                    "cobblemon:kabutops"
                 ]
             }
         },
-        "evolve_dewgong": {
+        "evolve_kabutops": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
-				"species": "cobblemon:seel",
-				"evolution": "cobblemon:dewgong"
+				"species": "cobblemon:kabuto",
+				"evolution": "cobblemon:kabutops"
 			}
 		}
     },
     "requirements": [
         [
-            "dewgong",
-            "evolve_dewgong"
+            "kabutops",
+            "evolve_kabutops"
         ]
     ]
 }

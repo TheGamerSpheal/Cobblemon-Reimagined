@@ -30,11 +30,19 @@
                     "cobblemon:jigglypuff"
                 ]
             }
-        }
+        },
+        "evolve_jigglypuff": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:igglybuff",
+				"evolution": "cobblemon:jigglypuff"
+			}
+		}
     },
     "requirements": [
         [
-            "jigglypuff"
+            "jigglypuff",
+            "evolve_jigglypuff"
         ]
     ]
 }
