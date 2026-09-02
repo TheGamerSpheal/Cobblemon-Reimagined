@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Who Let Magikarp Cook?"
+            "translate": "The Carp Who Lept the Dragon Gate"
         },
         "description": {
-            "translate": "Have Gyrados in your party"
+            "translate": "Have Gyarados in your party"
         },
         "show_toast": true,
         "announce_to_chat": true,
