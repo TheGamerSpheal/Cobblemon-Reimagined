@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:meltan",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Steel Ditto"
+        },
+        "description": {
+            "translate": "Catch or trade Meltan"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0383_groudon",
+    "criteria": {
+        "meltan": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:meltan"
+            }
+        },
+        "trade_meltan": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:meltan"
+            }
+        },
+        "party_meltan": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:meltan"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "meltan",
+            "trade_meltan",
+            "party_meltan"
+        ]
+    ]
+}

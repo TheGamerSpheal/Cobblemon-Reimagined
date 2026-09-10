@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:latios",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "What Are They Gonna Do? Catch Me?"
+        },
+        "description": {
+            "translate": "Catch or trade Latios"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0483_dialga",
+    "criteria": {
+        "latios": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:latios"
+            }
+        },
+        "trade_latios": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:latios"
+            }
+        },
+        "party_latios": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:latios"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "latios",
+            "trade_latios",
+            "party_latios"
+        ]
+    ]
+}

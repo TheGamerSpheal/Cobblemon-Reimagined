@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:kyogre",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "7.8/10 Too Much Water"
+        },
+        "description": {
+            "translate": "Catch or trade Kyogre"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0384_rayquaza",
+    "criteria": {
+        "kyogre": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:kyogre"
+            }
+        },
+        "trade_kyogre": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:kyogre"
+            }
+        },
+        "party_kyogre": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kyogre"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kyogre",
+            "trade_kyogre",
+            "party_kyogre"
+        ]
+    ]
+}

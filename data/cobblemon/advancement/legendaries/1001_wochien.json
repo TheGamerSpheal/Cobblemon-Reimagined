@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:wochien",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Live Wo-Chien Reaction:"
+        },
+        "description": {
+            "translate": "Catch or trade Wo-Chien"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0717_yveltal",
+    "criteria": {
+        "wochien": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:wochien"
+            }
+        },
+        "trade_wochien": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:wochien"
+            }
+        },
+        "party_wochien": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:wochien"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "wochien",
+            "trade_wochien",
+            "party_wochien"
+        ]
+    ]
+}

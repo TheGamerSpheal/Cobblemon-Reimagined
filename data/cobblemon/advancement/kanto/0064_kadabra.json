@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:kadabra",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "20 Years Ban"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Kadabra"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0063_abra",
+    "criteria": {
+        "kadabra": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:kadabra"
+            }
+        },
+        "evolve_kadabra": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:abra",
+				"evolution": "cobblemon:kadabra"
+			}
+		},
+        "trade_kadabra": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:kadabra"
+            }
+        },
+        "party_kadabra": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kadabra"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kadabra",
+            "evolve_kadabra",
+            "trade_kadabra",
+            "party_kadabra"
+        ]
+    ]
+}

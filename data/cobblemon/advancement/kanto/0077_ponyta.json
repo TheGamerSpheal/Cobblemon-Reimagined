@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:ponyta",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Hold your Ponytas"
+        },
+        "description": {
+            "translate": "Catch or trade Ponyta"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "ponyta": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:ponyta"
+            }
+        },
+        "trade_ponyta": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:ponyta"
+            }
+        },
+        "party_ponyta": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ponyta"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ponyta",
+            "trade_ponyta",
+            "party_ponyta"
+        ]
+    ]
+}

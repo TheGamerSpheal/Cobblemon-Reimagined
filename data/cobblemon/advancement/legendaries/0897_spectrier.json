@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:spectrier",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Calyrex's Phantom Steed"
+        },
+        "description": {
+            "translate": "Catch or trade Spectrier"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0898_calyrex",
+    "criteria": {
+        "spectrier": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:spectrier"
+            }
+        },
+        "trade_spectrier": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:spectrier"
+            }
+        },
+        "party_spectrier": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:spectrier"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "spectrier",
+            "trade_spectrier",
+            "party_spectrier"
+        ]
+    ]
+}

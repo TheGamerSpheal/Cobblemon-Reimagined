@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:pinsir",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Pinsir"
+        },
+        "description": {
+            "translate": "Catch or trade Pinsir"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "pinsir": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:pinsir"
+            }
+        },
+        "trade_pinsir": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:pinsir"
+            }
+        },
+        "party_pinsir": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pinsir"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "pinsir",
+            "trade_pinsir",
+            "party_pinsir"
+        ]
+    ]
+}

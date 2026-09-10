@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:pidgeotto",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Pidgeotto"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Pidgeotto"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0016_pidgey",
+    "criteria": {
+        "pidgeotto": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:pidgeotto"
+            }
+        },
+        "evolve_pidgeotto": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:pidgey",
+				"evolution": "cobblemon:pidgeotto"
+			}
+		},
+        "trade_pidgeotto": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:pidgeotto"
+            }
+        },
+        "party_pidgeotto": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pidgeotto"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "pidgeotto",
+            "evolve_pidgeotto",
+            "trade_pidgeotto",
+            "party_pidgeotto"
+        ]
+    ]
+}

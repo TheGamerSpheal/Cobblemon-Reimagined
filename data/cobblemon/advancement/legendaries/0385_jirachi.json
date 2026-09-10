@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:jirachi",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "I'll be Free in uhm... 1000 Years"
+        },
+        "description": {
+            "translate": "Catch or trade Jirachi"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0481_mesprit",
+    "criteria": {
+        "jirachi": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:jirachi"
+            }
+        },
+        "trade_jirachi": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:jirachi"
+            }
+        },
+        "party_jirachi": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:jirachi"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "jirachi",
+            "trade_jirachi"
+        ]
+    ]
+}

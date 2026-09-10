@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:lickitung",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "To Denounce the Evils of Truth and Love!"
+        },
+        "description": {
+            "translate": "Catch or trade Lickitung"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "lickitung": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:lickitung"
+            }
+        },
+        "trade_lickitung": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:lickitung"
+            }
+        },
+        "party_lickitung": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:lickitung"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lickitung",
+            "trade_lickitung",
+            "party_lickitung"
+        ]
+    ]
+}

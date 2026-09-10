@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:zekrom",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Moo Moo, I'm a Zekrom? I Don't Know!"
+        },
+        "description": {
+            "translate": "Catch or trade Zekrom"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0646_kyurem",
+    "criteria": {
+        "zekrom": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:zekrom"
+            }
+        },
+        "trade_zekrom": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:zekrom"
+            }
+        },
+        "party_zekrom": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zekrom"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "zekrom",
+            "trade_zekrom",
+            "party_zekrom"
+        ]
+    ]
+}

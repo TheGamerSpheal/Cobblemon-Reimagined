@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:porygon",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "A FOOLISH MISCALCULATION!"
+        },
+        "description": {
+            "translate": "Catch or trade Porygon"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "porygon": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:porygon"
+            }
+        },
+        "trade_porygon": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "count": 1,
+                "received": "cobblemon:porygon"
+            }
+        },
+        "party_porygon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:porygon"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "porygon",
+            "trade_porygon",
+            "party_porygon"
+        ]
+    ]
+}

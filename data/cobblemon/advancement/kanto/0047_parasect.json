@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:parasect",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Last of Us"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Parasect"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0046_paras",
+    "criteria": {
+        "parasect": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:parasect"
+            }
+        },
+        "evolve_parasect": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:paras",
+				"evolution": "cobblemon:parasect"
+			}
+		},
+        "trade_parasect": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "received": "cobblemon:parasect"
+            }
+        },
+        "party_parasect": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:parasect"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "parasect",
+            "evolve_parasect",
+            "trade_parasect",
+            "party_parasect"
+        ]
+    ]
+}

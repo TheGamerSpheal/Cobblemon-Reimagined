@@ -1,0 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:suicune",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Have You Already Drank Water Today?"
+        },
+        "description": {
+            "translate": "Catch or trade Suicune"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0250_hooh",
+    "criteria": {
+        "suicune": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:suicune"
+            }
+        },
+        "trade_suicune": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "received": "cobblemon:suicune"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "suicune",
+            "trade_suicune"
+        ]
+    ]
+}

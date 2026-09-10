@@ -1,0 +1,54 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:kabuto",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "I Always Liked This One Better"
+        },
+        "description": {
+            "translate": "Catch, trade or ressurect Kabuto"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "kabuto": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:kabuto"
+            }
+        },
+        "ressurect_kabuto": {
+            "trigger": "cobblemon:resurrect_pokemon",
+            "conditions": {
+                "species": "cobblemon:kabuto",
+                "properties": "property=true"
+            }
+        },
+        "trade_kabuto": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "received": "cobblemon:kabuto"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kabuto",
+            "ressurect_kabuto",
+            "trade_kabuto"
+        ]
+    ]
+}

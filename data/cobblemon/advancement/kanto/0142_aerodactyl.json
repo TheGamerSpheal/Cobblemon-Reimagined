@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:aerodactyl",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "A Blast From the Past!"
+        },
+        "description": {
+            "translate": "Catch, trade or ressurect Aerodactyl"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "aerodactyl": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:aerodactyl"
+            }
+        },
+        "ressurect_aerodactyl": {
+            "trigger": "cobblemon:resurrect_pokemon",
+            "conditions": {
+                "species": "cobblemon:aerodactyl",
+                "properties": "property=true"
+            }
+        },
+        "trade_aerodactyl": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:aerodactyl"
+            }
+        },
+        "party_aerodactyl": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:aerodactyl"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "aerodactyl",
+            "ressurect_aerodactyl",
+            "trade_aerodactyl",
+            "party_aerodactyl"
+        ]
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:magneton",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "It Killed More Than 80 MARILL!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Magneton"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0081_magnemite",
+    "criteria": {
+        "magneton": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:magneton"
+            }
+        },
+        "evolve_magneton": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:magnemite",
+				"evolution": "cobblemon:magneton"
+			}
+		},
+        "trade_magneton": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:magneton"
+            }
+        },
+        "party_magneton": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:magneton"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "magneton",
+            "evolve_magneton",
+            "trade_magneton",
+            "party_magneton"
+        ]
+    ]
+}

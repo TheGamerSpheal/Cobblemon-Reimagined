@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:pidgey",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "This is Not a Pigeon"
+        },
+        "description": {
+            "translate": "Catch or trade a Pidgey"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "pidgey": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:pidgey"
+            }
+        },
+        "trade_pidgey": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:pidgey"
+            }
+        },
+        "party_pidgey": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pidgey"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "pidgey",
+            "trade_pidgey",
+            "party_pidgey"
+        ]
+    ]
+}

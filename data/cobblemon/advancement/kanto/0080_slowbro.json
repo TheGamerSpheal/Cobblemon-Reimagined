@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:slowbro",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Inner Machinations of My Mind Are an Enigma"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Slowbro"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0079_slowpoke",
+    "criteria": {
+        "slowbro": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:slowbro"
+            }
+        },
+        "evolve_slowbro": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": "any",
+				"species": "cobblemon:slowpoke",
+				"evolution": "cobblemon:slowbro"
+			}
+		},
+        "trade_slowbro": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:slowbro"
+            }
+        },
+        "party_slowbro": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:slowbro"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "slowbro",
+            "evolve_slowbro",
+            "trade_slowbro",
+            "party_slowbro"
+        ]
+    ]
+}

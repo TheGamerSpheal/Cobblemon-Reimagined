@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:geodude",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "This Baby Can Fit So Many Self-Destructs in It"
+        },
+        "description": {
+            "translate": "Catch or trade Geodude"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "geodude": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:geodude"
+            }
+        },
+        "trade_geodude": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:geodude"
+            }
+        },
+        "party_geodude": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:geodude"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "geodude",
+            "trade_geodude",
+            "party_geodude"
+        ]
+    ]
+}

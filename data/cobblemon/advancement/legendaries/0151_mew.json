@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:mew",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Did you Check Under the Truck?"
+        },
+        "description": {
+            "translate": "Catch or trade Mew"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0493_arceus",
+    "criteria": {
+        "mew": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:mew"
+            }
+        },
+        "trade_mew": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:mew"
+            }
+        },
+        "party_mew": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:mew"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "mew",
+            "trade_mew",
+            "party_mew"
+        ]
+    ]
+}

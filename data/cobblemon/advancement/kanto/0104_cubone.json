@@ -1,0 +1,55 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:cubone",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Welcome to The Underground"
+        },
+        "description": {
+            "translate": "Catch or trade Cubone"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "cubone": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:cubone"
+            }
+        },
+        "trade_cubone": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "received": "cobblemon:cubone"
+            }
+        },
+        "party_cubone": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:cubone"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "cubone",
+            "trade_cubone",
+            "party_cubone"
+        ]
+    ]
+}

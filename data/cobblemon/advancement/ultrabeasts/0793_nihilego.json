@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:nihilego",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Nihilistic Space Jellyfish"
+        },
+        "description": {
+            "translate": "Catch or trade Nihilego"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:ultrabeasts/ultrabeasts",
+    "criteria": {
+        "nihilego": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:nihilego"
+            }
+        },
+        "trade_nihilego": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:nihilego"
+            }
+        },
+        "party_nihilego": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nihilego"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "nihilego",
+            "trade_nihilego",
+            "party_nihilego"
+        ]
+    ]
+}

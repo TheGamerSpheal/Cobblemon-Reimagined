@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:roaringmoon",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Roaring Knight"
+        },
+        "description": {
+            "translate": "Catch or trade Roaring Moon"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:paradoxes/0989_sandyshocks",
+    "criteria": {
+        "roaringmoon": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:roaringmoon"
+            }
+        },
+        "trade_roaringmoon": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:roaringmoon"
+            }
+        },
+        "party_roaringmoon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:roaringmoon"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "roaringmoon",
+            "trade_roaringmoon",
+            "party_roaringmoon"
+        ]
+    ]
+}

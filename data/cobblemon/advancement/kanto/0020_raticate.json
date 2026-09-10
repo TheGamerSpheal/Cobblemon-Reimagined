@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:raticate",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Crazy? I Was Crazy Once..."
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Raticate"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0019_rattata",
+    "criteria": {
+        "raticate": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:raticate"
+            }
+        },
+        "evolve_raticate": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:rattata",
+				"evolution": "cobblemon:raticate"
+			}
+		},
+        "trade_raticate": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:raticate"
+            }
+        },
+        "party_raticate": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:raticate"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "raticate",
+            "evolve_raticate",
+            "trade_raticate",
+            "party_raticate"
+        ]
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:hitmonchan",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Hitmonchan Adventures"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Hitmonchan"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "hitmonchan": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:hitmonchan"
+            }
+        },
+        "evolve_hitmonchan": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:tyrogue",
+				"evolution": "cobblemon:hitmonchan"
+			}
+		},
+        "trade_hitmonchan": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:hitmonchan"
+            }
+        },
+        "party_hitmonchan": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:hitmonchan"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hitmonchan",
+            "evolve_hitmonchan",
+            "trade_hitmonchan",
+            "party_hitmonchan"
+        ]
+    ]
+}

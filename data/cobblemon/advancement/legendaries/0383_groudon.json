@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:groudon",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Don't Bring an Island to an Ocean Fight"
+        },
+        "description": {
+            "translate": "Catch or trade Groudon"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0384_rayquaza",
+    "criteria": {
+        "groudon": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:groudon"
+            }
+        },
+        "trade_groudon": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:groudon"
+            }
+        },
+        "party_groudon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:groudon"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "groudon",
+            "trade_groudon",
+            "party_groudon"
+        ]
+    ]
+}

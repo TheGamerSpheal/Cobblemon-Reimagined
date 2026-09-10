@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:regirock",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "An Ongoing Torment"
+        },
+        "description": {
+            "translate": "Catch or trade Regirock"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0486_regigigas",
+    "criteria": {
+        "regirock": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:regirock"
+            }
+        },
+        "trade_regirock": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:regirock"
+            }
+        },
+        "party_regirock": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:regirock"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "regirock",
+            "trade_regirock",
+            "party_regirock"
+        ]
+    ]
+}

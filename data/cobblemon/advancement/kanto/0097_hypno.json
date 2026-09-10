@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:hypno",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Come Little Children, Come With Me"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Hypno"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0096_drowzee",
+    "criteria": {
+        "hypno": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:hypno"
+            }
+        },
+        "evolve_hypno": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:drowzee",
+				"evolution": "cobblemon:hypno"
+			}
+		},
+        "trade_hypno": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:hypno"
+            }
+        },
+        "party_hypno": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:hypno"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hypno",
+            "evolve_hypno",
+            "trade_hypno",
+            "party_hypno"
+        ]
+    ]
+}

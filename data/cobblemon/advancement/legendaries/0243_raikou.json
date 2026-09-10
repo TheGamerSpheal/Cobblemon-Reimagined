@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:raikou",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Behold! The God of Thunder!"
+        },
+        "description": {
+            "translate": "Catch or trade Raikou"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0250_hooh",
+    "criteria": {
+        "raikou": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:raikou"
+            }
+        },
+        "trade_raikou": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:raikou"
+            }
+        },
+        "party_raikou": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:raikou"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "raikou",
+            "trade_raikou",
+            "party_raikou"
+        ]
+    ]
+}

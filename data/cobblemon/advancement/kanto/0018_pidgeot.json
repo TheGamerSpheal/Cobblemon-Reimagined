@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:pidgeot",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Do a Barrell Roll"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Pidgeot"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0017_pidgeotto",
+    "criteria": {
+        "pidgeot": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:pidgeot"
+            }
+        },
+        "evolve_pidgeot": {
+            "trigger": "cobblemon:pokemon_evolved",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:pidgeotto",
+                "evolution": "cobblemon:pidgeot"
+            }
+        },
+        "trade_pidgeot": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:pidgeot"
+            }
+        },
+        "party_pidgeot": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pidgeot"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "pidgeot",
+            "evolve_pidgeot",
+            "trade_pidgeot",
+            "party_pidgeot"
+        ]
+    ]
+}

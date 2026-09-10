@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:clefable",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Is the Moon Big?"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Clefable"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0035_clefairy",
+    "criteria": {
+        "clefable": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:clefable"
+            }
+        },
+        "evolve_clefable": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:clefairy",
+				"evolution": "cobblemon:clefable"
+			}
+		},
+        "trade_clefable": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:clefable"
+            }
+        },
+        "party_clefable": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:clefable"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "clefable",
+            "evolve_clefable",
+            "trade_clefable",
+            "party_clefable"
+        ]
+    ]
+}

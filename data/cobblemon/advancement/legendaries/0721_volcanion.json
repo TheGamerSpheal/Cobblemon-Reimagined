@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:volcanion",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Gabe Newell"
+        },
+        "description": {
+            "translate": "Catch or trade Volcanion"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0383_groudon",
+    "criteria": {
+        "volcanion": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:volcanion"
+            }
+        },
+        "trade_volcanion": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:volcanion"
+            }
+        },
+        "party_volcanion": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:volcanion"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "volcanion",
+            "trade_volcanion",
+            "party_volcanion"
+        ]
+    ]
+}

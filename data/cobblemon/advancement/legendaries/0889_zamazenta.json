@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:zamazenta",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Was Bad, Got Worse, Won a Tournament"
+        },
+        "description": {
+            "translate": "Catch or trade Zamazenta"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0718_zygarde",
+    "criteria": {
+        "zamazenta": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:zamazenta"
+            }
+        },
+        "trade_zamazenta": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:zamazenta"
+            }
+        },
+        "party_zamazenta": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zamazenta"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "zamazenta",
+            "trade_zamazenta",
+            "party_zamazenta"
+        ]
+    ]
+}

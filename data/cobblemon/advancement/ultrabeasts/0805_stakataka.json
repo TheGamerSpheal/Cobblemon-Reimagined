@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:stakataka",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "A Hive Mind of Bricks"
+        },
+        "description": {
+            "translate": "Catch or trade Stakataka"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:ultrabeasts/ultrabeasts",
+    "criteria": {
+        "stakataka": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:stakataka"
+            }
+        },
+        "trade_stakataka": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:stakataka"
+            }
+        },
+        "party_stakataka": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:stakataka"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "stakataka",
+            "trade_stakataka",
+            "party_stakataka"
+        ]
+    ]
+}

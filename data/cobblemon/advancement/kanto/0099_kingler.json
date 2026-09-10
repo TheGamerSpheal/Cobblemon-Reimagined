@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:kingler",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Kingler Rave"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Kingler"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0098_krabby",
+    "criteria": {
+        "kingler": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:kingler"
+            }
+        },
+        "evolve_kingler": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:krabby",
+				"evolution": "cobblemon:kingler"
+			}
+		},
+        "trade_kingler": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:kingler"
+            }
+        },
+        "party_kingler": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kingler"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kingler",
+            "evolve_kingler",
+            "trade_kingler",
+            "party_kingler"
+        ]
+    ]
+}

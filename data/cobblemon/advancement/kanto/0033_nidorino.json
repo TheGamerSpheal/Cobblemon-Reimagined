@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:nidorino",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Nidorino"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Nidorino"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0032_nidoranm",
+    "criteria": {
+        "nidorino": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:nidorino"
+            }
+        },
+        "evolve_nidorino": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:nidoranm",
+				"evolution": "cobblemon:nidorino"
+			}
+		},
+        "trade_nidorino": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:nidorino"
+            }
+        },
+        "party_nidorino": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nidorino"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "nidorino",
+            "evolve_nidorino",
+            "trade_nidorino",
+            "party_nidorino"
+        ]
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:kubfu",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "A Bare Bear"
+        },
+        "description": {
+            "translate": "Catch or trade Kubfu"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0481_mesprit",
+    "criteria": {
+        "kubfu": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:kubfu"
+            }
+        },
+        "trade_kubfu": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:kubfu"
+            }
+        },
+        "party_kubfu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kubfu"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kubfu",
+            "trade_kubfu",
+            "party_kubfu"
+        ]
+    ]
+}

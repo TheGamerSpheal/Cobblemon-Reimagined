@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:dragonite",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "AND THIS, IS TO GO... EVEN FURTHER BEYOND!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Dragonite"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0148_dragonair",
+    "criteria": {
+        "dragonite": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:dragonite"
+            }
+        },
+        "evolve_dragonite": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:dragonair",
+				"evolution": "cobblemon:dragonite"
+			}
+		},
+        "trade_dragonite": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:dragonite"
+            }
+        },
+        "party_dragonite": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dragonite"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dragonite",
+            "evolve_dragonite",
+            "trade_dragonite",
+            "party_dragonite"
+        ]
+    ]
+}

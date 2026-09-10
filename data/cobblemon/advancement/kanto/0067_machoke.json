@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:machoke",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Machoke"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Machoke"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0066_machop",
+    "criteria": {
+        "machoke": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:machoke"
+            }
+        },
+        "evolve_machoke": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:machop",
+				"evolution": "cobblemon:machoke"
+			}
+		},
+        "trade_machoke": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:machoke"
+            }
+        },
+        "party_machoke": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:machoke"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "machoke",
+            "evolve_machoke",
+            "trade_machoke",
+            "party_machoke"
+        ]
+    ]
+}

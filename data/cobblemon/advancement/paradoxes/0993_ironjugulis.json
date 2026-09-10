@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:ironjugulis",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Roughly Translates to 'Throat' or 'Neck Area'"
+        },
+        "description": {
+            "translate": "Catch or trade Iron Jugulis"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:paradoxes/0092_ironhands",
+    "criteria": {
+        "ironjugulis": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:ironjugulis"
+            }
+        },
+        "trade_ironjugulis": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:ironjugulis"
+            }
+        },
+        "party_ironjugulis": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ironjugulis"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ironjugulis",
+            "trade_ironjugulis",
+            "party_ironjugulis"
+        ]
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:chienpao",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Better Weavile"
+        },
+        "description": {
+            "translate": "Catch or trade Chien-Pao"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0717_yveltal",
+    "criteria": {
+        "chienpao": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:chienpao"
+            }
+        },
+        "trade_chienpao": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:chienpao"
+            }
+        },
+        "party_chienpao": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:chienpao"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "chienpao",
+            "trade_chienpao",
+            "party_chienpao"
+        ]
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:munkidori",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Indentured Subjugation"
+        },
+        "description": {
+            "translate": "Catch or trade Munkidori"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/1025_pecharunt",
+    "criteria": {
+        "munkidori": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:munkidori"
+            }
+        },
+        "trade_munkidori": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:munkidori"
+            }
+        },
+        "party_munkidori": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:munkidori"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "munkidori",
+            "trade_munkidori",
+            "party_munkidori"
+        ]
+    ]
+}

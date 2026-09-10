@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:sandyshocks",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Sandy Cheeks"
+        },
+        "description": {
+            "translate": "Catch or trade Sandy Shocks"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:paradoxes/0988_slitherwing",
+    "criteria": {
+        "sandyshocks": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:sandyshocks"
+            }
+        },
+        "trade_sandyshocks": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:sandyshocks"
+            }
+        },
+        "party_sandyshocks": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:sandyshocks"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "sandyshocks",
+            "trade_sandyshocks",
+            "party_sandyshocks"
+        ]
+    ]
+}

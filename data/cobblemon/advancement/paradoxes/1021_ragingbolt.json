@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:ragingbolt",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "How's the Weather up There?"
+        },
+        "description": {
+            "translate": "Catch or trade Raging Bolt"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:paradoxes/1020_gougingfire",
+    "criteria": {
+        "ragingbolt": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:ragingbolt"
+            }
+        },
+        "trade_ragingbolt": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:ragingbolt"
+            }
+        },
+        "party_ragingbolt": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ragingbolt"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ragingbolt",
+            "trade_ragingbolt",
+            "party_ragingbolt"
+        ]
+    ]
+}

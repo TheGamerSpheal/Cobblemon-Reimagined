@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:dragonair",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "This Is a Super Saiyan That Has Ascended Past the Super Saiyan"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Dragonair"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0147_dratini",
+    "criteria": {
+        "dragonair": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:dragonair"
+            }
+        },
+        "evolve_dragonair": {
+            "trigger": "cobblemon:pokemon_evolved",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:dratini",
+                "evolution": "cobblemon:dragonair"
+            }
+        },
+        "trade_dragonair": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:dragonair"
+            }
+        },
+        "party_dragonair": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dragonair"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dragonair",
+            "evolve_dragonair",
+            "trade_dragonair",
+            "party_dragonair"
+        ]
+    ]
+}

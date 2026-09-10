@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:rapidash",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Umamusume"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Rapidash"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0077_ponyta",
+    "criteria": {
+        "rapidash": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:rapidash"
+            }
+        },
+        "evolve_rapidash": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:ponyta",
+				"evolution": "cobblemon:rapidash"
+			}
+		},
+        "trade_rapidash": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:rapidash"
+            }
+        },
+        "party_rapidash": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:rapidash"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "rapidash",
+            "evolve_rapidash",
+            "trade_rapidash",
+            "party_rapidash"
+        ]
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:poipole",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Misunterstood Artist"
+        },
+        "description": {
+            "translate": "Catch or trade Poipole"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:ultrabeasts/ultrabeasts",
+    "criteria": {
+        "poipole": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:poipole"
+            }
+        },
+        "trade_poipole": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:poipole"
+            }
+        },
+        "party_poipole": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:poipole"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "poipole",
+            "trade_poipole",
+            "party_poipole"
+        ]
+    ]
+}

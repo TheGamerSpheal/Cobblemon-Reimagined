@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:tentacool",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Tentacool"
+        },
+        "description": {
+            "translate": "Catch or trade Tentacool"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "tentacool": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:tentacool"
+            }
+        },
+        "trade_tentacool": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:tentacool"
+            }
+        },
+        "party_tentacool": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tentacool"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tentacool",
+            "trade_tentacool",
+            "party_tentacool"
+        ]
+    ]
+}

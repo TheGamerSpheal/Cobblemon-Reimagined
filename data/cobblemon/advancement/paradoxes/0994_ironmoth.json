@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:ironmoth",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Volcarona of Theseus"
+        },
+        "description": {
+            "translate": "Catch or trade Iron Moth"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:paradoxes/0093_ironjugulis",
+    "criteria": {
+        "ironmoth": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:ironmoth"
+            }
+        },
+        "trade_ironmoth": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:ironmoth"
+            }
+        },
+        "party_ironmoth": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ironmoth"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ironmoth",
+            "trade_ironmoth",
+            "party_ironmoth"
+        ]
+    ]
+}

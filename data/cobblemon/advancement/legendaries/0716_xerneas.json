@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:xerneas",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Herald of Life"
+        },
+        "description": {
+            "translate": "Catch or trade Xerneas"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0718_zygarde",
+    "criteria": {
+        "xerneas": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:xerneas"
+            }
+        },
+        "trade_xerneas": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:xerneas"
+            }
+        },
+        "party_xerneas": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:xerneas"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "xerneas",
+            "trade_xerneas",
+            "party_xerneas"
+        ]
+    ]
+}

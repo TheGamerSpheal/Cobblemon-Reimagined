@@ -4,10 +4,10 @@
             "id": "cobblemon:beast_ball"
         },
         "title": {
-            "translate": "Ultra Beasts"
+            "translate": "Alien Invaders"
         },
         "description": {
-            "translate": "Have any Ultra Beast in your party"
+            "translate": "Catch any Ultra Beast"
         },
         "background": "cobblemon:textures/gui/advancements/backgrounds/cobblemon.png",
         "frame": "goal",
@@ -17,91 +17,80 @@
     },
     "criteria": {
         "nihilego": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:nihilego"
-                ]
+                "count": 1,
+                "species": "cobblemon:nihilego"
             }
         },
         "buzzwole": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:buzzwole"
-                ]
+                "count": 1,
+                "species": "cobblemon:buzzwole"
             }
         },
         "pheromosa": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:pheromosa"
-                ]
+                "count": 1,
+                "species": "cobblemon:pheromosa"
             }
         },
         "xurkitree": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:xurkitree"
-                ]
+                "count": 1,
+                "species": "cobblemon:xurkitree"
             }
         },
         "celesteela": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:celesteela"
-                ]
+                "count": 1,
+                "species": "cobblemon:celesteela"
             }
         },
         "kartana": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:kartana"
-                ]
+                "count": 1,
+                "species": "cobblemon:kartana"
             }
         },
         "guzzlord": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:guzzlord"
-                ]
+                "count": 1,
+                "species": "cobblemon:guzzlord"
             }
         },
         "poipole": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:poipole"
-                ]
+                "count": 1,
+                "species": "cobblemon:poipole"
             }
         },
         "naganadel": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:naganadel"
-                ]
+                "count": 1,
+                "species": "cobblemon:naganadel"
             }
         },
         "stakataka": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:stakataka"
-                ]
+                "count": 1,
+                "species": "cobblemon:stakataka"
             }
         },
         "blacephalon": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:blacephalon"
-                ]
+                "count": 1,
+                "species": "cobblemon:blacephalon"
             }
         }
     },

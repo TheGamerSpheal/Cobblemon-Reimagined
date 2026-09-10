@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:flareon",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Objectively the Most Huggable Pokémon"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Flareon"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0133_eevee",
+    "criteria": {
+        "flareon": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:flareon"
+            }
+        },
+        "evolve_flareon": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:eevee",
+				"evolution": "cobblemon:flareon"
+			}
+		},
+        "trade_flareon": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:flareon"
+            }
+        },
+        "party_flareon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:flareon"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "flareon",
+            "evolve_flareon",
+            "trade_flareon",
+            "party_flareon"
+        ]
+    ]
+}

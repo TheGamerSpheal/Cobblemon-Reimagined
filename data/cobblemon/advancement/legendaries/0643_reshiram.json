@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:reshiram",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Caw Caw I'm a Reshiram!"
+        },
+        "description": {
+            "translate": "Catch or trade Reshiram"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0646_kyurem",
+    "criteria": {
+        "reshiram": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:reshiram"
+            }
+        },
+        "trade_reshiram": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:reshiram"
+            }
+        },
+        "party_reshiram": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:reshiram"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "reshiram",
+            "trade_reshiram",
+            "party_reshiram"
+        ]
+    ]
+}

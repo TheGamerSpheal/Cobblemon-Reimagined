@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:terrakion",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Porthos"
+        },
+        "description": {
+            "translate": "Catch or trade Terrakion"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0718_zygarde",
+    "criteria": {
+        "terrakion": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:terrakion"
+            }
+        },
+        "trade_terrakion": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:terrakion"
+            }
+        },
+        "party_terrakion": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:terrakion"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "terrakion",
+            "trade_terrakion",
+            "party_terrakion"
+        ]
+    ]
+}

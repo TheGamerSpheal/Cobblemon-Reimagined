@@ -1,0 +1,66 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:solgaleo",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Taste the SUN!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Solgaleo"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0790_cosmoem",
+    "criteria": {
+        "solgaleo": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:solgaleo"
+            }
+        },
+        "evolve_solgaleo": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:cosmoem",
+				"evolution": "cobblemon:solgaleo"
+			}
+		},
+        "trade_solgaleo": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:solgaleo"
+            }
+        },
+        "party_solgaleo": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:solgaleo"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "solgaleo",
+            "evolve_solgaleo",
+            "trade_solgaleo",
+            "party_solgaleo"
+        ]
+    ]
+}

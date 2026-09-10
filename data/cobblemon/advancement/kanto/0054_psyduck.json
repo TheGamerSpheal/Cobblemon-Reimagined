@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:psyduck",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Psy-y-y-y-y-y!"
+        },
+        "description": {
+            "translate": "Catch or trade Psyduck"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "psyduck": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:psyduck"
+            }
+        },
+        "trade_psyduck": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:psyduck"
+            }
+        },
+        "party_psyduck": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:psyduck"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "psyduck",
+            "trade_psyduck",
+            "party_psyduck"
+        ]
+    ]
+}

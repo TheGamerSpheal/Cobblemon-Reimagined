@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:weezing",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "To Unite All People Within Our Nation!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Weezing"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0109_koffing",
+    "criteria": {
+        "weezing": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:weezing"
+            }
+        },
+        "evolve_weezing": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:koffing",
+				"evolution": "cobblemon:weezing"
+			}
+		},
+        "trade_weezing": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:weezing"
+            }
+        },
+        "party_weezing": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:weezing"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "weezing",
+            "evolve_weezing",
+            "trade_weezing",
+            "party_weezing"
+        ]
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:mewtwo",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Ultimate Life Form"
+        },
+        "description": {
+            "translate": "Catch or trade Mewtwo"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0151_mew",
+    "criteria": {
+        "mewtwo": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:mewtwo"
+            }
+        },
+        "trade_mewtwo": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:mewtwo"
+            }
+        },
+        "party_mewtwo": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:mewtwo"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "mewtwo",
+            "trade_mewtwo",
+            "party_mewtwo"
+        ]
+    ]
+}

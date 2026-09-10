@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:graveler",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "My Middle Name is DANGER!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Graveler"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0074_geodude",
+    "criteria": {
+        "graveler": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:graveler"
+            }
+        },
+        "evolve_graveler": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:geodude",
+				"evolution": "cobblemon:graveler"
+			}
+		},
+        "trade_graveler": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:graveler"
+            }
+        },
+        "party_graveler": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:graveler"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "graveler",
+            "evolve_graveler",
+            "trade_graveler",
+            "party_graveler"
+        ]
+    ]
+}

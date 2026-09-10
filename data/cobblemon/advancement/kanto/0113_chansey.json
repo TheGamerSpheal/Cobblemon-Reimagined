@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:chansey",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Me When the Egg is Lucky"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Chansey"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "chansey": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:chansey"
+            }
+        },
+        "evolve_chansey": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:happiny",
+				"evolution": "cobblemon:chansey"
+			}
+		},
+        "trade_chansey": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:chansey"
+            }
+        },
+        "party_chansey": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:chansey"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "chansey",
+            "evolve_chansey",
+            "trade_chansey",
+            "party_chansey"
+        ]
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:raichu",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Shock to the System"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Raichu"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0025_pikachu",
+    "criteria": {
+        "raichu": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:raichu"
+            }
+        },
+        "evolve_raichu": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:pikachu",
+				"evolution": "cobblemon:raichu"
+			}
+		},
+        "trade_raichu": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:raichu"
+            }
+        },
+        "party_raichu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:raichu"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "raichu",
+            "evolve_raichu",
+            "trade_raichu",
+            "party_raichu"
+        ]
+    ]
+}

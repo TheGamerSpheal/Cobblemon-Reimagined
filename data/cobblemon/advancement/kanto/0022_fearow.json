@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:fearow",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Libera Me from Hell"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Fearow"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0021_spearow",
+    "criteria": {
+        "fearow": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:spearow"
+            }
+        },
+        "evolve_fearow": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:spearow",
+				"evolution": "cobblemon:fearow"
+			}
+		},
+        "trade_fearow": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:fearow"
+            }
+        },
+        "party_fearow": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:fearow"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fearow",
+            "evolve_fearow",
+            "trade_fearow",
+            "party_fearow"
+        ]
+    ]
+}

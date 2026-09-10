@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:cobalion",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Athos"
+        },
+        "description": {
+            "translate": "Catch or trade Cobalion"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0718_zygarde",
+    "criteria": {
+        "cobalion": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:cobalion"
+            }
+        },
+        "trade_cobalion": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:cobalion"
+            }
+        },
+        "party_cobalion": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:cobalion"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "cobalion",
+            "trade_cobalion",
+            "party_cobalion"
+        ]
+    ]
+}

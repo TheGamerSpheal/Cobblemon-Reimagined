@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:heatran",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The First Magma Bender"
+        },
+        "description": {
+            "translate": "Catch or trade Heatran"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0383_groudon",
+    "criteria": {
+        "heatran": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:heatran"
+            }
+        },
+        "trade_heatran": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:heatran"
+            }
+        },
+        "party_heatran": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:heatran"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "heatran",
+            "trade_heatran",
+            "party_heatran"
+        ]
+    ]
+}

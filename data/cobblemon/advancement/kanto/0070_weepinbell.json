@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:weepinbell",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Weepinbell"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Weepinbell"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0069_bellsprout",
+    "criteria": {
+        "weepinbell": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:weepinbell"
+            }
+        },
+        "evolve_weepinbell": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:bellsprout",
+				"evolution": "cobblemon:weepinbell"
+			}
+		},
+        "trade_weepinbell": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:weepibell"
+            }
+        },
+        "party_weepinbell": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:weepinbell"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "weepinbell",
+            "evolve_weepinbell",
+            "trade_weepinbell",
+            "party_weepinbell"
+        ]
+    ]
+}

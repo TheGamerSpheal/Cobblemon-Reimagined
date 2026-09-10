@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:wigglytuff",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Wigglytuff"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Wigglytuff"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0039_jigglypuff",
+    "criteria": {
+        "wigglytuff": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:wigglytuff"
+            }
+        },
+        "evolve_wigglytuff": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:jigglypuff",
+				"evolution": "cobblemon:wigglytuff"
+			}
+		},
+        "trade_wigglytuff": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:wigglytuff"
+            }
+        },
+        "party_wigglytuff": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:wigglytuff"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "wigglytuff",
+            "evolve_wigglytuff",
+            "trade_wigglytuff",
+            "party_wigglytuff"
+        ]
+    ]
+}

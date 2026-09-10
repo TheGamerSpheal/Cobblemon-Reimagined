@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:omastar",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Spiral Power"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Omastar"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0138_omanyte",
+    "criteria": {
+        "omastar": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:omastar"
+            }
+        },
+        "evolve_omastar": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:omanyte",
+				"evolution": "cobblemon:omastar"
+			}
+		},
+        "trade_omastar": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:omastar"
+            }
+        },
+        "party_omastar": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:omastar"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "omastar",
+            "evolve_omastar",
+            "trade_omastar",
+            "party_omastar"
+        ]
+    ]
+}

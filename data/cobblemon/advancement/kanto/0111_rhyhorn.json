@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:rhyhorn",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Turned On a Laptop ON HIS OWN to Watch Serena"
+        },
+        "description": {
+            "translate": "Catch or trade Rhyhorn"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "rhyhorn": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:rhyhorn"
+            }
+        },
+        "trade_rhyhorn": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:rhyhorn"
+            }
+        },
+        "party_rhyhorn": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:rhyhorn"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "rhyhorn",
+            "trade_rhyhorn",
+            "party_rhyhorn"
+        ]
+    ]
+}

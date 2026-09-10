@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:charmander",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Stray Pokémon"
+        },
+        "description": {
+            "translate": "Catch, trade or select Charmander as your starter"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "charmander": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:charmander"
+            }
+        },
+        "pick_charmander": {
+            "trigger": "cobblemon:pick_starter",
+            "conditions": {
+                "species": "cobblemon:charmander",
+                "properties": "property=true"
+            }
+        },
+        "trade_charmander": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:charmander"
+            }
+        },
+        "party_charmander": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:charmander"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "charmander",
+            "pick_charmander",
+            "trade_charmander",
+            "party_charmander"
+        ]
+    ]
+}

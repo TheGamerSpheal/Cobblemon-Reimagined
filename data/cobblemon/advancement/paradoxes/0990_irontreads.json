@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:irontreads",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "These Treads Sure are Made of Iron!"
+        },
+        "description": {
+            "translate": "Catch or trade Iron Treads"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:paradoxes/paradox",
+    "criteria": {
+        "irontreads": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:irontreads"
+            }
+        },
+        "trade_irontreads": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:irontreads"
+            }
+        },
+        "party_irontreads": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:irontreads"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "irontreads",
+            "trade_irontreads",
+            "party_irontreads"
+        ]
+    ]
+}

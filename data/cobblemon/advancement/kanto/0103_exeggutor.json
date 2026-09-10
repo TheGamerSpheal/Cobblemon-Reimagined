@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:exeggutor",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "World Champ Difference"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Exeggutor"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0102_exeggcute",
+    "criteria": {
+        "exeggutor": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:exeggutor"
+            }
+        },
+        "evolve_exeggutor": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:exeggcute",
+				"evolution": "cobblemon:exeggutor"
+			}
+		},
+        "trade_exeggutor": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:exeggutor"
+            }
+        },
+        "party_exeggutor": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:exeggutor"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "exeggutor",
+            "evolve_exeggutor",
+            "trade_exeggutor",
+            "party_exeggutor"
+        ]
+    ]
+}

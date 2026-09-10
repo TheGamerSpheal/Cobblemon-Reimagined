@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:dialga",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Chaos... CONTROL!"
+        },
+        "description": {
+            "translate": "Catch or trade Dialga"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0493_arceus",
+    "criteria": {
+        "dialga": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:dialga"
+            }
+        },
+        "trade_dialga": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:dialga"
+            }
+        },
+        "party_dialga": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dialga"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dialga",
+            "trade_dialga",
+            "party_dialga"
+        ]
+    ]
+}

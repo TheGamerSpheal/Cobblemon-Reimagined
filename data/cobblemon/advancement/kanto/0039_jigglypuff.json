@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:jigglypuff",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Jiiii-gglyyyyy-yyy-puff Jii-gglyy-yyy-puff"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Jigglypuff"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "jigglypuff": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:jigglypuff"
+            }
+        },
+        "evolve_jigglypuff": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:igglybuff",
+				"evolution": "cobblemon:jigglypuff"
+			}
+		},
+        "trade_jigglypuff": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:jigglypuff"
+            }
+        },
+        "party_jigglypuff": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:jigglypuff"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "jigglypuff",
+            "evolve_jigglypuff",
+            "trade_jigglypuff",
+            "party_jigglypuff"
+        ]
+    ]
+}

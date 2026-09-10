@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:vulpix",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Mozilla"
+        },
+        "description": {
+            "translate": "Catch or trade Vulpix"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "vulpix": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:vulpix"
+            }
+        },
+        "trade_vulpix": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:vulpix"
+            }
+        },
+        "party_vulpix": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:vulpix"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "vulpix",
+            "trade_vulpix",
+            "party_vulpix"
+        ]
+    ]
+}

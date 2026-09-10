@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:diancie",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Made From Pressure, Heat, Coal and Lots of Love!"
+        },
+        "description": {
+            "translate": "Catch or trade Diancie"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0383_groudon",
+    "criteria": {
+        "diancie": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:diancie"
+            }
+        },
+        "trade_diancie": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:diancie"
+            }
+        },
+        "party_diancie": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:diancie"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "diancie",
+            "trade_diancie",
+            "party_diancie"
+        ]
+    ]
+}

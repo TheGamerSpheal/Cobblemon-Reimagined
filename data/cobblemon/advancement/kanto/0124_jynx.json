@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:jynx",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Holiday Hi-Jynx!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Jynx"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "jynx": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:jynx"
+            }
+        },
+        "evolve_jynx": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:smoochum",
+				"evolution": "cobblemon:jynx"
+			}
+		},
+        "trade_jynx": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:jynx"
+            }
+        },
+        "party_jynx": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:jynx"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "jynx",
+            "evolve_jynx",
+            "trade_jynx",
+            "party_jynx"
+        ]
+    ]
+}

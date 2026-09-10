@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:electrode",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "I Am Become Death, Destroyer of Worlds"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Electrode"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0100_voltorb",
+    "criteria": {
+        "electrode": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:electrode"
+            }
+        },
+        "evolve_electrode": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:voltorb",
+				"evolution": "cobblemon:electrode"
+			}
+		},
+        "trade_electrode": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:electrode"
+            }
+        },
+        "party_electrode": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:electrode"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "electrode",
+            "evolve_electrode",
+            "trade_electrode",
+            "party_electrode"
+        ]
+    ]
+}

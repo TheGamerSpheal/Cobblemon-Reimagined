@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:registeel",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Please Help Me, Reggie From Nintendo!"
+        },
+        "description": {
+            "translate": "Catch or trade Registeel"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0486_regigigas",
+    "criteria": {
+        "registeel": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:registeel"
+            }
+        },
+        "trade_registeel": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:registeel"
+            }
+        },
+        "party_registeel": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:registeel"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "registeel",
+            "trade_registeel",
+            "party_registeel"
+        ]
+    ]
+}

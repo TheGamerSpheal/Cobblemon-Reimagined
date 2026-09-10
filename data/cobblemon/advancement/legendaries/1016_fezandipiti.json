@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:fezandipiti",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Indentured Domination"
+        },
+        "description": {
+            "translate": "Catch or trade Fezandipiti"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/1025_pecharunt",
+    "criteria": {
+        "fezandipiti": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:fezandipiti"
+            }
+        },
+        "trade_fezandipiti": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:fezandipiti"
+            }
+        },
+        "party_fezandipiti": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:fezandipiti"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fezandipiti",
+            "trade_fezandipiti",
+            "party_fezandipiti"
+        ]
+    ]
+}

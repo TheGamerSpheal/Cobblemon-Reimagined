@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:ogerpon",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "She's So Cute!"
+        },
+        "description": {
+            "translate": "Catch or trade Ogerpon"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0716_xerneas",
+    "criteria": {
+        "ogerpon": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:ogerpon"
+            }
+        },
+        "trade_ogerpon": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:ogerpon"
+            }
+        },
+        "party_ogerpon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ogerpon"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ogerpon",
+            "trade_ogerpon",
+            "party_ogerpon"
+        ]
+    ]
+}

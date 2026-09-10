@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:goldeen",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Just Keep Swimming"
+        },
+        "description": {
+            "translate": "Catch or trade Goldeen"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "goldeen": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:goldeen"
+            }
+        },
+        "trade_goldeen": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:goldeen"
+            }
+        },
+        "party_goldeen": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:goldeen"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "goldeen",
+            "trade_goldeen",
+            "party_goldeen"
+        ]
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:vileplume",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Vileplume"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Vileplume"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0044_gloom",
+    "criteria": {
+        "vileplume": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:vileplume"
+            }
+        },
+        "evolve_vileplume": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:gloom",
+				"evolution": "cobblemon:vileplume"
+			}
+		},
+        "trade_vileplume": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:vileplume"
+            }
+        },
+        "party_vileplume": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:vileplume"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "vileplume",
+            "evolve_vileplume",
+            "trade_vileplume",
+            "party_vileplume"
+        ]
+    ]
+}

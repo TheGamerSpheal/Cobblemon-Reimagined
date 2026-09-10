@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:glastrier",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Calyrex's Frozen Steed"
+        },
+        "description": {
+            "translate": "Catch or trade Glastrier"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0898_calyrex",
+    "criteria": {
+        "glastrier": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:glastrier"
+            }
+        },
+        "trade_glastrier": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:glastrier"
+            }
+        },
+        "party_glastrier": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:glastrier"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "glastrier",
+            "trade_glastrier",
+            "party_glastrier"
+        ]
+    ]
+}

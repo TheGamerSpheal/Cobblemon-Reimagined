@@ -1,0 +1,66 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:urshifu",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "What do You Mean It Can Hit Through Protect?"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Urshifu"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0892_kubfu",
+    "criteria": {
+        "urshifu": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:urshifu"
+            }
+        },
+        "evolve_urshifu": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:kubfu",
+				"evolution": "cobblemon:urshifu"
+			}
+		},
+        "trade_urshifu": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:urshifu"
+            }
+        },
+        "party_urshifu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:urshifu"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "urshifu",
+            "evolve_urshifu",
+            "trade_urshifu",
+            "party_urshifu"
+        ]
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:kabutops",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "I Have a Theory! Wait, Didn't I Do This Already?"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Kabutops"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0140_kabuto",
+    "criteria": {
+        "kabutops": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:kabutops"
+            }
+        },
+        "evolve_kabutops": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:kabuto",
+				"evolution": "cobblemon:kabutops"
+			}
+		},
+        "trade_kabutops": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:kabutops"
+            }
+        },
+        "party_kabutops": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kabutops"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kabutops",
+            "evolve_kabutops",
+            "trade_kabutops",
+            "party_kabutops"
+        ]
+    ]
+}

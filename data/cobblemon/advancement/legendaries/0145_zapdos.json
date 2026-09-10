@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:zapdos",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "1.21 Gigawatts"
+        },
+        "description": {
+            "translate": "Catch or trade Zapdos"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0249_lugia",
+    "criteria": {
+        "zapdos": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:zapdos"
+            }
+        },
+        "trade_zapdos": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:zapdos"
+            }
+        },
+        "party_zapdos": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zapdos"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "zapdos",
+            "trade_zapdos",
+            "party_zapdos"
+        ]
+    ]
+}

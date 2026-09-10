@@ -1,0 +1,66 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:lunala",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "THE MOON HAUNTS YOU!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Lunala"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0790_cosmoem",
+    "criteria": {
+        "lunala": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:lunala"
+            }
+        },
+        "evolve_lunala": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:cosmoem",
+				"evolution": "cobblemon:lunala"
+			}
+		},
+        "trade_lunala": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:lunala"
+            }
+        },
+        "party_lunala": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:lunala"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lunala",
+            "evolve_lunala",
+            "trade_lunala",
+            "party_lunala"
+        ]
+    ]
+}

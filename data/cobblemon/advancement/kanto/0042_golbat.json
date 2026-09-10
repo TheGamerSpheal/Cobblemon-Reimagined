@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:golbat",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "I'm Vengeance!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Golbat"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0041_zubat",
+    "criteria": {
+        "golbat": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:golbat"
+            }
+        },
+        "evolve_golbat": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:zubat",
+				"evolution": "cobblemon:golbat"
+			}
+		},
+        "trade_golbat": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:golbat"
+            }
+        },
+        "party_golbat": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:golbat"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "golbat",
+            "evolve_golbat",
+            "trade_golbat",
+            "party_golbat"
+        ]
+    ]
+}

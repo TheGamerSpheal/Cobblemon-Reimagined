@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:marowak",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "How Was the Fall?"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Marowak"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0104_cubone",
+    "criteria": {
+        "marowak": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:marowak"
+            }
+        },
+        "evolve_marowak": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:cubone",
+				"evolution": "cobblemon:marowak"
+			}
+		},
+        "trade_marowak": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:marowak"
+            }
+        },
+        "party_marowak": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:marowak"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "marowak",
+            "evolve_marowak",
+            "trade_marowak",
+            "party_marowak"
+        ]
+    ]
+}

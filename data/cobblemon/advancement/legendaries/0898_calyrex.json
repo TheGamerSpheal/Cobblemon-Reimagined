@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:calyrex",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "You Belong to Me!"
+        },
+        "description": {
+            "translate": "Catch or trade Calyrex"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0716_xerneas",
+    "criteria": {
+        "calyrex": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:calyrex"
+            }
+        },
+        "trade_calyrex": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:calyrex"
+            }
+        },
+        "party_calyrex": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:calyrex"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "calyrex",
+            "trade_calyrex",
+            "party_calyrex"
+        ]
+    ]
+}

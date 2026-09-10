@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:zarude",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Planet of Zarudes"
+        },
+        "description": {
+            "translate": "Catch or trade Zarude"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0716_xerneas",
+    "criteria": {
+        "zarude": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:zarude"
+            }
+        },
+        "trade_zarude": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:zarude"
+            }
+        },
+        "party_zarude": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zarude"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "zarude",
+            "trade_zarude",
+            "party_zarude"
+        ]
+    ]
+}

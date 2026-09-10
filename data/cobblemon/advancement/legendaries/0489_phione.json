@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:phione",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Error 404: Lore Not Found"
+        },
+        "description": {
+            "translate": "Catch or trade Phione"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0490_manaphy",
+    "criteria": {
+        "phione": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:phione"
+            }
+        },
+        "trade_phione": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:phione"
+            }
+        },
+        "party_phione": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:phione"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "phione",
+            "trade_phione",
+            "party_phione"
+        ]
+    ]
+}

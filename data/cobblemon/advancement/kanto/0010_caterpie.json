@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:caterpie",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Song Silkens"
+        },
+        "description": {
+            "translate": "Catch or trade Caterpie"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "caterpie": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:caterpie"
+            }
+        },
+        "trade_caterpie": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:caterpie"
+            }
+        },
+        "party_caterpie": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:caterpie"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "caterpie",
+            "trade_caterpie",
+            "party_caterpie"
+        ]
+    ]
+}

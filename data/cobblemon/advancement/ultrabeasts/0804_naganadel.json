@@ -1,0 +1,66 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:naganadel",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Super Glue Wasp"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Naganadel"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:ultrabeasts/poipole",
+    "criteria": {
+        "naganadel": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:naganadel"
+            }
+        },
+        "evolve_naganadel": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:poipole",
+				"evolution": "cobblemon:naganadel"
+			}
+		},
+        "trade_naganadel": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:naganadel"
+            }
+        },
+        "party_naganadel": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:naganadel"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "naganadel",
+            "evolve_naganadel",
+            "trade_naganadel",
+            "party_naganadel"
+        ]
+    ]
+}

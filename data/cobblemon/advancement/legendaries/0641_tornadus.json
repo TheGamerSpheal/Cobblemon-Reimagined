@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:tornadus",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Fūjin"
+        },
+        "description": {
+            "translate": "Catch or trade Tornadus"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0645_landorus",
+    "criteria": {
+        "tornadus": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:tornadus"
+            }
+        },
+        "trade_tornadus": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:tornadus"
+            }
+        },
+        "party_tornadus": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tornadus"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tornadus",
+            "trade_tornadus",
+            "party_tornadus"
+        ]
+    ]
+}

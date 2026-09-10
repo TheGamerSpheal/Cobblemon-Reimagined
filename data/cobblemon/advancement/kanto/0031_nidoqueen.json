@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:nidoqueen",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Off With Their Heads!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Nidoqueen"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0030_nidorina",
+    "criteria": {
+        "nidoqueen": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:nidoqueen"
+            }
+        },
+        "evolve_nidoqueen": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:nidorina",
+				"evolution": "cobblemon:nidoqueen"
+			}
+		},
+        "trade_nidoqueen": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:nidoqueen"
+            }
+        },
+        "party_nidoqueen": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nidoqueen"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "nidoqueen",
+            "evolve_nidoqueen",
+            "trade_nidoqueen",
+            "party_nidoqueen"
+        ]
+    ]
+}

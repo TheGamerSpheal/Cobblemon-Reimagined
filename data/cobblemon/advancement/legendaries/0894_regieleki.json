@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:regieleki",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Regieleki is Too Fast! It Outsped Trick Room!"
+        },
+        "description": {
+            "translate": "Catch or trade Regieleki"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0486_regigigas",
+    "criteria": {
+        "regieleki": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:regieleki"
+            }
+        },
+        "trade_regieleki": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:regieleki"
+            }
+        },
+        "party_regieleki": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:regieleki"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "regieleki",
+            "trade_regieleki",
+            "party_regieleki"
+        ]
+    ]
+}

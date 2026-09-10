@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:butterfree",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "We All Cried in that Episode"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Butterfree"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0011_metapod",
+    "criteria": {
+        "butterfree": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:butterfree"
+            }
+        },
+        "evolve_butterfree": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:metapod",
+				"evolution": "cobblemon:butterfree"
+			}
+		},
+        "trade_butterfree": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:butterfree"
+            }
+        },
+        "party_butterfree": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:butterfree"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "butterfree",
+            "evolve_butterfree",
+            "trade_butterfree",
+            "party_butterfree"
+        ]
+    ]
+}

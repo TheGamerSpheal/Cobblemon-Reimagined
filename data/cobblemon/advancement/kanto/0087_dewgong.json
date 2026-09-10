@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:dewgong",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Chill Out"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Dewgong"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0086_seel",
+    "criteria": {
+        "dewgong": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:dewgong"
+            }
+        },
+        "evolve_dewgong": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:seel",
+				"evolution": "cobblemon:dewgong"
+			}
+		},
+        "trade_dewgong": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:dewgong"
+            }
+        },
+        "party_dewgong": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dewgong"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dewgong",
+            "evolve_dewgong",
+            "trade_dewgong",
+            "party_dewgong"
+        ]
+    ]
+}

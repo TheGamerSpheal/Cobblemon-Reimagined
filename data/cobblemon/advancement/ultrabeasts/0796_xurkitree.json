@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:xurkitree",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Circuitry"
+        },
+        "description": {
+            "translate": "Catch or trade Xurkitree"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:ultrabeasts/ultrabeasts",
+    "criteria": {
+        "xurkitree": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:xurkitree"
+            }
+        },
+        "trade_xurkitree": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:xurkitree"
+            }
+        },
+        "party_xurkitree": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:xurkitree"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "xurkitree",
+            "trade_xurkitree",
+            "party_xurkitree"
+        ]
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:regice",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "How Were Kids Supposed to Figure it Out in 2003?"
+        },
+        "description": {
+            "translate": "Catch or trade Regice"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0486_regigigas",
+    "criteria": {
+        "regice": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:regice"
+            }
+        },
+        "trade_regice": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:regice"
+            }
+        },
+        "party_regice": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:regice"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "regice",
+            "trade_regice",
+            "party_regice"
+        ]
+    ]
+}

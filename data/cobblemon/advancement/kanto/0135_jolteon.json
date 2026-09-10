@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:jolteon",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "I Am Speed"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Jolteon"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0133_eevee",
+    "criteria": {
+        "jolteon": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:jolteon"
+            }
+        },
+        "evolve_jolteon": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:eevee",
+				"evolution": "cobblemon:jolteon"
+			}
+		},
+        "trade_jolteon": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:jolteon"
+            }
+        },
+        "party_jolteon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:jolteon"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "jolteon",
+            "evolve_jolteon",
+            "trade_jolteon",
+            "party_jolteon"
+        ]
+    ]
+}

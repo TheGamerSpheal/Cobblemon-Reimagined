@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:deoxys",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Heaven-Sent Abomination"
+        },
+        "description": {
+            "translate": "Catch or trade Deoxys"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0484_palkia",
+    "criteria": {
+        "deoxys": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:deoxys"
+            }
+        },
+        "trade_deoxys": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:deoxys"
+            }
+        },
+        "party_deoxys": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:deoxys"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "deoxys",
+            "trade_deoxys",
+            "party_deoxys"
+        ]
+    ]
+}

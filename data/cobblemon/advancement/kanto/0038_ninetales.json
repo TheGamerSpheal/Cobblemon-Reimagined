@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:ninetales",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Tails? The Name's... NINE!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Ninetales"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0038_vulpix",
+    "criteria": {
+        "ninetales": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:ninetales"
+            }
+        },
+        "evolve_ninetales": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:vulpix",
+				"evolution": "cobblemon:ninetales"
+			}
+		},
+        "trade_ninetales": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:ninetales"
+            }
+        },
+        "party_ninetales": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ninetales"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ninetales",
+            "evolve_ninetales",
+            "trade_ninetales",
+            "party_ninetales"
+        ]
+    ]
+}

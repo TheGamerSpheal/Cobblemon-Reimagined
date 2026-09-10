@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:metapod",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Metapod vs Metapod Was Peak Anime"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Metapod"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0010_caterpie",
+    "criteria": {
+        "metapod": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:metapod"
+            }
+        },
+        "evolve_metapod": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:caterpie",
+				"evolution": "cobblemon:metapod"
+			}
+		},
+        "trade_metapod": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:metapod"
+            }
+        },
+        "party_metapod": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:metapod"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "metapod",
+            "evolve_metapod",
+            "trade_metapod",
+            "party_metapod"
+        ]
+    ]
+}

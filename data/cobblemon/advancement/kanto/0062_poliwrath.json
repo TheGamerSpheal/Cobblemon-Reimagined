@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:poliwrath",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Poliwrath"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Poliwrath"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0061_poliwhirl",
+    "criteria": {
+        "poliwrath": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:poliwrath"
+            }
+        },
+        "evolve_poliwrath": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:poliwhirl",
+				"evolution": "cobblemon:poliwrath"
+			}
+		},
+        "trade_poliwrath": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:poliwrath"
+            }
+        },
+        "party_poliwrath": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:poliwrath"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "poliwrath",
+            "evolve_poliwrath",
+            "trade_poliwrath",
+            "party_poliwrath"
+        ]
+    ]
+}

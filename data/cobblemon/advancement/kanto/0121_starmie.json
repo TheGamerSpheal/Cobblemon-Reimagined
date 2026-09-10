@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:starmie",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Thunder Thighs"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Starmie"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0120_staryu",
+    "criteria": {
+        "starmie": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:starmie"
+            }
+        },
+        "evolve_starmie": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:staryu",
+				"evolution": "cobblemon:starmie"
+			}
+		},
+        "trade_starmie": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:starmie"
+            }
+        },
+        "party_starmie": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:starmie"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "starmie",
+            "evolve_starmie",
+            "trade_starmie",
+            "party_starmie"
+        ]
+    ]
+}

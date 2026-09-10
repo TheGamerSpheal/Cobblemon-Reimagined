@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:pecharunt",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Momotarō"
+        },
+        "description": {
+            "translate": "Catch or trade Pecharunt"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0717_yveltal",
+    "criteria": {
+        "pecharunt": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:okidogi"
+            }
+        },
+        "trade_pecharunt": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:pecharunt"
+            }
+        },
+        "party_pecharunt": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pecharunt"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "pecharunt",
+            "trade_pecharunt",
+            "party_pecharunt"
+        ]
+    ]
+}

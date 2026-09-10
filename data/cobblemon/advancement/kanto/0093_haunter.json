@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:haunter",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Peek-a-BOO!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Haunter"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0092_gastly",
+    "criteria": {
+        "haunter": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:haunter"
+            }
+        },
+        "evolve_haunter": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:gastly",
+				"evolution": "cobblemon:haunter"
+			}
+		},
+        "trade_haunter": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:haunter"
+            }
+        },
+        "party_haunter": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:haunter"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "haunter",
+            "evolve_haunter",
+            "trade_haunter",
+            "party_haunter"
+        ]
+    ]
+}

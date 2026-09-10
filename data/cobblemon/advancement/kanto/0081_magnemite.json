@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:magnemite",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Magnemite"
+        },
+        "description": {
+            "translate": "Catch or trade Magnemite"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "magnemite": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:magnemite"
+            }
+        },
+        "trade_magnemite": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:magnemite"
+            }
+        },
+        "party_magnemite": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:magnemite"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "magnemite",
+            "trade_magnemite",
+            "party_magnemite"
+        ]
+    ]
+}

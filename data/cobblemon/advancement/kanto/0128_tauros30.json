@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:tauros",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "You Actually Went and Did That?"
+        },
+        "description": {
+            "translate": "Catch 30 Tauros"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "cobblemon:kanto/0128_tauros",
+    "criteria": {
+        "tauros30": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 30,
+                "species": "cobblemon:tauros"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tauros30"
+        ]
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:tapubulu",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Ula'ula's Protector"
+        },
+        "description": {
+            "translate": "Catch or trade Tapu Bulu"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0718_zygarde",
+    "criteria": {
+        "tapubulu": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:tapubulu"
+            }
+        },
+        "trade_tapubulu": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:tapubulu"
+            }
+        },
+        "party_tapubulu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tapubulu"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tapubulu",
+            "trade_tapubulu",
+            "party_tapubulu"
+        ]
+    ]
+}

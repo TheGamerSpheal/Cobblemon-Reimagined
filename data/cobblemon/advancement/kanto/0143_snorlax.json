@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:snorlax",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "YOU! SHALL NOT! PASS!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Snorlax"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "snorlax": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:snorlax"
+            }
+        },
+        "evolve_snorlax": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:munchlax",
+				"evolution": "cobblemon:snorlax"
+			}
+		},
+        "trade_snorlax": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:snorlax"
+            }
+        },
+        "party_snorlax": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:snorlax"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "snorlax",
+            "evolve_snorlax",
+            "trade_snorlax",
+            "party_snorlax"
+        ]
+    ]
+}

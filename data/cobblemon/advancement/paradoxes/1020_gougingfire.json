@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:gougingfire",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Triceratops Entei"
+        },
+        "description": {
+            "translate": "Catch or trade Gouging Fire"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:paradoxes/1009_walkingwake",
+    "criteria": {
+        "gougingfire": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:gougingfire"
+            }
+        },
+        "trade_gougingfire": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:gougingfire"
+            }
+        },
+        "party_gougingfire": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:gougingfire"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "gougingfire",
+            "trade_gougingfire",
+            "party_gougingfire"
+        ]
+    ]
+}

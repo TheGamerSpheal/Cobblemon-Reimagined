@@ -1,0 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:palkia",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Where the Hell are We?"
+        },
+        "description": {
+            "translate": "Catch or trade Palkia"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0493_arceus",
+    "criteria": {
+        "palkia": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:palkia"
+            }
+        },
+        "trade_palkia": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "received": "cobblemon:muk"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "palkia",
+            "trade_palkia"
+        ]
+    ]
+}

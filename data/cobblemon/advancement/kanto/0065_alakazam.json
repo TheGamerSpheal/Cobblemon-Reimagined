@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:alakazam",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Oh Yeah, It's Big Brain Time"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Alakazam"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0064_kadabra",
+    "criteria": {
+        "alakazam": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:alakazam"
+            }
+        },
+        "evolve_alakazam": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:kadabra",
+				"evolution": "cobblemon:alakazam"
+			}
+		},
+        "trade_alakazam": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:alakazam"
+            }
+        },
+        "party_alakazam": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:alakazam"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "alakazam",
+            "evolve_alakazam",
+            "trade_alakazam",
+            "party_alakazam"
+        ]
+    ]
+}

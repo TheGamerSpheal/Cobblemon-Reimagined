@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:moltres",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Air is Getting Warmer Around You..."
+        },
+        "description": {
+            "translate": "Catch or trade Moltres"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0249_lugia",
+    "criteria": {
+        "moltres": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:moltres"
+            }
+        },
+        "trade_moltres": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:moltres"
+            }
+        },
+        "party_moltres": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:moltres"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "moltres",
+            "trade_moltres",
+            "party_moltres"
+        ]
+    ]
+}

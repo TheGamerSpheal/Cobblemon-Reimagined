@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:rayquaza",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "GO TEAM SKY!"
+        },
+        "description": {
+            "translate": "Catch or trade Rayquaza"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0493_arceus",
+    "criteria": {
+        "rayquaza": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:rayquaza"
+            }
+        },
+        "trade_rayquaza": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:rayquaza"
+            }
+        },
+        "party_rayquaza": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:rayquaza"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "rayquaza",
+            "trade_rayquaza",
+            "party_rayquaza"
+        ]
+    ]
+}

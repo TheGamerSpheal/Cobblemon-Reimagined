@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:tinglu",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Bowl Deer"
+        },
+        "description": {
+            "translate": "Catch or trade Ting-Lu"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0717_yveltal",
+    "criteria": {
+        "tinglu": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:tinglu"
+            }
+        },
+        "trade_tinglu": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:tinglu"
+            }
+        },
+        "party_tinglu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tinglu"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tinglu",
+            "trade_tinglu",
+            "party_tinglu"
+        ]
+    ]
+}

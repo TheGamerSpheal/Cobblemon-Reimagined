@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:arcanine",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "This is Fine"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Arcanine"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0058_growlithe",
+    "criteria": {
+        "arcanine": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:arcanine"
+            }
+        },
+        "evolve_arcanine": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:growlithe",
+				"evolution": "cobblemon:arcanine"
+			}
+		},
+        "trade_arcanine": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:arcanine"
+            }
+        },
+        "party_arcanine": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:arcanine"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "arcanine",
+            "evolve_arcanine",
+            "trade_arcanine",
+            "party_arcanine"
+        ]
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:lugia",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Master of Storms"
+        },
+        "description": {
+            "translate": "Catch or trade Lugia"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0382_kyogre",
+    "criteria": {
+        "lugia": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:lugia"
+            }
+        },
+        "trade_lugia": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:lugia"
+            }
+        },
+        "party_lugia": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:lugia"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lugia",
+            "trade_lugia",
+            "party_lugia"
+        ]
+    ]
+}

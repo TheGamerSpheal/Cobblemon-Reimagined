@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:omanyte",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Praise Lord Helix"
+        },
+        "description": {
+            "translate": "Catch, trade or ressurect Omanyte"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "omanyte": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:omanyte"
+            }
+        },
+        "ressurect_omanyte": {
+            "trigger": "cobblemon:resurrect_pokemon",
+            "conditions": {
+                "species": "cobblemon:omanyte",
+                "properties": "property=true"
+            }
+        },
+        "trade_omanyte": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:omanyte"
+            }
+        },
+        "party_omanyte": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:omanyte"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "omanyte",
+            "ressurect_omanyte",
+            "trade_omanyte",
+            "party_omanyte"
+        ]
+    ]
+}

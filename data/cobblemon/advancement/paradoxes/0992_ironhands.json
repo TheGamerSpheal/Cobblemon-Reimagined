@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:ironhands",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Catch These Hands!"
+        },
+        "description": {
+            "translate": "Catch or trade Iron Hands"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:paradoxes/0991_ironbundle",
+    "criteria": {
+        "ironhands": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:ironhands"
+            }
+        },
+        "trade_ironhands": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:ironhands"
+            }
+        },
+        "party_ironhands": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ironhands"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ironhands",
+            "trade_ironhands",
+            "party_ironhands"
+        ]
+    ]
+}

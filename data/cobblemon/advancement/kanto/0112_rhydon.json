@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:rhydon",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Just Who the Hell do You Think I Am?"
+        },
+        "description": {
+            "translate": "Cacth, trade or evolve Rhydon"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0111_rhyhorn",
+    "criteria": {
+        "rhydon": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:rhydon"
+            }
+        },
+        "evolve_rhydon": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:rhyhorn",
+				"evolution": "cobblemon:rhydon"
+			}
+		},
+        "trade_rhydon": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:rhydon"
+            }
+        },
+        "party_rhydon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:rhydon"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "rhydon",
+            "evolve_rhydon",
+            "trade_rhydon",
+            "party_rhydon"
+        ]
+    ]
+}

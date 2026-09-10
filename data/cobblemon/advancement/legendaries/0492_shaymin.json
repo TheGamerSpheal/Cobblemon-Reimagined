@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:shaymin",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "No Shaymin That"
+        },
+        "description": {
+            "translate": "Catch or trade Shaymin"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0716_xerneas",
+    "criteria": {
+        "shaymin": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:shaymin"
+            }
+        },
+        "trade_shaymin": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:shaymin"
+            }
+        },
+        "party_shaymin": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:shaymin"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "shaymin",
+            "trade_shaymin",
+            "party_shaymin"
+        ]
+    ]
+}

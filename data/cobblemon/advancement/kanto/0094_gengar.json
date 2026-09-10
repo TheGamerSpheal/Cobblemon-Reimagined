@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:gengar",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Perish Trap"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Gengar"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0093_haunter",
+    "criteria": {
+        "gengar": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:gengar"
+            }
+        },
+        "evolve_gengar": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:haunter",
+				"evolution": "cobblemon:gengar"
+			}
+		},
+        "trade_gengar": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:gengar"
+            }
+        },
+        "party_gengar": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:gengar"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "gengar",
+            "evolve_gengar",
+            "trade_gengar",
+            "party_gengar"
+        ]
+    ]
+}

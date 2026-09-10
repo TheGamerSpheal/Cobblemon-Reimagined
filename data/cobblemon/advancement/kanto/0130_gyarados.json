@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:gyarados",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Carp Who Lept the Dragon Gate"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Gyarados"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0129_magikarp",
+    "criteria": {
+        "gyarados": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:gyarados"
+            }
+        },
+        "evolve_gyarados": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:magikarp",
+				"evolution": "cobblemon:gyarados"
+			}
+		},
+        "trade_gyarados": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:gyarados"
+            }
+        },
+        "party_gyarados": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:gyarados"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "gyarados",
+            "evolve_gyarados",
+            "trade_gyarados",
+            "party_gyarados"
+        ]
+    ]
+}

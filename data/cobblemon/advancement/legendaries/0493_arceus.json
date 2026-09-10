@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:arceus",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Almighty Sinnoh"
+        },
+        "description": {
+            "translate": "Catch or trade Arceus"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/legendary",
+    "criteria": {
+        "arceus": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:arceus"
+            }
+        },
+        "trade_arceus": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:arceus"
+            }
+        },
+        "party_arceus": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:arceus"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "arceus",
+            "trade_arceus",
+            "party_arceus"
+        ]
+    ]
+}

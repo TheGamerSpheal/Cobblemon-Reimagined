@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:pheromosa",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Runaway Model"
+        },
+        "description": {
+            "translate": "Catch or trade Pheromosa"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:ultrabeasts/ultrabeasts",
+    "criteria": {
+        "pheromosa": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:pheromosa"
+            }
+        },
+        "trade_pheromosa": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:pheromosa"
+            }
+        },
+        "party_pheromosa": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:pheromosa"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "pheromosa",
+            "trade_pheromosa",
+            "party_pheromosa"
+        ]
+    ]
+}

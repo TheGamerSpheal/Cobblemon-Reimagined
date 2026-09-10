@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:brutebonnet",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "There's an Impostor Amonguss"
+        },
+        "description": {
+            "translate": "Catch or trade Brute Bonnet"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:paradoxes/0985_screamtail",
+    "criteria": {
+        "brutebonnet": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:brutebonnet"
+            }
+        },
+        "trade_brutebonnet": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:brutebonnet"
+            }
+        },
+        "party_brutebonnet": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:brutebonnet"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "brutebonnet",
+            "trade_brutebonnet",
+            "party_brutebonnet"
+        ]
+    ]
+}

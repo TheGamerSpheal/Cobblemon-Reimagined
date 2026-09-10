@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:celebi",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "It Was About Time"
+        },
+        "description": {
+            "translate": "Catch or trade Celebi"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0483_dialga",
+    "criteria": {
+        "celebi": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:celebi"
+            }
+        },
+        "trade_celebi": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:celebi"
+            }
+        },
+        "party_celebi": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:celebi"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "celebi",
+            "trade_celebi",
+            "party_celebi"
+        ]
+    ]
+}

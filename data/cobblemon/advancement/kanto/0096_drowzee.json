@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:drowzee",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Drowzee"
+        },
+        "description": {
+            "translate": "Catch or trade Drowzee"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "drowzee": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:drowzee"
+            }
+        },
+        "trade_drowzee": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:drowzee"
+            }
+        },
+        "party_drowzee": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:drowzee"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "drowzee",
+            "trade_drowzee",
+            "party_drowzee"
+        ]
+    ]
+}

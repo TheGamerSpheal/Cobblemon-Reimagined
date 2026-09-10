@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:tauros",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Ash Caught 30 of These, Do Better"
+        },
+        "description": {
+            "translate": "Catch or trade Tauros"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "tauros": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:tauros"
+            }
+        },
+        "trade_tauros": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:tauros"
+            }
+        },
+        "party_tauros": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tauros"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tauros",
+            "trade_tauros",
+            "party_tauros"
+        ]
+    ]
+}

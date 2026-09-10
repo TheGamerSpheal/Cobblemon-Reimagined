@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:yveltal",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Harbinger of Death"
+        },
+        "description": {
+            "translate": "Catch or trade Yveltal"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0718_zygarde",
+    "criteria": {
+        "yveltal": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:yveltal"
+            }
+        },
+        "trade_yveltal": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:yveltal"
+            }
+        },
+        "party_yveltal": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:yveltal"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "yveltal",
+            "trade_yveltal",
+            "party_yveltal"
+        ]
+    ]
+}

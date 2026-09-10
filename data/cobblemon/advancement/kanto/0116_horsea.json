@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:horsea",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Pokémon: Gun Edition"
+        },
+        "description": {
+            "translate": "Catch or trade Horsea"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "horsea": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:horsea"
+            }
+        },
+        "trade_horsea": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:horsea"
+            }
+        },
+        "party_horsea": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:horsea"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "horsea",
+            "trade_horsea",
+            "party_horsea"
+        ]
+    ]
+}

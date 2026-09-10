@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:guzzlord",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "AAAAAAAAAAAAAAAAAAAAAA!"
+        },
+        "description": {
+            "translate": "Catch or trade Guzzlord"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:ultrabeasts/ultrabeasts",
+    "criteria": {
+        "guzzlord": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:guzzlord"
+            }
+        },
+        "trade_guzzlord": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:guzzlord"
+            }
+        },
+        "party_guzzlord": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:guzzlord"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "guzzlord",
+            "trade_guzzlord",
+            "party_guzzlord"
+        ]
+    ]
+}

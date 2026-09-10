@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:hooh",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Flames of Rejuvenation"
+        },
+        "description": {
+            "translate": "Catch or trade Ho-Oh"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0383_groudon",
+    "criteria": {
+        "hooh": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:hooh"
+            }
+        },
+        "trade_hooh": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:hooh"
+            }
+        },
+        "party_hooh": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:hooh"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hooh",
+            "trade_hooh",
+            "party_hooh"
+        ]
+    ]
+}

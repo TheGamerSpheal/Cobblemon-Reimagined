@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:vaporeon",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Stop, Get Some Help"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Vaporeon"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0133_eevee",
+    "criteria": {
+        "vaporeon": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:vaporeon"
+            }
+        },
+        "evolve_vaporeon": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:eevee",
+				"evolution": "cobblemon:vaporeon"
+			}
+		},
+        "trade_vaporeon": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:vaporeon"
+            }
+        },
+        "party_vaporeon": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:vaporeon"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "vaporeon",
+            "evolve_vaporeon",
+            "trade_vaporeon",
+            "party_vaporeon"
+        ]
+    ]
+}

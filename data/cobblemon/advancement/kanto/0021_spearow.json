@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:spearow",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "At Least Pidgey Isn't a Jerk"
+        },
+        "description": {
+            "translate": "Catch or trade Spearow"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "spearow": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:spearow"
+            }
+        },
+        "trade_spearow": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:spearow"
+            }
+        },
+        "party_spearow": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:spearow"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "spearow",
+            "trade_spearow",
+            "party_spearow"
+        ]
+    ]
+}

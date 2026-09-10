@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:squirtle",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Here Comes the Squirtle Squad"
+        },
+        "description": {
+            "translate": "Catch, trade or select Squirtle as your starter"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "squirtle": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:squirtle"
+            }
+        },
+        "pick_squirtle": {
+            "trigger": "cobblemon:pick_starter",
+            "conditions": {
+                "species": "cobblemon:squirtle",
+                "properties": "property=true"
+            }
+        },
+        "trade_squirtle": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:squirtle"
+            }
+        },
+        "party_squirtle": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:squirtle"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "squirtle",
+            "pick_squirtle",
+            "trade_squirtle",
+            "party_squirtle"
+        ]
+    ]
+}

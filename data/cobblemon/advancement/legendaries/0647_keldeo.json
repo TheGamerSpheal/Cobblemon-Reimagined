@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:keldeo",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "d'Artagnan"
+        },
+        "description": {
+            "translate": "Catch or trade Keldeo"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0638_cobalion",
+    "criteria": {
+        "keldeo": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:keldeo"
+            }
+        },
+        "trade_keldeo": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:keldeo"
+            }
+        },
+        "party_keldeo": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:keldeo"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "keldeo",
+            "trade_keldeo",
+            "party_keldeo"
+        ]
+    ]
+}

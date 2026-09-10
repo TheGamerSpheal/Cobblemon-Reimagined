@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:fluttermane",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Still Haunts Competitive"
+        },
+        "description": {
+            "translate": "Catch or trade Flutter Mane"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:paradoxes/0986_brutebonnet",
+    "criteria": {
+        "fluttermane": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:fluttermane"
+            }
+        },
+        "trade_fluttermane": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:fluttermane"
+            }
+        },
+        "party_fluttermane": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:fluttermane"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fluttermane",
+            "trade_fluttermane",
+            "party_fluttermane"
+        ]
+    ]
+}

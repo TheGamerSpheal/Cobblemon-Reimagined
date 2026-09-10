@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:sandshrew",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Rolling Around at the Speed of Sound"
+        },
+        "description": {
+            "translate": "Catch or trade Sandshrew"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "sandshrew": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:sandshrew"
+            }
+        },
+        "trade_sandshrew": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:sandshrew"
+            }
+        },
+        "party_sandshrew": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:sandshrew"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "sandshrew",
+            "trade_sandshrew",
+            "party_sandshrew"
+        ]
+    ]
+}

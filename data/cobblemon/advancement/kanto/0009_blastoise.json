@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:blastoise",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Cowabunga!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Blastoise"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0008_wartortle",
+    "criteria": {
+        "blastoise": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:blastoise"
+            }
+        },
+        "evolve_blastoise": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:wartortle",
+				"evolution": "cobblemon:blastoise"
+			}
+		},
+        "trade_blastoise": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:blastoise"
+            }
+        },
+        "party_blastoise": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:blastoise"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "blastoise",
+            "evolve_blastoise",
+            "trade_blastoise",
+            "party_blastoise"
+        ]
+    ]
+}

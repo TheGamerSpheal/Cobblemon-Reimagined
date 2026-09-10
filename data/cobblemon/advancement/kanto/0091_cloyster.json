@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:cloyster",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The World is your Cloyster"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Cloyster"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0072_tentacool",
+    "criteria": {
+        "cloyster": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:cloyster"
+            }
+        },
+        "evolve_cloyster": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:shellder",
+				"evolution": "cobblemon:cloyster"
+			}
+		},
+        "trade_cloyster": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:cloyster"
+            }
+        },
+        "party_cloyster": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:cloyster"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "cloyster",
+            "evolve_cloyster",
+            "trade_cloyster",
+            "party_cloyster"
+        ]
+    ]
+}

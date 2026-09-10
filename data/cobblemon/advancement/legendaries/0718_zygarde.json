@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:zygarde",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "This Isn't Even My Final Form!"
+        },
+        "description": {
+            "translate": "Catch or trade Zygarde"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0483_dialga",
+    "criteria": {
+        "zygarde": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:zuygarde"
+            }
+        },
+        "trade_zygarde": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:zygarde"
+            }
+        },
+        "party_zygarde": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:zygarde"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "zygarde",
+            "trade_zygarde",
+            "party_zygarde"
+        ]
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:nidoranf",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Juliet"
+        },
+        "description": {
+            "translate": "Catch or trade Nidoran Female"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0032_nidoranm",
+    "criteria": {
+        "nidoranf": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:nidoranf"
+            }
+        },
+        "trade_nidoranf": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:nidoranf"
+            }
+        },
+        "party_nidoranf": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nidoranf"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "nidoranf",
+            "trade_nidoranf",
+            "party_nidoranf"
+        ]
+    ]
+}

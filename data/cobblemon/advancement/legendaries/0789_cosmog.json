@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:cosmog",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Get Back in the Bag!"
+        },
+        "description": {
+            "translate": "Catch or trade Cosmog"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0487_giratina",
+    "criteria": {
+        "cosmog": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:cosmog"
+            }
+        },
+        "trade_cosmog": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:cosmog"
+            }
+        },
+        "party_cosmog": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:cosmog"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "cosmog",
+            "trade_cosmog",
+            "party_cosmog"
+        ]
+    ]
+}

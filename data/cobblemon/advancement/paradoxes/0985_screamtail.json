@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:screamtail",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "BUT IT WASN'T ENOUGH!"
+        },
+        "description": {
+            "translate": "Catch or trade Scream Tail"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:paradoxes/0984_greattusk",
+    "criteria": {
+        "screamtail": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:screamtail"
+            }
+        },
+        "trade_screamtail": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:screamtail"
+            }
+        },
+        "party_screamtail": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:screamtail"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "screamtail",
+            "trade_screamtail",
+            "party_screamtail"
+        ]
+    ]
+}

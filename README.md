@@ -1,18 +1,54 @@
 <h1>Cobblemon Reimagined (WIP)</h1>
 
-This is a Minecraft Cobblemon datapack that aims to breathe some new life into old pokémon, by giving them new typings, abilities, stat spreads and moves. Also gives every single Pokémon their own unique advancement, with all sorts of references to all sorts of media. Most inspiration is taken from the Luminescent Platinum Mod made by the Luminescent Team and the Radical Red ROM Hack made by Eric "Soupacell" Huang.
+This is a Minecraft Cobblemon datapack that aims to breathe some new life into old pokémon, by giving them new typings, abilities, stat spreads and moves. Also gives every single Pokémon their own unique advancement, try and catch 'em all! Most inspiration is taken from the Luminescent Platinum Mod made by the Luminescent Team and the Radical Red ROM Hack made by Eric "Soupacell" Huang.
 
 Any suggestions are welcome
 
-OBSERVATIONS:
-- You have to put the pokémon in your party for the advancements to trigger!
-- The Advancements not being shown are not intentional, i couldn't find a solution for that
+If anyone knows how to customize the advancement tree so i can place the advancements wherever i want, please let me know!
 
-NEXT OBJECTIVES
-- Do the rest of the generations
+Sidenote: Go into this blind, find the changes and advancements on your own, it makes for a more fun and unexpected adventure. The changes are listed down below if you desire to see them.
+
+MODS, DATAPACKS AND RESOURCE PACKS TO HAVE THE FULL EXPERIENCE:
+
+While this datapack can work on its own, some additions will make it just that bit better, so here are some of them:
+
+**Mega Showdown**:
+- [https://modrinth.com/mod/cobblemon-mega-showdown]
+- [https://www.curseforge.com/minecraft/mc-mods/cobblemon-mega-showdown]
+- Besides adding megas, z-moves, dynamax and terastallization, it adds a ton of legendaries, all of which have their own advancement (with their own tab no less!) in the datapack, so go hunt 'em!
+
+**AlltheMons x Mega Showdown**
+- [https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy]
+- Adds over 130 new Pokémon to the game! Most of which have changes made to them and all of them have an advancement! It's of UTMOST IMPORTANCE that if you're playing with Mega Showdown, THIS should be the version you install, as the regular one can cause compatibility issues. Don't forget to add this to the datapacks folder AND the resourcepacks folder!
+
+**Navas ZA Megas**
+- [https://modrinth.com/datapack/navas-zamega]
+- [https://www.curseforge.com/minecraft/mc-mods/navas-za-megas]
+- Doesn't inherently improve the datapack, but does add all the new megas Mega Showdown still doesn't have, so might be worth it.
+
+**Legendary Structures**
+- [https://modrinth.com/mod/legendary-monuments]
+- [https://www.curseforge.com/minecraft/mc-mods/legendary-monuments-cobblemon]
+- Want those legendaries from Mega Showdown, but don't wanna wait for them to spawn? Then this is the mod for you! Adds a ton of structures that spawn legendaries and mythicals, happy exploring! This also disables the Mega Showdown random spawns by default.
+
+**Better Advancements**
+- [https://modrinth.com/mod/better-advancements]
+- [https://www.curseforge.com/minecraft/mc-mods/better-advancements]
+- Makes the advancement tab better, and since this datapack has 1025 (or does it?) advancements, i consider this a MUST.
+
+**Advancement Plaques**
+- [https://modrinth.com/mod/advancement-plaques]
+- [https://www.curseforge.com/minecraft/mc-mods/advancement-plaques-fabric]
+- [https://www.curseforge.com/minecraft/mc-mods/advancement-plaques]
+- Adds a little bit more flair to the advancements pop up, i highly recommend this one.
+
+NEXT OBJECTIVES:
+- Make changes the rest of the generations
 - Full list of changes made to every Pokémon
 - Do the rest of the advancements for catching every Pokémon
 - Put it on Modrinth and the Cobblemon Discord
+
+Here's all the changes made to the Pokémon, again going into it blind is more fun, but do as you wish:
 
 <details>
 <summary>GEN 1 CHANGES</summary>

@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:dugtrio",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Trio! Trio! Trio!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Dugtrio"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0050_diglett",
+    "criteria": {
+        "dugtrio": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:dugtrio"
+            }
+        },
+        "evolve_dugtrio": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:diglett",
+				"evolution": "cobblemon:dugtrio"
+			}
+		},
+        "trade_dugtrio": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:dutrio"
+            }
+        },
+        "party_dugtrio": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dugtrio"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dugtrio",
+            "evolve_dugtrio",
+            "trade_dugtrio",
+            "party_dugtrio"
+        ]
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:articuno",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Cold Never Bothered Me Anyway"
+        },
+        "description": {
+            "translate": "Catch or trade Articuno"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0249_lugia",
+    "criteria": {
+        "articuno": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:articuno"
+            }
+        },
+        "trade_articuno": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:articuno"
+            }
+        },
+        "party_articuno": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:articuno"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "articuno",
+            "trade_articuno",
+            "party_articuno"
+        ]
+    ]
+}

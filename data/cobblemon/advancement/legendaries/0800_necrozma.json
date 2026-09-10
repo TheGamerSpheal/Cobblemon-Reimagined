@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:necrozma",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Self-Proclaimed 'Hardest Fight in the Franchise'"
+        },
+        "description": {
+            "translate": "Catch or trade Necrozma"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0487_giratina",
+    "criteria": {
+        "necrozma": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:necrozma"
+            }
+        },
+        "trade_necrozma": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:necrozma"
+            }
+        },
+        "party_necrozma": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:necrozma"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "necrozma",
+            "trade_necrozma",
+            "party_necrozma"
+        ]
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:primeape",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Pokémon, Explained With Bananas"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Primeape"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0056_mankey",
+    "criteria": {
+        "primeape": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:primeape"
+            }
+        },
+        "evolve_primeape": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:mankey",
+				"evolution": "cobblemon:primeape"
+			}
+		},
+        "trade_primeape": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:primeape"
+            }
+        },
+        "party_primeape": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:primeape"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "primeape",
+            "evolve_primeape",
+            "trade_primeape",
+            "party_primeape"
+        ]
+    ]
+}

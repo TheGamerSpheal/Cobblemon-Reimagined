@@ -1,0 +1,66 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:melmetal",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "It's a Big Boy Now"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Melmetal"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0808_meltan",
+    "criteria": {
+        "melmetal": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:melmetal"
+            }
+        },
+        "evolve_melmetal": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:meltan",
+				"evolution": "cobblemon:melmetal"
+			}
+		},
+        "trade_melmetal": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:melmetal"
+            }
+        },
+        "party_melmetal": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:melmetal"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "melmetal",
+            "evolve_melmetal",
+            "trade_melmetal",
+            "party_melmetal"
+        ]
+    ]
+}

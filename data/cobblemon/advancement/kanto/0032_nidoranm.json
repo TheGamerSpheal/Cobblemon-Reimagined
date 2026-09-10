@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:nidoranm",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Romeo"
+        },
+        "description": {
+            "translate": "Catch or trade Nidoran Male"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "nidoranm": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:nidoranm"
+            }
+        },
+        "trade_nidoranm": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:nidoranm"
+            }
+        },
+        "party_nidoranm": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nidoranm"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "nidoranm",
+            "trade_nidoranm",
+            "party_nidoranm"
+        ]
+    ]
+}

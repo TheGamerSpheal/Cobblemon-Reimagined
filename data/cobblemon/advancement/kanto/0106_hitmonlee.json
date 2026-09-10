@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:hitmonlee",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Enter the Dragon"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Hitmonlee"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "hitmonlee": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:hitmonlee"
+            }
+        },
+        "evolve_hitmonlee": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:tyrogue",
+				"evolution": "cobblemon:hitmonlee"
+			}
+		},
+        "trade_hitmonlee": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:hitmonlee"
+            }
+        },
+        "party_hitmonlee": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:hitmonlee"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hitmonlee",
+            "evolve_hitmonlee",
+            "trade_hitmonlee",
+            "party_hitmonlee"
+        ]
+    ]
+}

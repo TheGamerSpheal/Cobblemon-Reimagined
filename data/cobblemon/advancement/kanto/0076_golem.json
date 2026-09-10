@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:golem",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Yes Rico, Kaboom"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Golem"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0075_graveler",
+    "criteria": {
+        "golem": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:golem"
+            }
+        },
+        "evolve_golem": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:graveler",
+				"evolution": "cobblemon:golem"
+			}
+		},
+        "trade_golem": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:golem"
+            }
+        },
+        "party_golem": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:golem"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "golem",
+            "evolve_golem",
+            "trade_golem",
+            "party_golem"
+        ]
+    ]
+}

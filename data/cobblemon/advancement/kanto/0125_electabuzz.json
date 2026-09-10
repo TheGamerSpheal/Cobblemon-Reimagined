@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:electabuzz",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Shocking, Isn't It?"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Electabuzz"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "electabuzz": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:electabuzz"
+            }
+        },
+        "evolve_electabuzz": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:elekid",
+				"evolution": "cobblemon:electabuzz"
+			}
+		},
+        "trade_electabuzz": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:arbok"
+            }
+        },
+        "party_electabuzz": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:electabuzz"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "electabuzz",
+            "evolve_electabuzz",
+            "trade_electabuzz",
+            "party_electabuzz"
+        ]
+    ]
+}

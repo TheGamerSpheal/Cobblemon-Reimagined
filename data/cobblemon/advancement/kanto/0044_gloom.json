@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:gloom",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Gloom"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Gloom"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0043_oddish",
+    "criteria": {
+        "gloom": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:gloom"
+            }
+        },
+        "evolve_gloom": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:oddish",
+				"evolution": "cobblemon:gloom"
+			}
+		},
+        "trade_gloom": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:gloom"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "gloom",
+            "evolve_gloom",
+            "trade_gloom",
+            "party_gloom"
+        ]
+    ]
+}

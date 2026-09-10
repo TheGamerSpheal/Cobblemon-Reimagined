@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:enamorus",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Ugajin"
+        },
+        "description": {
+            "translate": "Catch or trade Enamorus"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0645_landorus",
+    "criteria": {
+        "enamorus": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:enamorus"
+            }
+        },
+        "trade_enamorus": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:enamorus"
+            }
+        },
+        "party_enamorus": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:enamorus"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enamorus",
+            "trade_enamorus",
+            "party_enamorus"
+        ]
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:beedrill",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Not the Bees!"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Beedrill"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0014_kakuna",
+    "criteria": {
+        "beedrill": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:beedrill"
+            }
+        },
+        "evolve_beedrill": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:kakuna",
+				"evolution": "cobblemon:beedrill"
+			}
+		},
+        "trade_beedrill": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:beedrill"
+            }
+        },
+        "party_beedrill": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:beedrill"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "beedrill",
+            "evolve_beedrill",
+            "trade_beedrill",
+            "party_beedrill"
+        ]
+    ]
+}

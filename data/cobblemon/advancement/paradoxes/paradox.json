@@ -4,10 +4,10 @@
             "id": "cobblemon:timer_ball"
         },
         "title": {
-            "translate": "Paradoxes"
+            "translate": "Time is Relative"
         },
         "description": {
-            "translate": "Have any Paradox Pokémon in your party"
+            "translate": "Catch any Paradox Pokémon"
         },
         "background": "cobblemon:textures/gui/advancements/backgrounds/cobblemon.png",
         "frame": "goal",
@@ -17,75 +17,59 @@
     },
     "criteria": {
         "greattusk": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:greattusk"
-                ]
+                "count": 1,
+                "species": "cobblemon:greatusk"
             }
         },
         "screamtail": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:screamtail"
-                ]
+                "count": 1,
+                "species": "cobblemon:screamtail"
             }
         },
         "brutebonnet": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:brutebonnet"
-                ]
+                "count": 1,
+                "species": "cobblemon:brutebonnet"
             }
         },
         "fluttermane": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:fluttermane"
-                ]
+                "count": 1,
+                "species": "cobblemon:fluttermane"
             }
         },
         "slitherwing": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:slitherwing"
-                ]
+                "count": 1,
+                "species": "cobblemon:slitherwing"
             }
         },
         "sandyshocks": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:sandyshocks"
-                ]
+                "count": 1,
+                "species": "cobblemon:sandyshocks"
             }
         },
         "roaringmoon": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:roaringmoon"
-                ]
+                "count": 1,
+                "species": "cobblemon:roaringmoon"
             }
         },
         "walkingwake": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:walkingwake"
-                ]
-            }
-        },
-        "ragingbolt": {
-            "trigger": "cobblemon:party",
-            "conditions": {
-                "party": [
-                    "cobblemon:ragingbolt"
-                ]
+                "count": 1,
+                "species": "cobblemon:walkingwake"
             }
         },
         "gougingfire": {
@@ -96,84 +80,81 @@
                 ]
             }
         },
-        "irontreads": {
-            "trigger": "cobblemon:party",
+        "ragingbolt": {
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:irontreads"
-                ]
+                "count": 1,
+                "species": "cobblemon:ragingbolt"
+            }
+        },
+        "irontreads": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:irontreads"
             }
         },
         "ironbundle": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ironbundle"
-                ]
+                "count": 1,
+                "species": "cobblemon:ironbundle"
             }
         },
         "ironhands": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ironhands"
-                ]
+                "count": 1,
+                "species": "cobblemon:ironhands"
             }
         },
         "ironjugulis": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ironjugulis"
-                ]
+                "count": 1,
+                "species": "cobblemon:ironjugulis"
             }
         },
         "ironmoth": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ironmoth"
-                ]
+                "count": 1,
+                "species": "cobblemon:ironmoth"
             }
         },
         "ironthorns": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ironthorns"
-                ]
+                "count": 1,
+                "species": "cobblemon:ironthorns"
             }
         },
         "ironvaliant": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ironvaliant"
-                ]
+                "count": 1,
+                "species": "cobblemon:ironvaliant"
             }
         },
         "ironleaves": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ironleaves"
-                ]
+                "count": 1,
+                "species": "cobblemon:ironleaves"
             }
         },
         "ironboulder": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ironboulder"
-                ]
+                "count": 1,
+                "species": "cobblemon:ironboulder"
             }
         },
         "ironcrown": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ironcrown"
-                ]
+                "count": 1,
+                "species": "cobblemon:ironcrown"
             }
         }
     },
@@ -187,8 +168,8 @@
             "sandyshocks",
             "roaringmoon",
             "walkingwake",
-            "ragingbolt",
             "gougingfire",
+            "ragingbolt",
             "irontreads",
             "ironbundle",
             "ironhands",

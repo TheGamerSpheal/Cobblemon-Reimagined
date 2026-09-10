@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:kakuna",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Kakuna"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Kakuna"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0013_weedle",
+    "criteria": {
+        "kakuna": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:kakuna"
+            }
+        },
+        "evolve_kakuna": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:weedle",
+				"evolution": "cobblemon:kakuna"
+			}
+		},
+        "trade_kakuna": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:kakuna"
+            }
+        },
+        "party_kakuna": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kakuna"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kakuna",
+            "evolve_kakuna",
+            "trade_kakuna",
+            "party_kakuna"
+        ]
+    ]
+}

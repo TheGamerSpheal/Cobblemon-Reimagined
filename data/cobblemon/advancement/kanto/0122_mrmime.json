@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:mrmime",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "You're Not a Clown, You're the Entire Circus"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Mr. Mime"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "mrmime": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:mrmime"
+            }
+        },
+        "evolve_mrmime": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:mimejr",
+				"evolution": "cobblemon:mrmime"
+			}
+		},
+        "trade_mrmime": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:mrmime"
+            }
+        },
+        "party_mrmime": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:mrmime"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "mrmime",
+            "evolve_mrmime",
+            "trade_mrmime",
+            "party_mrmime"
+        ]
+    ]
+}

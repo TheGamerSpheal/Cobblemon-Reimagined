@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:bulbasaur",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Bulbasaur and the Hidden Village"
+        },
+        "description": {
+            "translate": "Catch, trade or select Bulbasaur as your starter"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "bulbasaur": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:bulbasaur"
+            }
+        },
+        "pick_bulbasaur": {
+            "trigger": "cobblemon:pick_starter",
+            "conditions": {
+                "species": "cobblemon:bulbasaur",
+                "properties": "property=true"
+            }
+        },
+        "trade_bulbasaur": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:bulbasaur"
+            }
+        },
+        "party_bulbasaur": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:bulbasaur"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bulbasaur",
+            "pick_bulbasaur",
+            "trade_bulbasaur",
+            "party_bulbasaur"
+        ]
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:dodrio",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "You Didn't See That Coming?"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Dodrio"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0084_doduo",
+    "criteria": {
+        "dodrio": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:dodrio"
+            }
+        },
+        "evolve_dodrio": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:doduo",
+				"evolution": "cobblemon:dodrio"
+			}
+		},
+        "trade_dodrio": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:dodrio"
+            }
+        },
+        "party_dodrio": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:dodrio"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dodrio",
+            "evolve_dodrio",
+            "trade_dodrio",
+            "party_dodrio"
+        ]
+    ]
+}

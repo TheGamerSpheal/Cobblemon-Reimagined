@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:victini",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Best Wishes! Until We Meet Again!"
+        },
+        "description": {
+            "translate": "Catch or trade Victini"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0481_mesprit",
+    "criteria": {
+        "victini": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:victini"
+            }
+        },
+        "trade_victini": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:victini"
+            }
+        },
+        "party_victini": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:victini"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "victini",
+            "trade_victini",
+            "party_victini"
+        ]
+    ]
+}

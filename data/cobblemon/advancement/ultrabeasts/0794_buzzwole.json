@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:buzzwole",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Anime Buff Mosquito"
+        },
+        "description": {
+            "translate": "Catch or trade Buzzwole"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:ultrabeasts/ultrabeasts",
+    "criteria": {
+        "buzzwole": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:buzzwole"
+            }
+        },
+        "trade_buzzwole": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:buzzwole"
+            }
+        },
+        "party_buzzwole": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:buzzwole"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "buzzwole",
+            "trade_buzzwole",
+            "party_buzzwole"
+        ]
+    ]
+}

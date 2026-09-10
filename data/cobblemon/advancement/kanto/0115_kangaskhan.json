@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:kangaskhan",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "I Used to Rule the World"
+        },
+        "description": {
+            "translate": "Catch or trade Kangaskhan"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "kangaskhan": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:kangaskhan"
+            }
+        },
+        "trade_kangaskhan": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:kangaskhan"
+            }
+        },
+        "party_kangaskhan": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kangaskhan"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kangaskhan",
+            "trade_kangaskhan",
+            "party_kangaskhan"
+        ]
+    ]
+}

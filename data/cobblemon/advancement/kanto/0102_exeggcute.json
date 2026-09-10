@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:exeggcute",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Well, There's a Man Here. He Offered You Something."
+        },
+        "description": {
+            "translate": "Catch or Exeggcute"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "exeggcute": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:exeggcute"
+            }
+        },
+        "trade_exeggcute": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:exeggcute"
+            }
+        },
+        "party_exeggcute": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:exeggcute"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "exeggcute",
+            "trade_exeggcute",
+            "party_exeggcute"
+        ]
+    ]
+}

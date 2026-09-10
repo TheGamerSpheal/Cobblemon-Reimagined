@@ -7,7 +7,7 @@
             "translate": "Kanto"
         },
         "description": {
-            "translate": "Have any Kanto Pokémon in your party"
+            "translate": "Catch any Pokémon from the Kanto Region"
         },
         "background": "cobblemon:textures/gui/advancements/backgrounds/cobblemon.png",
         "show_toast": true,
@@ -16,1211 +16,1060 @@
     },
     "criteria": {
         "bulbasaur": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:bulbasaur"
-                ]
+                "count": 1,
+                "species": "cobblemon:bulbasaur"
             }
         },
         "ivysaur": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ivysaur"
-                ]
+                "count": 1,
+                "species": "cobblemon:ivysaur"
             }
         },
         "venusaur": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:venusaur"
-                ]
+                "count": 1,
+                "species": "cobblemon:venusaur"
             }
         },
         "charmander": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:charmander"
-                ]
+                "count": 1,
+                "species": "cobblemon:charmander"
             }
         },
         "charmeleon": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:charmeleon"
-                ]
+                "count": 1,
+                "species": "cobblemon:charmeleon"
             }
         },
         "charizard": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:charizard"
-                ]
+                "count": 1,
+                "species": "cobblemon:charizard"
             }
         },
         "squirtle": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:squirtle"
-                ]
+                "count": 1,
+                "species": "cobblemon:squirtle"
             }
         },
         "wartortle": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:wartortle"
-                ]
+                "count": 1,
+                "species": "cobblemon:wartortle"
             }
         },
         "blastoise": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:blastoise"
-                ]
+                "count": 1,
+                "species": "cobblemon:blastoise"
             }
         },
         "caterpie": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:caterpie"
-                ]
+                "count": 1,
+                "species": "cobblemon:caterpie"
             }
         },
         "metapod": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:metapod"
-                ]
+                "count": 1,
+                "species": "cobblemon:metapod"
             }
         },
         "butterfree": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:butterfree"
-                ]
+                "count": 1,
+                "species": "cobblemon:butterfree"
             }
         },
         "weedle": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:weedle"
-                ]
+                "count": 1,
+                "species": "cobblemon:weedle"
             }
         },
         "kakuna": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:kakuna"
-                ]
+                "count": 1,
+                "species": "cobblemon:kakuna"
             }
         },
         "beedrill": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:beedrill"
-                ]
+                "count": 1,
+                "species": "cobblemon:beedrill"
             }
         },
         "pidgey": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:pidgey"
-                ]
+                "count": 1,
+                "species": "cobblemon:pidgey"
             }
         },
         "pidgeotto": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:pidgeotto"
-                ]
+                "count": 1,
+                "species": "cobblemon:pidgeotto"
             }
         },
         "pidgeot": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:pidgeot"
-                ]
+                "count": 1,
+                "species": "cobblemon:pidgeot"
             }
         },
         "rattata": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:rattata"
-                ]
+                "count": 1,
+                "species": "cobblemon:rattata"
             }
         },
         "raticate": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:raticate"
-                ]
+                "count": 1,
+                "species": "cobblemon:raticate"
             }
         },
         "spearow": {
-            "trigger": "cobblemon:party",
+             "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:spearow"
-                ]
+                "count": 1,
+                "species": "cobblemon:spearow"
             }
         },
         "fearow": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:fearow"
-                ]
+                "count": 1,
+                "species": "cobblemon:spearow"
             }
         },
         "ekans": {
-            "trigger": "cobblemon:party",
+           "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ekans"
-                ]
+                "count": 1,
+                "species": "cobblemon:ekans"
             }
         },
         "arbok": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:arbok"
-                ]
+                "count": 1,
+                "species": "cobblemon:arbok"
             }
         },
         "pikachu": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:pikachu"
-                ]
+                "count": 1,
+                "species": "cobblemon:pikachu"
             }
         },
         "raichu": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:raichu"
-                ]
+                "count": 1,
+                "species": "cobblemon:raichu"
             }
         },
         "sandshrew": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:sandshrew"
-                ]
+                "count": 1,
+                "species": "cobblemon:sandshrew"
             }
         },
         "sandslash": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:sandslash"
-                ]
+                "count": 1,
+                "species": "cobblemon:sandslash"
             }
         },
-        "nidoran_f": {
-            "trigger": "cobblemon:party",
+        "nidoranf": {
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:nidoran_f"
-                ]
+                "count": 1,
+                "species": "cobblemon:nidoranf"
             }
         },
         "nidorina": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:nidorina"
-                ]
+                "count": 1,
+                "species": "cobblemon:nidorina"
             }
         },
         "nidoqueen": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:nidoqueen"
-                ]
+                "count": 1,
+                "species": "cobblemon:nidoqueen"
             }
         },
-        "nidoran_m": {
-            "trigger": "cobblemon:party",
+        "nidoranm": {
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:nidoran_m"
-                ]
+                "count": 1,
+                "species": "cobblemon:nidoranm"
             }
         },
         "nidorino": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:nidorino"
-                ]
+                "count": 1,
+                "species": "cobblemon:nidorino"
             }
         },
         "nidoking": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:nidoking"
-                ]
+                "count": 1,
+                "species": "cobblemon:nidoking"
             }
         },
         "clefairy": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:clefairy"
-                ]
+                "count": 1,
+                "species": "cobblemon:clefairy"
             }
         },
         "clefable": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:clefable"
-                ]
+                "count": 1,
+                "species": "cobblemon:clefable"
             }
         },
         "vulpix": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:vulpix"
-                ]
+                "count": 1,
+                "species": "cobblemon:vulpix"
             }
         },
         "ninetales": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ninetales"
-                ]
+                "count": 1,
+                "species": "cobblemon:ninetales"
             }
         },
         "jigglypuff": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:jigglypuff"
-                ]
+                "count": 1,
+                "species": "cobblemon:jigglypuff"
             }
         },
         "wigglytuff": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:wigglytuff"
-                ]
+                "count": 1,
+                "species": "cobblemon:wigglytuff"
             }
         },
         "zubat": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:zubat"
-                ]
+                "count": 1,
+                "species": "cobblemon:zubat"
             }
         },
         "golbat": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:golbat"
-                ]
+                "count": 1,
+                "species": "cobblemon:golbat"
             }
         },
         "oddish": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:oddish"
-                ]
+                "count": 1,
+                "species": "cobblemon:oddish"
             }
         },
         "gloom": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:gloom"
-                ]
+                "count": 1,
+                "species": "cobblemon:gloom"
             }
         },
         "vileplume": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:vileplume"
-                ]
+                "count": 1,
+                "species": "cobblemon:vileplume"
             }
         },
         "paras": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:paras"
-                ]
+                "count": 1,
+                "species": "cobblemon:paras"
             }
         },
         "parasect": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:parasect"
-                ]
+                "count": 1,
+                "species": "cobblemon:parasect"
             }
         },
         "venonat": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:venonat"
-                ]
+                "count": 1,
+                "species": "cobblemon:venonat"
             }
         },
         "venomoth": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:venomoth"
-                ]
+                "count": 1,
+                "species": "cobblemon:venomoth"
             }
         },
         "diglett": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:diglett"
-                ]
+                "count": 1,
+                "species": "cobblemon:diglett"
             }
         },
         "dugtrio": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:dugtrio"
-                ]
+                "count": 1,
+                "species": "cobblemon:dugtrio"
             }
         },
         "meowth": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:meowth"
-                ]
+                "count": 1,
+                "species": "cobblemon:meowth"
             }
         },
         "persian": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:persian"
-                ]
+                "count": 1,
+                "species": "cobblemon:persian"
             }
         },
         "psyduck": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:psyduck"
-                ]
+                "count": 1,
+                "species": "cobblemon:psyduck"
             }
         },
         "golduck": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:golduck"
-                ]
+                "count": 1,
+                "species": "cobblemon:golduck"
             }
         },
         "mankey": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:mankey"
-                ]
+                "count": 1,
+                "species": "cobblemon:mankey"
             }
         },
         "primeape": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:primeape"
-                ]
+                "count": 1,
+                "species": "cobblemon:primeape"
             }
         },
         "growlithe": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:growlithe"
-                ]
+                "count": 1,
+                "species": "cobblemon:growlithe"
             }
         },
         "arcanine": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:arcanine"
-                ]
+                "count": 1,
+                "species": "cobblemon:arcanine"
             }
         },
         "poliwag": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:poliwag"
-                ]
+                "count": 1,
+                "species": "cobblemon:poliwag"
             }
         },
         "poliwhirl": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:poliwhirl"
-                ]
+                "count": 1,
+                "species": "cobblemon:poliwhirl"
             }
         },
         "poliwrath": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:poliwrath"
-                ]
+                "count": 1,
+                "species": "cobblemon:poliwrath"
             }
         },
         "abra": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:abra"
-                ]
+                "count": 1,
+                "species": "cobblemon:abra"
             }
         },
         "kadabra": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:kadabra"
-                ]
+                "count": 1,
+                "species": "cobblemon:kadabra"
             }
         },
         "alakazam": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:alakazam"
-                ]
+                "count": 1,
+                "species": "cobblemon:alakazam"
             }
         },
         "machop": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:machop"
-                ]
+                "count": 1,
+                "species": "cobblemon:machop"
             }
         },
         "machoke": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:machoke"
-                ]
+                "count": 1,
+                "species": "cobblemon:machoke"
             }
         },
         "machamp": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:machamp"
-                ]
+                "count": 1,
+                "species": "cobblemon:machamp"
             }
         },
         "bellsprout": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:bellsprout"
-                ]
+                "count": 1,
+                "species": "cobblemon:bellsprout"
             }
         },
         "weepinbell": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:weepinbell"
-                ]
+                "count": 1,
+                "species": "cobblemon:weepinbell"
             }
         },
         "victreebel": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:victreebel"
-                ]
+                "count": 1,
+                "species": "cobblemon:victreebel"
             }
         },
         "tentacool": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:tentacool"
-                ]
+                "count": 1,
+                "species": "cobblemon:tentacool"
             }
         },
         "tentacruel": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:tentacruel"
-                ]
+                "count": 1,
+                "species": "cobblemon:tentacruel"
             }
         },
         "geodude": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:geodude"
-                ]
+                "count": 1,
+                "species": "cobblemon:geodude"
             }
         },
         "graveler": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:graveler"
-                ]
+                "count": 1,
+                "species": "cobblemon:graveler"
             }
         },
         "golem": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:golem"
-                ]
+                "count": 1,
+                "species": "cobblemon:golem"
             }
         },
         "ponyta": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ponyta"
-                ]
+                "count": 1,
+                "species": "cobblemon:ponyta"
             }
         },
         "rapidash": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:rapidash"
-                ]
+                "count": 1,
+                "species": "cobblemon:rapidash"
             }
         },
         "slowpoke": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:slowpoke"
-                ]
+                "count": 1,
+                "species": "cobblemon:slowpoke"
             }
         },
         "slowbro": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:slowbro"
-                ]
+                "count": 1,
+                "species": "cobblemon:slowbro"
             }
         },
         "magnemite": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:magnemite"
-                ]
+                "count": 1,
+                "species": "cobblemon:magnemite"
             }
         },
         "magneton": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:magneton"
-                ]
+                "count": 1,
+                "species": "cobblemon:magneton"
             }
         },
         "farfetchd": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:farfetchd"
-                ]
+                "count": 1,
+                "species": "cobblemon:farfetchd"
             }
         },
         "doduo": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:doduo"
-                ]
+                "count": 1,
+                "species": "cobblemon:doduo"
             }
         },
         "dodrio": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:dodrio"
-                ]
+                "count": 1,
+                "species": "cobblemon:dodrio"
             }
         },
         "seel": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:seel"
-                ]
+                "count": 1,
+                "species": "cobblemon:seel"
             }
         },
         "dewgong": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:dewgong"
-                ]
+                "count": 1,
+                "species": "cobblemon:dewgong"
             }
         },
         "grimer": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:grimer"
-                ]
+                "count": 1,
+                "species": "cobblemon:grimer"
             }
         },
         "muk": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:muk"
-                ]
+                "count": 1,
+                "species": "cobblemon:muk"
             }
         },
         "shellder": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:shellder"
-                ]
+                "count": 1,
+                "species": "cobblemon:shellder"
             }
         },
         "cloyster": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:cloyster"
-                ]
+                "count": 1,
+                "species": "cobblemon:cloyster"
             }
         },
         "gastly": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:gastly"
-                ]
+                "count": 1,
+                "species": "cobblemon:gastly"
             }
         },
         "haunter": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:haunter"
-                ]
+                "count": 1,
+                "species": "cobblemon:haunter"
             }
         },
         "gengar": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:gengar"
-                ]
+                "count": 1,
+                "species": "cobblemon:gengar"
             }
         },
         "onix": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:onix"
-                ]
+                "count": 1,
+                "species": "cobblemon:onix"
             }
         },
         "drowzee": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:drowzee"
-                ]
+                "count": 1,
+                "species": "cobblemon:drowzee"
             }
         },
         "hypno": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:hypno"
-                ]
+                "count": 1,
+                "species": "cobblemon:hypno"
             }
         },
         "krabby": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:krabby"
-                ]
+                "count": 1,
+                "species": "cobblemon:krabby"
             }
         },
         "kingler": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:kingler"
-                ]
+                "count": 1,
+                "species": "cobblemon:kingler"
             }
         },
         "voltorb": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:voltorb"
-                ]
+                "count": 1,
+                "species": "cobblemon:voltorb"
             }
         },
         "electrode": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:electrode"
-                ]
+                "count": 1,
+                "species": "cobblemon:electrode"
             }
         },
         "exeggcute": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:exeggcute"
-                ]
+                "count": 1,
+                "species": "cobblemon:exeggcute"
             }
         },
         "exeggutor": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:exeggutor"
-                ]
+                "count": 1,
+                "species": "cobblemon:exeggutor"
             }
         },
         "cubone": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:cubone"
-                ]
+                "count": 1,
+                "species": "cobblemon:cubone"
             }
         },
         "marowak": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:marowak"
-                ]
+                "count": 1,
+                "species": "cobblemon:marowak"
             }
         },
         "hitmonlee": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:hitmonlee"
-                ]
+                "count": 1,
+                "species": "cobblemon:hitmonlee"
             }
         },
         "hitmonchan": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:hitmonchan"
-                ]
+                "count": 1,
+                "species": "cobblemon:hitmonchan"
             }
         },
         "lickitung": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:lickitung"
-                ]
+                "count": 1,
+                "species": "cobblemon:lickitung"
             }
         },
         "koffing": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:koffing"
-                ]
+                "count": 1,
+                "species": "cobblemon:koffing"
             }
         },
         "weezing": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:weezing"
-                ]
+                "count": 1,
+                "species": "cobblemon:weezing"
             }
         },
         "rhyhorn": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:rhyhorn"
-                ]
+                "count": 1,
+                "species": "cobblemon:rhyhorn"
             }
         },
         "rhydon": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:rhydon"
-                ]
+                "count": 1,
+                "species": "cobblemon:rhydon"
             }
         },
         "chansey": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:chansey"
-                ]
+                "count": 1,
+                "species": "cobblemon:chansey"
             }
         },
         "tangela": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:tangela"
-                ]
+                "count": 1,
+                "species": "cobblemon:tangela"
             }
         },
         "kangaskhan": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:kangaskhan"
-                ]
+                "count": 1,
+                "species": "cobblemon:kangaskhan"
             }
         },
         "horsea": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:horsea"
-                ]
+                "count": 1,
+                "species": "cobblemon:horsea"
             }
         },
         "seadra": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:seadra"
-                ]
+                "count": 1,
+                "species": "cobblemon:seadra"
             }
         },
         "goldeen": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:goldeen"
-                ]
+                "count": 1,
+                "species": "cobblemon:goldeen"
             }
         },
         "seaking": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:seaking"
-                ]
+                "count": 1,
+                "species": "cobblemon:seaking"
             }
         },
         "staryu": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:staryu"
-                ]
+                "count": 1,
+                "species": "cobblemon:staryu"
             }
         },
         "starmie": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:starmie"
-                ]
+                "count": 1,
+                "species": "cobblemon:starmie"
             }
         },
-        "mr_mime": {
-            "trigger": "cobblemon:party",
+        "mrmime": {
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:mr_mime"
-                ]
+                "count": 1,
+                "species": "cobblemon:mrmime"
             }
         },
         "scyther": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:scyther"
-                ]
+                "count": 1,
+                "species": "cobblemon:scyther"
             }
         },
         "jynx": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:jynx"
-                ]
+                "count": 1,
+                "species": "cobblemon:jynx"
             }
         },
         "electabuzz": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:electabuzz"
-                ]
+                "count": 1,
+                "species": "cobblemon:electabuzz"
             }
         },
         "magmar": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:magmar"
-                ]
+                "count": 1,
+                "species": "cobblemon:magmar"
             }
         },
         "pinsir": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:pinsir"
-                ]
+                "count": 1,
+                "species": "cobblemon:pinsir"
             }
         },
         "tauros": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:tauros"
-                ]
+                "count": 1,
+                "species": "cobblemon:tauros"
             }
         },
         "magikarp": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:magikarp"
-                ]
+                "count": 1,
+                "species": "cobblemon:magikarp"
             }
         },
         "gyarados": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:gyarados"
-                ]
+                "count": 1,
+                "species": "cobblemon:gyarados"
             }
         },
         "lapras": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:lapras"
-                ]
+                "count": 1,
+                "species": "cobblemon:lapras"
             }
         },
         "ditto": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:ditto"
-                ]
+                "count": 1,
+                "species": "cobblemon:ditto"
             }
         },
         "eevee": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:eevee"
-                ]
+                "count": 1,
+                "species": "cobblemon:eevee"
             }
         },
         "vaporeon": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:vaporeon"
-                ]
+                "count": 1,
+                "species": "cobblemon:vaporeon"
             }
         },
         "jolteon": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:jolteon"
-                ]
+                "count": 1,
+                "species": "cobblemon:jolteon"
             }
         },
         "flareon": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:flareon"
-                ]
+                "count": 1,
+                "species": "cobblemon:flareon"
             }
         },
         "porygon": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:porygon"
-                ]
+                "count": 1,
+                "species": "cobblemon:porygon"
             }
         },
         "omanyte": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:omanyte"
-                ]
+                "count": 1,
+                "species": "cobblemon:omanyte"
             }
         },
         "omastar": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:omastar"
-                ]
+                "count": 1,
+                "species": "cobblemon:omastar"
             }
         },
         "kabuto": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:kabuto"
-                ]
+                "count": 1,
+                "species": "cobblemon:kabuto"
             }
         },
         "kabutops": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:kabutops"
-                ]
+                "count": 1,
+                "species": "cobblemon:kabutops"
             }
         },
         "aerodactyl": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:aerodactyl"
-                ]
+                "count": 1,
+                "species": "cobblemon:aerodactyl"
             }
         },
         "snorlax": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:snorlax"
-                ]
+                "count": 1,
+                "species": "cobblemon:snorlax"
             }
         },
         "articuno": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:articuno"
-                ]
+                "count": 1,
+                "species": "cobblemon:articuno"
             }
         },
         "zapdos": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:zapdos"
-                ]
+                "count": 1,
+                "species": "cobblemon:zapdos"
             }
         },
         "moltres": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:moltres"
-                ]
+                "count": 1,
+                "species": "cobblemon:moltres"
             }
         },
         "dratini": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:dratini"
-                ]
+                "count": 1,
+                "species": "cobblemon:dratini"
             }
         },
         "dragonair": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:dragonair"
-                ]
+                "count": 1,
+                "species": "cobblemon:dragonair"
             }
         },
         "dragonite": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:dragonite"
-                ]
+                "count": 1,
+                "species": "cobblemon:dragonite"
             }
         },
         "mewtwo": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:mewtwo"
-                ]
+                "count": 1,
+                "species": "cobblemon:mewtwo"
             }
         },
         "mew": {
-            "trigger": "cobblemon:party",
+            "trigger": "cobblemon:catch_pokemon",
             "conditions": {
-                "party": [
-                    "cobblemon:mew"
-                ]
+                "count": 1,
+                "species": "cobblemon:mew"
             }
         }
     },
@@ -1254,10 +1103,10 @@
             "raichu",
             "sandshrew",
             "sandslash",
-            "nidoran_f",
+            "nidoranf",
             "nidorina",
             "nidoqueen",
-            "nidoran_m",
+            "nidoranm",
             "nidorino",
             "nidoking",
             "clefairy",
@@ -1347,7 +1196,7 @@
             "seaking",
             "staryu",
             "starmie",
-            "mr_mime",
+            "mrmime",
             "scyther",
             "jynx",
             "electabuzz",

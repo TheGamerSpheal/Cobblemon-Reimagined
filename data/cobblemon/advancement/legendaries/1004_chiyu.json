@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:chiyu",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Fish Out of Water"
+        },
+        "description": {
+            "translate": "Catch or trade Chi-Yu"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0717_yveltal",
+    "criteria": {
+        "chiyu": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:chiyu"
+            }
+        },
+        "trade_chiyu": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:chiyu"
+            }
+        },
+        "party_chiyu": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:chiyu"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "chiyu",
+            "trade_chiyu",
+            "party_chiyu"
+        ]
+    ]
+}

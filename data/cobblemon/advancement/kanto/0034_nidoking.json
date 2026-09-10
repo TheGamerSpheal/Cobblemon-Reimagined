@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:nidoking",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "A Short King"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Nidoking"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0033_nidorino",
+    "criteria": {
+        "nidoking": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:nidoking"
+            }
+        },
+        "evolve_nidoking": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+                "count": 1,
+				"species": "cobblemon:nidorino",
+				"evolution": "cobblemon:nidoking"
+			}
+		},
+        "trade_nidoking": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:nidoking"
+            }
+        },
+        "party_nidoking": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:nidoking"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "nidoking",
+            "evolve_nidoking",
+            "trade_nidoking",
+            "party_nidoking"
+        ]
+    ]
+}

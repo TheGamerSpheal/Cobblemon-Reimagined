@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:manaphy",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "How Many Sea Guardians are There?"
+        },
+        "description": {
+            "translate": "Catch or trade Manaphy"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0382_kyogre",
+    "criteria": {
+        "manaphy": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:manaphy"
+            }
+        },
+        "trade_manaphy": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:manaphy"
+            }
+        },
+        "party_manaphy": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:manaphy"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "manaphy",
+            "trade_manaphy",
+            "party_manaphy"
+        ]
+    ]
+}

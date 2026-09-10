@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:regidrago",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Made With the Leftovers of the Other Titans"
+        },
+        "description": {
+            "translate": "Catch or trade Regidrago"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0486_regigigas",
+    "criteria": {
+        "regidrago": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:regidrago"
+            }
+        },
+        "trade_regidrago": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:regidrago"
+            }
+        },
+        "party_regidrago": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:regidrago"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "regidrago",
+            "trade_regidrago",
+            "party_regidrago"
+        ]
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:ivysaur",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Poison Ivy"
+        },
+        "description": {
+            "translate": "Catch, trade or evolve Ivysaur"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/0001_bulbasaur",
+    "criteria": {
+        "ivysaur": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:ivysaur"
+            }
+        },
+        "evolve_ivysaur": {
+            "trigger": "cobblemon:pokemon_evolved",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:bulbasaur",
+                "evolution": "cobblemon:ivysaur"
+            }
+        },
+        "trade_ivysaur": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:ivysaur"
+            }
+        },
+        "party_ivysaur": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:ivysaur"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ivysaur",
+            "evolve_ivysaur",
+            "trade_ivysaur",
+            "party_ivysaur"
+        ]
+    ]
+}

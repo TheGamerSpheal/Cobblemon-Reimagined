@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:tapukoko",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Melemele's Protector"
+        },
+        "description": {
+            "translate": "Catch or trade Tapu Koko"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0718_zygarde",
+    "criteria": {
+        "tapukoko": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:tapukoko"
+            }
+        },
+        "trade_tapukoko": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:tapukoko"
+            }
+        },
+        "party_tapukoko": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:tapukoko"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tapukoko",
+            "trade_tapukoko",
+            "party_tapukoko"
+        ]
+    ]
+}

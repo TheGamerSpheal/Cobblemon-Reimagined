@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:darkrai",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "DARK, DARKER, YET DARKER"
+        },
+        "description": {
+            "translate": "Catch or trade Darkrai"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0481_mesprit",
+    "criteria": {
+        "darkrai": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:darkrai"
+            }
+        },
+        "trade_darkrai": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:darkrai"
+            }
+        },
+        "party_darkrai": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:darkrai"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "darkrai",
+            "trade_darkrai",
+            "party_darkrai"
+        ]
+    ]
+}

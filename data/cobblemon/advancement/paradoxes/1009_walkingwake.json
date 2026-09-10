@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:walkingwake",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "The Loch Ness Monster"
+        },
+        "description": {
+            "translate": "Catch or trade Walking Wake"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:paradoxes/1005_roaringmoon",
+    "criteria": {
+        "walkingwake": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:walkingwake"
+            }
+        },
+        "trade_walkingwake": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:walkingwake"
+            }
+        },
+        "party_walkingwake": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:walkingwake"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "walkingwake",
+            "trade_walkingwake",
+            "party_walkingwake"
+        ]
+    ]
+}

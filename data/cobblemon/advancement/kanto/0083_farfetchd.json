@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:farfetchd",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Miku's Favorite Food!"
+        },
+        "description": {
+            "translate": "Catch or trade Farfetch'd"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:kanto/kanto",
+    "criteria": {
+        "farfetchd": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:farfetchd"
+            }
+        },
+        "trade_farfetchd": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:farfetchd"
+            }
+        },
+        "party_farfetchd": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:farfetchd"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "farfetchd",
+            "trade_farfetchd",
+            "party_farfetchd"
+        ]
+    ]
+}

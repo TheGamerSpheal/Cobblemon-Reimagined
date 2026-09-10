@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:eternatus",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "Actually It's Super Easy, Barely an Inconvenience"
+        },
+        "description": {
+            "translate": "Catch or trade Eternatus"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:legendaries/0487_giratina",
+    "criteria": {
+        "eternatus": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:eternatus"
+            }
+        },
+        "trade_eternatus": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:eternatus"
+            }
+        },
+        "party_eternatus": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:eternatus"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "eternatus",
+            "trade_eternatus",
+            "party_eternatus"
+        ]
+    ]
+}

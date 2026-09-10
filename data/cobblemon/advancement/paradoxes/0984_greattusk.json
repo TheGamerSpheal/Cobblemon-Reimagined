@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "id": "cobblemon:pokemon_model",
+            "components": {
+                "cobblemon:pokemon_item": {
+                    "species": "cobblemon:greattusk",
+                    "aspects": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "These Tusks Sure are Great!"
+        },
+        "description": {
+            "translate": "Catch or trade Great Tusk"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cobblemon:paradoxes/paradox",
+    "criteria": {
+        "greattusk": {
+            "trigger": "cobblemon:catch_pokemon",
+            "conditions": {
+                "count": 1,
+                "species": "cobblemon:greatusk"
+            }
+        },
+        "trade_greattusk": {
+            "trigger": "cobblemon:trade_pokemon",
+            "conditions": {
+                "traded": "any",
+                "received": "cobblemon:greattusk"
+            }
+        },
+        "party_greattusk": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:greattusk"
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "greattusk",
+            "trade_greattusk",
+            "party_greattusk"
+        ]
+    ]
+}
