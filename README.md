@@ -43,7 +43,7 @@ While this datapack can work on its own, some additions will make it just that b
 - Adds a little bit more flair to the advancements pop up, i highly recommend this one.
 
 NEXT OBJECTIVES:
-- Make changes the rest of the generations
+- Make changes to the rest of the generations
 - Full list of changes made to every Pokémon
 - Do the rest of the advancements for catching every Pokémon
 - Put it on Modrinth and the Cobblemon Discord
