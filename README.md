@@ -2,11 +2,15 @@
 
 This is a Minecraft Cobblemon datapack that aims to breathe some new life into old pokémon, by giving them new typings, abilities, stat spreads and moves. Also gives every single Pokémon their own unique advancement, try and catch 'em all! Most inspiration is taken from the Luminescent Platinum Mod made by the Luminescent Team and the Radical Red ROM Hack made by Eric "Soupacell" Huang. Any suggestions are welcome!
 
-Until Cobblemon fixed the "catch_pokemon" trigger, the only ways to trigger advancements are gonna be picking a starter, trading, evolving and having the Pokémon in your party. Is it incovenient? Yes, but there's not much i can do about it.
+**IMPORTANT INFORMATION**
+
+This datapack is (somewhat) incompatible with Mega Showdown. It previously could change stuff in Mega Showdown (like typings and stats), but for some reason it can't anymore and i'm very upset. Any changes i might have made to a Pokémon retain when they Mega Evolve, with the exception of stats, so for example, Beedrill's stats are buffed, which would mean that Mega Beedrill's stats should be buffed too, so it actually raises by 100, but the stats are the only thing that don't carry over. As far as I know, the ability and the typing stays the same when Mega Evolving. I haven't found a solution for this, so i don't know, enjoy Drizzle Mega Blastoise i guess? To compensate for this error, i'll be changing the base form abilities to be the original ability of Mega form (so yes, Raichu with No Guard and Electric Surge), then at least the intended experience will be available in some way. And i'll keep the intended changes down below anyway. (If anyone know a fix PLEASE tell me how to do it)
+
+Until Cobblemon fixes the "catch_pokemon" trigger, the only ways to trigger advancements are gonna be picking a starter, trading, evolving and having the Pokémon in your party. Is it incovenient? Yes, but there's not much i can do about it.
 
 If anyone knows how to customize the advancement tree so i can place the advancements wherever i want, please let me know!
 
-Sidenote: Go into this blind, find the changes and advancements on your own, it makes for a more fun and unexpected adventure. The changes are listed down below if you desire to see them.
+Go into this blind, find the changes and advancements on your own, it makes for a more fun and unexpected adventure. The changes are listed down below if you desire to see them.
 
 MODS, DATAPACKS AND RESOURCE PACKS TO HAVE THE FULL EXPERIENCE:
 
@@ -176,7 +180,7 @@ Hidden: Rain Dish     Mega Launcher
 </details>
 
 <details>
-<summary>Mega Blastoise</summary>
+<summary>Mega Blastoise *Only works because the Base Form has the same change*</summary>
 <pre>
 Regular Typing --> New Typing
 Water              Water
@@ -184,20 +188,6 @@ Water              Water
 </pre>
 </details>
 
-<details>
-<summary>G-Max Blastoise</summary>
-<pre>
-Regular Typing --> New Typing
-Water              Water
-                   Steel
-</pre>
-<pre>
-Regular Abilities --> New Abilities
-Torrent               Torrent
-Hidden: Rain Dish     Mega Launcher
-                      Hidden: Drizzle
-</pre>
-</details>
 
 <details>
 <summary>Caterpie</summary>
@@ -255,26 +245,6 @@ Regular Moves --> New Moves
 </details>
 
 <details>
-<summary>G-Max Butterfree</summary>
-<pre>
-Regular Abilities --> New Abilities
-Compound Eyes         Compound Eyes
-Hidden: Tinted Lens   Tinted Lens
-                      Hidden: Effect Spore
-</pre>
-<pre>
-                 Regular Stats --> New Stats
-HP:                    60             60
-Attack:                45             45
-Defense:               50             45   -5
-Special Attack:        90             110  +20
-Special Defense:       80             100  +20
-Speed:                 70             90   +20
-Total:                 395            450  +55
-</pre>
-</details>
-
-<details>
 <summary>Weedle</summary>
 <pre>
 Regular Abilities --> New Abilities
@@ -327,7 +297,7 @@ Regular Moves --> New Moves
 </details>
 
 <details>
-<summary>Mega Beedrill</summary>
+<summary>Mega Beedrill *Doesn't Work*</summary>
 <pre>
                  Regular Stats --> New Stats
 HP:                    65             65
@@ -543,8 +513,8 @@ Hidden: Lightning Rod Lightning Rod
 <summary>Raichu</summary>
 <pre>
 Regular Abilities --> New Abilities
-Static                Static
-Hidden: Lightning Rod Lightning Rod
+Static                Electric Surge
+Hidden: Lightning Rod No Guard
                       Hidden: Galvanize
 </pre>
 <pre>
@@ -594,10 +564,10 @@ Regular Moves --> New Moves
 HP:                    60             70  +10
 Attack:                85             80  -5
 Defense:               50             50  
-Special Attack:        95             120 +25
-Special Defense:       85             85
-Speed:                 110            110
-Total:                 485            500 +15
+Special Attack:        95             125 +30
+Special Defense:       85             90  +5
+Speed:                 110            115 +5
+Total:                 485            515 +30
 </pre>
 <pre>
 Regular Moves --> New Moves
@@ -624,6 +594,34 @@ Regular Moves --> New Moves
 1: Growl          66: Signal Beam
 5: Thunderbolt    71: Thunder
                   76: Volt Tackle
+</pre>
+</details>
+
+<details>
+<summary>Mega Raichu X *Doesn't Work*</summary>
+<pre>
+                 Regular Stats --> New Stats
+HP:                    60             70  +10
+Attack:                135            145 +10
+Defense:               95             95  
+Special Attack:        90             90
+Special Defense:       95             95
+Speed:                 110            120 +10
+Total:                 585            615 +30
+</pre>
+</details>
+
+<details>
+<summary>Mega Raichu Y *Doesn't Work*</summary>
+<pre>
+                 Regular Stats --> New Stats
+HP:                    60             70  +10
+Attack:                100            90  -10
+Defense:               55             70  +15  
+Special Attack:        160            160
+Special Defense:       80             95  +15
+Speed:                 130            130
+Total:                 585            615 +30
 </pre>
 </details>
 

@@ -153,29 +153,5 @@
     "tutor:twister",
     "tutor:uturn",
     "tutor:whirlwind"
-  ],
-   "features": [
-    "gmax"
-  ],
-  "forms": [
-    {
-      "name": "Gmax",
-      "aspects": [
-        "gmax"
-      ],
-      "abilities": [
-        "tintedlens",
-        "compoundeyes",
-        "h:effectspore"
-      ],
-      "baseStats": {
-        "hp": 60,
-        "attack": 45,
-        "defence": 45,
-        "special_attack": 110,
-        "special_defence": 100,
-        "speed": 90
-      }
-    }
   ]
 }

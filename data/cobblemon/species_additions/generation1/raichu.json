@@ -1,8 +1,8 @@
 {
   "target": "cobblemon:raichu",
   "abilities": [
-    "static",
-    "lightningrod",
+    "electricsurge",
+    "noguard",
     "h:galvanize"
   ],
   "baseStats": {
@@ -184,7 +184,9 @@
     "tutor:zapcannon"
   ],
   "features": [
-    "alolan"
+    "alolan",
+    "mega_x",
+    "mega_y"
   ],
   "forms": [
     {
@@ -196,9 +198,9 @@
         "hp": 70,
         "attack": 80,
         "defence": 50,
-        "special_attack": 120,
-        "special_defence": 85,
-        "speed": 110
+        "special_attack": 125,
+        "special_defence": 90,
+        "speed": 115
       },
       "moves": [
         "1:thundershock",
@@ -347,6 +349,34 @@
         "tutor:thunderwave",
         "tutor:toxic"
       ]
+    },
+    {
+      "name": "Mega-X",
+      "aspects": [
+        "mega_x"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 145,
+        "defence": 95,
+        "special_attack": 90,
+        "special_defence": 95,
+        "speed": 120
+      }
+    },
+    {
+      "name": "Mega-Y",
+      "aspects": [
+        "mega_y"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 90,
+        "defence": 65,
+        "special_attack": 160,
+        "special_defence": 90,
+        "speed": 130
+      }
     }
   ]
 }
