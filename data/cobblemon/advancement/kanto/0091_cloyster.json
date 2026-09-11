@@ -21,7 +21,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/0072_tentacool",
+    "parent": "cobblemon:kanto/0090_shellder",
     "criteria": {
         "cloyster": {
             "trigger": "cobblemon:catch_pokemon",

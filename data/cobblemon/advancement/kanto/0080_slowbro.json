@@ -33,7 +33,7 @@
         "evolve_slowbro": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
-                "count": "any",
+                "count": 1,
 				"species": "cobblemon:slowpoke",
 				"evolution": "cobblemon:slowbro"
 			}

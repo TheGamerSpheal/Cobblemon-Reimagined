@@ -60,5 +60,6 @@
             "trade_bulbasaur",
             "party_bulbasaur"
         ]
-    ]
+    ],
+    "sends_telemetry_event": false
 }

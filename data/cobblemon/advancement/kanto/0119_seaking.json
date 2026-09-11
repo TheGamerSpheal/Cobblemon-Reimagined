@@ -58,6 +58,7 @@
         [
             "seaking",
             "evolve_seaking",
+            "trade_seaking",
             "party_seaking"
         ]
     ]

@@ -61,5 +61,6 @@
             "trade_ivysaur",
             "party_ivysaur"
         ]
-    ]
+    ],
+    "sends_telemetry_event": false
 }

@@ -21,7 +21,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/venonat",
+    "parent": "cobblemon:kanto/0048_venonat",
     "criteria": {
         "venomoth": {
             "trigger": "cobblemon:catch_pokemon",

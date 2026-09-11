@@ -21,7 +21,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:kanto/0038_vulpix",
+    "parent": "cobblemon:kanto/0037_vulpix",
     "criteria": {
         "ninetales": {
             "trigger": "cobblemon:catch_pokemon",

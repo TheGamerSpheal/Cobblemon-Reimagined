@@ -44,6 +44,14 @@
                 "traded": "any",
                 "received": "cobblemon:gloom"
             }
+        },
+        "party_gloom": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:gloom"
+                ]
+            }
         }
     },
     "requirements": [
