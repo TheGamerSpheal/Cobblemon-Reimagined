@@ -22,7 +22,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cobblemon:paradoxes/0093_ironjugulis",
+    "parent": "cobblemon:paradoxes/0993_ironjugulis",
     "criteria": {
         "ironmoth": {
             "trigger": "cobblemon:catch_pokemon",
