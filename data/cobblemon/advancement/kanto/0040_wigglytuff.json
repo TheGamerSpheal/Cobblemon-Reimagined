@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0039_jigglypuff",
     "criteria": {
-        "wigglytuff": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:wigglytuff"
-            }
-        },
         "evolve_wigglytuff": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "wigglytuff",
             "evolve_wigglytuff",
             "trade_wigglytuff",
             "party_wigglytuff"

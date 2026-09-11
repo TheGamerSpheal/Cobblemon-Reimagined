@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0063_abra",
     "criteria": {
-        "kadabra": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:kadabra"
-            }
-        },
         "evolve_kadabra": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "kadabra",
             "evolve_kadabra",
             "trade_kadabra",
             "party_kadabra"

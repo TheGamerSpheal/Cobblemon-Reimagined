@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "voltorb": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:voltorb"
-            }
-        },
         "trade_voltorb": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -48,7 +41,6 @@
     },
     "requirements": [
         [
-            "voltorb",
             "trade_voltorb",
             "party_voltorb"
         ]

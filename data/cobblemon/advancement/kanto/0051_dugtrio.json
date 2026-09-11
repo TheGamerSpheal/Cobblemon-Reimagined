@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0050_diglett",
     "criteria": {
-        "dugtrio": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:dugtrio"
-            }
-        },
         "evolve_dugtrio": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "dugtrio",
             "evolve_dugtrio",
             "trade_dugtrio",
             "party_dugtrio"

@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0084_doduo",
     "criteria": {
-        "dodrio": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:dodrio"
-            }
-        },
         "evolve_dodrio": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "dodrio",
             "evolve_dodrio",
             "trade_dodrio",
             "party_dodrio"

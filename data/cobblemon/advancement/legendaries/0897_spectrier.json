@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0898_calyrex",
     "criteria": {
-        "spectrier": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:spectrier"
-            }
-        },
         "trade_spectrier": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "spectrier",
             "trade_spectrier",
             "party_spectrier"
         ]

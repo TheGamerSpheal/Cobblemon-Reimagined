@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0717_yveltal",
     "criteria": {
-        "tinglu": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:tinglu"
-            }
-        },
         "trade_tinglu": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "tinglu",
             "trade_tinglu",
             "party_tinglu"
         ]

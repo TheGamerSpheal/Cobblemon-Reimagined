@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0151_mew",
     "criteria": {
-        "magearna": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:magearna"
-            }
-        },
         "trade_magearna": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "magearna",
             "trade_magearna",
             "party_magearna"
         ]

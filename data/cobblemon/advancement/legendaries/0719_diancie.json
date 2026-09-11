@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0383_groudon",
     "criteria": {
-        "diancie": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:diancie"
-            }
-        },
         "trade_diancie": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "diancie",
             "trade_diancie",
             "party_diancie"
         ]

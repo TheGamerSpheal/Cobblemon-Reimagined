@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:ultrabeasts/ultrabeasts",
     "criteria": {
-        "blacephalon": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:blacephalon"
-            }
-        },
         "trade_blacephalon": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "blacephalon",
             "trade_blacephalon",
             "party_blacephalon"
         ]

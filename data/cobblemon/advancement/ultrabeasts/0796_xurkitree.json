@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:ultrabeasts/ultrabeasts",
     "criteria": {
-        "xurkitree": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:xurkitree"
-            }
-        },
         "trade_xurkitree": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "xurkitree",
             "trade_xurkitree",
             "party_xurkitree"
         ]

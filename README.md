@@ -1,8 +1,8 @@
 <h1>Cobblemon Reimagined (WIP)</h1>
 
-This is a Minecraft Cobblemon datapack that aims to breathe some new life into old pokémon, by giving them new typings, abilities, stat spreads and moves. Also gives every single Pokémon their own unique advancement, try and catch 'em all! Most inspiration is taken from the Luminescent Platinum Mod made by the Luminescent Team and the Radical Red ROM Hack made by Eric "Soupacell" Huang.
+This is a Minecraft Cobblemon datapack that aims to breathe some new life into old pokémon, by giving them new typings, abilities, stat spreads and moves. Also gives every single Pokémon their own unique advancement, try and catch 'em all! Most inspiration is taken from the Luminescent Platinum Mod made by the Luminescent Team and the Radical Red ROM Hack made by Eric "Soupacell" Huang. Any suggestions are welcome!
 
-Any suggestions are welcome
+Until Cobblemon fixed the "catch_pokemon" trigger, the only ways to trigger advancements are gonna be picking a starter, trading, evolving and having the Pokémon in your party. Is it incovenient? Yes, but there's not much i can do about it.
 
 If anyone knows how to customize the advancement tree so i can place the advancements wherever i want, please let me know!
 
@@ -41,6 +41,13 @@ While this datapack can work on its own, some additions will make it just that b
 - [https://www.curseforge.com/minecraft/mc-mods/advancement-plaques-fabric]
 - [https://www.curseforge.com/minecraft/mc-mods/advancement-plaques]
 - Adds a little bit more flair to the advancements pop up, i highly recommend this one.
+
+**Cobblemon Interface and Cobblemon Interface Modded**
+- [https://modrinth.com/resourcepack/cobblemon-interface]
+- [https://www.curseforge.com/minecraft/texture-packs/cobblemon-interface]
+- [https://modrinth.com/resourcepack/cobblemon-interface-modded]
+- [https://www.curseforge.com/minecraft/texture-packs/cobblemon-interface-modded]
+- I have gotten so used to this Resource Pack i can't play Cobblemon without it. Make sure to download both the regular and modded versions, so other interfaces, like JEI for example, also have the nice texture pack on them.
 
 NEXT OBJECTIVES:
 - Make changes to the rest of the generations

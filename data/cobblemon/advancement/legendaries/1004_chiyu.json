@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0717_yveltal",
     "criteria": {
-        "chiyu": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:chiyu"
-            }
-        },
         "trade_chiyu": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "chiyu",
             "trade_chiyu",
             "party_chiyu"
         ]

@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0718_zygarde",
     "criteria": {
-        "virizion": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:virizion"
-            }
-        },
         "trade_virizion": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "virizion",
             "trade_virizion",
             "party_virizion"
         ]

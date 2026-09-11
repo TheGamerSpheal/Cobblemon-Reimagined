@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "meowth": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:meowth"
-            }
-        },
         "trade_meowth": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -48,7 +41,6 @@
     },
     "requirements": [
         [
-            "meowth",
             "trade_meowth",
             "party_meowth"
         ]

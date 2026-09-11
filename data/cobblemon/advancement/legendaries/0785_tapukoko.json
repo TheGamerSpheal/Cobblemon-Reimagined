@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0718_zygarde",
     "criteria": {
-        "tapukoko": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:tapukoko"
-            }
-        },
         "trade_tapukoko": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "tapukoko",
             "trade_tapukoko",
             "party_tapukoko"
         ]

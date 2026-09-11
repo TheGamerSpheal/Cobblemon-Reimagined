@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "diglett": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:diglett"
-            }
-        },
         "trade_diglett": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -48,7 +41,6 @@
     },
     "requirements": [
         [
-            "diglett",
             "trade_diglett",
             "party_diglett"
         ]

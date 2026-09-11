@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "pikachu": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:pikachu"
-            }
-        },
         "evolve_pikachu": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "pikachu",
             "evolve_pikachu",
             "trade_pikachu",
             "party_pikachu"

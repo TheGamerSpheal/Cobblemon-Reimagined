@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/1022_ironboulder",
     "criteria": {
-        "ironcrown": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:ironcrown"
-            }
-        },
         "trade_ironcrown": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "ironcrown",
             "trade_ironcrown",
             "party_ironcrown"
         ]

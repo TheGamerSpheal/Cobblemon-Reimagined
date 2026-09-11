@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0493_arceus",
     "criteria": {
-        "mesprit": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:mesprit"
-            }
-        },
         "trade_mesprit": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "mesprit",
             "trade_mesprit",
             "party_mesprit"
         ]

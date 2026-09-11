@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0077_ponyta",
     "criteria": {
-        "rapidash": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:rapidash"
-            }
-        },
         "evolve_rapidash": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "rapidash",
             "evolve_rapidash",
             "trade_rapidash",
             "party_rapidash"

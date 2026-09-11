@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0646_kyurem",
     "criteria": {
-        "reshiram": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:reshiram"
-            }
-        },
         "trade_reshiram": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,7 @@
     },
     "requirements": [
         [
-            "reshiram",
+
             "trade_reshiram",
             "party_reshiram"
         ]

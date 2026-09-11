@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0250_hooh",
     "criteria": {
-        "entei": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:entei"
-            }
-        },
         "trade_entei": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "entei",
             "trade_entei",
             "party_entei"
         ]

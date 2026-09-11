@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0481_mesprit",
     "criteria": {
-        "jirachi": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:jirachi"
-            }
-        },
         "trade_jirachi": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,8 +42,8 @@
     },
     "requirements": [
         [
-            "jirachi",
-            "trade_jirachi"
+            "trade_jirachi",
+            "party_jirachi"
         ]
     ]
 }

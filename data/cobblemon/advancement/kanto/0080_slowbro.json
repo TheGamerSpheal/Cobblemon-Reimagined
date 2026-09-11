@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0079_slowpoke",
     "criteria": {
-        "slowbro": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:slowbro"
-            }
-        },
         "evolve_slowbro": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "slowbro",
             "evolve_slowbro",
             "trade_slowbro",
             "party_slowbro"

@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0023_ekans",
     "criteria": {
-        "arbok": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:arbok"
-            }
-        },
         "evolve_arbok": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "arbok",
             "evolve_arbok",
             "trade_arbok",
             "party_arbok"

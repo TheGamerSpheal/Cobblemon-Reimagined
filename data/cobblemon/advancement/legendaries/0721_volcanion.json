@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0383_groudon",
     "criteria": {
-        "volcanion": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:volcanion"
-            }
-        },
         "trade_volcanion": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "volcanion",
             "trade_volcanion",
             "party_volcanion"
         ]

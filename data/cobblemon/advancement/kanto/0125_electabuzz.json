@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "electabuzz": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:electabuzz"
-            }
-        },
         "evolve_electabuzz": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "electabuzz",
             "evolve_electabuzz",
             "trade_electabuzz",
             "party_electabuzz"

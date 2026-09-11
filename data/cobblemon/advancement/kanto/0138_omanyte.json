@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "omanyte": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:omanyte"
-            }
-        },
         "ressurect_omanyte": {
             "trigger": "cobblemon:resurrect_pokemon",
             "conditions": {
@@ -55,7 +48,6 @@
     },
     "requirements": [
         [
-            "omanyte",
             "ressurect_omanyte",
             "trade_omanyte",
             "party_omanyte"

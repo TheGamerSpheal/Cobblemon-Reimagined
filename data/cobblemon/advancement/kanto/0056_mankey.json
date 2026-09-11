@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "mankey": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:mankey"
-            }
-        },
         "trade_mankey": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -48,7 +41,6 @@
     },
     "requirements": [
         [
-            "mankey",
             "trade_mankey",
             "party_mankey"
         ]

@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0098_krabby",
     "criteria": {
-        "kingler": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:kingler"
-            }
-        },
         "evolve_kingler": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "kingler",
             "evolve_kingler",
             "trade_kingler",
             "party_kingler"

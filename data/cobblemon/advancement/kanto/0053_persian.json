@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0052_meowth",
     "criteria": {
-        "persian": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:persian"
-            }
-        },
         "evolve_persian": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "persian",
             "evolve_persian",
             "trade_persian",
             "party_persian"

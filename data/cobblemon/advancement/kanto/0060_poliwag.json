@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "poliwag": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:poliwag"
-            }
-        },
         "trade_poliwag": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -48,7 +41,6 @@
     },
     "requirements": [
         [
-            "poliwag",
             "trade_poliwag",
             "party_poliwag"
         ]

@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:ultrabeasts/ultrabeasts",
     "criteria": {
-        "poipole": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:poipole"
-            }
-        },
         "trade_poipole": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "poipole",
             "trade_poipole",
             "party_poipole"
         ]

@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0481_mesprit",
     "criteria": {
-        "meloetta": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:meloetta"
-            }
-        },
         "trade_meloetta": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "meloetta",
             "trade_meloetta",
             "party_meloetta"
         ]

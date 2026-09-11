@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0025_pikachu",
     "criteria": {
-        "raichu": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:raichu"
-            }
-        },
         "evolve_raichu": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "raichu",
             "evolve_raichu",
             "trade_raichu",
             "party_raichu"

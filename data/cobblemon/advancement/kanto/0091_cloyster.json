@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0090_shellder",
     "criteria": {
-        "cloyster": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:cloyster"
-            }
-        },
         "evolve_cloyster": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "cloyster",
             "evolve_cloyster",
             "trade_cloyster",
             "party_cloyster"

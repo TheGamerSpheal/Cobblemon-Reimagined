@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0109_koffing",
     "criteria": {
-        "weezing": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:weezing"
-            }
-        },
         "evolve_weezing": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "weezing",
             "evolve_weezing",
             "trade_weezing",
             "party_weezing"

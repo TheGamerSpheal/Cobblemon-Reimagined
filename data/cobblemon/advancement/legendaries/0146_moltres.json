@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0249_lugia",
     "criteria": {
-        "moltres": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:moltres"
-            }
-        },
         "trade_moltres": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "moltres",
             "trade_moltres",
             "party_moltres"
         ]

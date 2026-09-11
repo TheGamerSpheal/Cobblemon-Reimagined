@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0493_arceus",
     "criteria": {
-        "giratina": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:giratina"
-            }
-        },
         "trade_giratina": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "giratina",
             "trade_giratina",
             "party_giratina"
         ]

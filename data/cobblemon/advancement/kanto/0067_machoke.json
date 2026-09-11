@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0066_machop",
     "criteria": {
-        "machoke": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:machoke"
-            }
-        },
         "evolve_machoke": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "machoke",
             "evolve_machoke",
             "trade_machoke",
             "party_machoke"

@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0718_zygarde",
     "criteria": {
-        "xerneas": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:xerneas"
-            }
-        },
         "trade_xerneas": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "xerneas",
             "trade_xerneas",
             "party_xerneas"
         ]

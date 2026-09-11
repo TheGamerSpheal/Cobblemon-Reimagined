@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0487_giratina",
     "criteria": {
-        "cosmog": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:cosmog"
-            }
-        },
         "trade_cosmog": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "cosmog",
             "trade_cosmog",
             "party_cosmog"
         ]

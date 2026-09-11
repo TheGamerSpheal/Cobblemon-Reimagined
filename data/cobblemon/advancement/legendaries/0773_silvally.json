@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0772_typenull",
     "criteria": {
-        "silvally": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:silvally"
-            }
-        },
         "evolve_silvally": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -57,7 +50,6 @@
     },
     "requirements": [
         [
-            "silvally",
             "evolve_silvally",
             "trade_silvally",
             "party_silvally"

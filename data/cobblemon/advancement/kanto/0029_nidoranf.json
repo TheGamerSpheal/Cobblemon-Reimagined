@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0032_nidoranm",
     "criteria": {
-        "nidoranf": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:nidoranf"
-            }
-        },
         "trade_nidoranf": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -48,7 +41,6 @@
     },
     "requirements": [
         [
-            "nidoranf",
             "trade_nidoranf",
             "party_nidoranf"
         ]

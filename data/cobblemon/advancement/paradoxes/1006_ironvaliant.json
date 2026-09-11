@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/0995_ironthorns",
     "criteria": {
-        "ironvaliant": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:ironvaliant"
-            }
-        },
         "trade_ironvaliant": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "ironvaliant",
             "trade_ironvaliant",
             "party_ironvaliant"
         ]

@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0487_giratina",
     "criteria": {
-        "terapagos": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:terapagos"
-            }
-        },
         "trade_terapagos": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "terapagos",
             "trade_terapagos",
             "party_terapagos"
         ]

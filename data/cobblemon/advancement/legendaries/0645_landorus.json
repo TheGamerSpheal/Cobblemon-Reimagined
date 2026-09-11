@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0384_rayquaza",
     "criteria": {
-        "landorus": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:landorus"
-            }
-        },
         "trade_landorus": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "landorus",
             "trade_landorus",
             "party_landorus"
         ]

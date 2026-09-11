@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0481_mesprit",
     "criteria": {
-        "victini": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:victini"
-            }
-        },
         "trade_victini": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "victini",
             "trade_victini",
             "party_victini"
         ]

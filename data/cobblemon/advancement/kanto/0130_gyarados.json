@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0129_magikarp",
     "criteria": {
-        "gyarados": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:gyarados"
-            }
-        },
         "evolve_gyarados": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "gyarados",
             "evolve_gyarados",
             "trade_gyarados",
             "party_gyarados"

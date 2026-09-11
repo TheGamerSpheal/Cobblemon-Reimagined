@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/0991_ironbundle",
     "criteria": {
-        "ironhands": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:ironhands"
-            }
-        },
         "trade_ironhands": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "ironhands",
             "trade_ironhands",
             "party_ironhands"
         ]

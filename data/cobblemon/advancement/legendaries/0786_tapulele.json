@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0718_zygarde",
     "criteria": {
-        "tapulele": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:tapulele"
-            }
-        },
         "trade_tapulele": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "tapulele",
             "trade_tapulele",
             "party_tapulele"
         ]

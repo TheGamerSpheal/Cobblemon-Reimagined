@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/0992_ironhands",
     "criteria": {
-        "ironjugulis": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:ironjugulis"
-            }
-        },
         "trade_ironjugulis": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "ironjugulis",
             "trade_ironjugulis",
             "party_ironjugulis"
         ]

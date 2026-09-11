@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0046_paras",
     "criteria": {
-        "parasect": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:parasect"
-            }
-        },
         "evolve_parasect": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -55,7 +48,6 @@
     },
     "requirements": [
         [
-            "parasect",
             "evolve_parasect",
             "trade_parasect",
             "party_parasect"

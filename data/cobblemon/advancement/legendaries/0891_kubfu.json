@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0481_mesprit",
     "criteria": {
-        "kubfu": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:kubfu"
-            }
-        },
         "trade_kubfu": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "kubfu",
             "trade_kubfu",
             "party_kubfu"
         ]

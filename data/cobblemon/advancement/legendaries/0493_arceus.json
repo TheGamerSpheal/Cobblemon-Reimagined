@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/legendary",
     "criteria": {
-        "arceus": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:arceus"
-            }
-        },
         "trade_arceus": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "arceus",
             "trade_arceus",
             "party_arceus"
         ]

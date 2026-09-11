@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0120_staryu",
     "criteria": {
-        "starmie": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:starmie"
-            }
-        },
         "evolve_starmie": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "starmie",
             "evolve_starmie",
             "trade_starmie",
             "party_starmie"

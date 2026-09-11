@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0058_growlithe",
     "criteria": {
-        "arcanine": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:arcanine"
-            }
-        },
         "evolve_arcanine": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "arcanine",
             "evolve_arcanine",
             "trade_arcanine",
             "party_arcanine"

@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0013_weedle",
     "criteria": {
-        "kakuna": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:kakuna"
-            }
-        },
         "evolve_kakuna": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "kakuna",
             "evolve_kakuna",
             "trade_kakuna",
             "party_kakuna"

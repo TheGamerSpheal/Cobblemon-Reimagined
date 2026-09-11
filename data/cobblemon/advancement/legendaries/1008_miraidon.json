@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0483_dialga",
     "criteria": {
-        "miraidon": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:miraidon"
-            }
-        },
         "trade_miraidon": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "miraidon",
             "trade_miraidon",
             "party_miraidon"
         ]

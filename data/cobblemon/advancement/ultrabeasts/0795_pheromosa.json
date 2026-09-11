@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:ultrabeasts/ultrabeasts",
     "criteria": {
-        "pheromosa": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:pheromosa"
-            }
-        },
         "trade_pheromosa": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "pheromosa",
             "trade_pheromosa",
             "party_pheromosa"
         ]

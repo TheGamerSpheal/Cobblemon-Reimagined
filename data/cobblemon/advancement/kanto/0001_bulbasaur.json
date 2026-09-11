@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "bulbasaur": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:bulbasaur"
-            }
-        },
         "pick_bulbasaur": {
             "trigger": "cobblemon:pick_starter",
             "conditions": {
@@ -55,7 +48,6 @@
     },
     "requirements": [
         [
-            "bulbasaur",
             "pick_bulbasaur",
             "trade_bulbasaur",
             "party_bulbasaur"

@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0102_exeggcute",
     "criteria": {
-        "exeggutor": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:exeggutor"
-            }
-        },
         "evolve_exeggutor": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "exeggutor",
             "evolve_exeggutor",
             "trade_exeggutor",
             "party_exeggutor"

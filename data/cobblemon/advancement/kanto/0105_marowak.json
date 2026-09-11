@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0104_cubone",
     "criteria": {
-        "marowak": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:marowak"
-            }
-        },
         "evolve_marowak": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "marowak",
             "evolve_marowak",
             "trade_marowak",
             "party_marowak"

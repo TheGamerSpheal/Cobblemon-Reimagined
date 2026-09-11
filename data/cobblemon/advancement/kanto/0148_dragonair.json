@@ -12,7 +12,7 @@
             }
         },
         "title": {
-            "translate": "This Is a Super Saiyan That Has Ascended Past the Super Saiyan"
+            "translate": "This Is an Ascended Super Saiyan"
         },
         "description": {
             "translate": "Catch, trade or evolve Dragonair"
@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0147_dratini",
     "criteria": {
-        "dragonair": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:dragonair"
-            }
-        },
         "evolve_dragonair": {
             "trigger": "cobblemon:pokemon_evolved",
             "conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "dragonair",
             "evolve_dragonair",
             "trade_dragonair",
             "party_dragonair"

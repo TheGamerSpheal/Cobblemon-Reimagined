@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0383_groudon",
     "criteria": {
-        "meltan": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:meltan"
-            }
-        },
         "trade_meltan": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "meltan",
             "trade_meltan",
             "party_meltan"
         ]

@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/paradox",
     "criteria": {
-        "greattusk": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:greatusk"
-            }
-        },
         "trade_greattusk": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "greattusk",
             "trade_greattusk",
             "party_greattusk"
         ]

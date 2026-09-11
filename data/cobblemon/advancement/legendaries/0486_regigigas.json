@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0493_arceus",
     "criteria": {
-        "regigigas": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:regigigas"
-            }
-        },
         "trade_regigigas": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "regigigas",
             "trade_regigigas",
             "party_regigigas"
         ]

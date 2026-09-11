@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0716_xerneas",
     "criteria": {
-        "shaymin": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:shaymin"
-            }
-        },
         "trade_shaymin": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "shaymin",
             "trade_shaymin",
             "party_shaymin"
         ]

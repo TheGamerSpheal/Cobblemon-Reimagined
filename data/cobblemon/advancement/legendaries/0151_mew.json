@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0493_arceus",
     "criteria": {
-        "mew": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:mew"
-            }
-        },
         "trade_mew": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "mew",
             "trade_mew",
             "party_mew"
         ]

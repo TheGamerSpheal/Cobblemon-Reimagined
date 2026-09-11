@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/0986_brutebonnet",
     "criteria": {
-        "fluttermane": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:fluttermane"
-            }
-        },
         "trade_fluttermane": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "fluttermane",
             "trade_fluttermane",
             "party_fluttermane"
         ]

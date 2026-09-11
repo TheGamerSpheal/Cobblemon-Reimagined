@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0035_clefairy",
     "criteria": {
-        "clefable": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:clefable"
-            }
-        },
         "evolve_clefable": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "clefable",
             "evolve_clefable",
             "trade_clefable",
             "party_clefable"

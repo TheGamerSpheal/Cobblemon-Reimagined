@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:ultrabeasts/ultrabeasts",
     "criteria": {
-        "nihilego": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:nihilego"
-            }
-        },
         "trade_nihilego": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "nihilego",
             "trade_nihilego",
             "party_nihilego"
         ]

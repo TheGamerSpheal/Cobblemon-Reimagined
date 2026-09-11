@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0484_palkia",
     "criteria": {
-        "hoopa": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:hoopa"
-            }
-        },
         "trade_hoopa": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "hoopa",
             "trade_hoopa",
             "party_hoopa"
         ]

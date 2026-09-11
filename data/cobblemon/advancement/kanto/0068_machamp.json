@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0067_machoke",
     "criteria": {
-        "machamp": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:machamp"
-            }
-        },
         "evolve_machamp": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "machamp",
             "evolve_machamp",
             "trade_machamp",
             "party_machamp"

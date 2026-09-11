@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "squirtle": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:squirtle"
-            }
-        },
         "pick_squirtle": {
             "trigger": "cobblemon:pick_starter",
             "conditions": {
@@ -55,7 +48,6 @@
     },
     "requirements": [
         [
-            "squirtle",
             "pick_squirtle",
             "trade_squirtle",
             "party_squirtle"

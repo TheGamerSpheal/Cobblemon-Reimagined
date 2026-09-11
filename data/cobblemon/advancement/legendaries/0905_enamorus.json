@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0645_landorus",
     "criteria": {
-        "enamorus": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:enamorus"
-            }
-        },
         "trade_enamorus": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "enamorus",
             "trade_enamorus",
             "party_enamorus"
         ]

@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0382_kyogre",
     "criteria": {
-        "manaphy": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:manaphy"
-            }
-        },
         "trade_manaphy": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "manaphy",
             "trade_manaphy",
             "party_manaphy"
         ]

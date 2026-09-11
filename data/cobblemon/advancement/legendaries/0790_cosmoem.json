@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0789_cosmog",
     "criteria": {
-        "cosmoem": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:cosmoem"
-            }
-        },
         "evolve_cosmoem": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -57,7 +50,6 @@
     },
     "requirements": [
         [
-            "cosmoem",
             "evolve_cosmoem",
             "trade_cosmoem",
             "party_cosmoem"

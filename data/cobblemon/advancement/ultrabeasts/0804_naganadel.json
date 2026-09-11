@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:ultrabeasts/poipole",
     "criteria": {
-        "naganadel": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:naganadel"
-            }
-        },
         "evolve_naganadel": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -57,7 +50,6 @@
     },
     "requirements": [
         [
-            "naganadel",
             "evolve_naganadel",
             "trade_naganadel",
             "party_naganadel"

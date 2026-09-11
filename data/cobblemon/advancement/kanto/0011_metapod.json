@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0010_caterpie",
     "criteria": {
-        "metapod": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:metapod"
-            }
-        },
         "evolve_metapod": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "metapod",
             "evolve_metapod",
             "trade_metapod",
             "party_metapod"

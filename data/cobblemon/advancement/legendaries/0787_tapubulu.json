@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0718_zygarde",
     "criteria": {
-        "tapubulu": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:tapubulu"
-            }
-        },
         "trade_tapubulu": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "tapubulu",
             "trade_tapubulu",
             "party_tapubulu"
         ]

@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0481_mesprit",
     "criteria": {
-        "cresselia": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:cresselia"
-            }
-        },
         "trade_cresselia": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "cresselia",
             "trade_cresselia",
             "party_cresselia"
         ]

@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0037_vulpix",
     "criteria": {
-        "ninetales": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:ninetales"
-            }
-        },
         "evolve_ninetales": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "ninetales",
             "evolve_ninetales",
             "trade_ninetales",
             "party_ninetales"

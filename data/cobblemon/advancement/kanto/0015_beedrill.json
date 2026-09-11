@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0014_kakuna",
     "criteria": {
-        "beedrill": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:beedrill"
-            }
-        },
         "evolve_beedrill": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "beedrill",
             "evolve_beedrill",
             "trade_beedrill",
             "party_beedrill"

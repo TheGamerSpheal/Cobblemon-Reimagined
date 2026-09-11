@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0487_giratina",
     "criteria": {
-        "kyurem": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:kyurem"
-            }
-        },
         "trade_kyurem": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "kyurem",
             "trade_kyurem",
             "party_kyurem"
         ]

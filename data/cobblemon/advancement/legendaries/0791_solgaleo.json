@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0790_cosmoem",
     "criteria": {
-        "solgaleo": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:solgaleo"
-            }
-        },
         "evolve_solgaleo": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -57,7 +50,6 @@
     },
     "requirements": [
         [
-            "solgaleo",
             "evolve_solgaleo",
             "trade_solgaleo",
             "party_solgaleo"

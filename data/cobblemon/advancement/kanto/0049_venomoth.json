@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0048_venonat",
     "criteria": {
-        "venomoth": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:venomoth"
-            }
-        },
         "evolve_venomoth": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "venomoth",
             "evolve_venomoth",
             "trade_venomoth",
             "party_venomoth"

@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/1009_walkingwake",
     "criteria": {
-        "gougingfire": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:gougingfire"
-            }
-        },
         "trade_gougingfire": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "gougingfire",
             "trade_gougingfire",
             "party_gougingfire"
         ]

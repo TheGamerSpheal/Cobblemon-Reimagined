@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0086_seel",
     "criteria": {
-        "dewgong": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:dewgong"
-            }
-        },
         "evolve_dewgong": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "dewgong",
             "evolve_dewgong",
             "trade_dewgong",
             "party_dewgong"

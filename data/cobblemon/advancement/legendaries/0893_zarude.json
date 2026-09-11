@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0716_xerneas",
     "criteria": {
-        "zarude": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:zarude"
-            }
-        },
         "trade_zarude": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,7 @@
     },
     "requirements": [
         [
-            "zarude",
+
             "trade_zarude",
             "party_zarude"
         ]

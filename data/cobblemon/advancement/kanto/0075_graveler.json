@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0074_geodude",
     "criteria": {
-        "graveler": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:graveler"
-            }
-        },
         "evolve_graveler": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "graveler",
             "evolve_graveler",
             "trade_graveler",
             "party_graveler"

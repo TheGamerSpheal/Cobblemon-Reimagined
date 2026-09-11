@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/1006_ironvaliant",
     "criteria": {
-        "ironleaves": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:ironleaves"
-            }
-        },
         "trade_ironleaves": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "ironleaves",
             "trade_ironleaves",
             "party_ironleaves"
         ]

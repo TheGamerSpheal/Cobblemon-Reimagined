@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/0994_ironmoth",
     "criteria": {
-        "ironthorns": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:ironthorns"
-            }
-        },
         "trade_ironthorns": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "ironthorns",
             "trade_ironthorns",
             "party_ironthorns"
         ]

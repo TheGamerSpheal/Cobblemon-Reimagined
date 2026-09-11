@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0638_cobalion",
     "criteria": {
-        "keldeo": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:keldeo"
-            }
-        },
         "trade_keldeo": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "keldeo",
             "trade_keldeo",
             "party_keldeo"
         ]

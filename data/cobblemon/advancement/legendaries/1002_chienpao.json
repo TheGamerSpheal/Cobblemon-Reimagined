@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0717_yveltal",
     "criteria": {
-        "chienpao": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:chienpao"
-            }
-        },
         "trade_chienpao": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "chienpao",
             "trade_chienpao",
             "party_chienpao"
         ]

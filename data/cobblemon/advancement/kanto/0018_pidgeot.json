@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0017_pidgeotto",
     "criteria": {
-        "pidgeot": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:pidgeot"
-            }
-        },
         "evolve_pidgeot": {
             "trigger": "cobblemon:pokemon_evolved",
             "conditions": {
@@ -56,7 +49,7 @@
     },
     "requirements": [
         [
-            "pidgeot",
+
             "evolve_pidgeot",
             "trade_pidgeot",
             "party_pidgeot"

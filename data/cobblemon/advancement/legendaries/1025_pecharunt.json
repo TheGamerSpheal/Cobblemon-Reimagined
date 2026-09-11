@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0717_yveltal",
     "criteria": {
-        "pecharunt": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:okidogi"
-            }
-        },
         "trade_pecharunt": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "pecharunt",
             "trade_pecharunt",
             "party_pecharunt"
         ]

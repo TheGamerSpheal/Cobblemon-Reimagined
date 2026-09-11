@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/1025_pecharunt",
     "criteria": {
-        "okidogi": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:okidogi"
-            }
-        },
         "trade_okidogi": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "okidogi",
             "trade_okidogi",
             "party_okidogi"
         ]

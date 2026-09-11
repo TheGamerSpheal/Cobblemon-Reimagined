@@ -24,24 +24,25 @@
     },
     "parent": "cobblemon:legendaries/0493_arceus",
     "criteria": {
-        "palkia": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:palkia"
-            }
-        },
         "trade_palkia": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
                 "received": "cobblemon:muk"
             }
+        },
+        "party_palkia": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:palkia"
+                ]
+            }
         }
     },
     "requirements": [
         [
-            "palkia",
-            "trade_palkia"
+            "trade_palkia",
+            "party_palkia"
         ]
     ]
 }

@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0249_lugia",
     "criteria": {
-        "zapdos": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:zapdos"
-            }
-        },
         "trade_zapdos": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "zapdos",
             "trade_zapdos",
             "party_zapdos"
         ]

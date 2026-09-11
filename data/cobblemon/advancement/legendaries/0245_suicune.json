@@ -24,24 +24,25 @@
     },
     "parent": "cobblemon:legendaries/0250_hooh",
     "criteria": {
-        "suicune": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:suicune"
-            }
-        },
         "trade_suicune": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
                 "received": "cobblemon:suicune"
             }
+        },
+        "party_suicune": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:suicune"
+                ]
+            }
         }
     },
     "requirements": [
         [
-            "suicune",
-            "trade_suicune"
+            "trade_suicune",
+            "party_suicune"
         ]
     ]
 }

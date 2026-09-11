@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "cubone": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:cubone"
-            }
-        },
         "trade_cubone": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -47,7 +40,6 @@
     },
     "requirements": [
         [
-            "cubone",
             "trade_cubone",
             "party_cubone"
         ]

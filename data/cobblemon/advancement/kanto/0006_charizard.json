@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0005_charmeleon",
     "criteria": {
-        "charizard": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:charizard"
-            }
-        },
         "evolve_charizard": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "charizard",
             "evolve_charizard",
             "trade_charizard",
             "party_charizard"

@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0487_giratina",
     "criteria": {
-        "necrozma": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:necrozma"
-            }
-        },
         "trade_necrozma": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "necrozma",
             "trade_necrozma",
             "party_necrozma"
         ]

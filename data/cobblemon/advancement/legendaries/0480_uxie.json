@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0493_arceus",
     "criteria": {
-        "uxie": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:uxie"
-            }
-        },
         "trade_uxie": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "uxie",
             "trade_uxie",
             "party_uxie"
         ]

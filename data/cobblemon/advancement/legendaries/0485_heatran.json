@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0383_groudon",
     "criteria": {
-        "heatran": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:heatran"
-            }
-        },
         "trade_heatran": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "heatran",
             "trade_heatran",
             "party_heatran"
         ]

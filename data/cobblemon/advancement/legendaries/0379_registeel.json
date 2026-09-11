@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0486_regigigas",
     "criteria": {
-        "registeel": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:registeel"
-            }
-        },
         "trade_registeel": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "registeel",
             "trade_registeel",
             "party_registeel"
         ]

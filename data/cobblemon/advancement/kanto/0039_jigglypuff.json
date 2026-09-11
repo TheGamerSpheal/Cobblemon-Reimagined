@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "jigglypuff": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:jigglypuff"
-            }
-        },
         "evolve_jigglypuff": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "jigglypuff",
             "evolve_jigglypuff",
             "trade_jigglypuff",
             "party_jigglypuff"

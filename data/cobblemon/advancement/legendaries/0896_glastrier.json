@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0898_calyrex",
     "criteria": {
-        "glastrier": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:glastrier"
-            }
-        },
         "trade_glastrier": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "glastrier",
             "trade_glastrier",
             "party_glastrier"
         ]

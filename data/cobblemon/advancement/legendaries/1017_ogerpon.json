@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0716_xerneas",
     "criteria": {
-        "ogerpon": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:ogerpon"
-            }
-        },
         "trade_ogerpon": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "ogerpon",
             "trade_ogerpon",
             "party_ogerpon"
         ]

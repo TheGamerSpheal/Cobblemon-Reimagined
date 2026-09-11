@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0383_groudon",
     "criteria": {
-        "hooh": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:hooh"
-            }
-        },
         "trade_hooh": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "hooh",
             "trade_hooh",
             "party_hooh"
         ]

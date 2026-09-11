@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/1025_pecharunt",
     "criteria": {
-        "munkidori": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:munkidori"
-            }
-        },
         "trade_munkidori": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "munkidori",
             "trade_munkidori",
             "party_munkidori"
         ]

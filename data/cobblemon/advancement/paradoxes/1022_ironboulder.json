@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/1010_ironleaves",
     "criteria": {
-        "ironboulder": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:ironboulder"
-            }
-        },
         "trade_ironboulder": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "ironboulder",
             "trade_ironboulder",
             "party_ironboulder"
         ]

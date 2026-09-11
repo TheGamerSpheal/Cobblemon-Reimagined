@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/0985_screamtail",
     "criteria": {
-        "brutebonnet": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:brutebonnet"
-            }
-        },
         "trade_brutebonnet": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "brutebonnet",
             "trade_brutebonnet",
             "party_brutebonnet"
         ]

@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0021_spearow",
     "criteria": {
-        "fearow": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:spearow"
-            }
-        },
         "evolve_fearow": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "fearow",
             "evolve_fearow",
             "trade_fearow",
             "party_fearow"

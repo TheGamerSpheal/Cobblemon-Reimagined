@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0249_lugia",
     "criteria": {
-        "articuno": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:articuno"
-            }
-        },
         "trade_articuno": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "articuno",
             "trade_articuno",
             "party_articuno"
         ]

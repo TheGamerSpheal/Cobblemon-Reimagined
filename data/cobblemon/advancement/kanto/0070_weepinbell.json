@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0069_bellsprout",
     "criteria": {
-        "weepinbell": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:weepinbell"
-            }
-        },
         "evolve_weepinbell": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "weepinbell",
             "evolve_weepinbell",
             "trade_weepinbell",
             "party_weepinbell"

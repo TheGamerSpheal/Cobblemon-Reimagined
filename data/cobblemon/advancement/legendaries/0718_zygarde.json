@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0483_dialga",
     "criteria": {
-        "zygarde": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:zuygarde"
-            }
-        },
         "trade_zygarde": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "zygarde",
             "trade_zygarde",
             "party_zygarde"
         ]

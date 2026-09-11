@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0064_kadabra",
     "criteria": {
-        "alakazam": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:alakazam"
-            }
-        },
         "evolve_alakazam": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "alakazam",
             "evolve_alakazam",
             "trade_alakazam",
             "party_alakazam"

@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0892_kubfu",
     "criteria": {
-        "urshifu": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:urshifu"
-            }
-        },
         "evolve_urshifu": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -57,7 +50,6 @@
     },
     "requirements": [
         [
-            "urshifu",
             "evolve_urshifu",
             "trade_urshifu",
             "party_urshifu"

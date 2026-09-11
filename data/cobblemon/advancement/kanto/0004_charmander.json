@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "charmander": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:charmander"
-            }
-        },
         "pick_charmander": {
             "trigger": "cobblemon:pick_starter",
             "conditions": {
@@ -55,7 +48,6 @@
     },
     "requirements": [
         [
-            "charmander",
             "pick_charmander",
             "trade_charmander",
             "party_charmander"

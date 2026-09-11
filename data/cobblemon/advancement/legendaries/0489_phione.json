@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0490_manaphy",
     "criteria": {
-        "phione": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:phione"
-            }
-        },
         "trade_phione": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "phione",
             "trade_phione",
             "party_phione"
         ]

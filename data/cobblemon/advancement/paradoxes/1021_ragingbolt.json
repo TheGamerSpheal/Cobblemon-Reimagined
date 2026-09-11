@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/1020_gougingfire",
     "criteria": {
-        "ragingbolt": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:ragingbolt"
-            }
-        },
         "trade_ragingbolt": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "ragingbolt",
             "trade_ragingbolt",
             "party_ragingbolt"
         ]

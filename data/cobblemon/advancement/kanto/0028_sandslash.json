@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0027_sandshrew",
     "criteria": {
-        "sandslash": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:sandslash"
-            }
-        },
         "evolve_sandslash": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "sandslash",
             "evolve_sandslash",
             "trade_sandslash",
             "party_sandslash"

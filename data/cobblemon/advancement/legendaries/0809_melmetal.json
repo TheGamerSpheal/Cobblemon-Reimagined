@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0808_meltan",
     "criteria": {
-        "melmetal": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:melmetal"
-            }
-        },
         "evolve_melmetal": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -57,7 +50,6 @@
     },
     "requirements": [
         [
-            "melmetal",
             "evolve_melmetal",
             "trade_melmetal",
             "party_melmetal"

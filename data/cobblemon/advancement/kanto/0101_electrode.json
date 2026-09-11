@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0100_voltorb",
     "criteria": {
-        "electrode": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:electrode"
-            }
-        },
         "evolve_electrode": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "electrode",
             "evolve_electrode",
             "trade_electrode",
             "party_electrode"

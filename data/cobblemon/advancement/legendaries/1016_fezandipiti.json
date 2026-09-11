@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/1025_pecharunt",
     "criteria": {
-        "fezandipiti": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:fezandipiti"
-            }
-        },
         "trade_fezandipiti": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "fezandipiti",
             "trade_fezandipiti",
             "party_fezandipiti"
         ]

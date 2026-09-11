@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/0988_slitherwing",
     "criteria": {
-        "sandyshocks": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:sandyshocks"
-            }
-        },
         "trade_sandyshocks": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "sandyshocks",
             "trade_sandyshocks",
             "party_sandyshocks"
         ]

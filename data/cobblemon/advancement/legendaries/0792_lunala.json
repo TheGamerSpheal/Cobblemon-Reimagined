@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0790_cosmoem",
     "criteria": {
-        "lunala": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:lunala"
-            }
-        },
         "evolve_lunala": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -57,7 +50,6 @@
     },
     "requirements": [
         [
-            "lunala",
             "evolve_lunala",
             "trade_lunala",
             "party_lunala"

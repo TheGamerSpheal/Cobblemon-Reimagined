@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0011_metapod",
     "criteria": {
-        "butterfree": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:butterfree"
-            }
-        },
         "evolve_butterfree": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "butterfree",
             "evolve_butterfree",
             "trade_butterfree",
             "party_butterfree"

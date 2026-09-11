@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0060_poliwag",
     "criteria": {
-        "poliwhirl": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:poliwhirl"
-            }
-        },
         "evolve_poliwhirl": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "poliwhirl",
             "evolve_poliwhirl",
             "trade_poliwhirl",
             "party_poliwhirl"

@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0646_kyurem",
     "criteria": {
-        "zekrom": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:zekrom"
-            }
-        },
         "trade_zekrom": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "zekrom",
             "trade_zekrom",
             "party_zekrom"
         ]

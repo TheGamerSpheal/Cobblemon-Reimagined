@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0645_landorus",
     "criteria": {
-        "thundurus": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:thundurus"
-            }
-        },
         "trade_thundurus": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "thundurus",
             "trade_thundurus",
             "party_thundurus"
         ]

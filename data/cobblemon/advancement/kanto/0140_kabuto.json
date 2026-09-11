@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "kabuto": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:kabuto"
-            }
-        },
         "ressurect_kabuto": {
             "trigger": "cobblemon:resurrect_pokemon",
             "conditions": {
@@ -42,13 +35,21 @@
             "conditions": {
                 "received": "cobblemon:kabuto"
             }
+        },
+        "party_kabuto": {
+            "trigger": "cobblemon:party",
+            "conditions": {
+                "party": [
+                    "cobblemon:kabuto"
+                ]
+            }
         }
     },
     "requirements": [
         [
-            "kabuto",
             "ressurect_kabuto",
-            "trade_kabuto"
+            "trade_kabuto",
+            "party_kabuto"
         ]
     ]
 }

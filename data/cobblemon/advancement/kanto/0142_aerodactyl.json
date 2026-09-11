@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/kanto",
     "criteria": {
-        "aerodactyl": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:aerodactyl"
-            }
-        },
         "ressurect_aerodactyl": {
             "trigger": "cobblemon:resurrect_pokemon",
             "conditions": {
@@ -55,7 +48,6 @@
     },
     "requirements": [
         [
-            "aerodactyl",
             "ressurect_aerodactyl",
             "trade_aerodactyl",
             "party_aerodactyl"

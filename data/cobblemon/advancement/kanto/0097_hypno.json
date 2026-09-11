@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0096_drowzee",
     "criteria": {
-        "hypno": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:hypno"
-            }
-        },
         "evolve_hypno": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "hypno",
             "evolve_hypno",
             "trade_hypno",
             "party_hypno"

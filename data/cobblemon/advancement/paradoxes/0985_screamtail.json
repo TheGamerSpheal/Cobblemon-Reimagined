@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/0984_greattusk",
     "criteria": {
-        "screamtail": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:screamtail"
-            }
-        },
         "trade_screamtail": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "screamtail",
             "trade_screamtail",
             "party_screamtail"
         ]

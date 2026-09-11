@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0483_dialga",
     "criteria": {
-        "latios": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:latios"
-            }
-        },
         "trade_latios": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "latios",
             "trade_latios",
             "party_latios"
         ]

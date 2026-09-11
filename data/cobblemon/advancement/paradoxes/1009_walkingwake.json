@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/1005_roaringmoon",
     "criteria": {
-        "walkingwake": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:walkingwake"
-            }
-        },
         "trade_walkingwake": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "walkingwake",
             "trade_walkingwake",
             "party_walkingwake"
         ]

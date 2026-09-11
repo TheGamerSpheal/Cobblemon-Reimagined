@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0111_rhyhorn",
     "criteria": {
-        "rhydon": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:rhydon"
-            }
-        },
         "evolve_rhydon": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "rhydon",
             "evolve_rhydon",
             "trade_rhydon",
             "party_rhydon"

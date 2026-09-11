@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0007_squirtle",
     "criteria": {
-        "wartortle": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:wartortle"
-            }
-        },
         "evolve_wartortle": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "wartortle",
             "evolve_wartortle",
             "trade_wartortle",
             "party_wartortle"

@@ -23,13 +23,6 @@
     },
     "parent": "cobblemon:kanto/0081_magnemite",
     "criteria": {
-        "magneton": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:magneton"
-            }
-        },
         "evolve_magneton": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -56,7 +49,6 @@
     },
     "requirements": [
         [
-            "magneton",
             "evolve_magneton",
             "trade_magneton",
             "party_magneton"

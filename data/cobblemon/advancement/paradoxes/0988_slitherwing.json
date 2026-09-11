@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:paradoxes/0987_fluttermane",
     "criteria": {
-        "slitherwing": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:slitherwing"
-            }
-        },
         "trade_slitherwing": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "slitherwing",
             "trade_slitherwing",
             "party_slitherwing"
         ]

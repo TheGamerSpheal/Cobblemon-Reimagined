@@ -24,13 +24,6 @@
     },
     "parent": "cobblemon:legendaries/0384_rayquaza",
     "criteria": {
-        "groudon": {
-            "trigger": "cobblemon:catch_pokemon",
-            "conditions": {
-                "count": 1,
-                "species": "cobblemon:groudon"
-            }
-        },
         "trade_groudon": {
             "trigger": "cobblemon:trade_pokemon",
             "conditions": {
@@ -49,7 +42,6 @@
     },
     "requirements": [
         [
-            "groudon",
             "trade_groudon",
             "party_groudon"
         ]
