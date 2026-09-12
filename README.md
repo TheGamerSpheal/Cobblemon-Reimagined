@@ -180,7 +180,7 @@ Hidden: Rain Dish     Mega Launcher
 </details>
 
 <details>
-<summary>Mega Blastoise *Only works because the Base Form has the same change*</summary>
+<summary>Mega Blastoise</summary>
 <pre>
 Regular Typing --> New Typing
 Water              Water
