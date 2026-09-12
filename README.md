@@ -4,7 +4,7 @@ This is a Minecraft Cobblemon datapack that aims to breathe some new life into o
 
 **IMPORTANT INFORMATION**
 
-Didn't figure out a way to change the Mega's stats, i am currently tinkering with some options
+The stats of the Megas ARE changed, they just don't show up in the Pokédex.
 
 Until Cobblemon fixes the "catch_pokemon" trigger, the only ways to trigger advancements are gonna be picking a starter, trading, evolving and having the Pokémon in your party. Is it incovenient? Yes, but there's not much i can do about it.
 
