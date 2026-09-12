@@ -8,7 +8,8 @@
     "h:drizzle"
   ],
   "features": [
-    "mega_evolution"
+    "mega_evolution",
+    "gmax"
   ],
   "forms": [
     {
@@ -22,6 +23,19 @@
         "megalauncher",
         "megalauncher",
         "h:megalauncher"
+      ]
+    },
+    {
+      "name": "Gmax",
+      "aspects": [
+        "gmax"
+      ],
+      "primaryType": "water",
+      "secondaryType": "steel",
+      "abilities": [
+        "torrent",
+        "megalauncher",
+        "h:drizzle"
       ]
     }
   ]

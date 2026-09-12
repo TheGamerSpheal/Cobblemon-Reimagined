@@ -4,7 +4,7 @@ This is a Minecraft Cobblemon datapack that aims to breathe some new life into o
 
 **IMPORTANT INFORMATION**
 
-The stats of the Megas ARE changed, they just don't show up in the Pokédex.
+The Megas ARE changed, but the changes don't show up in the Pokédex.
 
 Until Cobblemon fixes the "catch_pokemon" trigger, the only ways to trigger advancements are gonna be picking a starter, trading, evolving and having the Pokémon in your party. Is it incovenient? Yes, but there's not much i can do about it.
 
@@ -188,6 +188,21 @@ Water              Water
 </pre>
 </details>
 
+<details>
+<summary>G-Max Blastoise</summary>
+<pre>
+Regular Typing --> New Typing
+Water              Water
+                   Steel
+</pre>
+<pre>
+Regular Abilities --> New Abilities
+Torrent               Torrent
+Hidden: Rain Dish     Mega Launcher
+                      Hidden: Drizzle
+</pre>
+</details>
+
 
 <details>
 <summary>Caterpie</summary>
@@ -297,7 +312,7 @@ Regular Moves --> New Moves
 </details>
 
 <details>
-<summary>Mega Beedrill *Doesn't Work*</summary>
+<summary>Mega Beedrill</summary>
 <pre>
                  Regular Stats --> New Stats
 HP:                    65             65
@@ -598,7 +613,7 @@ Regular Moves --> New Moves
 </details>
 
 <details>
-<summary>Mega Raichu X *Doesn't Work*</summary>
+<summary>Mega Raichu X</summary>
 <pre>
                  Regular Stats --> New Stats
 HP:                    60             70  +10
@@ -612,7 +627,7 @@ Total:                 585            615 +30
 </details>
 
 <details>
-<summary>Mega Raichu Y *Doesn't Work*</summary>
+<summary>Mega Raichu Y</summary>
 <pre>
                  Regular Stats --> New Stats
 HP:                    60             70  +10
