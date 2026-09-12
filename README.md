@@ -4,7 +4,7 @@ This is a Minecraft Cobblemon datapack that aims to breathe some new life into o
 
 **IMPORTANT INFORMATION**
 
-This datapack is (somewhat) incompatible with Mega Showdown. It previously could change stuff in Mega Showdown (like typings and stats), but for some reason it can't anymore and i'm very upset. Any changes i might have made to a Pokémon retain when they Mega Evolve, with the exception of stats, so for example, Beedrill's stats are buffed, which would mean that Mega Beedrill's stats should be buffed too, so it actually raises by 100, but the stats are the only thing that don't carry over. As far as I know, the ability and the typing stays the same when Mega Evolving. I haven't found a solution for this, so i don't know, enjoy Drizzle Mega Blastoise i guess? To compensate for this error, i'll be changing the base form abilities to be the original ability of Mega form (so yes, Raichu with No Guard and Electric Surge), then at least the intended experience will be available in some way. And i'll keep the intended changes down below anyway. (If anyone know a fix PLEASE tell me how to do it)
+Didn't figure out a way to change the Mega's stats, i am currently tinkering with some options
 
 Until Cobblemon fixes the "catch_pokemon" trigger, the only ways to trigger advancements are gonna be picking a starter, trading, evolving and having the Pokémon in your party. Is it incovenient? Yes, but there's not much i can do about it.
 
@@ -1261,6 +1261,83 @@ Regular Moves --> New Moves
                   65: Play Rough
                   70: Heat Wave
                   75: Flare Blitz
+</pre>
+</details>
+
+<details>
+<summary>Hisuian Arcanine</summary>
+<pre>
+Regular Abilities --> New Abilities
+Intimidate            Initmidate
+Flash Fire            Rock Head
+Hidden: Rock Head     Hidden: Defiant
+</pre>
+<pre>
+Regular Moves --> New Moves
+1: Rock Slide     1: Howl
+1: Fire Fang      1: Agility
+1: Extreme Speed  1: Bite
+1: Flame Wheel    1: Flame Wheel
+1: Flare Blitz    1: Flare Blitz
+1: Howl           1: Helping Hand
+1: Helping Hand   1: Leer
+1: Crunch         1: Retaliate
+1: Reversal       1: Roar
+1: Retaliate      1: Rock Throw
+1: Take Down      1: Take Down
+1: Agility        5: Ember
+1: Rock Throw     10: Smack Down
+1: Ember          15: Fire Fang
+1: Roar           20: Reversal
+1: Bite           25: Rock Slide
+1: Leer           30: Flamethrower
+5: Flamethrower   35: Crunch
+64: Raging Fury   40: Outrage
+                  45: Double Edge
+                  50: Play Rough
+                  55: Heat Wave
+                  60: Close Combat
+                  63: Stone Edge
+                  65: Flare Blitz
+                  70: Head Smash
+</pre>
+</details>
+
+<details>
+<summary>Poliwrath</summary>
+<pre>
+Regular Abilities --> New Abilities
+Water Absorb          Swift Swim
+Damp                  Iron Fist
+Hidden: Swift Swim    Hidden: Water Absorb
+</pre>
+<pre>
+Regular Moves --> New Moves
+1: Bubble Beam    1: Submission
+1: Hypnosis       1: Pound
+1: Double Slap    1: Endeavor
+1: Submission     1: Bubble
+1: Dynamic Punch  1: Haze
+1: Mind Reader    1: Mist
+1: Rain Dance     1: Vaccum Wave
+1: Circle Throw   1: Circle Throw
+1: Body Slam      6: Hypnosis
+1: Earth Power    11: Water Gun
+1: Hydro Pump     16: Rain Dance
+1: Belly Drum     16: Double Slap
+1: Double Edge    22: Bubble Beam
+1: Water Gun      26: Mud Shot
+1: Pound          26: Mach Punch
+1: Mud Shot       31: Ice Punch
+1: Water Sport    36: Body Slam
+1: Wake-Up Slap   41: Low Kick
+1: Mud Bomb       46: Dynamic Punch
+1: Bubble         51: Belly Drum
+                  56: Earth Power
+                  61: Hydro Pump
+                  66: Mud Bomb
+                  71: Close Combat
+                  76: Double Edge
 </pre>
 </details>
 

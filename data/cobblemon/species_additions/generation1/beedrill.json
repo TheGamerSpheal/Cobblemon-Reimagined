@@ -147,6 +147,11 @@
       "aspects": [
         "mega"
       ],
+      "abilities": [
+        "adaptability",
+        "adaptability",
+        "h:adaptability"
+      ],
       "baseStats": {
         "hp": 65,
         "attack": 175,

@@ -17,7 +17,12 @@
         "mega"
       ],
       "primaryType": "water",
-      "secondaryType": "steel"
+      "secondaryType": "steel",
+      "abilities": [
+        "megalauncher",
+        "megalauncher",
+        "h:megalauncher"
+      ]
     }
   ]
 }
