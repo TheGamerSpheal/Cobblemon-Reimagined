@@ -62,7 +62,7 @@ NEXT OBJECTIVES:
 - Brazilian Portuguese Translation (Other languages too if anyone is interested in helping!)
 - Put it on Modrinth and the Cobblemon Discord
 
-Here's all the changes made to the Pokémon, again going into it blind is more fun, but do as you wish:
+Here's all the changes made to the Pokémon, again, going into it blind is more fun, but do as you wish:
 
 <details>
 <summary>GEN 1 CHANGES</summary>
