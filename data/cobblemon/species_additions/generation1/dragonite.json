@@ -1,8 +1,8 @@
 {
   "target": "cobblemon:dragonite",
   "abilities": [
-    "marvelscale",
     "shedskin",
+    "marvelscale",
     "h:multiscale"
   ]
 }

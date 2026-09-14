@@ -1,10 +1,5 @@
 {
   "target": "cobblemon:tauros",
-  "abilities": [
-    "intimidate",
-    "angerpoint",
-    "h:sheerforce"
-  ],
   "baseStats": {
     "hp": 75,
     "attack": 120,
@@ -45,8 +40,8 @@
       ],
       "abilities": [
         "intimidate",
-        "angerpoint",
-        "h:gluttony"
+        "sheerforce",
+        "h:flashfire"
       ],
       "baseStats": {
         "hp": 75,
@@ -65,8 +60,8 @@
       ],
       "abilities": [
         "intimidate",
-        "angerpoint",
-        "h:gluttony"
+        "sheerforce",
+        "h:waterabsorb"
       ],
       "baseStats": {
         "hp": 75,

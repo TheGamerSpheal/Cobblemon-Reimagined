@@ -140,5 +140,21 @@
     "tutor:vinewhip",
     "tutor:worryseed",
     "tutor:wrap"
+  ],
+  "features": [
+    "mega_evolution"
+  ],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "abilities": [
+        "toxicdebris",
+        "toxicdebris",
+        "h:toxicdebris"
+      ]
+    }
   ]
 }

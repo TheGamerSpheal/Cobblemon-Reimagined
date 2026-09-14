@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:magmortar",
+  "abilities": [
+    "flamebody",
+    "flashfire",
+    "h:megalauncher"
+  ]
+}

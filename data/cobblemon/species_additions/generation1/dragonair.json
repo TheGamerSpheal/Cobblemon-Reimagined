@@ -1,8 +1,8 @@
 {
   "target": "cobblemon:dragonair",
   "abilities": [
-    "marvelscale",
     "shedskin",
+    "marvelscale",
     "h:multiscale"
   ]
 }

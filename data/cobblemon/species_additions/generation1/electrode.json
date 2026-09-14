@@ -18,10 +18,12 @@
   ],
   "forms": [
     {
-      "name": "Hisuian",
+      "name": "Hisui",
       "aspects": [
         "hisuian"
       ],
+      "primaryType": "electric",
+      "secondaryType": "grass",
       "abilities": [
         "soundproof",
         "electricsurge",

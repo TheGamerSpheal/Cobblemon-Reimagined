@@ -11,6 +11,11 @@
       "aspects": [
         "mega"
       ],
+      "abilities": [
+        "moldbreaker",
+        "moldbreaker",
+        "h:moldbreaker"
+      ],
       "primaryType": "water",
       "secondaryType": "dragon"
     }

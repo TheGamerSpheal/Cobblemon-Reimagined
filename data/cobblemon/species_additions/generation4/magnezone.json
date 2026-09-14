@@ -1,0 +1,8 @@
+{
+  "target": "cobblemon:magneton",
+  "abilities": [
+    "magnetpull",
+    "sturdy",
+    "h:levitate"
+  ]
+}

@@ -3,8 +3,8 @@
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
-    "superluck",
     "keeneye",
+    "superluck",
     "h:defiant"
   ],
   "baseStats": {
@@ -12,7 +12,7 @@
     "attack": 110,
     "defence": 60,
     "special_attack": 55,
-    "special_defence": 60,
+    "special_defence": 65,
     "speed": 110
   },
   "moves": [

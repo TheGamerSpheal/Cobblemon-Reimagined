@@ -15,18 +15,23 @@
     "1:thunderfang",
     "5:supersonic",
     "10:wingattack",
+    "13:twister",
     "15:scaryface",
     "20:rockslide",
+    "23:dragonbreath",
     "25:roar",
     "30:crunch",
+    "33:dualchop",
     "35:ironhead",
     "39:acrobatics",
-    "40:takedown",
+    "40:breakingswipe",
     "44:aerialace",
     "45:stoneedge",
+    "47:tailwind",
     "49:skydrop",
     "50:dragonclaw",
     "55:hyperbeam",
+    "57:outrage",
     "60:gigaimpact",
     "65:dragondance",
     "70:headsmash",
@@ -191,6 +196,11 @@
       "name": "Mega",
       "aspects": [
         "mega"
+      ],
+      "abilities": [
+        "intimidate",
+        "intimidate",
+        "h:intimidate"
       ],
       "primaryType": "rock",
       "secondaryType": "dragon"

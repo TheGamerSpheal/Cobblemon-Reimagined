@@ -10,10 +10,12 @@
   ],
   "forms": [
     {
-      "name": "Hisuian",
+      "name": "Hisui",
       "aspects": [
         "hisuian"
       ],
+      "primaryType": "fire",
+      "secondaryType": "rock",
       "abilities": [
         "intimidate",
         "rockhead",

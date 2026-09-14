@@ -14,6 +14,8 @@
       "aspects": [
         "galarian"
       ],
+      "primaryType": "psychic",
+      "secondaryType": "fairy",
       "abilities": [
         "runaway",
         "pastelveil",
