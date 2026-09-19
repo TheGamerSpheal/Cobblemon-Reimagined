@@ -3,7 +3,7 @@
 ![The Cobblemon Reimagined Logo, made by my friend Ghast and me. Thanks Ghast!](/pack.png)
 Cobblemon Reimagined now has a logo! Made by my friend Ghast and yours truly. Thanks Ghast!
 
-This is a Minecraft Cobblemon datapack that aims to breathe some new life into old pokémon, by giving them new typings, abilities, stat spreads and moves. Also gives every single Pokémon their own unique advancement, try and catch 'em all! Most inspiration is taken from the Luminescent Platinum Mod made by the Luminescent Team, the Radical Red ROM Hack made by Eric "Soupacell" Huang and Pokérogue made by way too many people to mention by Any suggestions are welcome!
+This is a Minecraft Cobblemon datapack that aims to breathe some new life into old pokémon, by giving them new typings, abilities, stat spreads and moves. Also gives every single Pokémon their own unique advancement, try and catch 'em all! Most inspiration is taken from the Luminescent Platinum Mod made by the Luminescent Team, the Radical Red ROM Hack made by Eric "Soupacell" Huang and Pokérogue made by way too many people to mention by name. Any suggestions are welcome!
 
 **IMPORTANT INFORMATION**
 
