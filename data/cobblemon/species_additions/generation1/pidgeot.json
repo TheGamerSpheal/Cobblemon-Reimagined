@@ -13,7 +13,7 @@
     "special_defence": 70,
     "speed": 110
   },
-   "features": [
+  "features": [
     "mega"
   ],
   "forms": [
@@ -21,6 +21,11 @@
       "name": "Mega",
       "aspects": [
         "mega"
+      ],
+      "abilities": [
+        "noguard",
+        "noguard",
+        "h:noguard"
       ],
       "baseStats": {
         "hp": 85,

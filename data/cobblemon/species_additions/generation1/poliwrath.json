@@ -1,9 +1,9 @@
 {
   "target": "cobblemon:poliwrath",
   "abilities": [
-    "swiftswim",
+    "waterabsorb",
     "ironfist",
-    "h:waterabsorb"
+    "h:swiftswim"
   ],
   "moves": [
     "1:submission",

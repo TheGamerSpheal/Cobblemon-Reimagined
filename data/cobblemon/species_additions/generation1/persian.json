@@ -18,10 +18,11 @@
   ],
   "forms": [
     {
-      "name": "Alola",
+      "name": "Alolan",
       "aspects": [
         "alolan"
       ],
+      "primaryType": "dark",
       "abilities": [
         "furcoat",
         "technician",

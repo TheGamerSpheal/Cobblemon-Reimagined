@@ -7,17 +7,17 @@ This is a Minecraft Cobblemon datapack that aims to breathe some new life into o
 
 **IMPORTANT INFORMATION**
 
-The Megas ARE changed, but the changes don't show up in the Pokédex.
+The Megas and Regional Forms ARE changed, but the changes don't show up in the Pokédex.
 
-Until (IF) Cobblemon fixes the "catch_pokemon" trigger, the only ways to trigger advancements are gonna be picking a starter, trading, evolving and having the Pokémon in your party. The condition to specify species no longer exists, and yet it's still on their wiki (i don't like badly documented things), and i don't think they're adding that back in. Is it incovenient? Yes, but there's not much i can do about it
+Until (IF) Cobblemon fixes the "catch_pokemon" trigger, the only ways to trigger advancements are gonna be picking a starter, trading, evolving and having the Pokémon in your party. The condition to specify species no longer exists, and yet it's still on their wiki (i don't like badly documented things), and i don't think they're adding that back in. Is it incovenient? Yes, but there's not much i can do about it.
 
-Paldean Tauros is very stubborn and doesn't want to get modified for some reason.
+I genuinely have no idea why the ones that aren't working, aren't you know, WORKING. Their files are EXACTLY as they should be and yet they refuse to work, i hate this. WHAT DID I DO TO DESERVE THIS, I HATE COBBLEMON SOMETIMES
 
 If anyone knows how to customize the advancement tree so i can place the advancements wherever i want, please let me know!
 
 Go into this blind, find the changes and advancements on your own, it makes for a more fun and unexpected adventure. The changes are listed down below if you desire to see them.
 
-MODS, DATAPACKS AND RESOURCE PACKS TO HAVE THE FULL EXPERIENCE:
+**MODS, DATAPACKS AND RESOURCE PACKS TO HAVE THE FULL EXPERIENCE**:
 
 While this datapack can work on its own, some additions will make it just that bit better, so here are some of them:
 
@@ -252,13 +252,13 @@ Regular Moves --> New Moves
 12: Stun Spore    17: Air Cutter
 12: Sleep Powder  19: Psybeam
 16: Psybeam       19: Silver Wind
-20: Whirlwind     21: Supersonic
-24: Air Slash     23: Air Slash
-28: Safeguard     25: Safeguard
-32: Bug Buzz      28: Bug Buzz
-36: Tailwind      34: Psychic
-40: Rage Powder   37: Whirlwind
-44: Quiver Dance  37: Tailwind
+20: Whirlwind     20: Whirlwind
+24: Air Slash     21: Supersonic
+28: Safeguard     23: Air Slash
+32: Bug Buzz      25: Safeguard
+36: Tailwind      28: Bug Buzz
+40: Rage Powder   34: Psychic
+44: Quiver Dance  40: Tailwind
                   40: Rage Powder
                   44: Quiver Dance
                   45: Hurricane
@@ -422,11 +422,11 @@ Hidden: Hustle        Hidden: Technician
 <pre>
                  Regular Stats --> New Stats
 HP:                    55             55
-Attack:                81             97  +16
+Attack:                81             100 +19
 Defense:               60             70  +10
 Special Attack:        50             45  -5
 Special Defense:       70             70
-Speed:                 97             113 +16
+Speed:                 97             110 +13
 Total:                 413            450 +37
 </pre>
 </details>
@@ -440,14 +440,15 @@ Hustle                Hustle
 Hidden: Thick Fat     Hidden: Thick Fat
 </pre>
 <pre>
+*Stats Don't Work*
                  Regular Stats --> New Stats
-HP:                    75             80
-Attack:                71             78  +7
+HP:                    75             80  +5
+Attack:                71             80  +9
 Defense:               70             80  +10
 Special Attack:        40             40
 Special Defense:       80             90  +10
-Speed:                 77             82  +5
-Total:                 413            450 +32
+Speed:                 77             80  +3
+Total:                 413            450 +37
 </pre>
 </details>
 
@@ -521,7 +522,17 @@ Total:                 448            455 +7
 </details>
 
 <details>
-<summary>Pikachu</summary>
+<summary>Pikachu *Doesn't Work*</summary>
+<pre>
+Regular Abilities --> New Abilities
+Static                Static
+Hidden: Lightning Rod Lightning Rod
+                      Hidden: Galvanize
+</pre>
+</details>
+
+<details>
+<summary>G-Max Pikachu *Doesn't Work*</summary>
 <pre>
 Regular Abilities --> New Abilities
 Static                Static
@@ -534,8 +545,8 @@ Hidden: Lightning Rod Lightning Rod
 <summary>Raichu</summary>
 <pre>
 Regular Abilities --> New Abilities
-Static                Electric Surge
-Hidden: Lightning Rod No Guard
+Static                Static
+Hidden: Lightning Rod Lightning Roc
                       Hidden: Galvanize
 </pre>
 <pre>
@@ -567,7 +578,7 @@ Regular Moves --> New Moves
 1: Electro Ball   30: Feint
 1: Feint          35: Spark
 1: Spark          40: Double Team
-1: Agility        45: Slame
+1: Agility        45: Slam
 1: Slam           50: Thunderbolt
 1: Discharge      55: Teeter Dance
 1: Growl          55: Agility
@@ -585,7 +596,7 @@ Regular Moves --> New Moves
 HP:                    60             70  +10
 Attack:                85             80  -5
 Defense:               50             50  
-Special Attack:        95             125 +30
+Special Attack:        95             110 +15
 Special Defense:       85             90  +5
 Speed:                 110            115 +5
 Total:                 485            515 +30
@@ -653,6 +664,16 @@ Regular Abilities --> New Abilities
 Sand Veil             Sand Veil
 Hidden: Sand Rush     Sand Force
                       Hidden: Sand Rush
+</pre>
+</details>
+
+<details>
+<summary>Alolan Sandshrew</summary>
+<pre>
+Regular Abilities --> New Abilities
+Snow Cloak            Snow Cloak
+Hidden: Slush Rush    Tough Claws
+                      Hidden: Slush Rush
 </pre>
 </details>
 
@@ -850,6 +871,16 @@ Regular Moves ---> New Moves
 </details>
 
 <details>
+<summary>Vulpix</summary>
+<pre>
+Regular Abilities --> New Abilities
+Flash Fire            Flash Fire
+Hidden: Drought       Drought
+                      Hidden: Cursed Body
+</pre>
+</details>
+
+<details>
 <summary>Ninetales</summary>
 <pre>
 Regular Typing --> New Typing
@@ -1024,7 +1055,7 @@ Hidden: Effect Spore  Effect Spore
 Regular Moves --> New Moves
 1: Mega Drain     1: Acid
 1: Aromatherapy   1: Absorb
-1: Stun Spore     1: Aromatheraby
+1: Stun Spore     1: Aromatherapy
 1: Poison Powder  1: Growth
 1: Petal Dance    1: Magical Leaf
 1: Giga Drain     1: Petal Blizzard
@@ -1032,7 +1063,7 @@ Regular Moves --> New Moves
 1: Sleep Powder   1: Stun Spore
 1: Toxic          1: Weather Ball
 1: Moonblast      7: Sweet Scent
-1: Grassy Terrain 12: Sleep Powder
+1: Grassy Terrain 12: Poison Powder
 1: Moonlight      17: Leaf Blade
 1: Absorb         22: Mega Drain
 1: Growth         27: Giga Drain
@@ -1233,7 +1264,7 @@ Hidden: Swift Swim    Hidden: Swift Swim
 <summary>Growlithe</summary>
 <pre>
 Regular Abilities --> New Abilities
-Intimidate            Initmidate
+Intimidate            Intimidate
 Flash Fire            Flash Fire
 Hidden: Justified     Hidden: Defiant
 </pre>
@@ -1243,7 +1274,7 @@ Hidden: Justified     Hidden: Defiant
 <summary>Hisuian Growlithe</summary>
 <pre>
 Regular Abilities --> New Abilities
-Intimidate            Initmidate
+Intimidate            Intimidate
 Flash Fire            Rock Head
 Hidden: Rock Head     Hidden: Defiant
 </pre>
@@ -1253,7 +1284,7 @@ Hidden: Rock Head     Hidden: Defiant
 <summary>Arcanine</summary>
 <pre>
 Regular Abilities --> New Abilities
-Intimidate            Initmidate
+Intimidate            Intimidate
 Flash Fire            Flash Fire
 Hidden: Justified     Hidden: Defiant
 </pre>
@@ -1261,26 +1292,24 @@ Hidden: Justified     Hidden: Defiant
 Regular Moves --> New Moves
 1: Bite           1: Howl
 1: Roar           1: Bite
-1: Fire Fang      1: Flame Wheel
-1: Odor Sleuth    1: Leer
-1: Extreme Speed  1: Retaliate
-1: Helping Hand   1: Roar
-1: Retaliate      1: Thunder Fang
-1: Burn Up        1: Take Down
-1: Flame Wheel    5: Ember
-1: Agility        15: Flame Wheel
-1: Crunch         20: Helping Hand
-1: Take Down      25: Agility
-1: Play Rough     30: Fire Fang
-1: Reversal       35: Reversal
-1: Flare Blitz    40: Burn Up
-1: Ember          45: Crunch
-1: Leer           50: Take Down
-1: Howl           55: Flamethrower
-1: Flame Burst    60: Outrage
-5: Flamethrower   60: Close Combat
-                  65: Play Rough
-                  70: Heat Wave
+1: Fire Fang      1: Leer
+1: Odor Sleuth    1: Retaliate
+1: Extreme Speed  1: Roar
+1: Helping Hand   1: Thunder Fang
+1: Retaliate      5: Ember
+1: Burn Up        15: Flame Wheel
+1: Flame Wheel    20: Helping Hand
+1: Agility        25: Agility
+1: Crunch         30: Fire Fang
+1: Take Down      35: Reversal
+1: Play Rough     40: Burn Up
+1: Reversal       45: Crunch
+1: Flare Blitz    50: Take Down
+1: Ember          55: Flamethrower
+1: Leer           60: Outrage
+1: Howl           60: Close Combat
+1: Flame Burst    65: Play Rough
+5: Flamethrower   70: Heat Wave
                   75: Flare Blitz
 </pre>
 </details>
@@ -1289,7 +1318,7 @@ Regular Moves --> New Moves
 <summary>Hisuian Arcanine</summary>
 <pre>
 Regular Abilities --> New Abilities
-Intimidate            Initmidate
+Intimidate            Intimidate
 Flash Fire            Rock Head
 Hidden: Rock Head     Hidden: Defiant
 </pre>
@@ -1320,6 +1349,7 @@ Regular Moves --> New Moves
                   60: Close Combat
                   63: Stone Edge
                   65: Flare Blitz
+                  68: Raging Fury
                   70: Head Smash
 </pre>
 </details>
@@ -1328,9 +1358,9 @@ Regular Moves --> New Moves
 <summary>Poliwrath</summary>
 <pre>
 Regular Abilities --> New Abilities
-Water Absorb          Swift Swim
+Water Absorb          Water Absorb
 Damp                  Iron Fist
-Hidden: Swift Swim    Hidden: Water Absorb
+Hidden: Swift Swim    Hidden: Swift Swim
 </pre>
 <pre>
 Regular Moves --> New Moves
@@ -1396,24 +1426,23 @@ Regular Moves --> New Moves
 1: Swallow        1: Growth
 1: Spit Up        1: Vine Whip
 1: Vine Whip      1: Acid
-1: Sleep Powder   1: Weather Ball
-1: Sweet Scent    7: Wrap
-1: Razor Leaf     12: Sleep Powder
-1: Leaf Storm     12: Poison Powder
-1: Knock Off      12: Stun Spore
-1: Gastro Acid    17: Razor Leaf
-1: Leaf Tornado   22: Sweet Scent
-1: Power Whip     22: Weather Ball
-1: Poison Jab     27: Gastro Acid
-1: Growth         32: Stockpile
-1: Wrap           32: Swallow
-1: Poison Powder  32: Spit Up
-1: Stun Spore     37: Leech Life
-1: Acid           42: Leaf Blade
-1: Slam           42: Poison Jab
-1: Ring Out       47: Seed Bomb
-44: Leaf Blade    52: Sucker Punch
-                  52: Knock Off
+1: Sleep Powder   7: Wrap
+1: Sweet Scent    12: Sleep Powder
+1: Razor Leaf     12: Poison Powder
+1: Leaf Storm     12: Stun Spore
+1: Knock Off      17: Razor Leaf
+1: Gastro Acid    22: Sweet Scent
+1: Leaf Tornado   22: Weather Ball
+1: Power Whip     27: Gastro Acid
+1: Poison Jab     32: Stockpile
+1: Growth         32: Swallow
+1: Wrap           32: Spit Up
+1: Poison Powder  37: Leech Life
+1: Stun Spore     42: Leaf Blade
+1: Acid           42: Poison Jab
+1: Slam           47: Seed Bomb
+1: Ring Out       52: Sucker Punch
+44: Leaf Blade    52: Knock Off
                   57: Slam
                   62: Leaf Storm
                   67: Strength Sap
@@ -1422,7 +1451,7 @@ Regular Moves --> New Moves
 </details>
 
 <details>
-<summary>Mega Victreebel</summary>
+<summary>Mega Victreebel *Doesn't Work*</summary>
 <pre>
 Regular Ability --> New Ability
 Innards Out         Toxic Debris
@@ -1740,6 +1769,16 @@ Hidden: Cursed Body   Cursed Body
 </details>
 
 <details>
+<summary>G-Max Gengar</summary>
+<pre>
+Regular Abilities --> New Abilities
+Cursed Body           Levitate
+Hidden: Cursed Body   Cursed Body
+                      Hidden: Merciless
+</pre>
+</details>
+
+<details>
 <summary>Drowzee</summary>
 <pre>
 Regular Abilities --> New Abilities
@@ -1988,7 +2027,7 @@ Hidden: Battle Armor  Hidden: Technician
 <summary>Kangaskhan</summary>
 <pre>
 Regular Abilities --> New Abilities
-Early Bird            inner Focus
+Early Bird            Inner Focus
 Scrappy               Scrappy
 Hidden: Inner Focus   Hidden: Parental Bond
 </pre>
@@ -2174,7 +2213,7 @@ Total:                 490            520 +30
 </details>
 
 <details>
-<summary>Paldean Tauros Combat Breed *Doesn't Work*</summary>
+<summary>Paldean Tauros Combat Breed</summary>
 <pre>
 Regular Abilities --> New Abilities
 Intimidate            Intimidate
@@ -2194,7 +2233,7 @@ Total:                 490            520 +30
 </details>
 
 <details>
-<summary>Paldean Tauros Blaze Breed *Doesn't Work*</summary>
+<summary>Paldean Tauros Blaze Breed</summary>
 <pre>
 Regular Abilities --> New Abilities
 Intimidate            Intimidate
@@ -2214,7 +2253,7 @@ Total:                 490            520 +30
 </details>
 
 <details>
-<summary>Paldean Tauros Aqua Breed *Doesn't Work*</summary>
+<summary>Paldean Tauros Aqua Breed</summary>
 <pre>
 Regular Abilities --> New Abilities
 Intimidate            Intimidate
@@ -2346,13 +2385,13 @@ Total:                 495            500 +5
 <pre>
 Regular Typing --> New Typing
 Rock               Rock
-Flyinf             Dragon
+Flying             Dragon
 </pre>
 <pre>
 Regular Abilities --> New Abilities
 Rock Head             Rock Head
 Pressure              Strong Jaw
-Hidden: Unnerve       Hidden: Unnerve
+Hidden: Unnerve       Hidden: Levitate
 </pre>
 <pre>
 Regular Moves --> New Moves
@@ -2391,11 +2430,7 @@ Regular Moves --> New Moves
 <pre>
 Regular Typing --> New Typing
 Rock               Rock
-Flyinf             Dragon
-</pre>
-<pre>
-Regular Ability --> New Ability
-Tough Claws         Intimidate
+Flying             Dragon
 </pre>
 </details>
 
@@ -2460,7 +2495,7 @@ Hidden: Multiscale    Marvel Scale
 </details>
 
 <details>
-<summary>Mewtwo</summary>
+<summary>Mewtwo *Doesn't Work*</summary>
 <pre>
 Regular Abilities --> New Abilities
 Pressure              Synchronize
@@ -2470,7 +2505,7 @@ Hidden: Unnerve       Trace
 </details>
 
 <details>
-<summary>Mew</summary>
+<summary>Mew *Doesn't Work*</summary>
 <pre>
 Regular Ability --> New Abilities
 Synchronize         Synchronize

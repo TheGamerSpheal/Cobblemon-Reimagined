@@ -14,10 +14,11 @@
   ],
   "forms": [
     {
-      "name": "Paldea-Combat",
+      "name": "Paldean-Combat",
       "aspects": [
         "paldean"
       ],
+      "primaryType": "fighting",
       "abilities": [
         "intimidate",
         "angerpoint",
@@ -33,11 +34,13 @@
       }
     },
     {
-      "name": "Paldea-Blaze",
+      "name": "Paldean-Blaze",
       "aspects": [
         "blaze-breed",
         "paldean"
       ],
+      "primaryType": "fighting",
+      "secondaryType": "fire",
       "abilities": [
         "intimidate",
         "sheerforce",
@@ -53,11 +56,13 @@
       }
     },
     {
-      "name": "Paldea-Aqua",
+      "name": "Paldean-Aqua",
       "aspects": [
         "aqua-breed",
         "paldean"
       ],
+      "primaryType": "fighting",
+      "secondaryType": "water",
       "abilities": [
         "intimidate",
         "sheerforce",

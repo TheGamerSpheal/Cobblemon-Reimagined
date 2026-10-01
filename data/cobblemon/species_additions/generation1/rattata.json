@@ -10,10 +10,12 @@
   ],
   "forms": [
     {
-      "name": "Alola",
+      "name": "Alolan",
       "aspects": [
         "alolan"
       ],
+      "primaryType": "dark",
+      "secondaryType": "normal",
       "abilities": [
         "guts",
         "hustle",

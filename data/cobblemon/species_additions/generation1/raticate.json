@@ -7,21 +7,23 @@
   ],
   "baseStats": {
     "hp": 55,
-    "attack": 97,
+    "attack": 100,
     "defence": 70,
     "special_attack": 45,
     "special_defence": 70,
-    "speed": 113
+    "speed": 110
   },
   "features": [
     "alolan"
   ],
   "forms": [
     {
-      "name": "Alola",
+      "name": "Alolan",
       "aspects": [
         "alolan"
       ],
+      "primaryType": "dark",
+      "secondaryType": "normal",
       "abilities": [
         "guts",
         "hustle",
@@ -29,12 +31,13 @@
       ],
       "baseStats": {
         "hp": 80,
-        "attack": 78,
+        "attack": 80,
         "defence": 80,
         "special_attack": 40,
         "special_defence": 90,
-        "speed": 82
-      }
+        "speed": 80
+      },
+      "preEvolution": "rattata alolan"
     }
   ]
 }

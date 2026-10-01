@@ -4,5 +4,36 @@
     "sandveil",
     "sandforce",
     "h:sandrush"
+  ],
+  "features": [
+    "alolan"
+  ],
+  "forms": [
+    {
+      "name": "Alolan",
+      "aspects": [
+        "alolan"
+      ],
+      "primaryType": "ice",
+      "secondaryType": "steel",
+      "abilities": [
+        "snowcloak",
+        "toughclaws",
+        "h:slushrush"
+      ],
+      "evolutions": [
+        {
+          "id": "sandshrew_sandslashalola",
+          "variant": "item_interact",
+          "result": "sandslash alolan",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "iciclespear"
+          ],
+          "requirements": [],
+          "requiredContext": "cobblemon:ice_stone"
+        }
+      ]
+    }
   ]
 }

@@ -5,7 +5,7 @@
   "abilities": [
     "rockhead",
     "strongjaw",
-    "h:unnerve"
+    "h:levitate"
   ],
   "moves": [
     "1:ancientpower",
@@ -198,9 +198,9 @@
         "mega"
       ],
       "abilities": [
-        "intimidate",
-        "intimidate",
-        "h:intimidate"
+        "toughclaws",
+        "toughclaws",
+        "h:toughclaws"
       ],
       "primaryType": "rock",
       "secondaryType": "dragon"

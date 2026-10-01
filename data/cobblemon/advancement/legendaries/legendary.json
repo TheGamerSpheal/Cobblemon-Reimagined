@@ -840,6 +840,7 @@
             "okidogi",
             "munkidori",
             "fezandipiti",
+            "ogerpon",
             "terapagos",
             "mew",
             "celebi",
@@ -865,6 +866,5 @@
             "zarude",
             "pecharunt"
         ]
-    ],
-    "sends_telemetry_event": false
+    ]
 }

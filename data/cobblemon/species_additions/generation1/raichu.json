@@ -1,8 +1,8 @@
 {
   "target": "cobblemon:raichu",
   "abilities": [
-    "electricsurge",
-    "noguard",
+    "static",
+    "lightningrod",
     "h:galvanize"
   ],
   "baseStats": {
@@ -183,6 +183,7 @@
     "tutor:toxic",
     "tutor:zapcannon"
   ],
+  "preEvolution": "pikachu",
   "features": [
     "alolan",
     "mega_x",
@@ -190,15 +191,22 @@
   ],
   "forms": [
     {
-      "name": "Alola",
+      "name": "Alolan",
       "aspects": [
         "alolan"
+      ],
+      "primaryType": "electric",
+      "secondaryType": "psychic",
+      "abilities": [
+        "surgesurfer",
+        "surgesurfer",
+        "h:surgesurfer"
       ],
       "baseStats": {
         "hp": 70,
         "attack": 80,
         "defence": 50,
-        "special_attack": 125,
+        "special_attack": 110,
         "special_defence": 90,
         "speed": 115
       },
@@ -348,12 +356,18 @@
         "tutor:thundershock",
         "tutor:thunderwave",
         "tutor:toxic"
-      ]
+      ],
+      "preEvolution": "pikachu"
     },
     {
       "name": "Mega-X",
       "aspects": [
         "mega_x"
+      ],
+      "abilities": [
+        "electricsurge",
+        "electricsurge",
+        "h:electricsurge"
       ],
       "baseStats": {
         "hp": 70,
@@ -368,6 +382,11 @@
       "name": "Mega-Y",
       "aspects": [
         "mega_y"
+      ],
+      "abilities": [
+        "noguard",
+        "noguard",
+        "h:noguard"
       ],
       "baseStats": {
         "hp": 70,

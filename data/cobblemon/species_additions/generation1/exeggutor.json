@@ -179,15 +179,18 @@
     "tutor:worryseed",
     "tutor:zenheadbutt"
   ],
+  "preEvolution": "exeggcute",
   "features": [
     "alolan"
   ],
   "forms": [
     {
-      "name": "Alola",
+      "name": "Alolan",
       "aspects": [
         "alolan"
       ],
+      "primaryType": "grass",
+      "secondaryType": "dragon",
       "abilities": [
         "frisk",
         "harvest",
@@ -348,7 +351,8 @@
         "tutor:toxic",
         "tutor:worryseed",
         "tutor:zenheadbutt"
-      ]
+      ],
+      "preEvolution": "exeggcute"
     }
   ]
 }

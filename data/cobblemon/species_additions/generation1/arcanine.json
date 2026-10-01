@@ -8,12 +8,10 @@
   "moves": [
     "1:howl",
     "1:bite",
-    "1:flamewheel",
     "1:leer",
     "1:retaliate",
     "1:roar",
     "1:thunderfang",
-    "1:takedown",
     "5:ember",
     "15:flamewheel",
     "20:helpinghand",
@@ -157,7 +155,7 @@
   ],
   "forms": [
     {
-      "name": "Hisui",
+      "name": "Hisuian",
       "aspects": [
         "hisuian"
       ],
@@ -194,6 +192,7 @@
         "60:closecombat",
         "63:stoneedge",
         "65:flareblitz",
+        "68:ragingfury",
         "70:headsmash",
         "tm:aerialace",
         "tm:agility",
@@ -249,7 +248,8 @@
         "tm:thunderfang",
         "tm:wildcharge",
         "tm:willowisp"
-      ]
+      ],
+      "preEvolution": "growlithe hisuian"
     }
   ]
 }

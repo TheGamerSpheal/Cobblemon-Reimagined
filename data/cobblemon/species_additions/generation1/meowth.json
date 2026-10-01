@@ -12,10 +12,11 @@
   ],
   "forms": [
     {
-      "name": "Alola",
+      "name": "Alolan",
       "aspects": [
         "alolan"
       ],
+      "primaryType": "dark",
       "abilities": [
         "pickup",
         "technician",
@@ -41,10 +42,11 @@
       ]
     },
     {
-      "name": "Galar",
+      "name": "Galarian",
       "aspects": [
         "galarian"
       ],
+      "primaryType": "steel",
       "abilities": [
         "pickup",
         "toughclaws",
