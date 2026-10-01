@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Help Me, I'm Under the Water"
+            "translate": "Tortuguita"
         },
         "description": {
-            "translate": "Catch, trade or evolve Wartortle"
+            "translate": "Capture, troque ou evolua Wartortle"
         },
         "show_toast": true,
         "announce_to_chat": true,

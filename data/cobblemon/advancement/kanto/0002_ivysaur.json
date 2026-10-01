@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Poison Ivy"
+            "translate": "Hera Venenosa"
         },
         "description": {
-            "translate": "Catch, trade or evolve Ivysaur"
+            "translate": "Capture, troque ou evolua Ivyssauro"
         },
         "show_toast": true,
         "announce_to_chat": true,

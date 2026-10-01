@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Can't Beat the Heat!"
+            "translate": "Não Dá pra Vencer o Calor!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Charizard"
+            "translate": "Capture, troque ou evolua Charizard"
         },
         "show_toast": true,
         "announce_to_chat": true,

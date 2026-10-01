@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "It's Not Just a Phase, Mom!"
+            "translate": "Não é Só uma Fase Mãe!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Charmeleon"
+            "translate": "Capture, troque ou evolua Charmeleon"
         },
         "show_toast": true,
         "announce_to_chat": true,

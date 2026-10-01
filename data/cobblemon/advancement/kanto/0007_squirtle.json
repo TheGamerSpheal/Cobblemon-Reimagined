@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Here Comes the Squirtle Squad"
+            "translate": "Aí Vem o Esquadrão Squirtle"
         },
         "description": {
-            "translate": "Catch, trade or select Squirtle as your starter"
+            "translate": "Capture, troque ou selecione Squirtle como seu inicial"
         },
         "show_toast": true,
         "announce_to_chat": true,

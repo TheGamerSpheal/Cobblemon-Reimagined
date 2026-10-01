@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Charmander - The Stray Pokémon"
+            "translate": "Charmander, o Pokémon Perdido"
         },
         "description": {
-            "translate": "Catch, trade or select Charmander as your starter"
+            "translate": "Capture, troque ou selecione Charmander como seu inicial"
         },
         "show_toast": true,
         "announce_to_chat": true,

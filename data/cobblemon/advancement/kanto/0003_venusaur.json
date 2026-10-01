@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Power of the Sun, on Top of my Back"
+            "translate": "O Poder do Sol, no Topo das Minhas Costas"
         },
         "description": {
-            "translate": "Catch, trade or evolve Venusaur"
+            "translate": "Capture, troque ou evolua Venussauro"
         },
         "show_toast": true,
         "announce_to_chat": true,
