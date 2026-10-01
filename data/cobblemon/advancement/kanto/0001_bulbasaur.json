@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Bulbasaur and the Hidden Village"
+            "translate": "Bulbassauro e a Vila Escondida"
         },
         "description": {
-            "translate": "Catch, trade or select Bulbasaur as your starter"
+            "translate": "Capture, troque ou selecione Bulbassauro como seu inicial"
         },
         "show_toast": true,
         "announce_to_chat": true,
