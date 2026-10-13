@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "I Am Become Death, Destroyer of Worlds"
+            "translate": "Agora Eu me Tornei a Morte, Destruidora de Mundos"
         },
         "description": {
-            "translate": "Catch, trade or evolve Electrode"
+            "translate": "Capture, troque ou evolua Electrode"
         },
         "show_toast": true,
         "announce_to_chat": true,

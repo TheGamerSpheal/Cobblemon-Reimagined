@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "This Is an Ascended Super Saiyan"
+            "translate": "E Este Aqui é o que Supera o Super Sayajin Comum"
         },
         "description": {
-            "translate": "Catch, trade or evolve Dragonair"
+            "translate": "Capture, troque ou evolua Dragonair"
         },
         "show_toast": true,
         "announce_to_chat": true,

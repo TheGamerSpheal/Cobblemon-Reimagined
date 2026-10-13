@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Perish Trap"
+            "translate": "Eae, Fantasmas?"
         },
         "description": {
-            "translate": "Catch, trade or evolve Gengar"
+            "translate": "Capture, troque ou evolua Gengar"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Aight, Imma Head Out"
+            "translate": "Eu Vou Dar o Fora Daqui"
         },
         "description": {
-            "translate": "Catch or trade Abra"
+            "translate": "Capture ou troque Abra"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Calyrex's Phantom Steed"
+            "translate": "O Corcel Fantasma do Calyrex"
         },
         "description": {
-            "translate": "Catch or trade Spectrier"
+            "translate": "Capture ou troque Spectrier"
         },
         "frame": "challenge",
         "show_toast": true,

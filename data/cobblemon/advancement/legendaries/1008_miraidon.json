@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Toyota Bike"
+            "translate": "Moto da Toyota"
         },
         "description": {
-            "translate": "Catch or trade Miraidon"
+            "translate": "Capture ou troque Miraidon"
         },
         "frame": "challenge",
         "show_toast": true,

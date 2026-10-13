@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "These Tusks Sure are Great!"
+            "translate": "Essas Presas com Certeza são Grandes!"
         },
         "description": {
-            "translate": "Catch or trade Great Tusk"
+            "translate": "Capture ou troque Presa Grande"
         },
         "frame": "goal",
         "show_toast": true,

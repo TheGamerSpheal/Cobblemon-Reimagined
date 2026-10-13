@@ -15,7 +15,7 @@
             "translate": "d'Artagnan"
         },
         "description": {
-            "translate": "Catch or trade Keldeo"
+            "translate": "Capture ou troque Keldeo"
         },
         "frame": "challenge",
         "show_toast": true,

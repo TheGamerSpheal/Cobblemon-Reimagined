@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "A Blast From the Past!"
+            "translate": "Aerodactyl, o Pokémon Fóssil"
         },
         "description": {
-            "translate": "Catch, trade or ressurect Aerodactyl"
+            "translate": "Capture, troque ou ressucite Aerodactyl"
         },
         "show_toast": true,
         "announce_to_chat": true,

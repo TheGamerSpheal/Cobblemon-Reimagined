@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Is the Moon Big?"
+            "translate": "Tudo que é Pergunta a Luna Faz!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Clefable"
+            "translate": "Capture, troque ou evolua Clefable"
         },
         "show_toast": true,
         "announce_to_chat": true,

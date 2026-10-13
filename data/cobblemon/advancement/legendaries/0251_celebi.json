@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "It Was About Time"
+            "translate": "Já Tava na Hora"
         },
         "description": {
-            "translate": "Catch or trade Celebi"
+            "translate": "Capture ou troque Celebi"
         },
         "frame": "challenge",
         "show_toast": true,

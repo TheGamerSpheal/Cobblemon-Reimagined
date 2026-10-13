@@ -4,10 +4,10 @@
             "id": "cobblemon:timer_ball"
         },
         "title": {
-            "translate": "Time is Relative"
+            "translate": "O Tempo é Relativo"
         },
         "description": {
-            "translate": "Catch any Paradox Pokémon"
+            "translate": "Capture qualquer Pokémon Paradoxo"
         },
         "background": "cobblemon:textures/gui/advancements/backgrounds/cobblemon.png",
         "frame": "goal",

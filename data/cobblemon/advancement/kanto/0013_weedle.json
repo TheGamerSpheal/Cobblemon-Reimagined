@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Silk Songens"
+            "translate": "A Seda da Canção"
         },
         "description": {
-            "translate": "Catch or trade Weedle"
+            "translate": "Capture ou troque Weedle"
         },
         "show_toast": true,
         "announce_to_chat": true,

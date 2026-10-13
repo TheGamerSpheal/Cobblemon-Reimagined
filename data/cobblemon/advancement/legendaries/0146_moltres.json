@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Air is Getting Warmer Around You..."
+            "translate": "O Ar Está Ficando Mais Quente ao seu Redor..."
         },
         "description": {
-            "translate": "Catch or trade Moltres"
+            "translate": "Capture ou troque Moltres"
         },
         "frame": "challenge",
         "show_toast": true,

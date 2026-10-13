@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Bowl Deer"
+            "translate": "Cervo Tigela"
         },
         "description": {
-            "translate": "Catch or trade Ting-Lu"
+            "translate": "Capture ou troque Ting-Lu"
         },
         "frame": "challenge",
         "show_toast": true,

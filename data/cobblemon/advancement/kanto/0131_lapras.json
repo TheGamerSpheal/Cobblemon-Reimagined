@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "All Aboard!"
+            "translate": "Todos à Bordo!"
         },
         "description": {
-            "translate": "Catch or trade Lapras"
+            "translate": "Capture ou troque Lapras"
         },
         "show_toast": true,
         "announce_to_chat": true,

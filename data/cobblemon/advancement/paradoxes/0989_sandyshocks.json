@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Sandy Cheeks"
+            "translate": "Choque Areia, o Pokémon Paradoxo"
         },
         "description": {
-            "translate": "Catch or trade Sandy Shocks"
+            "translate": "Capture ou troque Choque Areia"
         },
         "frame": "goal",
         "show_toast": true,

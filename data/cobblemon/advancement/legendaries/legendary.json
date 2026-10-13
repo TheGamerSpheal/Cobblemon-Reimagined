@@ -4,10 +4,10 @@
             "id": "cobblemon:master_ball"
         },
         "title": {
-            "translate": "Our Battle Will be Legendary!"
+            "translate": "Nossa Batalha Será Lendária!"
         },
         "description": {
-            "translate": "Catch any Legendary or Mythical Pokémon"
+            "translate": "Capture qualquer Pokémon Lendário ou Mítico"
         },
         "background": "cobblemon:textures/gui/advancements/backgrounds/cobblemon.png",
         "frame": "challenge",

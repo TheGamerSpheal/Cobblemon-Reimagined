@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "It: The Thing"
+            "translate": "It: A Coisa"
         },
         "description": {
-            "translate": "Catch or trade Blacephalon"
+            "translate": "Capture ou troque Blacephalon"
         },
         "frame": "goal",
         "show_toast": true,

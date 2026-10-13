@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Tails? The Name's... NINE!"
+            "translate": "Tails? O Nome... É NINE!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Ninetales"
+            "translate": "Capture, troque ou evolua Ninetales"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Budget Arceus"
+            "translate": "Cópia Barata do Arceus"
         },
         "description": {
-            "translate": "Catch or trade Type: Null"
+            "translate": "Capture ou troque Tipo: Nulo"
         },
         "frame": "challenge",
         "show_toast": true,

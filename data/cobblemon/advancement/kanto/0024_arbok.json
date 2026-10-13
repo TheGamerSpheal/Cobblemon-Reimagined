@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "To Protect the World from Devastation!"
+            "translate": "Para Proteger o Mundo da Devastação!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Arbok"
+            "translate": "Capture, troque ou evolua Arbok"
         },
         "show_toast": true,
         "announce_to_chat": true,

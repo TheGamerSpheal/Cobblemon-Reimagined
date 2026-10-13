@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Moo Moo, I'm a Zekrom? I Don't Know!"
+            "translate": "Dragão Negro de Olhos Vermelhos"
         },
         "description": {
-            "translate": "Catch or trade Zekrom"
+            "translate": "Capture ou troque Zekrom"
         },
         "frame": "challenge",
         "show_toast": true,

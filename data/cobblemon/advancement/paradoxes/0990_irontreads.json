@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "These Treads Sure are Made of Iron!"
+            "translate": "Esses Trilhos com Certeza são Feitos de Ferro!"
         },
         "description": {
-            "translate": "Catch or trade Iron Treads"
+            "translate": "Capture ou troque Trilho Férreo"
         },
         "frame": "goal",
         "show_toast": true,

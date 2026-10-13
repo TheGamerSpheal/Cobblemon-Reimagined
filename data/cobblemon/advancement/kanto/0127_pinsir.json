@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Pinsir"
+            "translate": "Pinsir, o Pokémon Escaravelho"
         },
         "description": {
-            "translate": "Catch or trade Pinsir"
+            "translate": "Capture ou troque Pinsir"
         },
         "show_toast": true,
         "announce_to_chat": true,

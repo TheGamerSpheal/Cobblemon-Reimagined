@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "This Baby Can Fit So Many Self-Destructs in It"
+            "translate": "Geodude, o Pokémon Rocha"
         },
         "description": {
-            "translate": "Catch or trade Geodude"
+            "translate": "Capture ou troque Geodude"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "A FOOLISH MISCALCULATION!"
+            "translate": "O Porygon Não Fez Nada de Errado!"
         },
         "description": {
-            "translate": "Catch or trade Porygon"
+            "translate": "Capture ou troque Porygon"
         },
         "show_toast": true,
         "announce_to_chat": true,

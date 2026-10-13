@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Holiday Hi-Jynx!"
+            "translate": "Feriado à La Jynx"
         },
         "description": {
-            "translate": "Catch, trade or evolve Jynx"
+            "translate": "Capture, troque ou evolua Jynx"
         },
         "show_toast": true,
         "announce_to_chat": true,

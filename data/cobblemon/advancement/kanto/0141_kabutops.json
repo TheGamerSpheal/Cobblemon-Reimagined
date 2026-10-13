@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "I Have a Theory! Wait, Didn't I Do This Already?"
+            "translate": "Eu Tenho uma Teoria! Espera, Eu já Não Fiz Isso?"
         },
         "description": {
-            "translate": "Catch, trade or evolve Kabutops"
+            "translate": "Capture, troque ou evolua Kabutops"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Through the Fire and Flames"
+            "translate": "Magmar, o Pokémon Cospe-Fogo"
         },
         "description": {
-            "translate": "Catch, trade or evolve Magmar"
+            "translate": "Capture, troque ou evolua Magmar"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "You Didn't See That Coming?"
+            "translate": "Não me Viu Chegando?"
         },
         "description": {
-            "translate": "Catch, trade or evolve Dodrio"
+            "translate": "Capture, troque ou evolua Dodrio"
         },
         "show_toast": true,
         "announce_to_chat": true,

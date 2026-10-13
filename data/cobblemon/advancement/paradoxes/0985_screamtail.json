@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "BUT IT WASN'T ENOUGH!"
+            "translate": "Cauda Brado, o Pokémon Paradoxo"
         },
         "description": {
-            "translate": "Catch or trade Scream Tail"
+            "translate": "Capture ou troque Cauda Brado"
         },
         "frame": "goal",
         "show_toast": true,

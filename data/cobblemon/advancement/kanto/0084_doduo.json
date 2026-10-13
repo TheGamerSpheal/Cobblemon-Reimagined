@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Why Are You Running?"
+            "translate": "Senhora, Senhora, a Senhora é Funcionária da Assembleia?"
         },
         "description": {
-            "translate": "Catch or trade Doduo"
+            "translate": "Capture ou troque Doduo"
         },
         "show_toast": true,
         "announce_to_chat": true,

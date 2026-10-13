@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "She Sells Sea Shellders by the Seashore"
+            "translate": "Shellder, o Pokémon Bivalve"
         },
         "description": {
-            "translate": "Catch or trade Shellder"
+            "translate": "Capture ou troque Shellder"
         },
         "show_toast": true,
         "announce_to_chat": true,

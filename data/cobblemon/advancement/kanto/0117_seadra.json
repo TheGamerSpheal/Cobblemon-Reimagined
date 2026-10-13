@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "And For Its Neutral Special, Seadra Yields a Gun"
+            "translate": "E para seu Especial Neutro, o Seadra Usa uma Arma"
         },
         "description": {
-            "translate": "Catch, trade or evolve Seadra"
+            "translate": "Capture, troque ou evolua Seadra"
         },
         "show_toast": true,
         "announce_to_chat": true,

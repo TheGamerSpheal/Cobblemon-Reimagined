@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "You Belong to Me!"
+            "translate": "Você Pertence a Mim!"
         },
         "description": {
-            "translate": "Catch or trade Calyrex"
+            "translate": "Capture ou troque Calyrex"
         },
         "frame": "challenge",
         "show_toast": true,

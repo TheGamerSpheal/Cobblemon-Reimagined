@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Romeo"
+            "translate": "Romeu"
         },
         "description": {
-            "translate": "Catch or trade Nidoran Male"
+            "translate": "Capture ou troque Nidoran Macho"
         },
         "show_toast": true,
         "announce_to_chat": true,

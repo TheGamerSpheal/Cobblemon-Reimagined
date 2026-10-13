@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Almighty Sinnoh"
+            "translate": "O Todo-Poderoso Sinnoh"
         },
         "description": {
-            "translate": "Catch or trade Arceus"
+            "translate": "Capture ou troque Arceus"
         },
         "frame": "challenge",
         "show_toast": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "What Are They Gonna Do? Catch Me?"
+            "translate": "Um Mundo Ideal! É um Privilégio Ver Daqui!"
         },
         "description": {
-            "translate": "Catch or trade Latios"
+            "translate": "Capture ou troque Latios"
         },
         "frame": "challenge",
         "show_toast": true,

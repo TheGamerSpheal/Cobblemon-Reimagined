@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Soaring Red Wings"
+            "translate": "As Asas Arco-Íris dos Céus Altíssimos"
         },
         "description": {
-            "translate": "Catch or trade Ho-Oh"
+            "translate": "Capture ou troque Ho-Oh"
         },
         "frame": "challenge",
         "show_toast": true,

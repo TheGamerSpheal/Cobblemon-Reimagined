@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Was Bad, Got Worse, Won a Tournament"
+            "translate": "Era Ruim, Ficou Pior, Ganhou um Campeonato"
         },
         "description": {
-            "translate": "Catch or trade Zamazenta"
+            "translate": "Capture ou troque Zamazenta"
         },
         "frame": "challenge",
         "show_toast": true,

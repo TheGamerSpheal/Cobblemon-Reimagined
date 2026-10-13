@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "And Make It Double!"
+            "translate": "Encrenca em Dobro!"
         },
         "description": {
-            "translate": "Catch or trade Koffing"
+            "translate": "Capture ou troque Koffing"
         },
         "show_toast": true,
         "announce_to_chat": true,

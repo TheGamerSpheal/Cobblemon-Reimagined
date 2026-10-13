@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Well, There's a Man Here. He Offered You Something."
+            "translate": "Bom, Tem um Homem Aqui. Ele te Ofereceu Algo."
         },
         "description": {
-            "translate": "Catch or Exeggcute"
+            "translate": "Capture ou troque Exeggcute"
         },
         "show_toast": true,
         "announce_to_chat": true,

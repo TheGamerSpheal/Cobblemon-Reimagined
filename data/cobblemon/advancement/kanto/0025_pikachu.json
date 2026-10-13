@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "I Choose You!"
+            "translate": "Eu Escolho Você!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Pikachu"
+            "translate": "Capture, troque ou evolua Pikachu"
         },
         "show_toast": true,
         "announce_to_chat": true,

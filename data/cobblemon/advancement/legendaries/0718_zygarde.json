@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "This Isn't Even My Final Form!"
+            "translate": "Essa Não é Nem Mesmo Minha Forma Final!"
         },
         "description": {
-            "translate": "Catch or trade Zygarde"
+            "translate": "Capture ou troque Zygarde"
         },
         "frame": "challenge",
         "show_toast": true,

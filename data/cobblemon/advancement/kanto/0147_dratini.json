@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "This Is a Super Saiyan"
+            "translate": "Este é o Super Sayajin"
         },
         "description": {
-            "translate": "Catch or trade Dratini"
+            "translate": "Capture ou troque Dratini"
         },
         "show_toast": true,
         "announce_to_chat": true,

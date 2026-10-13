@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Do a Barrell Roll"
+            "translate": "F-15"
         },
         "description": {
-            "translate": "Catch, trade or evolve Pidgeot"
+            "translate": "Capture, troque ou evolua Pidgeot"
         },
         "show_toast": true,
         "announce_to_chat": true,

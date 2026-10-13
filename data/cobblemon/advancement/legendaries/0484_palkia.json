@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Where the Hell are We?"
+            "translate": "'É Logo Ali'"
         },
         "description": {
-            "translate": "Catch or trade Palkia"
+            "translate": "Capture ou troque Palkia"
         },
         "frame": "challenge",
         "show_toast": true,

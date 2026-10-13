@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Off With Their Heads!"
+            "translate": "Cortem-lhes as Cabeças!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Nidoqueen"
+            "translate": "Capture, troque ou evolua Nidoqueen"
         },
         "show_toast": true,
         "announce_to_chat": true,

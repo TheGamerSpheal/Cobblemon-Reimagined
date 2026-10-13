@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "We Have a Hulk"
+            "translate": "Nós Temos um Hulk"
         },
         "description": {
-            "translate": "Catch, trade or evolve Machamp"
+            "translate": "Capture, troque ou evolua Machamp"
         },
         "show_toast": true,
         "announce_to_chat": true,

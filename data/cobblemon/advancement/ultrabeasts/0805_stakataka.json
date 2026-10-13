@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "A Hive Mind of Bricks"
+            "translate": "Uma Mente Coletiva de Tijolos"
         },
         "description": {
-            "translate": "Catch or trade Stakataka"
+            "translate": "Capture ou troque Stakataka"
         },
         "frame": "goal",
         "show_toast": true,

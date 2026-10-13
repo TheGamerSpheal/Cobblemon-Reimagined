@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "It Killed More Than 80 MARILL!"
+            "translate": "Ai Meus Magneton"
         },
         "description": {
-            "translate": "Catch, trade or evolve Magneton"
+            "translate": "Capture, troque ou evolua Magneton"
         },
         "show_toast": true,
         "announce_to_chat": true,

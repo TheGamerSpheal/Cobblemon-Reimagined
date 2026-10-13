@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Akala's Protector"
+            "translate": "A Protetora de Akala"
         },
         "description": {
-            "translate": "Catch or trade Tapu Lele"
+            "translate": "Capture ou troque Tapu Lele"
         },
         "frame": "challenge",
         "show_toast": true,

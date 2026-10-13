@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Pokémon, Explained With Bananas"
+            "translate": "Pokémon, Explicado com Bananas"
         },
         "description": {
-            "translate": "Catch, trade or evolve Primeape"
+            "translate": "Capture, troque ou evolua Primeape"
         },
         "show_toast": true,
         "announce_to_chat": true,

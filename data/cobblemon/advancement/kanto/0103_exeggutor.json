@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "World Champ Difference"
+            "translate": "A Diferença do Campeão Mundial"
         },
         "description": {
-            "translate": "Catch, trade or evolve Exeggutor"
+            "translate": "Capture, troque ou evolua Exeggutor"
         },
         "show_toast": true,
         "announce_to_chat": true,

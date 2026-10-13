@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Please Help Me, Reggie From Nintendo!"
+            "translate": "Me Ajuda, Reggie da Nintendo!"
         },
         "description": {
-            "translate": "Catch or trade Registeel"
+            "translate": "Capture ou troque Registeel"
         },
         "frame": "challenge",
         "show_toast": true,

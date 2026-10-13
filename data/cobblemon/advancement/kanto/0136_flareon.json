@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Objectively the Most Huggable Pokémon"
+            "translate": "Objetivamente o Pokémon mais Abraçavel"
         },
         "description": {
-            "translate": "Catch, trade or evolve Flareon"
+            "translate": "Capture, troque ou evolua Flareon"
         },
         "show_toast": true,
         "announce_to_chat": true,

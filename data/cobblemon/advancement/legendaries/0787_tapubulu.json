@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Ula'ula's Protector"
+            "translate": "O Protetor de Ula'Ula"
         },
         "description": {
-            "translate": "Catch or trade Tapu Bulu"
+            "translate": "Capture ou troque Tapu Bulu"
         },
         "frame": "challenge",
         "show_toast": true,

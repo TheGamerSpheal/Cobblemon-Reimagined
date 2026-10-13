@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "What Da Dog Doing?"
+            "translate": "Growlith, o Pokémon Cachorrinho"
         },
         "description": {
-            "translate": "Catch or trade Growlithe"
+            "translate": "Capture ou troque Growlithe"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Rolling Around at the Speed of Sound"
+            "translate": "Sandshrew, o Pokémon Rato"
         },
         "description": {
-            "translate": "Catch or trade Sandshrew"
+            "translate": "Capture ou troque Sandshrew"
         },
         "show_toast": true,
         "announce_to_chat": true,

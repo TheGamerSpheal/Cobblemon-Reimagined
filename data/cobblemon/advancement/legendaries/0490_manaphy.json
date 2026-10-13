@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "How Many Sea Guardians are There?"
+            "translate": "Quantos Guardiões do Mar Existem?"
         },
         "description": {
-            "translate": "Catch or trade Manaphy"
+            "translate": "Capture ou troque Manaphy"
         },
         "frame": "challenge",
         "show_toast": true,

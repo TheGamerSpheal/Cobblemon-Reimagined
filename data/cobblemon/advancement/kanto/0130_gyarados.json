@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Carp Who Lept the Dragon Gate"
+            "translate": "A Carpa que Pulou o Portão do Dragão"
         },
         "description": {
-            "translate": "Catch, trade or evolve Gyarados"
+            "translate": "Capture, troque ou evolua Gyarados"
         },
         "show_toast": true,
         "announce_to_chat": true,

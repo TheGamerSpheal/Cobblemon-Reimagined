@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "It's Not Just a Boulder, It's a Rock!"
+            "translate": "Rocha Férrea, o Pokémon Paradoxo"
         },
         "description": {
-            "translate": "Catch or trade Iron Boulder"
+            "translate": "Capture ou troque Rocha Férrea"
         },
         "frame": "goal",
         "show_toast": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Nihilistic Space Jellyfish"
+            "translate": "Água-Viva Espacial Niilista"
         },
         "description": {
-            "translate": "Catch or trade Nihilego"
+            "translate": "Capture ou troque Nihilego"
         },
         "frame": "goal",
         "show_toast": true,

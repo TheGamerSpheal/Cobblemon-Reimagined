@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "But Nothing Happened!"
+            "translate": "Mas Nada Aconteceu!"
         },
         "description": {
-            "translate": "Catch or trade Magikarp"
+            "translate": "Capture ou troque Magikarp"
         },
         "show_toast": true,
         "announce_to_chat": true,

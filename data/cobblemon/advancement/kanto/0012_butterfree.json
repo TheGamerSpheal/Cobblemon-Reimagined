@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "We All Cried in that Episode"
+            "translate": "Todo Mundo Chorou Naquele Episódio"
         },
         "description": {
-            "translate": "Catch, trade or evolve Butterfree"
+            "translate": "Capture, troque ou evolua Butterfree"
         },
         "show_toast": true,
         "announce_to_chat": true,

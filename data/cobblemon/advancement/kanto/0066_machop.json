@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Machoppin' Some Onions"
+            "translate": "Machop, o Pokémon Superpoder"
         },
         "description": {
-            "translate": "Catch or trade Machop"
+            "translate": "Capture ou troque Machop"
         },
         "show_toast": true,
         "announce_to_chat": true,

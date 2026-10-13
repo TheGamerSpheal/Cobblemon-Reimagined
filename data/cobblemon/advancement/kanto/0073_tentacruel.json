@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Get Over Here!"
+            "translate": "Tentacruel, o Pokémon Água-Viva"
         },
         "description": {
-            "translate": "Catch, trade or evolve Tentacruel"
+            "translate": "Capture, troque ou evolua Tentacruel"
         },
         "show_toast": true,
         "announce_to_chat": true,

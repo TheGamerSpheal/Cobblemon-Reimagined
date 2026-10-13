@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Anime Buff Mosquito"
+            "translate": "Mosquito Bombado de Anime"
         },
         "description": {
-            "translate": "Catch or trade Buzzwole"
+            "translate": "Capture ou troque Buzzwole"
         },
         "frame": "goal",
         "show_toast": true,

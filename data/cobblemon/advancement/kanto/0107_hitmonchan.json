@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Hitmonchan Adventures"
+            "translate": "As Aventuras de Hitmonchan"
         },
         "description": {
-            "translate": "Catch, trade or evolve Hitmonchan"
+            "translate": "Capture, troque ou evolua Hitmonchan"
         },
         "show_toast": true,
         "announce_to_chat": true,

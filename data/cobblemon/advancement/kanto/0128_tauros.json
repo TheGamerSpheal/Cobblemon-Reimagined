@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Ash Caught 30 of These, Do Better"
+            "translate": "O Ash Capturou 30 Desses, Faz Melhor"
         },
         "description": {
-            "translate": "Catch or trade Tauros"
+            "translate": "Capture ou troque Tauros"
         },
         "show_toast": true,
         "announce_to_chat": true,

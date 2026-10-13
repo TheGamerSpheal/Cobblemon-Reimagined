@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Me When the Egg is Lucky"
+            "translate": "Eu Quando o Ovo é Sortudo"
         },
         "description": {
-            "translate": "Catch, trade or evolve Chansey"
+            "translate": "Capture, troque ou evolua Chansey"
         },
         "show_toast": true,
         "announce_to_chat": true,

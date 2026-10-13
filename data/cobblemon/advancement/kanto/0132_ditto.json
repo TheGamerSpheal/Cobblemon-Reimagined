@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "It Could be Any One of Us!"
+            "translate": "Ele Pode ser Qualquer um de Nós!"
         },
         "description": {
-            "translate": "Catch or trade Ditto"
+            "translate": "Capture ou troque Ditto"
         },
         "show_toast": true,
         "announce_to_chat": true,

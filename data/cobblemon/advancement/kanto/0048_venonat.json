@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "We are Venonat!"
+            "translate": "Nós Somos Venonat!"
         },
         "description": {
-            "translate": "Catch or trade Venonat"
+            "translate": "Capture ou troque Venonat"
         },
         "show_toast": true,
         "announce_to_chat": true,

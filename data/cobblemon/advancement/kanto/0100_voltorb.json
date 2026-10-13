@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "They Had Us in the First Half, Not Gonna Lie"
+            "translate": "Voltorb, o Pokémon Bola"
         },
         "description": {
-            "translate": "Catch or trade Voltorb"
+            "translate": "Capture ou troque Voltorb"
         },
         "show_toast": true,
         "announce_to_chat": true,

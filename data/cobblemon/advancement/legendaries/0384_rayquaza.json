@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "GO TEAM SKY!"
+            "translate": "OBLITERAR!"
         },
         "description": {
-            "translate": "Catch or trade Rayquaza"
+            "translate": "Capture ou troque Rayquaza"
         },
         "frame": "challenge",
         "show_toast": true,

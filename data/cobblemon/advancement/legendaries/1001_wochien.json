@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Live Wo-Chien Reaction:"
+            "translate": "Reação do Wo-Chien Ao Vivo:"
         },
         "description": {
-            "translate": "Catch or trade Wo-Chien"
+            "translate": "Capture ou troque Wo-Chien"
         },
         "frame": "challenge",
         "show_toast": true,

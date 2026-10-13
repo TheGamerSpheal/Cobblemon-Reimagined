@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "What is it Doing in Gen 7?"
+            "translate": "Que que Isso tá Fazendo na Gen 7?"
         },
         "description": {
-            "translate": "Catch or trade Magearna"
+            "translate": "Capture ou troque Magearna"
         },
         "frame": "challenge",
         "show_toast": true,

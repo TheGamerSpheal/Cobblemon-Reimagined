@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "I Don't Think This One Can Photosynthesize"
+            "translate": "Eu Não Acho que esse Consegue Fotossintetizar"
         },
         "description": {
-            "translate": "Catch or trade Iron Leaves"
+            "translate": "Capture ou troque Folhas Férreas"
         },
         "frame": "goal",
         "show_toast": true,

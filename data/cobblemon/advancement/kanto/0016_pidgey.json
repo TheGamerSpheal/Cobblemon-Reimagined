@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "This is Not a Pigeon"
+            "translate": "Mais Vale um Pidgey na Mão que Dois no Mato"
         },
         "description": {
-            "translate": "Catch or trade a Pidgey"
+            "translate": "Capture ou troque Pidgey"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "DARK, DARKER, YET DARKER"
+            "translate": "O Sonho se Transformou em Pesadelo"
         },
         "description": {
-            "translate": "Catch or trade Darkrai"
+            "translate": "Capture ou troque Darkrai"
         },
         "frame": "challenge",
         "show_toast": true,

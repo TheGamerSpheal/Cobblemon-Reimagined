@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Actually It's Super Easy, Barely an Inconvenience"
+            "translate": "Na Verdade, é Super Fácil, Mal Chega a ser um Incômodo"
         },
         "description": {
-            "translate": "Catch or trade Eternatus"
+            "translate": "Capture ou troque Eternatus"
         },
         "frame": "challenge",
         "show_toast": true,

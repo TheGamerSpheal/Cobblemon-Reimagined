@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Who You Gonna Call?"
+            "translate": "Quem Você Vai Chamar?"
         },
         "description": {
-            "translate": "Catch or trade Gastly"
+            "translate": "Capture ou troque Gastly"
         },
         "show_toast": true,
         "announce_to_chat": true,

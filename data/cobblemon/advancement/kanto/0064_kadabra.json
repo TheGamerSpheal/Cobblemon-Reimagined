@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "20 Years Ban"
+            "translate": "Banimento de 20 Anos"
         },
         "description": {
-            "translate": "Catch, trade or evolve Kadabra"
+            "translate": "Capture, troque ou evolua Kadabra"
         },
         "show_toast": true,
         "announce_to_chat": true,

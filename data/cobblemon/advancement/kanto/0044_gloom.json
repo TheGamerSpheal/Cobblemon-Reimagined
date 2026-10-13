@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "You DISGUST ME!"
+            "translate": "Você me ENOJA!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Gloom"
+            "translate": "Capture, troque ou evolua Gloom"
         },
         "show_toast": true,
         "announce_to_chat": true,

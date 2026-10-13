@@ -7,7 +7,7 @@
             "translate": "Kanto"
         },
         "description": {
-            "translate": "Catch any Pokémon from the Kanto Region"
+            "translate": "Capture qualquer Pokémon da Região de Kanto"
         },
         "background": "cobblemon:textures/gui/advancements/backgrounds/cobblemon.png",
         "show_toast": true,

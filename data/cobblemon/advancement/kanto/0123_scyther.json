@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Cutting Edge"
+            "translate": "Scyther, o Pokémon Louva-a-Deus"
         },
         "description": {
-            "translate": "Catch or trade Scyther"
+            "translate": "Capture ou troque Scyther"
         },
         "show_toast": true,
         "announce_to_chat": true,

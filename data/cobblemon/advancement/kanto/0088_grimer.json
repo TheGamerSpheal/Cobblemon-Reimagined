@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "New Gens Have Lame Designs! Meanwhile Gen 1:"
+            "translate": "Gerações Novas Tem Designs Ruins! Enquanto Isso Gen 1:"
         },
         "description": {
-            "translate": "Catch or trade Grimer"
+            "translate": "Capture ou troque Grimer"
         },
         "show_toast": true,
         "announce_to_chat": true,

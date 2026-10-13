@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Steel Ditto"
+            "translate": "Ditto de Metal"
         },
         "description": {
-            "translate": "Catch or trade Meltan"
+            "translate": "Capture ou troque Meltan"
         },
         "frame": "challenge",
         "show_toast": true,

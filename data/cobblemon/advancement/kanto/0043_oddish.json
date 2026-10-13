@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Photosynthesis"
+            "translate": "Fotossíntese"
         },
         "description": {
-            "translate": "Catch or trade Oddish"
+            "translate": "Capture ou troque Oddish"
         },
         "show_toast": true,
         "announce_to_chat": true,

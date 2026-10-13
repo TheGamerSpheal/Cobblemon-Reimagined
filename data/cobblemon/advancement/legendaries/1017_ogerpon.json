@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "She's So Cute!"
+            "translate": "Ela é tão Fofa!"
         },
         "description": {
-            "translate": "Catch or trade Ogerpon"
+            "translate": "Capture ou troque Ogerpon"
         },
         "frame": "challenge",
         "show_toast": true,

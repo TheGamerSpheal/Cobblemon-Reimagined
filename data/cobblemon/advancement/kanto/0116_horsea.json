@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Pokémon: Gun Edition"
+            "translate": "Pokémon: Edição Arma"
         },
         "description": {
-            "translate": "Catch or trade Horsea"
+            "translate": "Capture ou troque Horsea"
         },
         "show_toast": true,
         "announce_to_chat": true,

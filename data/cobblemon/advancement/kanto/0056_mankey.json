@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Return to Mankey"
+            "translate": "Retorne ao Mankey"
         },
         "description": {
-            "translate": "Catch or trade Mankey"
+            "translate": "Capture ou troque Mankey"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Get Back in the Bag!"
+            "translate": "Entra na Mochila!"
         },
         "description": {
-            "translate": "Catch or trade Cosmog"
+            "translate": "Capture ou troque Cosmog"
         },
         "frame": "challenge",
         "show_toast": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Not the Bees!"
+            "translate": "Beedrill, o Pokémon Abelha Venenosa"
         },
         "description": {
-            "translate": "Catch, trade or evolve Beedrill"
+            "translate": "Capture, troque ou evolua Beedrill"
         },
         "show_toast": true,
         "announce_to_chat": true,

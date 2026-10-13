@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Volcarona of Theseus"
+            "translate": "Volcarona de Teseu"
         },
         "description": {
-            "translate": "Catch or trade Iron Moth"
+            "translate": "Capture ou troque Mariposa Férrea"
         },
         "frame": "goal",
         "show_toast": true,

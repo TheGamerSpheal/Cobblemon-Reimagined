@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Misunterstood Artist"
+            "translate": "Artista Incompreendido"
         },
         "description": {
-            "translate": "Catch or trade Poipole"
+            "translate": "Capture ou troque Poipole"
         },
         "frame": "goal",
         "show_toast": true,

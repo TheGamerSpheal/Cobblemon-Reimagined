@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "How Was the Fall?"
+            "translate": "A Situação tá Osso!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Marowak"
+            "translate": "Capture, troque ou evolua Marowak"
         },
         "show_toast": true,
         "announce_to_chat": true,

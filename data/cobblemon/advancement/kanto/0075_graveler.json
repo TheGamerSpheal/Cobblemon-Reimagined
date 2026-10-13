@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "My Middle Name is DANGER!"
+            "translate": "Graveler, o Pokémon Rocha"
         },
         "description": {
-            "translate": "Catch, trade or evolve Graveler"
+            "translate": "Capture, troque ou evolua Graveler"
         },
         "show_toast": true,
         "announce_to_chat": true,

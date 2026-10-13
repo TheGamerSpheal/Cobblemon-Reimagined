@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Loch Ness Monster"
+            "translate": "O Monstro do Lago Ness"
         },
         "description": {
-            "translate": "Catch or trade Walking Wake"
+            "translate": "Capture ou troque Onda Ando"
         },
         "frame": "goal",
         "show_toast": true,

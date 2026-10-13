@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Ultimate Life Form"
+            "translate": "A Forma de Vida Suprema"
         },
         "description": {
-            "translate": "Catch or trade Mewtwo"
+            "translate": "Capture ou troque Mewtwo"
         },
         "frame": "challenge",
         "show_toast": true,

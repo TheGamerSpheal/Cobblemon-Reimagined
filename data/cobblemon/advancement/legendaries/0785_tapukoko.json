@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Melemele's Protector"
+            "translate": "O Protetor de Melemele"
         },
         "description": {
-            "translate": "Catch or trade Tapu Koko"
+            "translate": "Capture ou troque Tapu Koko"
         },
         "frame": "challenge",
         "show_toast": true,

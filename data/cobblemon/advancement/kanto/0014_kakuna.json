@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Metapod 2: Electric Boogaloo"
+            "translate": "Metapod 2: O Inimigo Agora é Outro"
         },
         "description": {
-            "translate": "Catch, trade or evolve Kakuna"
+            "translate": "Capture, troque ou evolua Kakuna"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "No Shaymin That"
+            "translate": "Sonic Verde"
         },
         "description": {
-            "translate": "Catch or trade Shaymin"
+            "translate": "Capture ou troque Shaymin"
         },
         "frame": "challenge",
         "show_toast": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Indentured Servitude"
+            "translate": "Servidão e Subordinação"
         },
         "description": {
-            "translate": "Catch or trade Okidogi"
+            "translate": "Capture ou troque Okidogi"
         },
         "frame": "challenge",
         "show_toast": true,

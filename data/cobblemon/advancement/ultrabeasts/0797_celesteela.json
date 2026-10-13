@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Houston, We Have a Problem"
+            "translate": "Houston, Nós Temos um Problema"
         },
         "description": {
-            "translate": "Catch or trade Celesteela"
+            "translate": "Capture ou troque Celesteela"
         },
         "frame": "goal",
         "show_toast": true,

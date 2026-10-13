@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Just Who the Hell do You Think I Am?"
+            "translate": "Quem Você Pensa que eu Sou?"
         },
         "description": {
-            "translate": "Cacth, trade or evolve Rhydon"
+            "translate": "Capture, troque ou evolua Rhydon"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "You're Not a Clown, You're the Entire Circus"
+            "translate": "Você Não é um Palhaço, Você é o Circo Inteiro"
         },
         "description": {
-            "translate": "Catch, trade or evolve Mr. Mime"
+            "translate": "Capture, troque ou evolua Mr. Mime"
         },
         "show_toast": true,
         "announce_to_chat": true,

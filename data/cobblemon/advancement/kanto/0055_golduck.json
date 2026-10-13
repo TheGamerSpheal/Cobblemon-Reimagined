@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Their Names Should've Been Switched"
+            "translate": "Os Nomes Deles Deveriam ser Trocados"
         },
         "description": {
-            "translate": "Catch, trade or evolve Golduck"
+            "translate": "Capture, troque ou evolua Golduck"
         },
         "show_toast": true,
         "announce_to_chat": true,

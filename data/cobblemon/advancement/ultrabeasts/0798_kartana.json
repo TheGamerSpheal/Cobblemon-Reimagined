@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Once Again, I Cut a Worthless Object"
+            "translate": "Novamente, Eu Corto um Objeto Desprezível"
         },
         "description": {
-            "translate": "Catch or trade Kartana"
+            "translate": "Capture ou troque Kartana"
         },
         "frame": "goal",
         "show_toast": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "EMOTIONAL DAMAGE!"
+            "translate": "O Homem é Patético, Sem Graça, Ilógico"
         },
         "description": {
-            "translate": "Catch or trade Mesprit"
+            "translate": "Capture ou troque Mesprit"
         },
         "frame": "challenge",
         "show_toast": true,

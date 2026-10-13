@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "I Am Speed"
+            "translate": "Eu sou a Velocidade"
         },
         "description": {
-            "translate": "Catch, trade or evolve Jolteon"
+            "translate": "Capture, troque ou evolua Jolteon"
         },
         "show_toast": true,
         "announce_to_chat": true,

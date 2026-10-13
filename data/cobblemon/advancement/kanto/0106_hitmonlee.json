@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Enter the Dragon"
+            "translate": "Operação Dragão"
         },
         "description": {
-            "translate": "Catch, trade or evolve Hitmonlee"
+            "translate": "Capture, troque ou evolua Hitmonlee"
         },
         "show_toast": true,
         "announce_to_chat": true,

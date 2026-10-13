@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Drowzee, the Hypnosis Pokémon"
+            "translate": "Drowzee, o Pokémon Hipnose"
         },
         "description": {
-            "translate": "Catch or trade Drowzee"
+            "translate": "Capture ou troque Drowzee"
         },
         "show_toast": true,
         "announce_to_chat": true,

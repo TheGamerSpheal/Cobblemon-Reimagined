@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Three Feet Eleven the Vileplume"
+            "translate": "Um Metro e Vinte, o Vileplume"
         },
         "description": {
-            "translate": "Catch, trade or evolve Vileplume"
+            "translate": "Capture, troque ou evolua Vileplume"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The First Magma Bender"
+            "translate": "O Primeiro Dominador de Magma"
         },
         "description": {
-            "translate": "Catch or trade Heatran"
+            "translate": "Capture ou troque Heatran"
         },
         "frame": "challenge",
         "show_toast": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Stop, Get Some Help"
+            "translate": "Pare, Consiga Ajuda"
         },
         "description": {
-            "translate": "Catch, trade or evolve Vaporeon"
+            "translate": "Capture, troque ou evolua Vaporeon"
         },
         "show_toast": true,
         "announce_to_chat": true,

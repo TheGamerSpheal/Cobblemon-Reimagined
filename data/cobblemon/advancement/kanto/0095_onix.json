@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "These Donuts are Great!"
+            "translate": "Brock, o que é Velocidade Extrema?"
         },
         "description": {
-            "translate": "Catch or trade Onix"
+            "translate": "Capture ou troque Onix"
         },
         "show_toast": true,
         "announce_to_chat": true,

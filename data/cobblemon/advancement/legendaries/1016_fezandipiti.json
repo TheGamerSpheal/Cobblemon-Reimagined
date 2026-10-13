@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Indentured Domination"
+            "translate": "Servidão e Submissão"
         },
         "description": {
-            "translate": "Catch or trade Fezandipiti"
+            "translate": "Capture ou troque Fezandipiti"
         },
         "frame": "challenge",
         "show_toast": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Hold your Ponytas"
+            "translate": "Pode ir Tirando seu Ponyta da Chuva"
         },
         "description": {
-            "translate": "Catch or trade Ponyta"
+            "translate": "Capture ou troque Ponyta"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -15,7 +15,7 @@
             "translate": "Porthos"
         },
         "description": {
-            "translate": "Catch or trade Terrakion"
+            "translate": "Capture ou troque Terrakion"
         },
         "frame": "challenge",
         "show_toast": true,

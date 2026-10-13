@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Roaring Knight"
+            "translate": "Lua Estrondo, o Pokémon Paradoxo"
         },
         "description": {
-            "translate": "Catch or trade Roaring Moon"
+            "translate": "Capture ou troque Lua Estrondo"
         },
         "frame": "goal",
         "show_toast": true,

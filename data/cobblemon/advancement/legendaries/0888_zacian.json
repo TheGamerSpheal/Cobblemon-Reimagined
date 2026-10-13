@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Ruined Competitive"
+            "translate": "Arruinou o Competitivo"
         },
         "description": {
-            "translate": "Catch or trade Zacian"
+            "translate": "Capture ou troque Zacian"
         },
         "frame": "challenge",
         "show_toast": true,

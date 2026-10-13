@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Song Silkens"
+            "translate": "A Canção de Seda"
         },
         "description": {
-            "translate": "Catch or trade Caterpie"
+            "translate": "Capture ou troque Caterpie"
         },
         "show_toast": true,
         "announce_to_chat": true,

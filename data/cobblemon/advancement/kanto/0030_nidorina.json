@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Yoo-su!"
+            "translate": "E Aí Treinadores de Pokémon? Tudo Bem Aí?"
         },
         "description": {
-            "translate": "Catch, trade or evolve Nidorina"
+            "translate": "Capture, troque ou evolua Nidorina"
         },
         "show_toast": true,
         "announce_to_chat": true,

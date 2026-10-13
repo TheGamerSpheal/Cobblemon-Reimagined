@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Poliwrath, the Tadpole Pokémon"
+            "translate": "Poliwrath, o Pokémon Girino"
         },
         "description": {
-            "translate": "Catch, trade or evolve Poliwrath"
+            "translate": "Capture, troque ou evolua Poliwrath"
         },
         "show_toast": true,
         "announce_to_chat": true,

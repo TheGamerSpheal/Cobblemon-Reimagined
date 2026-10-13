@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Indentured Subjugation"
+            "translate": "Servidão e Subjugação"
         },
         "description": {
-            "translate": "Catch or trade Munkidori"
+            "translate": "Capture ou troque Munkidori"
         },
         "frame": "challenge",
         "show_toast": true,

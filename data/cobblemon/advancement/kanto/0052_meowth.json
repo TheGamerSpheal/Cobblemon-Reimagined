@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Meowth! That's Right!"
+            "translate": "Meowth! É Isso Aí!"
         },
         "description": {
-            "translate": "Catch or trade Meowth"
+            "translate": "Capture ou troque Meowth"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Best Wishes! Until We Meet Again!"
+            "translate": "Tudo de Bom, Até o Nosso Próximo Encontro!"
         },
         "description": {
-            "translate": "Catch or trade Victini"
+            "translate": "Capture ou troque Victini"
         },
         "frame": "challenge",
         "show_toast": true,

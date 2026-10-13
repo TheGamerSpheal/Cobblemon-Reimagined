@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Crazy? I Was Crazy Once..."
+            "translate": "Louco? Eu já Fui Louco uma Vez..."
         },
         "description": {
-            "translate": "Catch, trade or evolve Raticate"
+            "translate": "Capture, troque ou evolua Raticate"
         },
         "show_toast": true,
         "announce_to_chat": true,

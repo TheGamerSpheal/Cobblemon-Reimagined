@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Top Percentage"
+            "translate": "O Topo da Porcentagem"
         },
         "description": {
-            "translate": "Catch or trade Rattata"
+            "translate": "Capture ou troque Rattata"
         },
         "show_toast": true,
         "announce_to_chat": true,

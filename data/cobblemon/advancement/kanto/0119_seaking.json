@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Redirecting Lightning"
+            "translate": "Redirecionando Relâmpagos"
         },
         "description": {
-            "translate": "Catch, trade or evolve Seaking"
+            "translate": "Capture, troque ou evolua Seaking"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Congratulations! You Made it to Hell!"
+            "translate": "Foi Parar Direto no Colo de Giratina"
         },
         "description": {
-            "translate": "Catch or trade Giratina"
+            "translate": "Capture ou troque Giratina"
         },
         "frame": "challenge",
         "show_toast": true,

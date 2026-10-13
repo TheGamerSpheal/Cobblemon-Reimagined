@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Regieleki is Too Fast! It Outsped Trick Room!"
+            "translate": "Regieleki é rápido demais! Ele superou o Trick Room!"
         },
         "description": {
-            "translate": "Catch or trade Regieleki"
+            "translate": "Capture ou troque Regieleki"
         },
         "frame": "challenge",
         "show_toast": true,

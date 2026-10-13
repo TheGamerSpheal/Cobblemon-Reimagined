@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "You Can't Catch Me! I'm the Fastest Thing Alive!"
+            "translate": "Sandslash, o Pokémon Rato"
         },
         "description": {
-            "translate": "Catch, trade or evolve Sandslash"
+            "translate": "Capture, troque ou evolua Sandslash"
         },
         "show_toast": true,
         "announce_to_chat": true,

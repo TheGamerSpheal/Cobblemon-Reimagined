@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Lurking in the Shadows"
+            "translate": "Espreitando nas Sombras"
         },
         "description": {
-            "translate": "Catch or trade Marshadow"
+            "translate": "Capture ou troque Marshadow"
         },
         "frame": "challenge",
         "show_toast": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Fish Out of Water"
+            "translate": "Peixe Fora d'Água"
         },
         "description": {
-            "translate": "Catch or trade Chi-Yu"
+            "translate": "Capture ou troque Chi-Yu"
         },
         "frame": "challenge",
         "show_toast": true,

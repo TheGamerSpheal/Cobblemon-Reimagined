@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "It's a Big Boy Now"
+            "translate": "Ele é um Garoto Grande Agora"
         },
         "description": {
-            "translate": "Catch, trade or evolve Melmetal"
+            "translate": "Capture, troque ou evolua Melmetal"
         },
         "frame": "challenge",
         "show_toast": true,

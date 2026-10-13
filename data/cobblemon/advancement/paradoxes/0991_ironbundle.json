@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Merry Christmas in a Couple Years!"
+            "translate": "Feliz Natal em Alguns Anos!"
         },
         "description": {
-            "translate": "Catch or trade Iron Bundle"
+            "translate": "Capture ou troque Pacote Férreo"
         },
         "frame": "goal",
         "show_toast": true,

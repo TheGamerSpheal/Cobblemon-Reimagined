@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Miku's Favorite Food!"
+            "translate": "A Comida Favorita da Miku!"
         },
         "description": {
-            "translate": "Catch or trade Farfetch'd"
+            "translate": "Capture ou troque Farfetch'd"
         },
         "show_toast": true,
         "announce_to_chat": true,

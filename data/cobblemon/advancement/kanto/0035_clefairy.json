@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Moon Will Sing a Song for Me"
+            "translate": "Eu Vivo Sempre... no Mundo da Lua!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Clefairy"
+            "translate": "Capture, troque ou evolua Clefairy"
         },
         "show_toast": true,
         "announce_to_chat": true,

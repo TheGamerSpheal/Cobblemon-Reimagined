@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Triceratops Entei"
+            "translate": "Entei Triceratops"
         },
         "description": {
-            "translate": "Catch or trade Gouging Fire"
+            "translate": "Capture ou troque Fogo Corrosão"
         },
         "frame": "goal",
         "show_toast": true,

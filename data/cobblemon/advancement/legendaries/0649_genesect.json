@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "I Have a Theory, a Pokémon Theory!"
+            "translate": "Eu Tenho uma Teoria!"
         },
         "description": {
-            "translate": "Have Gensect in your party"
+            "translate": "Capture ou troque Genesect"
         },
         "frame": "challenge",
         "show_toast": true,

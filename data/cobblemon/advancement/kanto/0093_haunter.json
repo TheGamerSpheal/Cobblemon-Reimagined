@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Peek-a-BOO!"
+            "translate": "Escondeu! Achou!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Haunter"
+            "translate": "Capture, troque ou evolua Haunter"
         },
         "show_toast": true,
         "announce_to_chat": true,

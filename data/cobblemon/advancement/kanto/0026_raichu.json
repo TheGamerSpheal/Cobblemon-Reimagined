@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Shock to the System"
+            "translate": "Choque no Sistema"
         },
         "description": {
-            "translate": "Catch, trade or evolve Raichu"
+            "translate": "Capture, troque ou evolua Raichu"
         },
         "show_toast": true,
         "announce_to_chat": true,

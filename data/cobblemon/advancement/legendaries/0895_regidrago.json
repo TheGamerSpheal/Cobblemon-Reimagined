@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Made With the Leftovers of the Other Titans"
+            "translate": "Feito com os Restos dos Outros Titãs"
         },
         "description": {
-            "translate": "Catch or trade Regidrago"
+            "translate": "Capture ou troque Regidrago"
         },
         "frame": "challenge",
         "show_toast": true,

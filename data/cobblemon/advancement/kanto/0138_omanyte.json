@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Praise Lord Helix"
+            "translate": "Saúdem o Lorde Helix"
         },
         "description": {
-            "translate": "Catch, trade or ressurect Omanyte"
+            "translate": "Capture, troque ou ressucite Omanyte"
         },
         "show_toast": true,
         "announce_to_chat": true,

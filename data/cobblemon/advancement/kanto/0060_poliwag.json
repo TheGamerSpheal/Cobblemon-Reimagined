@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Many Wags"
+            "translate": "Poliwag, o Pokémon Girino"
         },
         "description": {
-            "translate": "Catch or trade Poliwag"
+            "translate": "Capture ou troque Poliwag"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Mayans Have Figured Out the Stars"
+            "translate": "A Culpa é dos Staryus"
         },
         "description": {
-            "translate": "Catch or trade Staryu"
+            "translate": "Capture ou troque Staryu"
         },
         "show_toast": true,
         "announce_to_chat": true,

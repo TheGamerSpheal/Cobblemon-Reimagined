@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Error 404: Lore Not Found"
+            "translate": "Erro 404: Lore Não Encontrada"
         },
         "description": {
-            "translate": "Catch or trade Phione"
+            "translate": "Capture ou troque Phione"
         },
         "frame": "challenge",
         "show_toast": true,

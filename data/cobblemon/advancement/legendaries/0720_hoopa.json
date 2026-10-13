@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Is That Everyone?"
+            "translate": "Estão Todos Aqui?"
         },
         "description": {
-            "translate": "Catch or trade Hoopa"
+            "translate": "Capture ou troque Hoopa"
         },
         "frame": "challenge",
         "show_toast": true,

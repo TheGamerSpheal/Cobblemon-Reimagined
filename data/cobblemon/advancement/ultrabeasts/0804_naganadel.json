@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Super Glue Wasp"
+            "translate": "Vespa Super Bonder"
         },
         "description": {
-            "translate": "Catch, trade or evolve Naganadel"
+            "translate": "Capture, troque ou evolua Naganadel"
         },
         "frame": "goal",
         "show_toast": true,

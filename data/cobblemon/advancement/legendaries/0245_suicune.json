@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Have You Already Drank Water Today?"
+            "translate": "Já se Hidratou Hoje?"
         },
         "description": {
-            "translate": "Catch or trade Suicune"
+            "translate": "Capture ou troque Suicune"
         },
         "frame": "challenge",
         "show_toast": true,

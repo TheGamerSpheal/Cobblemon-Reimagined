@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "And his Name is JOHN CENA!"
+            "translate": "E o Nome dele é JOHN CENA!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Machoke"
+            "translate": "Capture, troque ou evolua Machoke"
         },
         "show_toast": true,
         "announce_to_chat": true,

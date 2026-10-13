@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "IT'S HATSUNE MIKUUUUUUUUUU!"
+            "translate": "É A HATSUNE MIKUUUUUUUUUU!"
         },
         "description": {
-            "translate": "Catch or trade Meloetta"
+            "translate": "Capture ou troque Meloetta"
         },
         "frame": "challenge",
         "show_toast": true,

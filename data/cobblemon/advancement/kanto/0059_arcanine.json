@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "This is Fine"
+            "translate": "Arcanine, o Pokémon Lendário"
         },
         "description": {
-            "translate": "Catch, trade or evolve Arcanine"
+            "translate": "Capture, troque ou evolua Arcanine"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The World is your Cloyster"
+            "translate": "O Mundo é seu Cloyster"
         },
         "description": {
-            "translate": "Catch, trade or evolve Cloyster"
+            "translate": "Capture, troque ou evolua Cloyster"
         },
         "show_toast": true,
         "announce_to_chat": true,

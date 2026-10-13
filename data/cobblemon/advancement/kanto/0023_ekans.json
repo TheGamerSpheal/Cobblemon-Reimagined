@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Prepare for Trouble!"
+            "translate": "Prepare-se para a Encrenca!"
         },
         "description": {
-            "translate": "Catch or trade Ekans"
+            "translate": "Capture ou troque Ekans"
         },
         "show_toast": true,
         "announce_to_chat": true,

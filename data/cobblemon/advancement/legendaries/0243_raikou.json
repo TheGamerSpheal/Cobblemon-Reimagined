@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Behold! The God of Thunder!"
+            "translate": "Contemplem! O Deus do Trovão!"
         },
         "description": {
-            "translate": "Catch or trade Raikou"
+            "translate": "Capture ou troque Raikou"
         },
         "frame": "challenge",
         "show_toast": true,

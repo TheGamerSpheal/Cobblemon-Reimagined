@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Up"
+            "translate": "Up: Altas Aventuras"
         },
         "description": {
-            "translate": "Catch, trade or evolve Wigglytuff"
+            "translate": "Capture, troque ou evolua Wigglytuff"
         },
         "show_toast": true,
         "announce_to_chat": true,

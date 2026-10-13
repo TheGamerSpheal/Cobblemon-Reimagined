@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Weepinbell, the Flycatcher Pokémon"
+            "translate": "Weepinbell, o Pokémon Papa-Moscas"
         },
         "description": {
-            "translate": "Catch, trade or evolve Weepinbell"
+            "translate": "Capture, troque ou evolua Weepinbell"
         },
         "show_toast": true,
         "announce_to_chat": true,

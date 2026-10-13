@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Honda Bike"
+            "translate": "Moto da Honda"
         },
         "description": {
-            "translate": "Catch or trade Koraidon"
+            "translate": "Capture ou troque Koraidon"
         },
         "frame": "challenge",
         "show_toast": true,

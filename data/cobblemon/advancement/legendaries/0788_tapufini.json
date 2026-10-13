@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Poni's Protector"
+            "translate": "A Protetora de Poni"
         },
         "description": {
-            "translate": "Catch or trade Tapu Fini"
+            "translate": "Capture ou troque Tapu Fini"
         },
         "frame": "challenge",
         "show_toast": true,

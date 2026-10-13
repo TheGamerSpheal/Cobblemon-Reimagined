@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "You're Filled with DETERMINATION"
+            "translate": "Isso te Enche de DETERMINAÇÃO"
         },
         "description": {
-            "translate": "Catch or trade Azelf"
+            "translate": "Capture ou troque Azelf"
         },
         "frame": "challenge",
         "show_toast": true,

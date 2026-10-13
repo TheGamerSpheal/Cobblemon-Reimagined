@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "I'll be Free in uhm... 1000 Years"
+            "translate": "Eu Vou Tá Livre em... 1000 Anos"
         },
         "description": {
-            "translate": "Catch or trade Jirachi"
+            "translate": "Capture ou troque Jirachi"
         },
         "frame": "challenge",
         "show_toast": true,

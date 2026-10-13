@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "I Always Liked This One Better"
+            "translate": "Eu Sempre Gostei Mais Desse Aqui"
         },
         "description": {
-            "translate": "Catch, trade or ressurect Kabuto"
+            "translate": "Capture, troque ou ressucite Kabuto"
         },
         "show_toast": true,
         "announce_to_chat": true,

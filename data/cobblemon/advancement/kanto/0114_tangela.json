@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Terry the Tangela"
+            "translate": "Terry o Tangela"
         },
         "description": {
-            "translate": "Catch or trade Tangela"
+            "translate": "Capture ou troque Tangela"
         },
         "show_toast": true,
         "announce_to_chat": true,

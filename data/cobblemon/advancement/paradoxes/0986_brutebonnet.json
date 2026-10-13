@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "There's an Impostor Amonguss"
+            "translate": "Capuz Bruto, o Pokémon Paradoxo"
         },
         "description": {
-            "translate": "Catch or trade Brute Bonnet"
+            "translate": "Capture ou troque Capuz Bruto"
         },
         "frame": "goal",
         "show_toast": true,

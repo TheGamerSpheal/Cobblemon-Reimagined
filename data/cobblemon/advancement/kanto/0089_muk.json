@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Muk, the Sludge Pokémon"
+            "translate": "Muk, o Pokémon Lodo"
         },
         "description": {
-            "translate": "Catch trade or evolve Muk"
+            "translate": "Capture, troque ou evolua Muk"
         },
         "show_toast": true,
         "announce_to_chat": true,

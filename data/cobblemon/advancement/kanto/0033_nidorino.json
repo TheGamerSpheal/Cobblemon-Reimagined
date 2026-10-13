@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Welcome to the World of Pokémon!"
+            "translate": "Bem-Vindo ao Mundo Pokémon!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Nidorino"
+            "translate": "Capture, troque ou evolua Nidorino"
         },
         "show_toast": true,
         "announce_to_chat": true,

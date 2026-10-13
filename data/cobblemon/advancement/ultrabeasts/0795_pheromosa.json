@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Runaway Model"
+            "translate": "Modelo de Passarela"
         },
         "description": {
-            "translate": "Catch or trade Pheromosa"
+            "translate": "Capture ou troque Pheromosa"
         },
         "frame": "goal",
         "show_toast": true,

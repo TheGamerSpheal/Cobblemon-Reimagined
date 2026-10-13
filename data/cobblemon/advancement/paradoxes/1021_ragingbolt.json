@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "How's the Weather up There?"
+            "translate": "Como tá o Tempo aí em Cima?"
         },
         "description": {
-            "translate": "Catch or trade Raging Bolt"
+            "translate": "Capture ou troque Raio Fúria"
         },
         "frame": "goal",
         "show_toast": true,

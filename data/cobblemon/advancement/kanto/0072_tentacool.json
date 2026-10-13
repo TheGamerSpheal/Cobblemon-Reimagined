@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Tentacool, the Jellyfish Pokémon"
+            "translate": "Tentacool, o Pokémon Água-Viva"
         },
         "description": {
-            "translate": "Catch or trade Tentacool"
+            "translate": "Capture ou troque Tentacool"
         },
         "show_toast": true,
         "announce_to_chat": true,

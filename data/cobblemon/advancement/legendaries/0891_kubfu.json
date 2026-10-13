@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "A Bare Bear"
+            "translate": "Um Urso sem Curso"
         },
         "description": {
-            "translate": "Catch or trade Kubfu"
+            "translate": "Capture ou troque Kubfu"
         },
         "frame": "challenge",
         "show_toast": true,

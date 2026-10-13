@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Planet of Zarudes"
+            "translate": "Planeta dos Zarudes"
         },
         "description": {
-            "translate": "Catch or trade Zarude"
+            "translate": "Capture ou troque Zarude"
         },
         "frame": "challenge",
         "show_toast": true,

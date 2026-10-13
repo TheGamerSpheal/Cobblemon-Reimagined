@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "At Least this Moth isn't the Sun"
+            "translate": "Pelo Menos Essa Mariposa Não é o Sol"
         },
         "description": {
-            "translate": "Have Venomoth in your party"
+            "translate": "Capture, troque ou evolua Venomoth"
         },
         "show_toast": true,
         "announce_to_chat": true,

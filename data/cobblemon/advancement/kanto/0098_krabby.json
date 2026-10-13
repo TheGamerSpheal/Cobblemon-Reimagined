@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Gary's Krabby Was Bigger"
+            "translate": "O Krabby do Gary era Maior"
         },
         "description": {
-            "translate": "Catch or trade Krabby"
+            "translate": "Capture ou troque Krabby"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Chaos... CONTROL!"
+            "translate": "Controle do Caos!"
         },
         "description": {
-            "translate": "Catch or trade Dialga"
+            "translate": "Capture ou troque Dialga"
         },
         "frame": "challenge",
         "show_toast": true,

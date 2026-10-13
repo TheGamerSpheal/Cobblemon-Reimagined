@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Did you Check Under the Truck?"
+            "translate": "Você Olhou Debaixo do Caminhão?"
         },
         "description": {
-            "translate": "Catch or trade Mew"
+            "translate": "Capture ou troque Mew"
         },
         "frame": "challenge",
         "show_toast": true,

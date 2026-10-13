@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Just Keep Swimming"
+            "translate": "Continue a Nadar"
         },
         "description": {
-            "translate": "Catch or trade Goldeen"
+            "translate": "Capture ou troque Goldeen"
         },
         "show_toast": true,
         "announce_to_chat": true,

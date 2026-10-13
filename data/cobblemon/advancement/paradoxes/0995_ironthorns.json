@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Mecha Godzilla"
+            "translate": "Espinhos Férreos, o Pokémon Paradoxo"
         },
         "description": {
-            "translate": "Catch or trade Iron Thorns"
+            "translate": "Capture ou troque Espinhos Férreos"
         },
         "frame": "goal",
         "show_toast": true,

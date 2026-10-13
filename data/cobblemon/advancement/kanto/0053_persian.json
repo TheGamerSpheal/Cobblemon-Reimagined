@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Mafia Boss"
+            "translate": "Chefe da Máfia"
         },
         "description": {
-            "translate": "Catch, trade or evolve Persian"
+            "translate": "Capture, troque ou evolua Persian"
         },
         "show_toast": true,
         "announce_to_chat": true,

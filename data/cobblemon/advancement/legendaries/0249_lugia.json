@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Silver Wings from the Deep Blue"
+            "translate": "As Asas de Prata dos Mares Mais Profundos"
         },
         "description": {
-            "translate": "Catch or trade Lugia"
+            "translate": "Capture ou troque Lugia"
         },
         "frame": "challenge",
         "show_toast": true,

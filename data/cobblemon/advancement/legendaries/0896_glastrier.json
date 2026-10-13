@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Calyrex's Frozen Steed"
+            "translate": "O Corcel Congelado do Calyrex"
         },
         "description": {
-            "translate": "Catch or trade Glastrier"
+            "translate": "Capture ou troque Glastrier"
         },
         "frame": "challenge",
         "show_toast": true,

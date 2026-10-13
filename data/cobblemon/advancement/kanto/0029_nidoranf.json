@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Juliet"
+            "translate": "Julieta"
         },
         "description": {
-            "translate": "Catch or trade Nidoran Female"
+            "translate": "Capture ou troque Nidoran Fêmea"
         },
         "show_toast": true,
         "announce_to_chat": true,

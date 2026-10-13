@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Yes Rico, Kaboom"
+            "translate": "Sim Rico, Kaboom"
         },
         "description": {
-            "translate": "Catch, trade or evolve Golem"
+            "translate": "Capture, troque ou evolua Golem"
         },
         "show_toast": true,
         "announce_to_chat": true,

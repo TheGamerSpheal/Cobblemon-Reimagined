@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Have You Tried Turning it Off and On Again?"
+            "translate": "Já Tentou Desligar e Ligar de Novo?"
         },
         "description": {
-            "translate": "Catch or trade Iron Crown"
+            "translate": "Capture ou troque Chifres Férreos"
         },
         "frame": "goal",
         "show_toast": true,

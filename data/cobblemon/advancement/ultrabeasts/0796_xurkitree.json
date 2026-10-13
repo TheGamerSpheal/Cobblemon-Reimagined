@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Circuitry"
+            "translate": "Circuito"
         },
         "description": {
-            "translate": "Catch or trade Xurkitree"
+            "translate": "Capture ou troque Xurkitree"
         },
         "frame": "goal",
         "show_toast": true,

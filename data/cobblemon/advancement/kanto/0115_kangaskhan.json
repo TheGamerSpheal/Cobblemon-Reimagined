@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Are Ya Winning Son?"
+            "translate": "Se Eu For Aí e Achar..."
         },
         "description": {
-            "translate": "Catch or trade Kangaskhan"
+            "translate": "Capture ou troque Kangaskhan"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "At Least Pidgey Isn't a Jerk"
+            "translate": "Pelo Menos o Pidgey não é um Babaca"
         },
         "description": {
-            "translate": "Catch or trade Spearow"
+            "translate": "Capture ou troque Spearow"
         },
         "show_toast": true,
         "announce_to_chat": true,

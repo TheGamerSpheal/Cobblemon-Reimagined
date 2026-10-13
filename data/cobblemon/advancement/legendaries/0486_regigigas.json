@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Slow and Steady Wins the Race"
+            "translate": "Devagar e Sempre"
         },
         "description": {
-            "translate": "Catch or trade Regigigas"
+            "translate": "Capture ou troque Regigigas"
         },
         "frame": "challenge",
         "show_toast": true,

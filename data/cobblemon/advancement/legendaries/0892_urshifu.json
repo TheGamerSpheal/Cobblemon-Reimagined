@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "What do You Mean It Can Hit Through Protect?"
+            "translate": "Como Assim Ele Ignora Protect?"
         },
         "description": {
-            "translate": "Catch, trade or evolve Urshifu"
+            "translate": "Capture, troque ou evolua Urshifu"
         },
         "frame": "challenge",
         "show_toast": true,

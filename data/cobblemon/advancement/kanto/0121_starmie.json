@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Thunder Thighs"
+            "translate": "Starmie, o Pokémon Misterioso"
         },
         "description": {
-            "translate": "Catch, trade or evolve Starmie"
+            "translate": "Capture, troque ou evolua Starmie"
         },
         "show_toast": true,
         "announce_to_chat": true,

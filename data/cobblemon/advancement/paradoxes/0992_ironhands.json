@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Catch These Hands!"
+            "translate": "Cai pro Fight"
         },
         "description": {
-            "translate": "Catch or trade Iron Hands"
+            "translate": "Capture ou troque Mãos Férreas"
         },
         "frame": "goal",
         "show_toast": true,

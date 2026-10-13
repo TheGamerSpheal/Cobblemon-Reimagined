@@ -15,7 +15,7 @@
             "translate": "Athos"
         },
         "description": {
-            "translate": "Catch or trade Cobalion"
+            "translate": "Capture ou troque Cobalion"
         },
         "frame": "challenge",
         "show_toast": true,

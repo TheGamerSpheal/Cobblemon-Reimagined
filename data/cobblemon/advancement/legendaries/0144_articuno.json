@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Cold Never Bothered Me Anyway"
+            "translate": "E o Frio Não Vai Mesmo me Incomodar"
         },
         "description": {
-            "translate": "Catch or trade Articuno"
+            "translate": "Capture ou troque Articuno"
         },
         "frame": "challenge",
         "show_toast": true,

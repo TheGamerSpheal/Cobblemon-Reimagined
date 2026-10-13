@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Magnemite, the Magnet Pokémon"
+            "translate": "Magnemite, o Pokémon Imã"
         },
         "description": {
-            "translate": "Catch or trade Magnemite"
+            "translate": "Capture ou troque Magnemite"
         },
         "show_toast": true,
         "announce_to_chat": true,

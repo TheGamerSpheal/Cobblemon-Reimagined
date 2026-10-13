@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Choose Your Fighter!"
+            "translate": "Escolha seu Lutador"
         },
         "description": {
-            "translate": "Catch or trade Eevee"
+            "translate": "Capture ou troque Eevee"
         },
         "show_toast": true,
         "announce_to_chat": true,

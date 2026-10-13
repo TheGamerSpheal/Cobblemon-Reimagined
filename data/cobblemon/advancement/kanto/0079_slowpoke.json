@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Think, Slowpoke!"
+            "translate": "Pensa, Slowpoke!"
         },
         "description": {
-            "translate": "Catch or trade Slowpoke"
+            "translate": "Capture ou troque Slowpoke"
         },
         "show_toast": true,
         "announce_to_chat": true,

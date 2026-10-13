@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Roughly Translates to 'Throat' or 'Neck Area'"
+            "translate": "Mais ou Menos Traduz pra 'Garganta' ou 'Área do Pescoço'"
         },
         "description": {
-            "translate": "Catch or trade Iron Jugulis"
+            "translate": "Capture ou troque Jugulares Férreas"
         },
         "frame": "goal",
         "show_toast": true,

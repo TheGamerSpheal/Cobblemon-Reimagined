@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "The Inner Machinations of My Mind Are an Enigma"
+            "translate": "Slowbro, o Pokémon Caranguejo-Heremita"
         },
         "description": {
-            "translate": "Catch, trade or evolve Slowbro"
+            "translate": "Capture, troque ou evolua Slowbro"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Spiral Power"
+            "translate": "Poder Espiral"
         },
         "description": {
-            "translate": "Catch, trade or evolve Omastar"
+            "translate": "Capture, troque ou evolua Omastar"
         },
         "show_toast": true,
         "announce_to_chat": true,

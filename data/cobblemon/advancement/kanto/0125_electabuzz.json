@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Shocking, Isn't It?"
+            "translate": "Chocante, Não é?"
         },
         "description": {
-            "translate": "Catch, trade or evolve Electabuzz"
+            "translate": "Capture, troque ou evolua Electabuzz"
         },
         "show_toast": true,
         "announce_to_chat": true,

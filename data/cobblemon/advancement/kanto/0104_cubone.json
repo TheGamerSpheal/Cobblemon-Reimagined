@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Welcome to The Underground"
+            "translate": "Osso Duro de Roer"
         },
         "description": {
-            "translate": "Catch or trade Cubone"
+            "translate": "Capture ou troque Cubone"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Better Weavile"
+            "translate": "Weavile, só que Melhor"
         },
         "description": {
-            "translate": "Catch or trade Chien-Pao"
+            "translate": "Capture ou troque Chien-Pao"
         },
         "frame": "challenge",
         "show_toast": true,

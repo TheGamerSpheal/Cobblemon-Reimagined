@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Unable to Learn 'Peck'"
+            "translate": "Será que Dá pra Pidgeotto?"
         },
         "description": {
-            "translate": "Catch, trade or evolve Pidgeotto"
+            "translate": "Capture, troque ou evolua Pidgeotto"
         },
         "show_toast": true,
         "announce_to_chat": true,

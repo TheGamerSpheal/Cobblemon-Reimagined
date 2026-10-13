@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Bellsprout, the Flower Pokémon"
+            "translate": "Bellsprout, o Pokémon Flor"
         },
         "description": {
-            "translate": "Catch or trade Bellsprout"
+            "translate": "Capture ou troque Bellsprout"
         },
         "show_toast": true,
         "announce_to_chat": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Seal"
+            "translate": "Seel, o Pokémon Leão Marinho"
         },
         "description": {
-            "translate": "Catch or trade Seel"
+            "translate": "Capture ou troque Seel"
         },
         "show_toast": true,
         "announce_to_chat": true,

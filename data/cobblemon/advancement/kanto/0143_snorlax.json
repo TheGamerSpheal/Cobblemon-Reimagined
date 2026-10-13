@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "YOU! SHALL NOT! PASS!"
+            "translate": "VOCÊ! NÃO VAI! PASSAR!"
         },
         "description": {
-            "translate": "Catch, trade or evolve Snorlax"
+            "translate": "Capture, troque ou evolua Snorlax"
         },
         "show_toast": true,
         "announce_to_chat": true,

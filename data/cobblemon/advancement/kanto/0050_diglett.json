@@ -15,7 +15,7 @@
             "translate": "Diglett! Diglett!"
         },
         "description": {
-            "translate": "Catch or trade Diglett"
+            "translate": "Capture ou troque Diglett"
         },
         "show_toast": true,
         "announce_to_chat": true,

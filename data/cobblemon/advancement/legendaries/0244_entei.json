@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "I Think a Volcano Just Erupted"
+            "translate": "Eu Acho que um Vulcão Acabou de Explodir"
         },
         "description": {
-            "translate": "Catch or trade Entei"
+            "translate": "Capture ou troque Entei"
         },
         "frame": "challenge",
         "show_toast": true,

@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "Caw Caw I'm a Reshiram!"
+            "translate": "Dragão Branco de Olhos Azuis"
         },
         "description": {
-            "translate": "Catch or trade Reshiram"
+            "translate": "Capture ou troque Reshiram"
         },
         "frame": "challenge",
         "show_toast": true,

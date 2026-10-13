@@ -12,10 +12,10 @@
             }
         },
         "title": {
-            "translate": "A Husk of its Former Self"
+            "translate": "Uma Casca Vazia do que Já Foi"
         },
         "description": {
-            "translate": "Catch or trade Kyurem"
+            "translate": "Capture ou troque Kyurem"
         },
         "frame": "challenge",
         "show_toast": true,
