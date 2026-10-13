@@ -546,7 +546,7 @@ Hidden: Lightning Rod Lightning Rod
 <pre>
 Regular Abilities --> New Abilities
 Static                Static
-Hidden: Lightning Rod Lightning Roc
+Hidden: Lightning Rod Lightning Rod
                       Hidden: Galvanize
 </pre>
 <pre>
@@ -1904,7 +1904,7 @@ Total:                 490            500 +10
 <pre>
 Regular Abilities --> New Abilities
 Soundproof            Soundproof
-Static                Electric Surge
+Static                Static
 Hidden: Aftermath     Hidden: Grassy Surge
 </pre>
 <pre>
