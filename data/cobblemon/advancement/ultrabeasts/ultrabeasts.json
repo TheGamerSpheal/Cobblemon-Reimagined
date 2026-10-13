@@ -4,10 +4,10 @@
             "id": "cobblemon:beast_ball"
         },
         "title": {
-            "translate": "Alien Invaders"
+            "translate": "Invasores Alienígenas"
         },
         "description": {
-            "translate": "Catch any Ultra Beast"
+            "translate": "Capture qualquer Ultra Criatura"
         },
         "background": "cobblemon:textures/gui/advancements/backgrounds/cobblemon.png",
         "frame": "goal",
