@@ -15,7 +15,7 @@
             "translate": "This is Not a Pigeon"
         },
         "description": {
-            "translate": "Catch or trade a Pidgey"
+            "translate": "Catch or trade Pidgey"
         },
         "show_toast": true,
         "announce_to_chat": true,
